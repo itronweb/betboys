@@ -1,0 +1,184 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/epishkhan/admin/prodcat_add.php
+
+Date:
+  2013-07-27 14:47:02
+
+Error:
+  SQL error: Column 'level' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO prodcat (level, name, image, tozihat, sort, keywords, active) values (null, 'تست', '', 'بللسیلسیلسیلسیل', 1, 'سیلسیل', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/epishkhan/admin/product_add.php
+
+Date:
+  2013-07-27 10:43:32
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error creating fake recordset:<br /><br/>SQL:<br />SELECT '' AS kname, '' AS ktype, '' AS barcode, '' AS kcat, '' AS kcompany, '' AS ktedad, '' AS ksort, '' AS pricea, '' AS priceb, '' AS pricec, '' AS priced, '' AS khajm, '' AS kvazn, '' AS kdate, '' AS kdesc, '' AS id (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/epishkhan/admin/product_add.php
+
+Date:
+  2013-07-27 10:43:34
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error creating fake recordset:<br /><br/>SQL:<br />SELECT '' AS kname, '' AS ktype, '' AS barcode, '' AS kcat, '' AS kcompany, '' AS ktedad, '' AS ksort, '' AS pricea, '' AS priceb, '' AS pricec, '' AS priced, '' AS khajm, '' AS kvazn, '' AS kdate, '' AS kdesc, '' AS id (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/epishkhan/admin/product_add.php
+
+Date:
+  2013-07-27 15:45:40
+
+Error:
+  SQL error: Duplicate entry '1' for key 2.
+
+Developer Details:
+  SQL error: INSERT INTO products (code, name, cat, keywords, mojodi, tozihat, tozihatkamel, company, viewcount, tozihatfani, setdate, sort, image, barcode, pricea, priceb, pricec, priced, priceold, mizansod, active) values ('1', '1', '3', '1', 2147483647, null, null, null, 0, null, '1392/05/05', 2, '', null, '7', null, null, null, null, null, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/epishkhan/admin/members_add.php
+
+Date:
+  2013-07-28 10:50:02
+
+Error:
+  SQL error: Duplicate entry '999-999999-9' for key 2.
+
+Developer Details:
+  SQL error: INSERT INTO members (fname, lname, mobile, codemeli, birthday, jensiat, email, moaref, job, country, state, city, adres, codeposti, secquestion, secresponse, pass, cartmeli, regdate, active) values ('وحید', 'باخدا', '09999999999', '999-999999-9', '9999/99/99', '1', 'vahidbakhooda@gmail.com', null, '1', '0098', '3', '3', null, null, '18', null, '9', '', '1392/05/06', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/epishkhan/admin/product_add.php
+
+Date:
+  2013-07-28 15:52:26
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO products (code, name, cat, keywords, mojodi, tozihat, tozihatkamel, company, viewcount, tozihatfani, setdate, sort, image, barcode, pricea, priceb, pricec, priced, priceold, mizansod, active) values ('1000', 'کارت پستال دریامهر', '1', null, 999999, null, null, null, 0, null, '1392/05/06', 1, '', null, '20000', null, null, null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

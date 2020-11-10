@@ -1,0 +1,388 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/advertise/advertise_add.php
+
+Date:
+  2017-06-12 10:09:28
+
+Error:
+  SQL error: Column 'maxcount' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO advertise (title, category, file, url, alt, type, target, maxcount, date, expiredate, sort, width, height, portalid, style, status) values ('تبلیغات بنری 1', '0', '', null, null, '2', '_blank', null, null, null, 1, null, null, 0, null, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/slideshow/slideshow_add.php
+
+Date:
+  2017-06-13 11:34:16
+
+Error:
+  SQL error: Column 'category' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO slideshow (category, title, url, description, style, image, image2, portalid, status) values (null, null, null, null, null, '', '', null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/hesab/hesab_edit.php?id=!!!!wNbE8dZ8FRWDItKtKBB4YQ
+
+Date:
+  2017-06-15 12:46:42
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'name' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,logo,code,sort,status,id, id as kt_pk_hesab FROM hesab WHERE id =0 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/products/products_add.php
+
+Date:
+  2017-06-17 16:00:50
+
+Error:
+  SQL error: Unknown column 'productcat' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO products (name, code, category, keywords, description, fulldescription, viewcount, setdate, image, linkcatalog, linkvideo, gallerycat, slideshowcat, linkcat, contentscat, advertisecat, pollingcat, productcat, sort, style, portalid, status) values ('9', '2', 0, '8', '&lt;p&gt;5&lt;/p&gt;
+', '&lt;p&gt;6&lt;/p&gt;
+', 0, '1396/03/27 16:00:50', '', '14', '15', null, null, null, null, null, null, null, 1, '4', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/products/products_add.php
+
+Date:
+  2017-06-17 16:06:01
+
+Error:
+  SQL error: Unknown column 'productcat' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO products (name, code, category, keywords, company, description, fulldescription, specifications, viewcount, setdate, image, barcode, stock, stocktype, price, discount, profit, linkcatalog, linkvideo, gallerycat, slideshowcat, linkcat, contentscat, advertisecat, pollingcat, productcat, sort, style, portalid, status) values ('9', '2', 0, '8', '3', '&lt;p&gt;5&lt;/p&gt;
+', '&lt;p&gt;6&lt;/p&gt;
+', '&lt;p&gt;7&lt;/p&gt;
+', 0, '1396/03/27 16:06:01', '', '', 13, null, '10', 11, 12, '14', '15', null, null, null, null, null, null, null, 1, '4', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/products/products_add.php
+
+Date:
+  2017-06-17 16:06:32
+
+Error:
+  SQL error: Unknown column 'servicecat' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO products (name, code, category, keywords, company, description, fulldescription, specifications, viewcount, setdate, image, barcode, stock, stocktype, price, discount, profit, linkcatalog, linkvideo, gallerycat, slideshowcat, linkcat, contentscat, advertisecat, pollingcat, servicecat, sort, style, portalid, status) values ('9', '2', 0, '8', '3', '&lt;p&gt;5&lt;/p&gt;
+', '&lt;p&gt;6&lt;/p&gt;
+', '&lt;p&gt;7&lt;/p&gt;
+', 0, '1396/03/27 16:06:32', '', '', 13, null, '10', 11, 12, '14', '15', null, null, null, null, null, null, null, 1, '4', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/menu/menu_add.php
+
+Date:
+  2017-06-18 16:24:07
+
+Error:
+  SQL error: Unknown column 'title' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO menu (title, entitle, level, type, target, linktype, url, style, sort, portalid, status) values ('1', '2', 0, '1', null, '0', null, '3', 1, 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/menu/menu_add.php
+
+Date:
+  2017-06-18 16:24:29
+
+Error:
+  SQL error: Column 'url' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO menu (title, entitle, level, type, target, linktype, url, style, sort, portalid, status) values ('1', '2', 0, '1', null, '0', null, '3', 1, 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/menu/menu_add.php
+
+Date:
+  2017-06-18 16:25:24
+
+Error:
+  SQL error: Column 'url' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO menu (title, entitle, level, type, target, linktype, url, style, sort, portalid, status) values ('1', '2', 0, '1', null, '0', null, '3', 1, 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/eventcalendar/eventcalendar_add.php
+
+Date:
+  2017-06-19 16:38:58
+
+Error:
+  SQL error: Column 'eventtype' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO eventcalendar (type, day, month, title, description, eventtype, calendartype, holiday, share, image, sort, status) values ('1', '02', '02', 'درباره ما', null, null, '1', null, null, '', 2, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/menu/menu_edit.php?id=!!!!gasEr@@cL8xgl81@@@@L7pr5s
+
+Date:
+  2017-06-20 11:11:30
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'text' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT title,entitle,text,header,image,lastupdate,style,keywords,portalid,status,id, id as kt_pk_menu FROM menu WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/linkcat/linkcat_add.php
+
+Date:
+  2017-06-21 12:09:10
+
+Error:
+  SQL error: Column 'contenttype' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO linkcat (code, pagename, name, type, level, description, header, image, style, contenttype, keywords, memtype, portalid, showinmenu, showinhome, sort, status) values ('1', null, 'فوتر', '1', 0, null, '', '', null, null, null, '0', 0, 0, 0, 1, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

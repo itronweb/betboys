@@ -1,0 +1,28 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/entekhab_delete.php?id=5&scode=8908130002
+
+Date:
+  2010-01-27 03:21:14
+
+Error:
+  SQL error: Cannot delete or update a parent row: a foreign key constraint fails (`institute/pardakht`, CONSTRAINT `pardakht_ibfk_3` FOREIGN KEY (`entekhab_code`) REFERENCES `entekhab` (`erae_code`) ON UPDATE CASCADE).
+
+Developer Details:
+  SQL error: DELETE FROM entekhab WHERE id = 5. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_delete.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_delete.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_delete.saveData
+      tNG_delete.prepareSQL
+      tNG_delete.executeTransaction - execute sql*
+=== END MESSAGE ===

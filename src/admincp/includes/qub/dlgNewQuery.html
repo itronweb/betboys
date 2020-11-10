@@ -1,0 +1,111 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+<html>
+<head>
+<title>Query Builder (QuB) :: New Query</title>
+<script>
+
+function repaint() {
+	if (!opener) {
+		dlgOpener = window.dialogArguments;
+	} else {
+		dlgOpener = opener;
+	}
+	qname = document.getElementById('query_name');
+	suggestedQueryName = dlgOpener.suggestQueryName();
+	qname.value = suggestedQueryName;
+	qname.focus();
+}
+
+function returnModalResult(how) {
+	switch (how) {
+		case 'save':
+			ret = checkQueryName(qname.value);
+			if (!ret) {
+				return;
+			}
+			suggestedQueryName = qname.value;
+			if (suggestedQueryName=="") {
+				//promptMessage = 'Enter query name';
+				qname.focus();
+				return;
+			} else if (dlgOpener.checkQueryExists(suggestedQueryName)) {
+				alert(dlgOpener.locales["A query with this name already exists, please choose another name."]);
+				qname.focus();
+				return;
+			} else {
+				dlgOpener.newQuery(suggestedQueryName);
+			}
+			break;
+	}
+
+	close();
+}
+
+function checkQueryName(queryName) {
+	var ret = dlgOpener.checkQueryName(queryName);
+	if (ret != true) {
+		//qname.value = ret;
+		qname.focus();
+		return false;
+	}
+	return ret;
+}
+
+
+function keyPressed(e) {
+	if (!window.event) {
+		var event = e;
+		var srcEl = e.target;
+	} else {
+		var event = window.event;
+		var srcEl = event.srcElement;
+	}
+	switch(event.keyCode) {
+		case 116:
+			window.onunload = null;
+			break;
+		case 27:
+			returnModalResult('cancel');
+			break;
+		case 13:
+			if (srcEl.id == "query_name") {
+				returnModalResult('save');
+			}
+			break;
+	}
+}
+
+</script>
+<link rel="stylesheet" href="includes/styles/dlg.css" type="text/css">
+</head>
+<body onload="repaint();" onKeyDown="keyPressed(event)">
+	<fieldset><legend>Enter Query Name</legend>
+	<table width="100%" border="0" cellspacing="0" cellpadding="2">
+		<tr>
+			<td><input type="text" id="query_name" /></td>
+		</tr>
+	</table>
+	</fieldset>
+	<div id="context_help">
+	</div>
+	<div id="bottom_buttons">
+		<input type="button" value="OK" onKeyDown="keyPressed(event)" onClick="returnModalResult('save');">
+		<input type="button" value="Cancel" onClick="returnModalResult('cancel');">
+		<input type="button" value="Help" onClick="dlgOpener.top.showQUBHelp('qub.dlg.newquery')">
+	</div>
+</body>
+</html>

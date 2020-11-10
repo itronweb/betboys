@@ -1,0 +1,1421 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/book_get.php
+
+Date:
+  2010-12-04 08:16:46
+
+Error:
+  SQL error: Column 'stdid' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO bookgive (stdid, dore, bookname, mablaghvahed, tedad, mablagh, tarikh, active) values (null, null, 'sdgfdg', '12000', 212, '4422', '1389/02/02', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/book_get.php
+
+Date:
+  2010-12-04 08:16:56
+
+Error:
+  SQL error: Column 'stdid' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO bookgive (stdid, dore, bookname, mablaghvahed, tedad, mablagh, tarikh, active) values (null, null, 'sdgfdg', '12000', 212, '4422', '1389/02/02', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/book_get.php
+
+Date:
+  2010-12-04 08:17:10
+
+Error:
+  SQL error: Column 'stdid' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO bookgive (stdid, dore, bookname, mablaghvahed, tedad, mablagh, tarikh, active) values (null, null, 'sdgfdg', '12000', 212, '4422', '1389/02/02', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/book_get.php
+
+Date:
+  2010-12-04 08:17:28
+
+Error:
+  SQL error: Column 'stdid' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO bookgive (stdid, dore, bookname, mablaghvahed, tedad, mablagh, tarikh, active) values (null, null, 'sdgfdg', '12000', 21232, '2222', '1389/02/02', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/book_get.php
+
+Date:
+  2010-12-04 08:17:30
+
+Error:
+  SQL error: Column 'stdid' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO bookgive (stdid, dore, bookname, mablaghvahed, tedad, mablagh, tarikh, active) values (null, null, 'sdgfdg', '12000', 21232, '2222', '1389/02/02', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/book_get.php
+
+Date:
+  2010-12-04 08:18:07
+
+Error:
+  SQL error: Column 'stdid' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO bookgive (stdid, dore, bookname, mablaghvahed, tedad, mablagh, tarikh, active) values (null, null, 'sdgfdg', '12000', 21232, '2222', '1389/02/02', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/book_get.php
+
+Date:
+  2010-12-04 08:18:56
+
+Error:
+  SQL error: Column 'stdid' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO bookgive (stdid, dore, bookname, mablaghvahed, tedad, mablagh, tarikh, active) values (null, null, 'hbfsdchdb', '120000', 123, '12540', '1389/05/05', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/book_get.php
+
+Date:
+  2010-12-04 08:20:32
+
+Error:
+  SQL error: Column 'stdid' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO bookgive (stdid, dore, bookname, mablaghvahed, tedad, mablagh, tarikh, active) values (null, null, 'icdl', '123000', 123, '12500', '1389/07/06', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/entekhab_delete.php?id=3&scode=8908130002
+
+Date:
+  2010-12-06 13:37:18
+
+Error:
+  SQL error: Cannot delete or update a parent row: a foreign key constraint fails (`institute/pardakht`, CONSTRAINT `pardakht_ibfk_3` FOREIGN KEY (`entekhab_code`) REFERENCES `entekhab` (`erae_code`) ON UPDATE CASCADE).
+
+Developer Details:
+  SQL error: DELETE FROM entekhab WHERE id = 3. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_delete.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_delete.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_delete.saveData
+      tNG_delete.prepareSQL
+      tNG_delete.executeTransaction - execute sql*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/usersetting_edit.php?id=11
+
+Date:
+  2010-12-14 12:14:12
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'mainmypass' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT showdisicon,mainhome,mainstudent,mainstudsearch,mainerae,mainsabtenam,mainreport,mainmenudefault,tarifadmin,tarifdepartman,tariflesgroup,tariflesson,tarifprof,tarifbank,tarifhesab,tarifclas,tarifnoedore,tarifmojavez,tarifgharadad,tariftakhfif,dboptimize,dbbackup,dbrestore,dbinfo,dblog,mainhazine,tarifmenudefault,dbmenudefault,report,reportmalidore,reportmalistud,reportmaliprof,rmdsabtenam,rmdejra,rmdtakmilshode,rmdpayan,rmdmasdood,rmdkhas,rmdtasvieshode,rmdtasvienashode,rmdstudbedehkar,rmdstudodati,rmdstudkhas,rmdprofkhas,mainmypass,tarifproflist,tariferaelist,tariferaeejra,tariferaetakmil,tariferaepayan,tariferaemasdod,contactgroup,contactadd,contactlist,contactreport,id, id as kt_pk_setting FROM setting WHERE id =11 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/dailyreport_edit.php?id=213
+
+Date:
+  2010-12-20 09:53:30
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'noeamaliat' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT noeamaliat,title,tozihat,modat,active,id, id as kt_pk_dailyreport FROM dailyreport WHERE id =213 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 06:54:10
+
+Error:
+  SQL error: Column 'name' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values (null, null, null, null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 06:54:33
+
+Error:
+  SQL error: Column 'name' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values (null, null, null, null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 06:54:34
+
+Error:
+  SQL error: Column 'name' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values (null, null, null, null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 06:54:35
+
+Error:
+  SQL error: Column 'name' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values (null, null, null, null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 07:11:28
+
+Error:
+  SQL error: Column 'date' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values ('sdsdf', 'sdfsdf', 'dffsdfg', null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 07:11:33
+
+Error:
+  SQL error: Column 'level' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values ('sdsdf', 'sdfsdf', 'dffsdfg', null, 'sdfsdf', null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 07:11:36
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values ('sdsdf', 'sdfsdf', 'dffsdfg', null, 'sdfsdf', 'A', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 07:11:42
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values ('sdsdf', 'sdfsdf', 'dffsdfg', null, 'sdfsdf', 'A', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 07:48:56
+
+Error:
+  SQL error: Duplicate entry 's' for key 2.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values ('s', 's', 's', null, 's', 's', 's'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_LinkTransactions
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 07:49:08
+
+Error:
+  SQL error: Duplicate entry 's' for key 2.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values ('s', 's', 's', null, 's', 's', 's'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_LinkTransactions
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 10:37:04
+
+Error:
+  SQL error: Column 'pass' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values ('dfddf', 'dffgh', null, null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 10:37:07
+
+Error:
+  SQL error: Column 'date' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values ('dfddf', 'dffgh', 'gfggh', null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 10:37:10
+
+Error:
+  SQL error: Column 'level' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values ('dfddf', 'dffgh', 'gfggh', null, 'ghghhg', null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 10:37:12
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values ('dfddf', 'dffgh', 'gfggh', null, 'ghghhg', 'd', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/fff.php
+
+Date:
+  2010-12-21 10:38:15
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass, email, date, level, active) values ('dfddf', 'dffgh', 'gfggh', null, 'ghghhg', 'd', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_LinkTransactions
+        tNG_insert.doTransaction
+          ERROR.Trigger_Default_Insert_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/student_add.php
+
+Date:
+  2010-12-23 14:12:23
+
+Error:
+  این شماره دانشجویی قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/student_add.php
+
+Date:
+  2010-12-23 14:20:25
+
+Error:
+  این کدملی قبلا به ثبت رسیده است<br />این کدملی قبلا به ثبت رسیده است
+
+Developer Details:
+  %s<br />
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/student_add.php
+
+Date:
+  2010-12-23 14:20:32
+
+Error:
+  این کدملی قبلا به ثبت رسیده است<br />این کدملی قبلا به ثبت رسیده است
+
+Developer Details:
+  %s<br />
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/student_edit.php?id=5
+
+Date:
+  2010-12-23 14:22:42
+
+Error:
+  این کدملی قبلا به ثبت رسیده است<br />این کدملی قبلا به ثبت رسیده است
+
+Developer Details:
+  %s<br />
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/erae_add.php
+
+Date:
+  2010-12-26 23:50:19
+
+Error:
+  SQL error: Duplicate entry '8908251' for key 2.
+
+Developer Details:
+  SQL error: INSERT INTO erae (erae_code, dorenoe, les_code, prof_code, shomare_clas, tedad_std, tedad_jalasat, type, rooz, saat, prof_price, hazine_dore, saat_dore, startdate, exam, examdate, certificate, ketab, enddate, date, active) values ('8908251', 'اداری', '70270', '89080001', 'سایت G', '123', '1', '1', null, null, '32432', '23234', '23', null, null, null, null, null, null, '1389-10-05', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/erae_add.php
+
+Date:
+  2010-12-26 23:50:47
+
+Error:
+  SQL error: Duplicate entry '8908251' for key 2.
+
+Developer Details:
+  SQL error: INSERT INTO erae (erae_code, dorenoe, les_code, prof_code, shomare_clas, tedad_std, tedad_jalasat, type, rooz, saat, prof_price, hazine_dore, saat_dore, startdate, exam, examdate, certificate, ketab, enddate, date, active) values ('8908251', 'اداری', '70270', '89080001', 'سایت G', '54', '345', '1', null, null, '345', '345', '45345', null, null, null, null, null, null, '1389-10-05', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/erae_add.php
+
+Date:
+  2010-12-26 23:52:23
+
+Error:
+  SQL error: Duplicate entry '8908251' for key 2.
+
+Developer Details:
+  SQL error: INSERT INTO erae (erae_code, dorenoe, les_code, prof_code, shomare_clas, tedad_std, tedad_jalasat, type, rooz, saat, prof_price, hazine_dore, saat_dore, startdate, exam, examdate, certificate, ketab, enddate, date, active) values ('8908251', 'اداری', '70270', '89080001', 'سایت G', '54', '345', '1', null, null, '345', '345', '45345', null, null, null, null, null, null, '1389-10-05', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/erae_add.php
+
+Date:
+  2010-12-26 23:52:26
+
+Error:
+  SQL error: Duplicate entry '8908251' for key 2.
+
+Developer Details:
+  SQL error: INSERT INTO erae (erae_code, dorenoe, les_code, prof_code, shomare_clas, tedad_std, tedad_jalasat, type, rooz, saat, prof_price, hazine_dore, saat_dore, startdate, exam, examdate, certificate, ketab, enddate, date, active) values ('8908251', 'اداری', '70270', '89080001', 'سایت G', '54', '345', '1', null, null, '345', '345', '45345', null, null, null, null, null, null, '1389-10-05', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/erae_add.php
+
+Date:
+  2010-12-26 23:53:55
+
+Error:
+  SQL error: Duplicate entry '8908251' for key 2.
+
+Developer Details:
+  SQL error: INSERT INTO erae (erae_code, dorenoe, les_code, prof_code, shomare_clas, tedad_std, tedad_jalasat, type, rooz, saat, prof_price, hazine_dore, saat_dore, startdate, exam, examdate, certificate, ketab, enddate, date, active) values ('8908251', 'اداری', '70270', '89080001', 'سایت G', '54', '345', '1', null, null, '345', '345', '45345', null, null, null, null, null, null, '1389-10-05', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/erae_add.php
+
+Date:
+  2010-12-26 23:54:28
+
+Error:
+  این کد ارائه قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/erae_add.php
+
+Date:
+  2010-12-27 00:01:14
+
+Error:
+  این کد ارائه قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/entekhab_delete.php?id=5&scode=8908130002
+
+Date:
+  2010-12-27 03:21:37
+
+Error:
+  SQL error: Cannot delete or update a parent row: a foreign key constraint fails (`institute/pardakht`, CONSTRAINT `pardakht_ibfk_3` FOREIGN KEY (`entekhab_code`) REFERENCES `entekhab` (`erae_code`) ON UPDATE CASCADE).
+
+Developer Details:
+  SQL error: DELETE FROM entekhab WHERE id = 5. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_delete.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_delete.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_delete.saveData
+      tNG_delete.prepareSQL
+      tNG_delete.executeTransaction - execute sql*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/entekhab_delete.php?id=5&scode=8908130002
+
+Date:
+  2010-12-27 03:22:49
+
+Error:
+  SQL error: Cannot delete or update a parent row: a foreign key constraint fails (`institute/pardakht`, CONSTRAINT `pardakht_ibfk_3` FOREIGN KEY (`entekhab_code`) REFERENCES `entekhab` (`erae_code`) ON UPDATE CASCADE).
+
+Developer Details:
+  SQL error: DELETE FROM entekhab WHERE id = 5. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_delete.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_delete.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_delete.saveData
+      tNG_delete.prepareSQL
+      tNG_delete.executeTransaction - execute sql*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/entekhab_edit.php?id=3&scode=8908130002&ecode=8908132
+
+Date:
+  2010-12-27 21:03:21
+
+Error:
+  SQL error: Cannot add or update a child row: a foreign key constraint fails (`institute/entekhab`, CONSTRAINT `entekhab_ibfk_3` FOREIGN KEY (`takhfif`) REFERENCES `takhfifat` (`id`) ON UPDATE CASCADE).
+
+Developer Details:
+  SQL error: UPDATE entekhab SET mablagh='1079000', tozihat='تخفیف 10% package و 1000 ریال تخفیف ویژه', takhfif=10, takhfifezafi=1000, active='1' WHERE id = 3. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===

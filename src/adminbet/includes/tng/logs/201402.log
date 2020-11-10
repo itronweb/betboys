@@ -1,0 +1,91 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/admin/khanevar_zamin_edit.php?id=1
+
+Date:
+  2014-02-11 15:30:08
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'rostacode' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT noezamin,noetaminab,mizan,setdate,user,tozihat,rostacode,active,id, id as kt_pk_khanevar_zamin FROM khanevar_zamin WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/admin/khanevar_add.php
+
+Date:
+  2014-02-11 20:30:15
+
+Error:
+  SQL error: Column 'sarparast' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO khanevar (fname, lname, code, nesbat, maloliat, pedar, shsh, birth, serialsh, codemeli, tahol, madrak, mob, tel, job, regdate, country, shahrestan, ostan, shahr, bakhsh, rosta, jensiat, khedmat, active, sarparast) values ('محمد', 'باخدا', '11095301000001', '1', '0', 'امامقلی', '4565', null, null, '245-141244-5', '2', 3, null, null, null, '1392/11/22', '98', '1109', '11', '110953', '11095', '110953010', '1', '1', '1', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/admin/khanevar_add.php
+
+Date:
+  2014-02-11 20:32:10
+
+Error:
+  SQL error: Column 'sarparast' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO khanevar (fname, lname, code, nesbat, maloliat, pedar, shsh, birth, serialsh, codemeli, tahol, madrak, mob, tel, job, regdate, country, shahrestan, ostan, shahr, bakhsh, rosta, jensiat, khedmat, active, sarparast) values ('محمد', 'باخدا', '11095301000001', '1', '0', 'امامقلی', '4565', null, null, '245-141244-5', '2', 3, null, null, null, '1392/11/22', '98', '1109', '11', '110953', '11095', '110953010', '1', '1', '1', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

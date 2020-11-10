@@ -1,0 +1,89 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/erae_delete.php?id=1
+
+Date:
+  2011-01-05 15:12:00
+
+Error:
+  SQL error: Cannot delete or update a parent row: a foreign key constraint fails (`institute/entekhab`, CONSTRAINT `entekhab_ibfk_1` FOREIGN KEY (`erae_code`) REFERENCES `erae` (`erae_code`) ON UPDATE CASCADE).
+
+Developer Details:
+  SQL error: DELETE FROM erae WHERE id = 1. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_delete.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_delete.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_delete.saveData
+      tNG_delete.prepareSQL
+      tNG_delete.executeTransaction - execute sql*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/entekhab_delete.php?id=4&scode=8908130003
+
+Date:
+  2011-01-06 09:23:49
+
+Error:
+  SQL error: Cannot delete or update a parent row: a foreign key constraint fails (`institute/pardakht`, CONSTRAINT `pardakht_ibfk_3` FOREIGN KEY (`entekhab_code`) REFERENCES `entekhab` (`erae_code`) ON UPDATE CASCADE).
+
+Developer Details:
+  SQL error: DELETE FROM entekhab WHERE id = 4. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_delete.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_delete.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_delete.saveData
+      tNG_delete.prepareSQL
+      tNG_delete.executeTransaction - execute sql*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/bank_add.php?pageview=30
+
+Date:
+  2011-01-08 09:36:29
+
+Error:
+  SQL error: Duplicate entry 'ملی' for key 2.
+
+Developer Details:
+  SQL error: INSERT INTO bank (name, active) values ('ملی', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

@@ -1,0 +1,670 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin1/plugins/bets/bets_cancel.php?work=5&id=!!!!Qvn1iJ512cuzbFyLvlZ5uS
+
+Date:
+  2018-06-07 12:54:14
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'ADMIN_INCREASE1519199223'.
+
+Developer Details:
+  SQL error: UPDATE transactions SET status=0 WHERE trans_id = 38058. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin1/plugins/bets/bets_cancel.php?work=5&id=!!!!Qvn1iJ512cuzbFyLvlZ5uS
+
+Date:
+  2018-06-07 13:00:02
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'ADMIN_INCREASE1519199223'.
+
+Developer Details:
+  SQL error: UPDATE transactions SET status=0 WHERE trans_id = 38058. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin1/plugins/bets/bets_cancel.php?work=2&id=!!!!Qvn1iJ512cuzbFyLvlZ5uS
+
+Date:
+  2018-06-07 13:01:17
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'ADMIN_INCREASE1519199223'.
+
+Developer Details:
+  SQL error: UPDATE transactions SET status=0 WHERE trans_id = 38058. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin1/plugins/bets/bets_cancel.php?work=5&id=!!!!Qvn1iJ512cuzbFyLvlZ5uS
+
+Date:
+  2018-06-07 13:01:39
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'ADMIN_INCREASE1519199223'.
+
+Developer Details:
+  SQL error: UPDATE transactions SET status=0 WHERE trans_id = 38058. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin1/plugins/bets/bets_cancel.php?work=2&id=!!!!Qvn1iJ512cuzbFyLvlZ5uS
+
+Date:
+  2018-06-07 13:03:06
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'ADMIN_INCREASE1519199223'.
+
+Developer Details:
+  SQL error: UPDATE transactions SET status=0 WHERE trans_id = 38058. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin1/plugins/bets/bets_cancel.php?work=5&id=!!!!Qvn1iJ512cuzbFyLvlZ5uS
+
+Date:
+  2018-06-07 13:03:15
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'ADMIN_INCREASE1519199223'.
+
+Developer Details:
+  SQL error: UPDATE transactions SET status=0 WHERE trans_id = 38058. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin1/plugins/bets/bets_cancel.php?work=2&id=!!!!Qvn1iJ512cuzbFyLvlZ5uS
+
+Date:
+  2018-06-07 13:04:27
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'ADMIN_INCREASE1519199223'.
+
+Developer Details:
+  SQL error: UPDATE transactions SET status=0 WHERE trans_id = 38058. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/betfars/admin/plugins/users/users_edit.php?id=!!!!gU2n7O8SV873IyrcpNfE47
+
+Date:
+  2018-06-11 12:35:10
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'account_num' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT first_name,last_name,mobile,email,username,status,account_num,card_num,shaba_num,bank_name,description,updated_at,id, id as kt_pk__users_ FROM `users` WHERE id =3827 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/betfars/admin/plugins/users/users_edit.php?id=!!!!gU2n7O8SV873IyrcpNfE47
+
+Date:
+  2018-06-11 12:37:06
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'account_num' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT first_name,last_name,mobile,email,username,status,account_num,card_num,shaba_num,bank_name,description,updated_at,id, id as kt_pk__users_ FROM `users` WHERE id =3827 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/betfars/admin/plugins/users/users_edit.php?id=!!!!gU2n7O8SV873IyrcpNfE47
+
+Date:
+  2018-06-11 12:38:06
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'account_num' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT first_name,last_name,mobile,email,username,status,account_num,card_num,shaba_num,bank_name,description,updated_at,id, id as kt_pk__users_ FROM `users` WHERE id =3827 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/betfars/admin/plugins/users/users_edit.php?id=!!!!gU2n7O8SV873IyrcpNfE47
+
+Date:
+  2018-06-11 12:39:08
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'account_num' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT first_name,last_name,mobile,email,username,status,account_num,card_num,shaba_num,bank_name,description,updated_at,id, id as kt_pk__users_ FROM `users` WHERE id =3827 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/betfars/admin/plugins/users/users_edit.php?id=!!!!gU2n7O8SV873IyrcpNfE47
+
+Date:
+  2018-06-11 12:39:29
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'account_num' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT first_name,last_name,mobile,email,username,status,account_num,card_num,shaba_num,bank_name,description,updated_at,id, id as kt_pk__users_ FROM `users` WHERE id =3827 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/betfars/admin/plugins/users/users_edit.php?id=!!!!gU2n7O8SV873IyrcpNfE47
+
+Date:
+  2018-06-11 12:39:52
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'account_num' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT first_name,last_name,mobile,email,username,status,account_num,card_num,shaba_num,bank_name,description,updated_at,id, id as kt_pk__users_ FROM `users` WHERE id =3827 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/betfars/admin/plugins/users/users_edit.php?id=!!!!gU2n7O8SV873IyrcpNfE47
+
+Date:
+  2018-06-11 12:40:09
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'account_num' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT first_name,last_name,mobile,email,username,status,account_num,card_num,shaba_num,bank_name,description,updated_at,id, id as kt_pk__users_ FROM `users` WHERE id =3827 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/betfars/admin/plugins/users/users_edit.php?id=!!!!gU2n7O8SV873IyrcpNfE47
+
+Date:
+  2018-06-11 12:40:55
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'account_num' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT first_name,last_name,mobile,email,username,status,account_num,card_num,shaba_num,bank_name,description,updated_at,id, id as kt_pk__users_ FROM `users` WHERE id =3827 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/betfars/admin/plugins/users/users_edit.php?id=!!!!gU2n7O8SV873IyrcpNfE47
+
+Date:
+  2018-06-11 12:41:15
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'account_num' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT first_name,last_name,mobile,email,username,status,account_num,card_num,shaba_num,bank_name,description,updated_at,id, id as kt_pk__users_ FROM `users` WHERE id =3827 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/betfars/admin/plugins/slideshow/slideshow_add.php
+
+Date:
+  2018-06-14 09:20:47
+
+Error:
+  File upload error: File size must be less than 1500 kB.
+
+Developer Details:
+  File upload error: File size must be less than 1500 kB. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/betfars/admin/plugins/sports/sports_edit.php?id=!!!!ggxPg75WnrNzAEaYdDrjc1
+
+Date:
+  2018-06-19 17:11:58
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Table 'betfars.sport' doesn't exist<br /><strong>SQL statement:</strong><br />SELECT name_en,prematch,name,code,live,flag,sort,status,id, id as kt_pk_sport FROM sport WHERE id =5 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===

@@ -1,0 +1,100 @@
+{
+      "id": 775284,
+      "weather": null,
+      "temperature": null,
+      "commentary": true,
+      "ht_score": null,
+      "ft_score": null,
+      "et_score": null,
+      "home_team_id": 1703,
+      "away_team_id": 2210,
+      "home_score": 0,
+      "away_score": 0,
+      "home_score_penalties": 0,
+      "away_score_penalties": 0,
+      "formation": {
+        "home": null,
+        "away": null
+      },
+      "date_time_tba": 0,
+      "spectators": null,
+      "starting_date": "2017-04-24",
+      "starting_time": "15:00:00",
+      "status": "NS",
+      "minute": 0,
+      "injury_time": 0,
+      "extra_time": 0,
+      "competition_id": 188,
+      "venue_id": 7157,
+      "season_id": 1032,
+      "round_id": 14639,
+      "stage_id": 2329,
+      "referee_id": null,
+      "aggregate": null,
+      "placeholder": false,
+      "deleted": false,
+      "result_only": false,
+      "homeTeam": {
+        "id": 1703,
+        "name": "Al Hilal",
+        "logo": "https://soccerama.pro/images/teams/SAU/1703.png",
+        "twitter": null,
+        "venue_id": 1265,
+        "coach_id": 178704,
+        "chairman_id": null
+      },
+      "awayTeam": {
+        "id": 2210,
+        "name": "Persepolis",
+        "logo": "https://soccerama.pro/images/teams/IRN/2210.png",
+        "twitter": "",
+        "venue_id": 0,
+        "coach_id": 178703,
+        "chairman_id": 151120
+      },
+          "odds": {
+        "data": [
+          {
+            "bookmaker_id": 39,
+            "name": "Sportsbet",
+            "types": {
+              "data": [
+                {
+                  "type": "1x2",
+                  "odds": {
+                    "data": [
+                      {
+                        "label": "1",
+                        "value": "2.15",
+                        "prev_value": null,
+                        "last_update": "2017-04-20T02:38:19",
+                        "winning": false
+                      },
+                      {
+                        "label": "2",
+                        "value": "3.2",
+                        "prev_value": null,
+                        "last_update": "2017-04-20T02:38:19",
+                        "winning": false
+                      },
+                      {
+                        "label": "X",
+                        "value": "3.15",
+                        "prev_value": null,
+                        "last_update": "2017-04-20T02:38:19",
+                        "winning": false
+                      }
+                    ]
+                  }
+                }
+               ]
+            }
+          }
+         ,
+      "competition": {
+        "id": 188,
+        "cup": false,
+        "name": "Afc Champions League",
+        "active": true
+      }
+    },

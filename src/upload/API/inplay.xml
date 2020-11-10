@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scores sport="soccer" updated="23.09.2019 03:28:06">
+  <category name="Africa: Caf Champions League" gid="1513" id="1513" file_group="africa" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="13:00" timer="" date="May 15" formatted_date="15.05.2018" time="13:00" commentary_available="" venue="" v="0" static_id="2359501" fix_id="2243433" id="2425950">
+        <localteam name="Kampala City" goals="?" id="25302" />
+        <visitorteam name="Al Ahly" goals="?" id="8883" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="13:00" timer="" date="May 15" formatted_date="15.05.2018" time="13:00" commentary_available="" venue="" v="0" static_id="2359508" fix_id="2243440" id="2425951">
+        <localteam name="Mbabane Swall." goals="?" id="16391" />
+        <visitorteam name="Primeiro de Agosto" goals="?" id="5855" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="19:00" timer="" date="May 15" formatted_date="15.05.2018" time="19:00" commentary_available="" venue="" v="0" static_id="2359504" fix_id="2243436" id="2425945">
+        <localteam name="Difaa El Jadidi" goals="?" id="13104" />
+        <visitorteam name="Mazembe" goals="?" id="8179" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="19:00" timer="" date="May 15" formatted_date="15.05.2018" time="19:00" commentary_available="" venue="" v="0" static_id="2359502" fix_id="2243434" id="2425946">
+        <localteam name="Esperance Tunis" goals="?" id="16933" />
+        <visitorteam name="Township Rollers" goals="?" id="18430" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="19:00" timer="" date="May 15" formatted_date="15.05.2018" time="19:00" commentary_available="" venue="" v="0" static_id="2359503" fix_id="2243435" id="2425947">
+        <localteam name="ES Setif" goals="?" id="5763" />
+        <visitorteam name="MC Alger" goals="?" id="5784" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="19:00" timer="" date="May 15" formatted_date="15.05.2018" time="19:00" commentary_available="" venue="" v="0" static_id="2359505" fix_id="2243437" id="2425952">
+        <localteam name="Wydad" goals="?" id="13137" />
+        <visitorteam name="AS Togo-Port" goals="?" id="23746" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Argentina: Superliga" gid="1081" id="1081" file_group="argentina" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="FT" timer="" date="May 15" formatted_date="15.05.2018" time="00:15" commentary_available="argentina" venue="Estadio Juan Carmelo Zerillo" v="60" static_id="2288485" fix_id="2172224" id="2442092">
+        <localteam name="Gimnasia L.P." goals="2" id="5988" />
+        <visitorteam name="Newells Old Boys" goals="0" id="6028" />
+        <events>
+          <event type="yellowcard" minute="41" extra_min="" team="localteam" player="F. Oreja" result="" playerId="52271" assist="" assistid="" eventid="24420921" />
+          <event type="goal" minute="44" extra_min="" team="localteam" player="N. D. Ortiz" result="[1 - 0]" playerId="" assist="N. Dibble" assistid="322922" eventid="24420922" />
+          <event type="subst" minute="46" extra_min="" team="visitorteam" player="A. Rodriguez" result="" playerId="485263" assist="J. Varela" assistid="517073" eventid="24420923" />
+          <event type="yellowcard" minute="50" extra_min="" team="localteam" player="M. Coronel" result="" playerId="90443" assist="" assistid="" eventid="24420924" />
+          <event type="yellowcard" minute="56" extra_min="" team="visitorteam" player="H. Bernardello" result="" playerId="14279" assist="" assistid="" eventid="24420925" />
+          <event type="subst" minute="60" extra_min="" team="localteam" player="L. Licht" result="" playerId="3788" assist="N. Colazo" assistid="83257" eventid="24420926" />
+          <event type="subst" minute="67" extra_min="" team="localteam" player="B. Aleman" result="" playerId="91607" assist="N. Dibble" assistid="322922" eventid="24420927" />
+          <event type="subst" minute="69" extra_min="" team="visitorteam" player="J. Torres" result="" playerId="397443" assist="V. Figueroa" assistid="50119" eventid="24420928" />
+          <event type="yellowcard" minute="72" extra_min="" team="visitorteam" player="J. Torres" result="" playerId="397443" assist="" assistid="" eventid="24420929" />
+          <event type="subst" minute="75" extra_min="" team="visitorteam" player="D. Rodriguez" result="" playerId="408937" assist="B. Rivero" assistid="423329" eventid="244209210" />
+          <event type="subst" minute="79" extra_min="" team="localteam" player="E. Bonifacio" result="" playerId="351635" assist="L. Faravelli" assistid="167544" eventid="244209211" />
+          <event type="goal" minute="82" extra_min="" team="localteam" player="E. Bonifacio" result="[2 - 0]" playerId="351635" assist="B. Aleman" assistid="91607" eventid="244209212" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[2-0]" />
+      </match>
+      <match status="FT" timer="" date="May 15" formatted_date="15.05.2018" time="00:15" commentary_available="argentina" venue="Estadio Monumental Antonio Vespucio Liberti" v="60" static_id="2288475" fix_id="2172214" id="2442117">
+        <localteam name="River Plate" goals="2" id="6042" />
+        <visitorteam name="San Lorenzo" goals="0" id="6045" />
+        <events>
+          <event type="yellowcard" minute="1" extra_min="" team="visitorteam" player="J. Devecchi" result="" playerId="304976" assist="" assistid="" eventid="24421171" />
+          <event type="subst" minute="26" extra_min="" team="localteam" player="I. Fernandez" result="" playerId="157149" assist="G. Martinez" assistid="51346" eventid="24421172" />
+          <event type="yellowcard" minute="42" extra_min="" team="visitorteam" player="G. Gudino" result="" playerId="401280" assist="" assistid="" eventid="24421173" />
+          <event type="yellowcard" minute="45" extra_min="" team="localteam" player="L. Pratto" result="" playerId="17657" assist="" assistid="" eventid="24421174" />
+          <event type="subst" minute="46" extra_min="" team="visitorteam" player="R. Botta" result="" playerId="75714" assist="C. Barrios" assistid="477129" eventid="24421175" />
+          <event type="goal" minute="54" extra_min="" team="localteam" player="I. Fernandez" result="[1 - 0]" playerId="157149" assist="L. Pratto" assistid="17657" eventid="24421176" />
+          <event type="yellowcard" minute="61" extra_min="" team="localteam" player="E. Perez" result="" playerId="13934" assist="" assistid="" eventid="24421177" />
+          <event type="subst" minute="70" extra_min="" team="localteam" player="R. Mora" result="" playerId="55877" assist="J. Quintero" assistid="74510" eventid="24421178" />
+          <event type="subst" minute="70" extra_min="" team="localteam" player="R. Borre" result="" playerId="320836" assist="I. Scocco" assistid="15172" eventid="24421179" />
+          <event type="yellowcard" minute="76" extra_min="" team="visitorteam" player="P. Diaz" result="" playerId="286706" assist="" assistid="" eventid="244211710" />
+          <event type="subst" minute="77" extra_min="" team="visitorteam" player="G. Berterame" result="" playerId="432109" assist="T. Conechny" assistid="398822" eventid="244211711" />
+          <event type="goal" minute="83" extra_min="" team="localteam" player="R. Borre" result="[2 - 0]" playerId="320836" assist="" assistid="" eventid="244211712" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[2-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Argentina: Primera B Metropolitana - Promotion - Play Offs" gid="3905" id="1077" file_group="argentina" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="23:05" timer="" date="May 15" formatted_date="15.05.2018" time="23:05" commentary_available="" venue="" v="0" static_id="2370196" fix_id="2254161" id="2444884">
+        <localteam name="CA Estudiantes" goals="?" id="5977" />
+        <visitorteam name="UAI Urquiza" goals="?" id="5984" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="23:05" timer="" date="May 15" formatted_date="15.05.2018" time="23:05" commentary_available="" venue="" v="0" static_id="2370194" fix_id="2254159" id="2444885">
+        <localteam name="Def. de Belgrano" goals="?" id="5956" />
+        <visitorteam name="Tristan Suarez" goals="?" id="6071" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Argentina: Primera C Metropolitana" gid="1079" id="1079" file_group="argentina" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="18:30" timer="" date="May 15" formatted_date="15.05.2018" time="18:30" commentary_available="" venue="Campo Municipal de Deportes" v="0" static_id="2303900" fix_id="2187669" id="2440643">
+        <localteam name="Club Lujan" goals="?" id="6025" />
+        <visitorteam name="Justo Jose de Urquiza" goals="?" id="6009" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Argentina: Torneo Federal A - Promotion - Play Offs" gid="4588" id="1076" file_group="argentina" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="FT" timer="" date="May 15" formatted_date="15.05.2018" time="00:00" commentary_available="" venue="Estadio Víctor Antonio Legrotaglie" v="60" static_id="2369962" fix_id="2253927" id="2444464">
+        <localteam name="Gimnasia Mendoza" goals="1" id="5989" />
+        <visitorteam name="Sportivo Belgrano" goals="0" id="6057" />
+        <events>
+          <event type="goal" minute="16" extra_min="" team="localteam" player="P. Palacios Alvarenga" result="[1 - 0]" playerId="78707" assist="" assistid="" eventid="24444641" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[1-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Argentina: Copa Argentina" gid="2129" id="2129" file_group="argentina" iscup="True">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="21:00" timer="" date="May 15" formatted_date="15.05.2018" time="21:00" commentary_available="argentina_cup" venue="Estadio El Coloso del Ruca Quimey" v="0" static_id="2369724" fix_id="2253689" id="2420640">
+        <localteam name="Chacarita Juniors" goals="?" id="5941" />
+        <visitorteam name="Deportivo Maipu" goals="?" id="5964" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Asia: Afc Champions League - Play Offs" gid="3761" id="1022" file_group="asia" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="28" timer="28" date="May 15" formatted_date="15.05.2018" time="10:00" commentary_available="afc_champleague" venue="Jeonju World Cup Stadium" v="0" static_id="2366993" fix_id="2250944" id="2437473">
+        <localteam name="Jeonbuk" goals="1" id="12340" />
+        <visitorteam name="Buriram" goals="0" id="16861" />
+        <events>
+          <event type="yellowcard" minute="12" extra_min="" team="visitorteam" player="S. Haiprakon" result="" playerId="353027" assist="" assistid="" eventid="24374731" />
+          <event type="goal" minute="18" extra_min="" team="localteam" player="R. Lopes" result="[1 - 0]" playerId="229277" assist="Kim Shin-Wook" assistid="75457" eventid="24374732" />
+          <event type="yellowcard" minute="22" extra_min="" team="localteam" player="Kim Shin-Wook" result="" playerId="75457" assist="" assistid="" eventid="24374733" />
+        </events>
+        <ht score="[1-0]" />
+      </match>
+      <match status="12:00" timer="" date="May 15" formatted_date="15.05.2018" time="12:00" commentary_available="afc_champleague" venue="Tianhe Stadium" v="0" static_id="2366995" fix_id="2250946" id="2437472">
+        <localteam name="Guangzhou Evergrande" goals="?" id="8049" />
+        <visitorteam name="Tianjin Quanjian" goals="?" id="19093" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="15:30" timer="" date="May 15" formatted_date="15.05.2018" time="15:30" commentary_available="afc_champleague" venue="Abdullah bin Nasser bin Khalifa Stadium" v="0" static_id="2366724" fix_id="2250675" id="2437470">
+        <localteam name="Al-Duhail" goals="?" id="14507" />
+        <visitorteam name="Al Ain" goals="?" id="17231" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="16:15" timer="" date="May 15" formatted_date="15.05.2018" time="16:15" commentary_available="afc_champleague" venue="Azadi Stadium" v="0" static_id="2366726" fix_id="2250677" id="2437471">
+        <localteam name="Esteghlal F.C." goals="?" id="11450" />
+        <visitorteam name="Zob Ahan" goals="?" id="11498" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Asia: Afc Cup - Play Offs" gid="3783" id="1023" file_group="asia" iscup="True">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="11:30" timer="" date="May 15" formatted_date="15.05.2018" time="11:30" commentary_available="" venue="Stadion Utama Gelora Bung Karno" v="0" static_id="2368550" fix_id="2252504" id="2443010">
+        <localteam name="Persija Jakarta" goals="?" id="11390" />
+        <visitorteam name="Home Utd" goals="?" id="15367" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="12:00" timer="" date="May 15" formatted_date="15.05.2018" time="12:00" commentary_available="" venue="Camille Chamoun Sports City Stadium" v="0" static_id="2368361" fix_id="2252314" id="2443011">
+        <localteam name="Al Ahed" goals="?" id="12479" />
+        <visitorteam name="Al Quwa Al Jawiya" goals="?" id="11510" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Austria: Tipico Bundesliga" gid="1093" id="1093" file_group="austria" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="austria" venue="Lavanttal Arena" v="0" static_id="2216030" fix_id="2099643" id="2434978">
+        <localteam name="AC Wolfsberger" goals="?" id="20598" />
+        <visitorteam name="Austria Vienna" goals="?" id="6319" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Austria: Regionalliga East" gid="1516" id="1092" file_group="austria" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="15:30" timer="" date="May 15" formatted_date="15.05.2018" time="15:30" commentary_available="" venue="Sportplatz Ober-Grafendorf" v="0" static_id="2231750" fix_id="2115394" id="2373296">
+        <localteam name="St. Polten (Am)" goals="?" id="6495" />
+        <visitorteam name="Horn" goals="?" id="6387" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="16:30" timer="" date="May 15" formatted_date="15.05.2018" time="16:30" commentary_available="" venue="OMV-Sportanlage Stadlau" v="0" static_id="2231749" fix_id="2115393" id="2373295">
+        <localteam name="Stadlau" goals="?" id="6498" />
+        <visitorteam name="Wiener Sportklub" goals="?" id="6539" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Brazil: Serie A" gid="1141" id="1141" file_group="brazil" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="FT" timer="" date="May 14" formatted_date="14.05.2018" time="23:00" commentary_available="brazil_a" venue="Estádio Nilton Santos" v="60" static_id="2343054" fix_id="2226943" id="2442477">
+        <localteam name="Botafogo RJ" goals="2" id="7170" />
+        <visitorteam name="Fluminense" goals="1" id="7304" />
+        <events>
+          <event type="yellowcard" minute="7" extra_min="" team="localteam" player="Renatinho" result="" playerId="243845" assist="" assistid="" eventid="24424771" />
+          <event type="goal" minute="27" extra_min="" team="localteam" player="Rodrigo" result="[1 - 0]" playerId="112806" assist="Marcinho" assistid="433836" eventid="24424772" />
+          <event type="yellowcard" minute="29" extra_min="" team="localteam" player="J. Carli" result="" playerId="50302" assist="" assistid="" eventid="24424773" />
+          <event type="goal" minute="34" extra_min="" team="visitorteam" player="Pedro" result="[1 - 1]" playerId="435998" assist="M. Junior" assistid="239932" eventid="24424774" />
+          <event type="subst" minute="41" extra_min="" team="visitorteam" player="Marlon" result="" playerId="428038" assist="Ayrton" assistid="337005" eventid="24424775" />
+          <event type="subst" minute="46" extra_min="" team="localteam" player="G. Bochecha" result="" playerId="447817" assist="Renatinho" assistid="243845" eventid="24424776" />
+          <event type="yellowcard" minute="52" extra_min="" team="visitorteam" player="Richard" result="" playerId="301821" assist="" assistid="" eventid="24424777" />
+          <event type="goal" minute="64" extra_min="" team="localteam" player="Kieza" result="[2 - 1]" playerId="71760" assist="Marcinho" assistid="433836" eventid="24424778" />
+          <event type="subst" minute="72" extra_min="" team="visitorteam" player="Robinho" result="" playerId="434061" assist="Richard" assistid="301821" eventid="24424779" />
+          <event type="subst" minute="76" extra_min="" team="visitorteam" player="P. Dyego" result="" playerId="290421" assist="R. Chaves" assistid="434994" eventid="244247710" />
+          <event type="subst" minute="77" extra_min="" team="localteam" player="R. Aguirre" result="" playerId="181034" assist="Marlos Brenner" assistid="236747" eventid="244247711" />
+          <event type="yellowcard" minute="80" extra_min="" team="visitorteam" player="L. Peres" result="" playerId="302497" assist="" assistid="" eventid="244247712" />
+          <event type="subst" minute="85" extra_min="" team="localteam" player="Jean" result="" playerId="362429" assist="Rodrigo" assistid="112806" eventid="244247713" />
+        </events>
+        <ht score="[1-1]" />
+        <ft score="[2-1]" />
+      </match>
+      <match status="FT" timer="" date="May 14" formatted_date="14.05.2018" time="23:00" commentary_available="brazil_a" venue="Estádio Governador Plácido Aderaldo Castelo" v="60" static_id="2343055" fix_id="2226944" id="2442527">
+        <localteam name="Ceara" goals="2" id="7216" />
+        <visitorteam name="America MG" goals="2" id="7111" />
+        <events>
+          <event type="goal" minute="3" extra_min="" team="visitorteam" player="Giovanni" result="[0 - 1]" playerId="115289" assist="Luan" assistid="32399" eventid="24425271" />
+          <event type="goal" minute="30" extra_min="" team="visitorteam" player="Giovanni" result="[0 - 2]" playerId="115289" assist="Marquinhos" assistid="33019" eventid="24425272" />
+          <event type="goal" minute="38" extra_min="" team="localteam" player="Elton" result="[1 - 2]" playerId="34705" assist="Pio" assistid="116164" eventid="24425273" />
+          <event type="yellowcard" minute="45" extra_min="3" team="visitorteam" player="Luan" result="" playerId="32399" assist="" assistid="" eventid="24425274" />
+          <event type="subst" minute="46" extra_min="" team="localteam" player="E. Luis" result="" playerId="8929" assist="F. Azevedo" assistid="71013" eventid="24425275" />
+          <event type="yellowcard" minute="57" extra_min="" team="visitorteam" player="Aderlan" result="" playerId="78698" assist="" assistid="" eventid="24425276" />
+          <event type="subst" minute="67" extra_min="" team="visitorteam" player="G. Magrao" result="" playerId="32954" assist="Luan" assistid="32399" eventid="24425277" />
+          <event type="yellowcard" minute="67" extra_min="" team="localteam" player="R. Carioca" result="" playerId="176777" assist="" assistid="" eventid="24425278" />
+          <event type="subst" minute="67" extra_min="" team="localteam" player="Arthur" result="" playerId="409255" assist="Juninho" assistid="64444" eventid="24425279" />
+          <event type="subst" minute="72" extra_min="" team="visitorteam" player="O. Renan" result="" playerId="32296" assist="Marquinhos" assistid="33019" eventid="244252710" />
+          <event type="subst" minute="78" extra_min="" team="localteam" player="Juninho" result="" playerId="435273" assist="W. Wescley" assistid="162914" eventid="244252711" />
+          <event type="subst" minute="86" extra_min="" team="visitorteam" player="Wesley" result="" playerId="65382" assist="Aylon" assistid="322455" eventid="244252712" />
+          <event type="yellowcard" minute="90" extra_min="1" team="visitorteam" player="Messias" result="" playerId="330138" assist="" assistid="" eventid="244252713" />
+          <event type="goal" minute="90" extra_min="3" team="localteam" player="Pio (pen.)" result="[2 - 2]" playerId="116164" assist="" assistid="" eventid="244252714" />
+        </events>
+        <ht score="[1-2]" />
+        <ft score="[2-2]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Brazil: Serie B" gid="1117" id="1117" file_group="brazil" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="22:15" timer="" date="May 15" formatted_date="15.05.2018" time="22:15" commentary_available="brazil_b" venue="Estádio Rei Pelé" v="0" static_id="2344352" fix_id="2228243" id="2442859">
+        <localteam name="CRB" goals="?" id="7253" />
+        <visitorteam name="Avai" goals="?" id="7151" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="00:30" timer="" date="May 16" formatted_date="16.05.2018" time="00:30" commentary_available="brazil_b" venue="Estádio Heriberto Hülse" v="0" static_id="2344349" fix_id="2228240" id="2442860">
+        <localteam name="Criciuma" goals="?" id="7254" />
+        <visitorteam name="Juventude" goals="?" id="7395" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Brazil: Serie C" gid="1121" id="1121" file_group="brazil" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="FT" timer="" date="May 14" formatted_date="14.05.2018" time="23:30" commentary_available="" venue="" v="60" static_id="2344773" fix_id="2228664" id="2442478">
+        <localteam name="Luverdense" goals="4" id="7412" />
+        <visitorteam name="Volta Redonda" goals="1" id="7679" />
+        <events>
+          <event type="goal" minute="26" extra_min="" team="localteam" player="Itaqui" result="[1 - 0]" playerId="170909" assist="" assistid="" eventid="24424781" />
+          <event type="goal" minute="30" extra_min="" team="visitorteam" player="Rodrigo (pen.)" result="[1 - 1]" playerId="111253" assist="" assistid="" eventid="24424782" />
+          <event type="goal" minute="36" extra_min="" team="localteam" player="P. Rene" result="[2 - 1]" playerId="135792" assist="" assistid="" eventid="24424783" />
+          <event type="goal" minute="43" extra_min="" team="localteam" player="A. Riberio" result="[3 - 1]" playerId="" assist="" assistid="" eventid="24424784" />
+          <event type="goal" minute="56" extra_min="" team="localteam" player="L. Braga" result="[4 - 1]" playerId="472047" assist="" assistid="" eventid="24424785" />
+        </events>
+        <ht score="[3-1]" />
+        <ft score="[4-1]" />
+      </match>
+      <match status="FT" timer="" date="May 15" formatted_date="15.05.2018" time="00:15" commentary_available="" venue="" v="60" static_id="2344766" fix_id="2228657" id="2442612">
+        <localteam name="Globo" goals="1" id="22880" />
+        <visitorteam name="Santa Cruz" goals="2" id="6996" />
+        <events>
+          <event type="goal" minute="74" extra_min="" team="localteam" player="Romarinho" result="[1 - 0]" playerId="284206" assist="" assistid="" eventid="24426121" />
+          <event type="goal" minute="82" extra_min="" team="visitorteam" player="Robinho (pen.)" result="[1 - 1]" playerId="328721" assist="" assistid="" eventid="24426122" />
+          <event type="goal" minute="83" extra_min="" team="visitorteam" player="Charles" result="[1 - 2]" playerId="307299" assist="" assistid="" eventid="24426123" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[1-2]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Brazil: Serie D" gid="4384" id="1122" file_group="brazil" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="FT" timer="" date="May 14" formatted_date="14.05.2018" time="23:00" commentary_available="" venue="" v="60" static_id="2348629" fix_id="2232526" id="2444704">
+        <localteam name="Novo Hamburgo" goals="1" id="7457" />
+        <visitorteam name="Cianorte" goals="1" id="7229" />
+        <events>
+        </events>
+        <ht score="[-]" />
+        <ft score="[1-1]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Brazil: Copa Do Brasil U20" gid="4574" id="4574" file_group="brazil" iscup="True">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="22:30" timer="" date="May 15" formatted_date="15.05.2018" time="22:30" commentary_available="" venue="Estádio Municipal Paulo Machado de Carvalho" v="0" static_id="2369575" fix_id="2253536" id="2443222">
+        <localteam name="Palmeiras U20" goals="?" id="27928" />
+        <visitorteam name="Sao Paulo U20" goals="?" id="27947" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Bulgaria: Parva Liga - Championship Group" gid="4248" id="1154" file_group="bulgaria" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="15:30" timer="" date="May 15" formatted_date="15.05.2018" time="15:30" commentary_available="" venue="Stadion Lokomotiv" v="0" static_id="2359227" fix_id="2243152" id="2431769">
+        <localteam name="Beroe" goals="?" id="7700" />
+        <visitorteam name="Ludogorets" goals="?" id="7776" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="15:30" timer="" date="May 15" formatted_date="15.05.2018" time="15:30" commentary_available="" venue="Stadion Vasil Levski" v="0" static_id="2359228" fix_id="2243153" id="2431789">
+        <localteam name="Levski" goals="?" id="7801" />
+        <visitorteam name="CSKA Sofia" goals="?" id="7713" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:30" timer="" date="May 15" formatted_date="15.05.2018" time="17:30" commentary_available="" venue="Sporten kompleks Botev 1912" v="0" static_id="2359226" fix_id="2243151" id="2431770">
+        <localteam name="Botev Plovdiv" goals="?" id="7702" />
+        <visitorteam name="Vereya" goals="?" id="20123" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Colombia: Torneo Aguila" gid="2741" id="2141" file_group="colombia" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="FT" timer="" date="May 15" formatted_date="15.05.2018" time="00:30" commentary_available="" venue="Estadio Hernán Ramírez Villegas" v="60" static_id="2338876" fix_id="2222754" id="2439850">
+        <localteam name="Pereira" goals="3" id="8139" />
+        <visitorteam name="Barranquilla" goals="0" id="8128" />
+        <events>
+          <event type="goal" minute="21" extra_min="" team="localteam" player="J. Palomino" result="[1 - 0]" playerId="22518" assist="" assistid="" eventid="24398501" />
+          <event type="goal" minute="55" extra_min="" team="localteam" player="Y. Mena" result="[2 - 0]" playerId="103886" assist="" assistid="" eventid="24398502" />
+          <event type="goal" minute="62" extra_min="" team="localteam" player="Yorleys" result="[3 - 0]" playerId="103886" assist="" assistid="" eventid="24398503" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[3-0]" />
+      </match>
+      <match status="00:30" timer="" date="May 16" formatted_date="16.05.2018" time="00:30" commentary_available="" venue="Estadio General Santander" v="0" static_id="2338879" fix_id="2222757" id="2439859">
+        <localteam name="Cucuta" goals="?" id="8133" />
+        <visitorteam name="Tigres" goals="?" id="12971" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Czech Republic: U19 League" gid="2843" id="2843" file_group="czech_republic" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="64" timer="64" date="May 15" formatted_date="15.05.2018" time="09:00" commentary_available="" venue="" v="0" static_id="2369265" fix_id="2253225" id="2442725">
+        <localteam name="FC Fastav Zlin U19" goals="0" id="26637" />
+        <visitorteam name="Brno U19" goals="0" id="26640" />
+        <events>
+        </events>
+        <ht score="[0-0]" />
+      </match>
+      <match status="66" timer="66" date="May 15" formatted_date="15.05.2018" time="09:00" commentary_available="" venue="" v="0" static_id="2369264" fix_id="2253224" id="2442705">
+        <localteam name="FK Pardubice U19" goals="1" id="26799" />
+        <visitorteam name="Slavia Prague U19" goals="0" id="26635" />
+        <events>
+          <event type="goal" minute="62" extra_min="" team="localteam" player="D. Safarik" result="[1 - 0]" playerId="" assist="" assistid="" eventid="24427051" />
+        </events>
+        <ht score="[0-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Ecuador: Serie A - First Stage" gid="1780" id="1191" file_group="equador" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="FT" timer="" date="May 15" formatted_date="15.05.2018" time="00:15" commentary_available="ecuador" venue="" v="60" static_id="2342733" fix_id="2226617" id="2437009">
+        <localteam name="LDU Quito" goals="2" id="8866" />
+        <visitorteam name="Macara" goals="1" id="8870" />
+        <events>
+          <event type="yellowcard" minute="10" extra_min="" team="visitorteam" player="M. Miers" result="" playerId="115417" assist="" assistid="" eventid="24370091" />
+          <event type="goal" minute="25" extra_min="" team="localteam" player="J. Julio" result="[1 - 0]" playerId="412369" assist="" assistid="" eventid="24370092" />
+          <event type="yellowcard" minute="50" extra_min="" team="visitorteam" player="C. Arboleda" result="" playerId="234149" assist="" assistid="" eventid="24370093" />
+          <event type="yellowcard" minute="59" extra_min="" team="localteam" player="J. Intriago" result="" playerId="290649" assist="" assistid="" eventid="24370094" />
+          <event type="yellowcard" minute="60" extra_min="" team="visitorteam" player="C. Feraud" result="" playerId="173732" assist="" assistid="" eventid="24370095" />
+          <event type="subst" minute="66" extra_min="" team="localteam" player="E. Vega" result="" playerId="174614" assist="J. Intriago" assistid="290649" eventid="24370096" />
+          <event type="goal" minute="71" extra_min="" team="localteam" player="H. Barcos" result="[2 - 0]" playerId="20270" assist="" assistid="" eventid="24370097" />
+          <event type="subst" minute="74" extra_min="" team="visitorteam" player="R. Champang" result="" playerId="190959" assist="M. Miers" assistid="115417" eventid="24370098" />
+          <event type="subst" minute="76" extra_min="" team="visitorteam" player="F. Mina" result="" playerId="438014" assist="C. Arboleda" assistid="234149" eventid="24370099" />
+          <event type="subst" minute="80" extra_min="" team="visitorteam" player="J. Dominguez" result="" playerId="328691" assist="E. Patta" assistid="132639" eventid="243700910" />
+          <event type="subst" minute="82" extra_min="" team="localteam" player="J. Borja" result="" playerId="334944" assist="F. Guerrero" assistid="23161" eventid="243700911" />
+          <event type="yellowcard" minute="84" extra_min="" team="localteam" player="J. Quinteros" result="" playerId="288890" assist="" assistid="" eventid="243700912" />
+          <event type="subst" minute="87" extra_min="" team="localteam" player="G. Rodriguez" result="" playerId="208252" assist="J. Julio" assistid="412369" eventid="243700913" />
+          <event type="goal" minute="88" extra_min="" team="visitorteam" player="J. Tevez" result="[2 - 1]" playerId="66406" assist="" assistid="" eventid="243700914" />
+          <event type="yellowcard" minute="90" extra_min="2" team="visitorteam" player="J. Cazares" result="" playerId="190095" assist="" assistid="" eventid="243700915" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[2-1]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Egypt: Egypt Cup" gid="2090" id="2090" file_group="egypt" iscup="True">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="" v="0" static_id="2370624" fix_id="2254593" id="2445776">
+        <localteam name="Smouha" goals="?" id="8950" />
+        <visitorteam name="Zamalek" goals="?" id="8959" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="England: Championship - Play Offs" gid="3768" id="1205" file_group="england" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="18:45" timer="" date="May 15" formatted_date="15.05.2018" time="18:45" commentary_available="championship" venue="Villa Park" v="0" static_id="2369951" fix_id="2253916" id="2444474">
+        <localteam name="Aston Villa" goals="?" id="9008" />
+        <visitorteam name="Middlesbrough" goals="?" id="9274" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Estonia: Meistriliiga" gid="1209" id="1209" file_group="estonia" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="16:00" timer="" date="May 15" formatted_date="15.05.2018" time="16:00" commentary_available="" venue="Hiiu staadion" v="0" static_id="2334755" fix_id="2218631" id="2440646">
+        <localteam name="Kalju" goals="?" id="9509" />
+        <visitorteam name="Levadia" goals="?" id="9530" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="16:00" timer="" date="May 15" formatted_date="15.05.2018" time="16:00" commentary_available="" venue="Kreenholmi Staadion" v="0" static_id="2334754" fix_id="2218630" id="2440626">
+        <localteam name="Narva" goals="?" id="9517" />
+        <visitorteam name="Tammeka" goals="?" id="9550" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Europe: Euro U17 Women" gid="2788" id="2109" file_group="eurocups" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="28" timer="28" date="May 15" formatted_date="15.05.2018" time="10:00" commentary_available="" venue="" v="0" static_id="2363126" fix_id="2247075" id="2431366">
+        <localteam name="England U17 W" goals="0" id="26922" />
+        <visitorteam name="Italy U17 W" goals="0" id="29380" />
+        <events>
+        </events>
+        <ht score="[0-0]" />
+      </match>
+      <match status="28" timer="28" date="May 15" formatted_date="15.05.2018" time="10:00" commentary_available="" venue="" v="0" static_id="2363129" fix_id="2247078" id="2431369">
+        <localteam name="Spain U17 W" goals="1" id="26904" />
+        <visitorteam name="Poland U17 W" goals="0" id="21152" />
+        <events>
+          <event type="goal" minute="8" extra_min="" team="localteam" player="E. Navarro (pen.)" result="[1 - 0]" playerId="" assist="" assistid="" eventid="24313691" />
+        </events>
+        <ht score="[1-0]" />
+      </match>
+      <match status="16:00" timer="" date="May 15" formatted_date="15.05.2018" time="16:00" commentary_available="" venue="" v="0" static_id="2363127" fix_id="2247076" id="2431367">
+        <localteam name="Germany U17 W" goals="?" id="26898" />
+        <visitorteam name="Lithuania U17 W" goals="?" id="29511" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="16:00" timer="" date="May 15" formatted_date="15.05.2018" time="16:00" commentary_available="" venue="" v="0" static_id="2363128" fix_id="2247077" id="2431368">
+        <localteam name="Netherlands U17 W" goals="?" id="28770" />
+        <visitorteam name="Finland U17 W" goals="?" id="29377" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Finland: Kakkonen Group B" gid="2832" id="1213" file_group="finland" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="15:30" timer="" date="May 15" formatted_date="15.05.2018" time="15:30" commentary_available="" venue="" v="0" static_id="2355236" fix_id="2239152" id="2414293">
+        <localteam name="Honka Akatemia" goals="?" id="25415" />
+        <visitorteam name="HJS Akatemia" goals="?" id="25412" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="France: Ligue 1 - Relegation" gid="4318" id="1221" file_group="france" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="18:45" timer="" date="May 15" formatted_date="15.05.2018" time="18:45" commentary_available="france" venue="Yên Phú Stadium" v="0" static_id="" fix_id="" id="2445792">
+        <localteam name="Le Havre" goals="?" id="9992" />
+        <visitorteam name="Brest" goals="?" id="9880" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Germany: Oberliga Schleswig-Holstein" gid="2711" id="1228" file_group="germany" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Ernst-Wagener-Stadion" v="0" static_id="2266414" fix_id="2150128" id="2444283">
+        <localteam name="Eichede" goals="?" id="10341" />
+        <visitorteam name="Todesfelde" goals="?" id="17939" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Germany: Oberliga Hamburg" gid="2195" id="1228" file_group="germany" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="17:30" timer="" date="May 15" formatted_date="15.05.2018" time="17:30" commentary_available="" venue="Stadion Hoheluft" v="0" static_id="2247223" fix_id="2130891" id="2444746">
+        <localteam name="SC Victoria Hamburg" goals="?" id="10655" />
+        <visitorteam name="Teutonia Ottensen" goals="?" id="27998" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Germany: Oberliga Hessen" gid="4398" id="1228" file_group="germany" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="16:30" timer="" date="May 15" formatted_date="15.05.2018" time="16:30" commentary_available="" venue="Parkstadion" v="0" static_id="2264247" fix_id="2147961" id="2441691">
+        <localteam name="Baunatal" goals="?" id="10279" />
+        <visitorteam name="Lohfelden" goals="?" id="10487" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Germany: Junioren Bundesliga Play Offs" gid="2376" id="1999" file_group="germany" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="16:00" timer="" date="May 15" formatted_date="15.05.2018" time="16:00" commentary_available="" venue="" v="0" static_id="2370132" fix_id="2254097" id="2445165">
+        <localteam name="Schalke U19" goals="?" id="10578" />
+        <visitorteam name="Hoffenheim U19" goals="?" id="26811" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Gibraltar: Premier Division" gid="2442" id="2442" file_group="gibraltar" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="18:30" timer="" date="May 15" formatted_date="15.05.2018" time="18:30" commentary_available="" venue="" v="0" static_id="2367086" fix_id="2251037" id="2437590">
+        <localteam name="Gibraltar Phoenix" goals="?" id="22788" />
+        <visitorteam name="Manchester 62" goals="?" id="10735" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Indonesia: Liga 2" gid="1749" id="1749" file_group="indonesia" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="FT" timer="" date="May 15" formatted_date="15.05.2018" time="08:00" commentary_available="" venue="" v="0" static_id="2368061" fix_id="2252012" id="2445020">
+        <localteam name="PSIM Yogyakarta" goals="2" id="11429" />
+        <visitorteam name="Balikpapan" goals="1" id="11379" />
+        <events>
+          <event type="goal" minute="46" extra_min="" team="localteam" player="H. Arga" result="[1 - 0]" playerId="" assist="" assistid="" eventid="24450201" />
+          <event type="goal" minute="59" extra_min="" team="localteam" player="Hendrico" result="[2 - 0]" playerId="" assist="" assistid="" eventid="24450202" />
+          <event type="goal" minute="90" extra_min="1" team="visitorteam" player="" result="[2 - 1]" playerId="" assist="" assistid="" eventid="24450203" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[2-1]" />
+      </match>
+      <match status="FT" timer="" date="May 15" formatted_date="15.05.2018" time="08:30" commentary_available="" venue="" v="0" static_id="2368182" fix_id="2252133" id="2444802">
+        <localteam name="Persibat Batang" goals="1" id="11381" />
+        <visitorteam name="Semen Padang" goals="2" id="11423" />
+        <events>
+          <event type="goal" minute="40" extra_min="" team="visitorteam" player="L. Guntara" result="[0 - 1]" playerId="" assist="" assistid="" eventid="24448021" />
+          <event type="goal" minute="73" extra_min="" team="visitorteam" player="" result="[0 - 2]" playerId="" assist="" assistid="" eventid="24448022" />
+          <event type="goal" minute="81" extra_min="" team="localteam" player="" result="[1 - 2]" playerId="" assist="" assistid="" eventid="24448023" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[1-2]" />
+      </match>
+      <match status="FT" timer="" date="May 15" formatted_date="15.05.2018" time="08:30" commentary_available="" venue="" v="0" static_id="2368181" fix_id="2252132" id="2444803">
+        <localteam name="Persika Karawang" goals="2" id="23233" />
+        <visitorteam name="Persiraja Aceh" goals="2" id="11408" />
+        <events>
+          <event type="goal" minute="28" extra_min="" team="visitorteam" player="" result="[0 - 1]" playerId="" assist="" assistid="" eventid="24448031" />
+          <event type="goal" minute="31" extra_min="" team="localteam" player="" result="[1 - 1]" playerId="" assist="" assistid="" eventid="24448032" />
+          <event type="goal" minute="37" extra_min="" team="localteam" player="" result="[2 - 1]" playerId="" assist="" assistid="" eventid="24448033" />
+          <event type="goal" minute="45" extra_min="2" team="visitorteam" player="" result="[2 - 2]" playerId="" assist="" assistid="" eventid="24448034" />
+        </events>
+        <ht score="[2-2]" />
+        <ft score="[2-2]" />
+      </match>
+      <match status="08:30" timer="" date="May 15" formatted_date="15.05.2018" time="08:30" commentary_available="" venue="" v="0" static_id="2368059" fix_id="2252010" id="2444821">
+        <localteam name="Persiwa Wamena" goals="?" id="11415" />
+        <visitorteam name="Gresik" goals="?" id="11360" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="90" timer="90+" date="May 15" formatted_date="15.05.2018" time="08:30" commentary_available="" venue="" v="0" static_id="2368180" fix_id="2252131" id="2444335">
+        <localteam name="Rembang" goals="1" id="11430" />
+        <visitorteam name="Cilegon United" goals="1" id="24420" />
+        <events>
+          <event type="goal" minute="19" extra_min="" team="localteam" player="Z. Arifin" result="[1 - 0]" playerId="78590" assist="" assistid="" eventid="24443351" />
+          <event type="goal" minute="27" extra_min="" team="visitorteam" player=" (pen.)" result="[1 - 1]" playerId="" assist="" assistid="" eventid="24443352" />
+        </events>
+        <ht score="[1-1]" />
+      </match>
+      <match status="09:00" timer="" date="May 15" formatted_date="15.05.2018" time="09:00" commentary_available="" venue="" v="0" static_id="2368060" fix_id="2252011" id="2444849">
+        <localteam name="Kalteng Putra" goals="?" id="21791" />
+        <visitorteam name="PSBS Biak Numfor" goals="?" id="23088" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="70" timer="70" date="May 15" formatted_date="15.05.2018" time="09:00" commentary_available="" venue="" v="0" static_id="2368183" fix_id="2252134" id="2444804">
+        <localteam name="Persis Solo" goals="2" id="11409" />
+        <visitorteam name="Perserang Serang" goals="0" id="11376" />
+        <events>
+          <event type="goal" minute="42" extra_min="" team="localteam" player="" result="[1 - 0]" playerId="" assist="" assistid="" eventid="24448041" />
+          <event type="goal" minute="47" extra_min="" team="localteam" player="" result="[2 - 0]" playerId="" assist="" assistid="" eventid="24448042" />
+        </events>
+        <ht score="[1-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Iraq: Super League" gid="2024" id="2024" file_group="iraq" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="12:00" timer="" date="May 15" formatted_date="15.05.2018" time="12:00" commentary_available="" venue="Al Sina&amp;apos;a Stadium" v="0" static_id="2352848" fix_id="2236760" id="2419656">
+        <localteam name="Al Naft" goals="?" id="11528" />
+        <visitorteam name="Al Minaa" goals="?" id="11506" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Ireland: Premier Division" gid="1258" id="1258" file_group="ireland" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="18:45" timer="" date="May 15" formatted_date="15.05.2018" time="18:45" commentary_available="" venue="Richmond Park" v="0" static_id="2327169" fix_id="2211032" id="2375327">
+        <localteam name="St. Patricks" goals="?" id="11611" />
+        <visitorteam name="Sligo Rovers" goals="?" id="11605" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Israel: Ligat Ha'Al - Championship Group" gid="1842" id="1261" file_group="israel" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="17:15" timer="" date="May 15" formatted_date="15.05.2018" time="17:15" commentary_available="" venue="Sammy Ofer Stadium" v="0" static_id="2358089" fix_id="2242006" id="2430903">
+        <localteam name="Hapoel Haifa" goals="?" id="11656" />
+        <visitorteam name="H. Beer Sheva" goals="?" id="11650" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="18:00" timer="" date="May 15" formatted_date="15.05.2018" time="18:00" commentary_available="" venue="Winner Stadium" v="0" static_id="2358090" fix_id="2242007" id="2430949">
+        <localteam name="Maccabi Tel Aviv" goals="?" id="11706" />
+        <visitorteam name="Beitar Jerusalem" goals="?" id="11631" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Italy: Serie C - Promotion - Play Offs" gid="5018" id="1551" file_group="italy" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="" v="0" static_id="2370663" fix_id="2254632" id="2445813">
+        <localteam name="Monza" goals="?" id="11945" />
+        <visitorteam name="Piacenza" goals="?" id="11967" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="18:30" timer="" date="May 15" formatted_date="15.05.2018" time="18:30" commentary_available="" venue="" v="0" static_id="2370664" fix_id="2254633" id="2445814">
+        <localteam name="AlbinoLeffe" goals="?" id="11751" />
+        <visitorteam name="FeralpiSalo" goals="?" id="11891" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="18:30" timer="" date="May 15" formatted_date="15.05.2018" time="18:30" commentary_available="" venue="" v="0" static_id="2370665" fix_id="2254634" id="2445815">
+        <localteam name="Cosenza" goals="?" id="11857" />
+        <visitorteam name="Casertana" goals="?" id="11839" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="18:30" timer="" date="May 15" formatted_date="15.05.2018" time="18:30" commentary_available="" venue="" v="0" static_id="2370666" fix_id="2254635" id="2445816">
+        <localteam name="Juve Stabia" goals="?" id="11921" />
+        <visitorteam name="Virtus Francavilla" goals="?" id="25056" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="18:30" timer="" date="May 15" formatted_date="15.05.2018" time="18:30" commentary_available="" venue="" v="0" static_id="2370667" fix_id="2254636" id="2445817">
+        <localteam name="Reggiana" goals="?" id="11991" />
+        <visitorteam name="Bassano" goals="?" id="11818" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="18:30" timer="" date="May 15" formatted_date="15.05.2018" time="18:30" commentary_available="" venue="" v="0" static_id="2370668" fix_id="2254637" id="2445818">
+        <localteam name="Viterbese" goals="?" id="24818" />
+        <visitorteam name="Carrarese" goals="?" id="11838" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Libya: Premier League - Winners Stage" gid="5021" id="1289" file_group="libya" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="15:00" timer="" date="May 15" formatted_date="15.05.2018" time="15:00" commentary_available="" venue="" v="0" static_id="2370173" fix_id="2254138" id="2445272">
+        <localteam name="Al Ahly Benghazi" goals="?" id="12506" />
+        <visitorteam name="Al Nasr" goals="?" id="13810" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="15:00" timer="" date="May 15" formatted_date="15.05.2018" time="15:00" commentary_available="" venue="" v="0" static_id="2370172" fix_id="2254137" id="2445273">
+        <localteam name="Al Ahly Tripoli" goals="?" id="12507" />
+        <visitorteam name="Al-Ittihad" goals="?" id="12513" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Netherlands: Eredivisie - Europa League - Play Offs" gid="3747" id="1322" file_group="holland" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="18:45" timer="" date="May 15" formatted_date="15.05.2018" time="18:45" commentary_available="holland" venue="GelreDome" v="0" static_id="2370751" fix_id="2254720" id="2446054">
+        <localteam name="Vitesse" goals="?" id="13470" />
+        <visitorteam name="Utrecht" goals="?" id="13466" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Northern Ireland: Nifl Championship - Relegation" gid="4273" id="1329" file_group="northern_ireland" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="18:00" timer="" date="May 15" formatted_date="15.05.2018" time="18:00" commentary_available="" venue="" v="0" static_id="2370506" fix_id="2254475" id="2444470">
+        <localteam name="Dergview" goals="?" id="13642" />
+        <visitorteam name="Queens Univ." goals="?" id="13677" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Norway: Division 3 - Group 4" gid="4600" id="4596" file_group="norway" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="" v="0" static_id="2365113" fix_id="2249062" id="2441017">
+        <localteam name="Vardeneset" goals="?" id="25548" />
+        <visitorteam name="Brodd" goals="?" id="19068" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Paraguay: Primera Division - Apertura" gid="1872" id="1338" file_group="paraguay" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="FT" timer="" date="May 14" formatted_date="14.05.2018" time="23:45" commentary_available="paraguay" venue="" v="60" static_id="2332227" fix_id="2216100" id="2440045">
+        <localteam name="Sol de America" goals="3" id="13892" />
+        <visitorteam name="Libertad Asuncion" goals="3" id="13884" />
+        <events>
+          <event type="goal" minute="27" extra_min="" team="localteam" player="A. Recalde" result="[1 - 0]" playerId="113336" assist="" assistid="" eventid="24400451" />
+          <event type="goal" minute="31" extra_min="" team="visitorteam" player="A. Bareiro" result="[1 - 1]" playerId="136369" assist="" assistid="" eventid="24400452" />
+          <event type="goal" minute="33" extra_min="" team="visitorteam" player="O. Cardozo" result="[1 - 2]" playerId="10556" assist="" assistid="" eventid="24400453" />
+          <event type="goal" minute="36" extra_min="" team="visitorteam" player="O. Cardozo" result="[1 - 3]" playerId="10556" assist="" assistid="" eventid="24400454" />
+          <event type="subst" minute="40" extra_min="" team="localteam" player="I. Villalba" result="" playerId="399998" assist="G. Velazquez" assistid="284541" eventid="24400455" />
+          <event type="yellowcard" minute="42" extra_min="" team="visitorteam" player="A. Alcaraz" result="" playerId="13589" assist="" assistid="" eventid="24400456" />
+          <event type="subst" minute="56" extra_min="" team="localteam" player="C. Villagra" result="" playerId="409289" assist="R. Ruiz Diaz" assistid="473418" eventid="24400457" />
+          <event type="subst" minute="58" extra_min="" team="visitorteam" player="P. da Silva" result="" playerId="393" assist="A. Alcaraz" assistid="13589" eventid="24400458" />
+          <event type="subst" minute="71" extra_min="" team="visitorteam" player="S. Salcedo" result="" playerId="17812" assist="O. Cardozo" assistid="10556" eventid="24400459" />
+          <event type="subst" minute="72" extra_min="" team="localteam" player="R. Franco" result="" playerId="432679" assist="N. Arrechea" assistid="249040" eventid="244004510" />
+          <event type="subst" minute="77" extra_min="" team="visitorteam" player="F. Gimenez" result="" playerId="21737" assist="R. Alborno" assistid="113331" eventid="244004511" />
+          <event type="goal" minute="80" extra_min="" team="localteam" player="C. Villagra" result="[2 - 3]" playerId="409289" assist="" assistid="" eventid="244004512" />
+          <event type="yellowcard" minute="86" extra_min="" team="localteam" player="I. Villalba" result="" playerId="399998" assist="" assistid="" eventid="244004513" />
+          <event type="yellowcard" minute="89" extra_min="" team="visitorteam" player="F. Gimenez" result="" playerId="21737" assist="" assistid="" eventid="244004514" />
+          <event type="goal" minute="90" extra_min="3" team="localteam" player="M. Gimenez" result="[3 - 3]" playerId="282511" assist="" assistid="" eventid="244004515" />
+        </events>
+        <ht score="[1-3]" />
+        <ft score="[3-3]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Romania: Liga 1 - Relegation Group" gid="3895" id="1361" file_group="romania" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="15:30" timer="" date="May 15" formatted_date="15.05.2018" time="15:30" commentary_available="romania" venue="Stadionul Municipal" v="0" static_id="2349841" fix_id="2233745" id="2434592">
+        <localteam name="Sepsi" goals="?" id="23585" />
+        <visitorteam name="Poli Timisoara" goals="?" id="14522" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="18:00" timer="" date="May 15" formatted_date="15.05.2018" time="18:00" commentary_available="romania" venue="Stadionul Anghel Iordanescu" v="0" static_id="2349838" fix_id="2233742" id="2434581">
+        <localteam name="FC Juventus Bucuresti" goals="?" id="14748" />
+        <visitorteam name="Din. Bucuresti" goals="?" id="14642" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Rwanda: National Football League" gid="2475" id="2475" file_group="rwanda" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="13:30" timer="" date="May 15" formatted_date="15.05.2018" time="13:30" commentary_available="" venue="Ubworoherane Football Stadium" v="0" static_id="2310506" fix_id="2194286" id="2446793">
+        <localteam name="Musanze" goals="?" id="25219" />
+        <visitorteam name="Rayon Sport" goals="?" id="14960" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="South America: Copa Libertadores" gid="1040" id="1040" file_group="southamerica" iscup="True">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="22:15" timer="" date="May 15" formatted_date="15.05.2018" time="22:15" commentary_available="libertadores" venue="" v="0" static_id="2347247" fix_id="2231140" id="2399954">
+        <localteam name="Defensor Sp." goals="?" id="17426" />
+        <visitorteam name="Cerro Porteno" goals="?" id="13875" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="22:15" timer="" date="May 15" formatted_date="15.05.2018" time="22:15" commentary_available="libertadores" venue="" v="0" static_id="2347248" fix_id="2231141" id="2440428">
+        <localteam name="Delfin" goals="?" id="8854" />
+        <visitorteam name="Atl. Nacional" goals="?" id="8150" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="00:30" timer="" date="May 16" formatted_date="16.05.2018" time="00:30" commentary_available="libertadores" venue="" v="0" static_id="2347246" fix_id="2231139" id="2440429">
+        <localteam name="Colo Colo" goals="?" id="7967" />
+        <visitorteam name="Bolivar" goals="?" id="6983" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="00:30" timer="" date="May 16" formatted_date="16.05.2018" time="00:30" commentary_available="libertadores" venue="" v="0" static_id="2347245" fix_id="2231138" id="2399955">
+        <localteam name="Monagas" goals="?" id="17549" />
+        <visitorteam name="Gremio" goals="?" id="7327" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Sudan: Premier League" gid="1401" id="1401" file_group="sudan" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="14:00" timer="" date="May 15" formatted_date="15.05.2018" time="14:00" commentary_available="" venue="" v="0" static_id="2362894" fix_id="2246843" id="2445021">
+        <localteam name="Al-Ahly Merowe" goals="?" id="29206" />
+        <visitorteam name="Al-Khartoum" goals="?" id="16343" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Port Sudan Stadium" v="0" static_id="2362895" fix_id="2246844" id="2445022">
+        <localteam name="Hay al-Arab" goals="?" id="16341" />
+        <visitorteam name="Al Hilal Kadougli" goals="?" id="16330" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Sweden: Superettan" gid="1405" id="1405" file_group="sweden" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="sweden1" venue="Landskrona Idrottsplats" v="0" static_id="2324292" fix_id="2208145" id="2442027">
+        <localteam name="Landskrona" goals="?" id="16505" />
+        <visitorteam name="Helsingborg" goals="?" id="16456" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Sweden: Svenska Cupen - Qualification" gid="3873" id="1406" file_group="sweden" iscup="True">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Yên Phú Stadium" v="0" static_id="" fix_id="" id="2444923">
+        <localteam name="Gestriklands" goals="?" id="" />
+        <visitorteam name="Dalarnas FF" goals="?" id="" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Yên Phú Stadium" v="0" static_id="" fix_id="" id="2444924">
+        <localteam name="Gotlands" goals="?" id="" />
+        <visitorteam name="Varmdo" goals="?" id="16587" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Yên Phú Stadium" v="0" static_id="" fix_id="" id="2444925">
+        <localteam name="Halmia" goals="?" id="16487" />
+        <visitorteam name="Eskilsminne" goals="?" id="20314" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Yên Phú Stadium" v="0" static_id="" fix_id="" id="2444926">
+        <localteam name="Halsinglands" goals="?" id="" />
+        <visitorteam name="Jamtland-Harjedalens" goals="?" id="" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Yên Phú Stadium" v="0" static_id="" fix_id="" id="2444927">
+        <localteam name="Hisingsbacka" goals="?" id="29352" />
+        <visitorteam name="Utsiktens" goals="?" id="16582" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Yên Phú Stadium" v="0" static_id="" fix_id="" id="2444928">
+        <localteam name="IFK Falkoping" goals="?" id="16468" />
+        <visitorteam name="Assyriska IK" goals="?" id="23382" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Yên Phú Stadium" v="0" static_id="" fix_id="" id="2444929">
+        <localteam name="IFK Lulea" goals="?" id="16473" />
+        <visitorteam name="Team TG FF" goals="?" id="20322" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Yên Phú Stadium" v="0" static_id="" fix_id="" id="2444931">
+        <localteam name="Medelpads" goals="?" id="" />
+        <visitorteam name="Angermanlands" goals="?" id="" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Yên Phú Stadium" v="0" static_id="" fix_id="" id="2444932">
+        <localteam name="Motala" goals="?" id="16525" />
+        <visitorteam name="Husqvarna" goals="?" id="16462" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Yên Phú Stadium" v="0" static_id="" fix_id="" id="2444935">
+        <localteam name="Skoftebyns" goals="?" id="19030" />
+        <visitorteam name="Stenungsunds" goals="?" id="16566" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Yên Phú Stadium" v="0" static_id="" fix_id="" id="2444938">
+        <localteam name="Tyreso" goals="?" id="16579" />
+        <visitorteam name="Arameisk-Syrianska" goals="?" id="16569" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Sportfältet Teleborg Konstgräs" v="0" static_id="2371059" fix_id="2255032" id="2444939">
+        <localteam name="Vaxjo" goals="?" id="25625" />
+        <visitorteam name="Karlskrona" goals="?" id="16493" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Yên Phú Stadium" v="0" static_id="" fix_id="" id="2444940">
+        <localteam name="Vaxjo United" goals="?" id="" />
+        <visitorteam name="Dalstorps" goals="?" id="19122" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Tanzania: Ligi Kuu Bara" gid="2479" id="2479" file_group="tanzania" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="12:00" timer="" date="May 15" formatted_date="15.05.2018" time="12:00" commentary_available="" venue="" v="0" static_id="2293487" fix_id="2177242" id="2446792">
+        <localteam name="Mtibwa Sugar" goals="?" id="25228" />
+        <visitorteam name="Lipuli" goals="?" id="28471" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Turkey: Tff 1. Lig - Play Offs" gid="3868" id="1422" file_group="turkey" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="13:00" timer="" date="May 15" formatted_date="15.05.2018" time="13:00" commentary_available="" venue="Ümraniye Hekimbasi Sehir Stadyumu" v="0" static_id="2369972" fix_id="2253937" id="2444902">
+        <localteam name="Umraniyespor" goals="?" id="19910" />
+        <visitorteam name="Erzurum BB" goals="?" id="19918" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="Bolu Atatürk Stadyumu" v="0" static_id="2369974" fix_id="2253939" id="2444903">
+        <localteam name="Boluspor" goals="?" id="16997" />
+        <visitorteam name="Gaziantep" goals="?" id="17031" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Turkey: Tff 3. Lig Play Offs" gid="2362" id="2362" file_group="turkey" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="13:00" timer="" date="May 15" formatted_date="15.05.2018" time="13:00" commentary_available="" venue="" v="0" static_id="2370488" fix_id="2254455" id="2443590">
+        <localteam name="Ankara Demirspor" goals="?" id="16978" />
+        <visitorteam name="24 Erzincanspor" goals="?" id="17021" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="13:00" timer="" date="May 15" formatted_date="15.05.2018" time="13:00" commentary_available="" venue="" v="0" static_id="2370489" fix_id="2254456" id="2443591">
+        <localteam name="Bayburt" goals="?" id="21439" />
+        <visitorteam name="Duzcespor" goals="?" id="17018" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="13:00" timer="" date="May 15" formatted_date="15.05.2018" time="13:00" commentary_available="" venue="" v="0" static_id="2370491" fix_id="2254458" id="2443593">
+        <localteam name="Sultanbeyli" goals="?" id="24890" />
+        <visitorteam name="Kizilcaboluk Spor Kulubu" goals="?" id="22361" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="16:00" timer="" date="May 15" formatted_date="15.05.2018" time="16:00" commentary_available="" venue="" v="0" static_id="2370490" fix_id="2254457" id="2443592">
+        <localteam name="Diyarbekirspor" goals="?" id="22557" />
+        <visitorteam name="Tire" goals="?" id="23898" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="16:00" timer="" date="May 15" formatted_date="15.05.2018" time="16:00" commentary_available="" venue="" v="0" static_id="2370492" fix_id="2254459" id="2443594">
+        <localteam name="Kemerspor 2003" goals="?" id="17101" />
+        <visitorteam name="Bayrampasa" goals="?" id="16991" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="16:00" timer="" date="May 15" formatted_date="15.05.2018" time="16:00" commentary_available="" venue="" v="0" static_id="2370493" fix_id="2254460" id="2443595">
+        <localteam name="Tarsus" goals="?" id="17099" />
+        <visitorteam name="Elaziz Bld." goals="?" id="26115" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Uzbekistan: Super League" gid="1443" id="1443" file_group="uzbekistan" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="13:00" timer="" date="May 15" formatted_date="15.05.2018" time="13:00" commentary_available="" venue="Markaziy Stadion Olmaliq" v="0" static_id="2346987" fix_id="2230880" id="2440448">
+        <localteam name="AGMK" goals="?" id="17477" />
+        <visitorteam name="Bunyodkor" goals="?" id="17468" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="13:00" timer="" date="May 15" formatted_date="15.05.2018" time="13:00" commentary_available="" venue="Markaziy Stadion" v="0" static_id="2346983" fix_id="2230876" id="2440453">
+        <localteam name="Navbahor Namangan" goals="?" id="17480" />
+        <visitorteam name="Met. Bekobod" goals="?" id="17477" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="13:00" timer="" date="May 15" formatted_date="15.05.2018" time="13:00" commentary_available="" venue="Stadion Jizzax" v="0" static_id="2346985" fix_id="2230878" id="2440454">
+        <localteam name="Sogdiana" goals="?" id="27504" />
+        <visitorteam name="Pakhtakor" goals="?" id="17485" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Wales: Cymru Alliance" gid="1450" id="1450" file_group="wales" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="17:04" timer="" date="May 15" formatted_date="15.05.2018" time="17:04" commentary_available="" venue="The Dunks" v="0" static_id="2279706" fix_id="2163437" id="2350616">
+        <localteam name="Queens Park" goals="?" id="15111" />
+        <visitorteam name="Penrhyncoch" goals="?" id="17679" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="World: Friendly International" gid="1535" id="1535" file_group="world" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="17:30" timer="" date="May 15" formatted_date="15.05.2018" time="17:30" commentary_available="" venue="Estadio Olímpico de Sevilla" v="0" static_id="2368370" fix_id="2252323" id="2442809">
+        <localteam name="Saudi Arabia" goals="?" id="14987" />
+        <visitorteam name="Greece" goals="?" id="10742" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="World: Club Friendly" gid="1534" id="1534" file_group="world" iscup="False">
+    <matches date="May 15" formatted_date="15.05.2018">
+      <match status="17:00" timer="" date="May 15" formatted_date="15.05.2018" time="17:00" commentary_available="" venue="" v="0" static_id="2366902" fix_id="2250853" id="2443091">
+        <localteam name="Hallescher" goals="?" id="10417" />
+        <visitorteam name="Stuttgart" goals="?" id="10646" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+</scores>

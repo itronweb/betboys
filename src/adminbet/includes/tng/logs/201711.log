@@ -1,0 +1,138 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/hotel/admin/plugins/admin/admin_add.php
+
+Date:
+  2017-11-13 18:37:22
+
+Error:
+  SQL error: Field 'level' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, image, portalid, mobile, user, pass, status) values ('کاربر تست', '', 0, null, 'sari', '0937afa17f4dc08f3c0e5dc908158370ce64df86', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/hotel/admin/plugins/gallery/gallery_add.php
+
+Date:
+  2017-11-16 16:50:45
+
+Error:
+  File upload error: Invalid file name.
+
+Developer Details:
+  File upload error: Invalid file name. File name contains ".." character. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload2
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_RollBack
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/hotel/admin/plugins/gallery/gallery_add.php
+
+Date:
+  2017-11-16 16:51:31
+
+Error:
+  File upload error: Invalid file name.
+
+Developer Details:
+  File upload error: Invalid file name. File name contains ".." character. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload2*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/hotel/admin/plugins/dailymessage/dailymessage_add.php
+
+Date:
+  2017-11-18 15:52:28
+
+Error:
+  SQL error: Data too long for column 'title' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO dailymessage (category, title, url, target, style, image, expiredate, sort, portalid, status) values (0, 'از دست دادن امیدی پوچ و محال، خود موفقیت و پیشرفتی بزرگ است. «شکسپیر»', null, null, null, '', null, 1, 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

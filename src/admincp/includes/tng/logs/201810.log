@@ -1,0 +1,33 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  78.164.247.114
+
+Host:
+  www.4ubet.org
+
+Requested URI:
+  http://www.4ubet.org/admin/plugins/api/api_edit.php?id=!!!!wpmwntiNYBDJ9HEuWeplGT
+
+Date:
+  2018-10-01 14:38:43
+
+Error:
+  SQL error: Data too long for column 'api_token' at row 1.
+
+Developer Details:
+  SQL error: UPDATE `api_token` SET api_token='http://www.goalserve.com/getfeed/f25a790d024e48d98c5debd88477c875/getodds/soccer?cat=soccer_10&date_start=01.10.2018', status='1' WHERE id = 2. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===

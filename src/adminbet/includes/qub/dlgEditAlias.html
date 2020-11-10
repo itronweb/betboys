@@ -1,0 +1,91 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+<html>
+<head>
+<title>Query Builder (QuB) :: Edit Table Alias</title>
+<script>
+function repaint() {
+	if (!opener) {
+		dlgOpener = window.dialogArguments;
+	} else {
+		dlgOpener = opener;
+	}
+	talias = document.getElementById('table_alias');
+	talias.value = dlgOpener.top.mo.selectedTable;
+	talias.focus();
+}
+function returnModalResult(how) {
+	switch (how) {
+		case 'save':
+			if (!dlgOpener.top.mo.selectedTable) {
+				break;
+			}
+			new_alias = talias.value.replace(/[^\w]/g, "");
+			if (dlgOpener.top.mo.selectedTable == new_alias) {
+				break;
+			}
+			talias.value = new_alias;
+			if (dlgOpener.top.ui.myQuery.tables.item(new_alias)) {
+				alert("A table with this alias/name already exists!\r\nPlease choose other alias.");
+				return;
+			}
+			dlgOpener.top.canvas.undo.addUndo("Change table alias");
+			dlgOpener.top.ui.myQuery.tables.item(dlgOpener.top.mo.selectedTable).realias(new_alias);
+			dlgOpener.top.mo.selectedTable = new_alias;
+			break;
+	}
+
+	close();
+}
+function keyPressed(e) {
+	if (!window.event) {
+		var event = e;
+	} else {
+		var event = window.event;
+	}
+	switch(event.keyCode) {
+		case 116:
+			window.onunload = null;
+			break;
+		case 27:
+			returnModalResult('cancel');
+			break;
+		case 13:
+			returnModalResult('save');
+			break;
+	}
+}
+
+</script>
+<link rel="stylesheet" href="includes/styles/dlg.css" type="text/css">
+</head>
+<body onload="repaint();" onKeyDown="keyPressed(event)">
+	<fieldset><legend>Edit Table Alias</legend>
+	<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="2">
+		<tr>
+			<td><input type="text" id="table_alias"/></td>
+		</tr>
+	</table>
+	</fieldset>
+	<div id="context_help">
+	</div>
+	<div id="bottom_buttons">
+			<input id="btnYes" type="button" value="Change" onKeyDown="keyPressed(event)" onClick="returnModalResult('save');">
+			<input id="btnCancel" type="button" value="Cancel" onClick="returnModalResult('cancel');">
+			<input id="btnHelp" type="button" value="Help" onClick="dlgOpener.top.showQUBHelp('qub.dlg.changetablealias')">
+	</div>
+</body>
+</html>

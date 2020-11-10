@@ -1,0 +1,35 @@
+{
+	"description" : "The CodeIgniter Application with Composer",
+	"require": {
+		"php": ">=5.3.2",
+		"codeigniter/framework": "3.0.*",
+		"illuminate/database": "5.0.x",
+		"illuminate/events": "5.0.x",
+		"illuminate/filesystem": "5.0.x",
+		"smarty/smarty": "3.1.x",
+		"miladr/jalali": "dev-master",
+		"lanz/laravel-commentable": "~2.0",
+		"cviebrock/eloquent-taggable": "2.x@dev",
+		"cviebrock/eloquent-sluggable": "3.x@dev",
+		"nicolaslopezj/searchable": "^1.5",
+		"rossriley/upload": "1.2.x@dev",
+		"doctrine/dbal": "^2.5",
+		"zetacomponents/archive": "^1.5",
+		"eventviva/php-image-resize": "^1.5",
+		"cron/cron": "^1.0",
+		"markwilson/xml-to-json": "^0.1.4",
+		"simplito/elliptic-php": "^1.0",
+		"guzzlehttp/psr7": "^1.7",
+		"guzzlehttp/promises": "^1.4",
+		"guzzlehttp/guzzle": "^7.2",
+		"iexbase/tron-api": "^3.1"
+	},
+	"require-dev": {
+		"mikey179/vfsStream": "1.1.*",
+		"symfony/var-dumper": "2.6.x",
+		"symfony/debug": "2.6.x",
+		"cartalyst/sentinel": "^2.0",
+		"ircmaxell/password-compat": "^1.0",
+		"jamierumbelow/presenters": "~1.0"
+	}
+}

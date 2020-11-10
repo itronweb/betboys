@@ -1,0 +1,82 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+<html>
+<head>
+<title>Query Builder (QuB) :: Print Diagram</title>
+<link rel="stylesheet" href="includes/styles/styles.css" type="text/css">
+<link rel="stylesheet" href="includes/styles/canvas.css" type="text/css" media="screen">
+<link rel="stylesheet" href="includes/styles/canvas_print.css" type="text/css" media="print">
+<script>
+function loadDiagram() {
+	if (!opener) {
+		dlgOpener = window.dialogArguments;
+	} else {
+		dlgOpener = opener;
+	}
+
+	zoomFactor = dlgOpener.top.canvas.zoomFactor;
+
+	var rulesList = document.styleSheets[1].rules;
+	if (!rulesList) {
+		rulesList = document.styleSheets[1].cssRules;
+	}
+	rulesList[0].style.fontSize = 11*zoomFactor;
+	rulesList[1].style.fontSize = 11*zoomFactor;
+	rulesList[2].style.fontSize = 13*zoomFactor;
+	rulesList[3].style.fontSize = 11*zoomFactor;
+	rulesList[4].style.fontSize = 11*zoomFactor;
+
+	var rulesList = document.styleSheets[2].rules;
+	if (!rulesList) {
+		rulesList = document.styleSheets[2].cssRules;
+	}
+
+	rulesList[0].style.fontSize = 11*zoomFactor;
+	rulesList[1].style.fontSize = 11*zoomFactor;
+	rulesList[2].style.fontSize = 13*zoomFactor;
+	rulesList[3].style.fontSize = 11*zoomFactor;
+	rulesList[4].style.fontSize = 11*zoomFactor;
+
+	var minx = miny = 100000;
+	for(var i=0; i<dlgOpener.top.ui.myQuery.tables.length; i++) {
+		minx = Math.min(dlgOpener.top.ui.myQuery.tables.item(i).ui.x, minx);
+		miny = Math.min(dlgOpener.top.ui.myQuery.tables.item(i).ui.y, miny);
+	}
+	for(var i=0; i<dlgOpener.top.ui.myQuery.relations.length; i++) {
+		minx = Math.min(dlgOpener.top.ui.myQuery.relations.item(i).ui.relLeft, minx);
+		miny = Math.min(dlgOpener.top.ui.myQuery.relations.item(i).ui.relTop1, miny);
+		miny = Math.min(dlgOpener.top.ui.myQuery.relations.item(i).ui.relTop2, miny);
+	}
+
+	var pa = document.getElementById('print_area');
+	pa.style.left = ( -minx + 12 ) + 'px';
+	pa.style.top = ( -miny + 12 ) + 'px';
+	pa.innerHTML = dlgOpener.top.canvas.document.body.innerHTML;
+
+	window.onerror = rf;
+	window.print();
+}
+function rf(e){
+	return false;
+}
+</script>
+</head>
+<body onload="loadDiagram()">
+<div id="print_area" style="padding:0px; margin:0px; position:absolute; left:0px; top:0px; border:1px solid black;"></div>
+	
+</body>
+</html>
+

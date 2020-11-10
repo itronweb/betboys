@@ -1,0 +1,1 @@
+{"socket":["ws:http://136.243.255.205:3000/api"],"token":"+yYPJrUSXbWsqAc\/rtJDUQI6PxuJ83nQJYyXNQL45NGrh4xr3GWwem\/xfKFLZaxck2fao4kCU3k+iBe4MYnFDKEdhqk\/+Ft52uZnENGwkbVkAs3baveaB+hgAiKbrmT3Gept1EWT9jjqtqPB8Km36cY00nnZM8Ze7JU33Pt1vMM="}

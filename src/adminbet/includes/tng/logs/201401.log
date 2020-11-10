@@ -1,0 +1,4278 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:20:25
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:20:59
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:21:34
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:21:50
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:22:36
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('1392/10/16') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:22:37
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:22:56
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:23:21
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:23:42
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:24:00
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:24:02
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:27:33
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:28:52
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('mkaxcgne') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:30:07
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('28') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:31:22
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('0') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2014-01-06 11:32:28
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (title, news_id, name, email, matn, date, ip, `read`, active, id, kt_pk_newscomment) VALUES ('Mr.') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 11:49:15
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1392/10/16') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 11:50:16
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1392/10/16') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 11:51:15
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1392/10/16') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 11:52:17
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1392/10/16') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 11:53:18
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1392/10/16') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 11:54:22
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1392/10/16') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 11:55:25
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1392/10/16') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 11:56:27
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1392/10/16') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 11:57:27
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1392/10/16') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 11:58:28
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1392/10/16') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 11:59:28
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 11:59:33
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 11:59:47
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:00:02
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:00:16
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:00:26
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:00:31
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:00:45
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:01:00
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:01:15
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:01:25
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:01:29
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:01:44
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:01:58
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:02:13
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:02:22
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:02:27
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:02:42
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:02:56
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:03:11
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:03:20
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:03:25
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:03:40
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:03:54
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:04:10
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:04:20
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:05:22
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:06:24
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:07:28
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:08:30
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:09:39
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:09:54
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:10:10
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:10:25
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:10:40
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:10:56
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:11:12
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:11:28
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:11:43
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:11:58
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:12:13
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:12:28
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:12:44
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:12:59
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:13:14
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:13:30
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:13:46
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:14:01
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:14:16
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:14:33
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:14:49
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:15:05
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:15:20
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:15:35
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:15:51
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:16:07
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:16:22
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:16:37
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:16:53
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:17:08
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:17:24
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:17:40
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:17:56
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:18:12
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:18:27
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:18:43
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:18:58
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:19:14
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:19:30
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:19:45
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:20:02
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:31:23
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('0') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:32:26
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('0') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:33:30
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('0') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:34:33
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('0') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:35:37
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('0') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:36:40
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('0') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:37:44
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('0') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:38:49
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('0') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:39:54
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('0') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:40:59
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('0') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:42:06
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:43:08
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:44:43
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:46:10
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:47:08
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:48:05
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:49:03
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:49:59
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:50:52
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:51:43
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('sample@email.tst') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:52:39
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:53:36
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:55:22
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:56:21
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:57:18
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:58:13
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 12:59:08
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:00:00
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:00:50
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:01:41
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('1') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:02:32
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('02:17:49 ب.ظ') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:03:24
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('Mr.') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:04:15
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('Mr.') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:05:08
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('Mr.') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:05:58
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('Mr.') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:06:51
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('Mr.') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:07:43
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('Mr.') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:08:38
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('Mr.') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:09:33
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('Mr.') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:10:28
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('Mr.') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/persiandehyar/contact.php
+
+Date:
+  2014-01-06 13:11:23
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error inserting into temporary table:<br />Column count doesn't match value count at row 1<br/>SQL:<br />INSERT INTO KT_fakeRS_20140106 (sender, title, email, text, date, time, `read`, ip, id, kt_pk__comment_) VALUES ('Mr.') (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===

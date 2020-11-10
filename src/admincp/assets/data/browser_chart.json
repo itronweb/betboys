@@ -1,0 +1,10 @@
+{
+  "browser": ["data1","data2","data3","data4","data5","data6","data7"],
+  "Google Chrome": [2249],
+  "Mozila Firefox": [20],
+  "Microsoft Edge": [0],
+  "Opera": [0],
+  "Safari": [40],
+  "Internet Explorer": [0],
+  "Other": [1234]
+}

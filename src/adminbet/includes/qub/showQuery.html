@@ -1,0 +1,45 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="includes/styles/styles.css" type="text/css">
+<script src="./includes/config.js"></script>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="2" topmargin="2" marginwidth="2" marginheight="2">
+<div class="sql_query">
+<script>
+if (parent.ui.loaded) {
+	canvas = parent.frames['canvas'];
+	sql = canvas.sqlQuery;
+	if (sql) {
+		if (canvas.myQuery.tables.length == 0) {
+			document.write(locales["Please use at least one table"]);
+		} else {
+			document.write(sql.replace(/>/g, "&gt;").replace(/</g, "&lt;").replace(/\n/g,"<br/>"));
+		}
+	}
+
+	if(parent.top.ui.sql_warnings.length>0) {
+		document.write('<h4>Notice(s):</h4><ul><li>' + parent.top.ui.sql_warnings.join('</li><li>') + '</li></ul>');
+	}
+}
+top.hidePleaseWait();
+</script>
+</div>
+</body>
+</html>

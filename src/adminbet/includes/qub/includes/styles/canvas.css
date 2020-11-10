@@ -1,0 +1,146 @@
+/*
+ * ADOBE SYSTEMS INCORPORATED
+ * Copyright 2007 Adobe Systems Incorporated
+ * All Rights Reserved
+ * 
+ * NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+ * terms of the Adobe license agreement accompanying it. If you have received this file from a 
+ * source other than Adobe, then your use, modification, or distribution of it requires the prior 
+ * written permission of Adobe.
+ */
+
+.column{
+}
+.qtd {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	vertical-align:middle;
+	padding:1px 3px 1px 1px;
+	background-color: #FFFFFF;
+	border-color: black;
+	border-style: none; 
+	border-width: 0px 0px 0px 0px; 
+	border-top:1px dotted #dfdfdf;
+}
+
+.qth {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+	background-color: #d4d0c8;
+	border-color: black #000000 #000000 black;
+	border-style: solid;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	text-align: center;
+	padding:2px 0px 2px 0px;
+	zoverflow:hidden;
+}
+
+#dragdrop_helper {
+	font-family: sans-serif;
+	font-size: 11px;
+	position:absolute; 
+	padding:2px 4px;
+	top:0px;
+	border:1px outset white; 
+	background-color:#DfDfDf;
+	display:none;
+	white-space: nowrap;
+	z-index:1002;
+}
+#dragLink {
+	font-family: sans-serif;
+	font-size: 11px;
+	position:absolute;
+	border-style: dashed; border-width: 1px;
+	display:none; 
+	padding:2px 4px;
+	z-index:1001;
+	background-color:#DfDfDf;
+}
+.key_base {
+	display:block;
+	width:10px;
+	height:100%;
+}
+.column_pk {
+	background:transparent url(../../images/column_pk.gif) 0 0 no-repeat;
+}
+.column_fk {
+	background:transparent url(../../images/column_fk.gif) 0 0 no-repeat;
+}
+
+.column_was_deleted {
+	color:red;
+	font-size:10px;
+	text-decoration:line-through;
+}
+HTML * {
+	-moz-box-model:box;
+}
+html, body {
+	overflow: auto;
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+}
+
+.cbfortablecolumn {
+	cursor:pointer !important;
+	width:13px;
+	height:13px;
+	margin:-1px;
+	margin-left:-2px;
+	margin-top:-2px;
+}
+	.table {  
+		cursor:pointer !important;
+		cursor:hand;
+		background-color:white;
+		border: 1px dashed #EEEEEE;
+		width:auto;
+	}
+	.qtable {
+		border: 1px solid black;
+		border-collapse:collapse;
+	}
+	.links {
+		width: 3px;
+	}
+	.links1 {
+		height: 3px;
+	}
+	.relname {
+		color: #FFFFFF;
+		cursor: default;
+		font-family: "Courier New"; 
+		font-size: 14px; 
+		font-weight: bold;
+	}
+		.relname_visible {
+			padding: 2px 0px 0px 0px;
+		}
+.rel_right_arrow {
+	font-family:verdana;
+	font-size:12px;
+	/*background-image:url(../../images/column_pk.gif);*/
+}
+.rel_left_arrow {
+	font-family:verdana;
+	font-size:12px;
+}
+.rel_up_arrow {
+	font-family:verdana;
+	font-size:14px;
+}
+.rel_down_arrow {
+	font-family:verdana;
+	font-size:14px;
+}
+
+.column_alias {
+	color:blue;
+}

@@ -1,0 +1,335 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  188.114.103.58
+
+Host:
+  deltabet.online
+
+Requested URI:
+  http://deltabet.online/adminbet/plugins/users/users_increase.php?id=!!!!Q9O5pSzlyjrC@@36M9593ur
+
+Date:
+  2020-04-05 14:54:27
+
+Error:
+  SQL error: Column 'price' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `transactions` (price, user_id, invoice_type, description, trans_id, cash, created_at, updated_at, status) values (null, 117, 10, 'افزایش شارژ حساب توسط مدیریت', 'ADMIN_INCREASE1586082267', 0, '2020-04-05 14:54:27', '2020-04-05 14:54:27', 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  188.114.103.58
+
+Host:
+  deltabet.online
+
+Requested URI:
+  http://deltabet.online/adminbet/plugins/users/users_increase.php?id=!!!!Q9O5pSzlyjrC@@36M9593ur
+
+Date:
+  2020-04-05 14:54:30
+
+Error:
+  SQL error: Column 'price' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `transactions` (price, user_id, invoice_type, description, trans_id, cash, created_at, updated_at, status) values (null, 117, 10, 'افزایش شارژ حساب توسط مدیریت', 'ADMIN_INCREASE1586082270', 0, '2020-04-05 14:54:30', '2020-04-05 14:54:30', 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  188.114.103.58
+
+Host:
+  deltabet.online
+
+Requested URI:
+  http://deltabet.online/adminbet/plugins/users/users_increase.php?id=!!!!Q9O5pSzlyjrC@@36M9593ur
+
+Date:
+  2020-04-05 14:54:32
+
+Error:
+  SQL error: Column 'price' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `transactions` (price, user_id, invoice_type, description, trans_id, cash, created_at, updated_at, status) values (null, 117, 10, 'افزایش شارژ حساب توسط مدیریت', 'ADMIN_INCREASE1586082272', 0, '2020-04-05 14:54:32', '2020-04-05 14:54:32', 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  162.158.89.144
+
+Host:
+  hazarat.gold
+
+Requested URI:
+  http://hazarat.gold/adminbet/plugins/users/users_increase.php?id=!!!!QC3qlIj46ZqKOgPnUHxx6V
+
+Date:
+  2020-04-14 02:18:06
+
+Error:
+  SQL error: Out of range value for column 'price' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO `transactions` (price, user_id, invoice_type, description, trans_id, cash, created_at, updated_at, status) values (10000000000, 102, 10, 'افزایش شارژ حساب توسط مدیریت', 'ADMIN_INCREASE1586814486', 10000000040, '2020-04-14 02:18:06', '2020-04-14 02:18:06', 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  162.158.63.5
+
+Host:
+  crashbet.info
+
+Requested URI:
+  http://crashbet.info/adminbet/plugins/users/users_decrease.php?id=!!!!gS6g$$ovXAAa0ylC7GdC6Dv
+
+Date:
+  2020-04-16 00:29:40
+
+Error:
+  SQL error: Out of range value for column 'cash' at row 1.
+
+Developer Details:
+  SQL error: UPDATE `users` SET cash=-999996964370, updated_at='2020-04-16 00:29:40' WHERE id = 46. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.125.125.143
+
+Host:
+  mahxia.online
+
+Requested URI:
+  http://mahxia.online/adminbet/plugins/users/users_increase.php?id=!!!!Q6v4cDrp6aLtCA8mUGgFln
+
+Date:
+  2020-04-22 19:46:25
+
+Error:
+  SQL error: Column 'price' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `transactions` (price, user_id, invoice_type, description, trans_id, cash, created_at, updated_at, status) values (null, 296, 10, 'افزایش شارژ حساب توسط مدیریت', 'ADMIN_INCREASE1587568585', 15000, '2020-04-22 19:46:25', '2020-04-22 19:46:25', 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  83.123.26.128
+
+Host:
+  mahxia.online
+
+Requested URI:
+  http://mahxia.online/adminbet/plugins/users/users_increase.php?id=!!!!QetF5NdCp5g19Ag8l7AVSE
+
+Date:
+  2020-04-24 01:33:01
+
+Error:
+  SQL error: Column 'price' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `transactions` (price, user_id, invoice_type, description, trans_id, cash, created_at, updated_at, status) values (null, 298, 10, 'افزایش شارژ حساب توسط مدیریت', 'ADMIN_INCREASE1587675781', 23143, '2020-04-24 01:33:01', '2020-04-24 01:33:01', 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  83.123.49.14
+
+Host:
+  mahxia.online
+
+Requested URI:
+  http://mahxia.online/adminbet/plugins/users/users_increase.php?id=!!!!w2at@@9AmT4Nnb0jJ47Eb6C
+
+Date:
+  2020-04-29 00:17:30
+
+Error:
+  SQL error: Column 'price' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `transactions` (price, user_id, invoice_type, description, trans_id, cash, created_at, updated_at, status) values (null, 350, 10, 'افزایش شارژ حساب توسط مدیریت', 'ADMIN_INCREASE1588103250', 110000, '2020-04-29 00:17:30', '2020-04-29 00:17:30', 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  83.123.49.14
+
+Host:
+  mahxia.online
+
+Requested URI:
+  http://mahxia.online/adminbet/plugins/users/users_increase.php?id=!!!!w2at@@9AmT4Nnb0jJ47Eb6C
+
+Date:
+  2020-04-29 00:17:31
+
+Error:
+  SQL error: Column 'price' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `transactions` (price, user_id, invoice_type, description, trans_id, cash, created_at, updated_at, status) values (null, 350, 10, 'افزایش شارژ حساب توسط مدیریت', 'ADMIN_INCREASE1588103251', 110000, '2020-04-29 00:17:31', '2020-04-29 00:17:31', 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===

@@ -1,0 +1,171 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="includes/styles/styles.css" type="text/css">
+<script src="../common/js/base.js"></script>
+<script src="../common/js/utility.js"></script>
+<script src="./includes/querystring.js"></script>
+<script src="./includes/chromeless.js"></script>
+<script src="./includes/qub.js"></script>
+<script src="./includes/file.js"></script>
+<script src="./includes/menu.js"></script>
+<script src="./includes/config.js"></script>
+<script src="./includes/mmdb.js"></script>
+</head>
+<body bgcolor="#FFFFFF" style="
+	border:2px solid buttonface;
+	margin:0px;
+	overflow:hidden;
+	"
+	scroll="no"	
+	onMouseMove="bodySelect();" onUnload="closeWindow();" 
+	oncontextmenu="return false;" 
+	onload="qubLateLoader()"
+	onbeforeunload="">
+<div id="please_wait_div"></div>
+<div id="please_wait_message_div">
+<table id="please_wait_message_table0">
+	<tr valign="middle" >
+		<td align="center">
+			<table id="please_wait_message_table">
+				<tr>
+					<td id="please_wait_message_td" hidefocus="hidefocus" tabindex="1">Please wait while loading...</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</div>
+<script>
+	showPleaseWait(locales["Please wait while loading..."], '160px', '');
+</script>
+<table width="100%" height="100%" cellpadding="0" cellspacing="0" border="0">
+	<tr id="menu_container">
+		<td colspan="2" align="right" valign="bottom">
+			<table cellpadding="1px" cellspacing="0px" border="0px">
+				<tr>
+					<td id="qub_signature"></td>
+					<td><img class="help_image" onclick="canvas.zoomIn()" src="./images/zoom_in.gif" border="0" alt="Zoom In"></td>
+					<td><img class="help_image" onclick="canvas.zoomOut()" src="./images/zoom_out.gif" border="0" alt="Zoom Out"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td id="left_side_container">
+<table style="height:100%; width:100%;" cellpadding="0px" cellspacing="0px" border="0px">
+	<tr>
+		<td class="panel_heading_td">
+			<div class="panel_heading" onselectstart="return false;" onselect="return false">
+				<span>Queries: </span>
+				<img src="images/help.gif" onClick="showQUBHelp('qub.ui.queries')" class="help_image" dont_drag="true">
+			</div>
+		</td>
+	</tr>
+	<tr>
+		<td align="right">
+			<table id="query_list_buttons" cellpadding="0px" cellspacing="0px" border="0px">
+				<tr>
+					<td><div onclick="uiNewQuery();"><img src="images/new.gif" title="New Query"></div></td>
+					<td><div onclick="showPleaseWait('Please wait while saving', '160px', '');setTimeout('save(1)', 20);"><img src="images/save.gif" title="Save Query"></div></td>
+					<td><div onclick="saveAs();"><img src="images/save_as.gif" title="Save As..."></div></td>
+					<td><div onclick="uiDeleteQuery();"><img src="images/delete.gif" title="Delete Query"></div></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td id="search_container_td" style="border: 2px inset white; border-bottom:1px solid black;">
+				<form onsubmit="load_queries(true); return false;">
+					Search: <input type="text" id="query_list_sorter" onkeyup="load_queries(false)" onblur="ui.queryFilterHasFocus=false;">
+				</form>
+		</td>
+	</tr>
+	<tr id="left_top_tr">
+		<td id="left_top_td">
+				<div id="query_list_container">
+					<div id="query_list_waiter">Retrieving data...</div>
+					<div id="query_list"></div>
+				</div>
+		</td>
+	</tr>
+	<tr class="resize_handler">
+		<td valign="middle" class="panel_heading_td">
+			<div id="resize_handler_2" drag_index="2" class="panel_heading" onselectstart="return false;" onselect="return false">
+				<span>Tables: </span>
+				<img src="images/help.gif" onClick="showQUBHelp('qub.ui.tables')" class="help_image" dont_drag="true">
+			</div>
+		</td>
+	</tr>
+	<tr id="left_bottom_tr">
+		<td id="left_bottom_td">
+				<div id="table_list_waiter">Retrieving data...</div>
+				<div id="table_list"></div>
+		</td>
+	</tr>
+</table>
+		</td>
+		<td id="right_side_container">
+		<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr id="canvas_td">
+				<td>
+					<iframe id="canvas" name="canvas" src="blank.html"></iframe>
+				</td>
+			</tr>
+			<tr height="23" id="resize_handler_0" drag_index="0" class="resize_handler">
+				<td valign="bottom">
+					<div id="tabset0" dont_drag="true">
+						<ul>
+							<li><a id="sqlcolumns" href="#" onClick="canvas.tabset('sqlcolumns', 'fromui');">Columns</a></li>
+						</ul>
+					</div>
+					<img src="images/help.gif" onClick="showQUBHelp('qub.ui.sqlcolumns')" class="help_image" dont_drag="true" vspace="2">
+				</td>
+			</tr>
+			<tr id="iframe0_container">
+				<td id="iframe0_td"><iframe id="iframe0" name="iframe0" src="blank.html"></iframe></td>
+			</tr>
+			<tr height="23" id="resize_handler_1" class="resize_handler">
+				<td valign="bottom">
+					<table border="0" cellspacing="0" cellpadding="0" width="100%">
+						<tr id="resize_handler1" drag_index="1" >						
+							<td valign="bottom">
+								<div id="tabset1" dont_drag="true">
+									<ul>
+										<li id="li_first" onClick="canvas.tabset('sqlquery', 'fromui', undefined);"><a id="sqlquery" href="#" >SQL Query</a></li>
+										<li id="li_last" onClick="canvas.tabset('sqlresults', 'fromui', undefined);"><a id="sqlresults" href="#">Results</a></li>
+									</ul>
+								</div>
+								<!--span id="must_rebuild_span"></span>
+								<span id="must_save_span"></span-->
+								<img src="images/help.gif" onClick="showQUBHelp(top.current_tab2==0?'qub.ui.sqlquery':'qub.ui.sqlresults')" class="help_image" dont_drag="true" vspace="2">
+								<img id="iframe1_toggler" dont_drag="true" align="right" onclick="toggle_iframe1()" title="Toggle tabset" src="images/close_tab.gif" width="17px" height="15px" vspace="0px" hspace="5px"/>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr id="iframe1_container">
+				<td id="iframe1_td"><iframe id="iframe1" name="iframe1" src="blank.html"></iframe></td>
+			</tr>
+</table></td>
+	</tr>
+</table>
+</body>
+</html>
+

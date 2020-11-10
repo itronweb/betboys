@@ -1,0 +1,72 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/pionner/admin/uploads.php
+
+Date:
+  2015-01-15 17:06:17
+
+Error:
+  File upload error: File extension not allowed for upload.
+
+Developer Details:
+  File upload error: File extension "mp4" is not allowed for upload. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/pionner/admin/uploads.php
+
+Date:
+  2015-01-15 17:07:22
+
+Error:
+  File upload error: File size must be less than 5000 kB.
+
+Developer Details:
+  File upload error: File size must be less than 5000 kB. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

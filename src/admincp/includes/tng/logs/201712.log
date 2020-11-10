@@ -1,0 +1,34 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/company/admin/plugins/services/services_add.php
+
+Date:
+  2017-12-31 19:41:53
+
+Error:
+  SQL error: Duplicate entry '1' for key 'code'.
+
+Developer Details:
+  SQL error: INSERT INTO services (name, code, category, keywords, description, fulldescription, setdate, image, linkcatalog, linkvideo, gallerycat, slideshowcat, linkcat, contentscat, advertisecat, pollingcat, productcat, faqcat, sort, style, portalid, status) values ('مشاوره', '1', 1, null, '&lt;p&gt;تمرکز هواوی بر ایمن&zwnj;سازی شهرهای هوشمند&lt;/p&gt;
+', null, '1396/10/10 19:41:53', '', null, null, null, null, null, null, null, null, null, null, 5, null, 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

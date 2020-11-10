@@ -1,0 +1,31 @@
+{
+"code": 200,
+"result": "ok",
+"data": {
+	"nsy": "بازی شروع نشده است",
+	"home": "میزبان",
+	"away": "میهمان",
+	"x": "مساوی",
+	"u": "پائین",
+	"under": "پائین",
+	"o": "بالا",
+	"over": "بالا",
+	"odd": "فرد",
+	"even": "زوج",
+	"goal": "گل",
+	"nogoal": "بدون گل",
+	"equals": "مساوی",
+	"first half": "نیمه اول",
+	"second half": "نیمه دوم",
+	"home and over": "Home And Over",
+	"home and under": "Home and Under",
+	"away and under": "Away And Under",
+	"away and over": "Away And Over",
+	"draw and over": "Draw And Over",
+	"draw and under": "Draw And Under",
+	"way 3": "نتیجه مسابقه",
+	"yes": "بله",
+	"no": "خیر"
+	}
+}// JSON Document
+

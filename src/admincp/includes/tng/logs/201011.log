@@ -1,0 +1,718 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/prof_add.php
+
+Date:
+  2010-11-06 08:08:45
+
+Error:
+  این کد استاد قبلا تعریف شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/student_add.php
+
+Date:
+  2010-11-06 08:10:34
+
+Error:
+  این شماره دانشجویی قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/takhfif_add.php
+
+Date:
+  2010-11-07 09:28:14
+
+Error:
+  SQL error: Cannot add or update a child row: a foreign key constraint fails (`institute/takhfifat`, CONSTRAINT `takhfifat_ibfk_1` FOREIGN KEY (`gharardad`) REFERENCES `gharardad` (`id`) ON UPDATE CASCADE).
+
+Developer Details:
+  SQL error: INSERT INTO takhfifat (gharardad, name, darsad, active) values (0, 'دانشجو', 20, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/entekhab_add.php?ecode=8908251&scode=8908100001
+
+Date:
+  2010-11-07 11:23:38
+
+Error:
+  SQL error: Column 'erae_code' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO entekhab (erae_code, std_code, mablagh, tozihat, takhfif, date, active) values (null, null, '1300000', null, 0, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/entekhab_add.php?ecode=8908251&scode=8908100001
+
+Date:
+  2010-11-07 11:24:20
+
+Error:
+  SQL error: Column 'erae_code' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO entekhab (erae_code, std_code, mablagh, tozihat, takhfif, date, active) values (null, null, '1300000', null, 0, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/erae_details.php?id=2
+
+Date:
+  2010-11-22 06:35:07
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'recertificate' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT recertificate,reexam,takhfifmax,nomreghaboli,ketabname,tozihat,id, id as kt_pk_erae FROM erae WHERE id =2 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/erae_details.php?id=1
+
+Date:
+  2010-11-22 06:35:15
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'recertificate' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT recertificate,reexam,takhfifmax,nomreghaboli,ketabname,tozihat,id, id as kt_pk_erae FROM erae WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/erae_details.php?id=2
+
+Date:
+  2010-11-22 06:36:22
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'recertificate' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT recertificate,reexam,takhfifmax,nomreghaboli,ketabname,tozihat,id, id as kt_pk_erae FROM erae WHERE id =2 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/levelgroup_edit.php?id=1
+
+Date:
+  2010-11-15 08:29:52
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'classadd' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT levelcode,adminadd,adminlist,adminedit,admindelete,bankadd,banklist,bankedit,bankdelete,classadd,classlist,classedit,classdelete,departmanadd,departmanlist,departmanedit,departmandelete,hesabadd,hesablist,hesabedit,hesabdelete,lessonadd,lessonlist,lessonedit,lessondelete,lessongroupadd,lessongrouplist,lessongroupedit,lessongroupdelete,noedoreadd,noedorelist,noedoreedit,noedoredelete,profadd,proflist,profedit,profdelete,profdetail,profdore,profpass,studentadd,studentlist,studentedit,studentdelete,studentdetail,studentprint,studententekhab,studententekhabha,studentpardakhtha,studentprintpardakhtha,studentpass,eraeadd,eraelist,eraeedit,eraedelete,eraedetail,eraehozorghiab,eraestudentlist,eraepayprof,eraepayprofs,eraeprofpayprint,eraenomrelistprint,eraebooklist,eraeelamnomre,eraenomreprint,eraemanagerreport,eraehazineprof,hazineadd,hazinelist,hazineedit,hazinedelete,hazinedetail,hazineprint,mojavezadd,mojavezlist,mojavezedit,mojavezdelete,certificateadd,certificatelist,certificateedit,certificatedelete,certificatepic,certificateprint,certificateprint2,gharardadadd,gharardadlist,gharardadedit,gharardaddelete,takhfifadd,takhfiflist,takhfifedit,takhfifdelete,entekhabmahal,entekhabfish,entekhabchek,entekhabodat,entekhabpayall,entekhabedit,entekhabdelete,entekhablist,adminremove,bankremove,classremove,departmanremove,hesabremove,lessonremove,lessongroupremove,noedoreremove,mojavezremove,gharardadremove,takhfifremove,bookremove,bookdelete,bookedit,booklist,bookadd,examdelete,examremove,examedit,examlist,examadd,hazineremove,profremove,studentremove,eraeremove,certificateremove,entekhabremove,id, id as kt_pk_levelgroup FROM levelgroup WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/levelgroup_edit.php?id=1
+
+Date:
+  2010-11-15 08:31:07
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'classadd' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT levelcode,adminadd,adminlist,adminedit,admindelete,bankadd,banklist,bankedit,bankdelete,classadd,classlist,classedit,classdelete,departmanadd,departmanlist,departmanedit,departmandelete,hesabadd,hesablist,hesabedit,hesabdelete,lessonadd,lessonlist,lessonedit,lessondelete,lessongroupadd,lessongrouplist,lessongroupedit,lessongroupdelete,noedoreadd,noedorelist,noedoreedit,noedoredelete,profadd,proflist,profedit,profdelete,profdetail,profdore,profpass,studentadd,studentlist,studentedit,studentdelete,studentdetail,studentprint,studententekhab,studententekhabha,studentpardakhtha,studentprintpardakhtha,studentpass,eraeadd,eraelist,eraeedit,eraedelete,eraedetail,eraehozorghiab,eraestudentlist,eraepayprof,eraepayprofs,eraeprofpayprint,eraenomrelistprint,eraebooklist,eraeelamnomre,eraenomreprint,eraemanagerreport,eraehazineprof,hazineadd,hazinelist,hazineedit,hazinedelete,hazinedetail,hazineprint,mojavezadd,mojavezlist,mojavezedit,mojavezdelete,certificateadd,certificatelist,certificateedit,certificatedelete,certificatepic,certificateprint,certificateprint2,gharardadadd,gharardadlist,gharardadedit,gharardaddelete,takhfifadd,takhfiflist,takhfifedit,takhfifdelete,entekhabmahal,entekhabfish,entekhabchek,entekhabodat,entekhabpayall,entekhabedit,entekhabdelete,entekhablist,adminremove,bankremove,classremove,departmanremove,hesabremove,lessonremove,lessongroupremove,noedoreremove,mojavezremove,gharardadremove,takhfifremove,bookremove,bookdelete,bookedit,booklist,bookadd,examdelete,examremove,examedit,examlist,examadd,hazineremove,profremove,studentremove,eraeremove,certificateremove,entekhabremove,id, id as kt_pk_levelgroup FROM levelgroup WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/levelgroup_edit.php?id=1
+
+Date:
+  2010-11-15 08:34:03
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'classadd' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT levelcode,adminadd,adminlist,adminedit,admindelete,bankadd,banklist,bankedit,bankdelete,classadd,classlist,classedit,classdelete,departmanadd,departmanlist,departmanedit,departmandelete,hesabadd,hesablist,hesabedit,hesabdelete,lessonadd,lessonlist,lessonedit,lessondelete,lessongroupadd,lessongrouplist,lessongroupedit,lessongroupdelete,noedoreadd,noedorelist,noedoreedit,noedoredelete,profadd,proflist,profedit,profdelete,profdetail,profdore,profpass,studentadd,studentlist,studentedit,studentdelete,studentdetail,studentprint,studententekhab,studententekhabha,studentpardakhtha,studentprintpardakhtha,studentpass,eraeadd,eraelist,eraeedit,eraedelete,eraedetail,eraehozorghiab,eraestudentlist,eraepayprof,eraepayprofs,eraeprofpayprint,eraenomrelistprint,eraebooklist,eraeelamnomre,eraenomreprint,eraemanagerreport,eraehazineprof,hazineadd,hazinelist,hazineedit,hazinedelete,hazinedetail,hazineprint,mojavezadd,mojavezlist,mojavezedit,mojavezdelete,certificateadd,certificatelist,certificateedit,certificatedelete,certificatepic,certificateprint,certificateprint2,gharardadadd,gharardadlist,gharardadedit,gharardaddelete,takhfifadd,takhfiflist,takhfifedit,takhfifdelete,entekhabmahal,entekhabfish,entekhabchek,entekhabodat,entekhabpayall,entekhabedit,entekhabdelete,entekhablist,adminremove,bankremove,classremove,departmanremove,hesabremove,lessonremove,lessongroupremove,noedoreremove,mojavezremove,gharardadremove,takhfifremove,bookremove,bookdelete,bookedit,booklist,bookadd,examdelete,examremove,examedit,examlist,examadd,hazineremove,profremove,studentremove,eraeremove,certificateremove,entekhabremove,id, id as kt_pk_levelgroup FROM levelgroup WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/levelgroup_edit.php?id=1
+
+Date:
+  2010-11-15 08:34:04
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'classadd' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT levelcode,adminadd,adminlist,adminedit,admindelete,bankadd,banklist,bankedit,bankdelete,classadd,classlist,classedit,classdelete,departmanadd,departmanlist,departmanedit,departmandelete,hesabadd,hesablist,hesabedit,hesabdelete,lessonadd,lessonlist,lessonedit,lessondelete,lessongroupadd,lessongrouplist,lessongroupedit,lessongroupdelete,noedoreadd,noedorelist,noedoreedit,noedoredelete,profadd,proflist,profedit,profdelete,profdetail,profdore,profpass,studentadd,studentlist,studentedit,studentdelete,studentdetail,studentprint,studententekhab,studententekhabha,studentpardakhtha,studentprintpardakhtha,studentpass,eraeadd,eraelist,eraeedit,eraedelete,eraedetail,eraehozorghiab,eraestudentlist,eraepayprof,eraepayprofs,eraeprofpayprint,eraenomrelistprint,eraebooklist,eraeelamnomre,eraenomreprint,eraemanagerreport,eraehazineprof,hazineadd,hazinelist,hazineedit,hazinedelete,hazinedetail,hazineprint,mojavezadd,mojavezlist,mojavezedit,mojavezdelete,certificateadd,certificatelist,certificateedit,certificatedelete,certificatepic,certificateprint,certificateprint2,gharardadadd,gharardadlist,gharardadedit,gharardaddelete,takhfifadd,takhfiflist,takhfifedit,takhfifdelete,entekhabmahal,entekhabfish,entekhabchek,entekhabodat,entekhabpayall,entekhabedit,entekhabdelete,entekhablist,adminremove,bankremove,classremove,departmanremove,hesabremove,lessonremove,lessongroupremove,noedoreremove,mojavezremove,gharardadremove,takhfifremove,bookremove,bookdelete,bookedit,booklist,bookadd,examdelete,examremove,examedit,examlist,examadd,hazineremove,profremove,studentremove,eraeremove,certificateremove,entekhabremove,id, id as kt_pk_levelgroup FROM levelgroup WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/levelgroup_edit.php?id=3
+
+Date:
+  2010-11-15 08:39:40
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'classadd' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT levelcode,adminadd,adminlist,adminedit,admindelete,bankadd,banklist,bankedit,bankdelete,classadd,classlist,classedit,classdelete,departmanadd,departmanlist,departmanedit,departmandelete,hesabadd,hesablist,hesabedit,hesabdelete,lessonadd,lessonlist,lessonedit,lessondelete,lessongroupadd,lessongrouplist,lessongroupedit,lessongroupdelete,noedoreadd,noedorelist,noedoreedit,noedoredelete,profadd,proflist,profedit,profdelete,profdetail,profdore,profpass,studentadd,studentlist,studentedit,studentdelete,studentdetail,studentprint,studententekhab,studententekhabha,studentpardakhtha,studentprintpardakhtha,studentpass,eraeadd,eraelist,eraeedit,eraedelete,eraedetail,eraehozorghiab,eraestudentlist,eraepayprof,eraepayprofs,eraeprofpayprint,eraenomrelistprint,eraebooklist,eraeelamnomre,eraenomreprint,eraemanagerreport,eraehazineprof,hazineadd,hazinelist,hazineedit,hazinedelete,hazinedetail,hazineprint,mojavezadd,mojavezlist,mojavezedit,mojavezdelete,certificateadd,certificatelist,certificateedit,certificatedelete,certificatepic,certificateprint,certificateprint2,gharardadadd,gharardadlist,gharardadedit,gharardaddelete,takhfifadd,takhfiflist,takhfifedit,takhfifdelete,entekhabmahal,entekhabfish,entekhabchek,entekhabodat,entekhabpayall,entekhabedit,entekhabdelete,entekhablist,adminremove,bankremove,classremove,departmanremove,hesabremove,lessonremove,lessongroupremove,noedoreremove,mojavezremove,gharardadremove,takhfifremove,bookremove,bookdelete,bookedit,booklist,bookadd,examdelete,examremove,examedit,examlist,examadd,hazineremove,profremove,studentremove,eraeremove,certificateremove,entekhabremove,id, id as kt_pk_levelgroup FROM levelgroup WHERE id =3 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/dore_prof_payment.php
+
+Date:
+  2010-11-16 07:58:28
+
+Error:
+  SQL error: Column 'prof_code' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO payprof (prof_code, dore_code, mablagh, type, bank, shobe, date, tozihat, cdate, active) values (null, null, '111111111111111111111', '1', null, null, '1389/08/25', null, '13890825', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/usersetting_add.php
+
+Date:
+  2010-11-18 10:57:45
+
+Error:
+  SQL error: Column 'usercode' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO setting (usercode, showdisicon, mainhome, mainstudent, mainstudsearch, mainerae, mainsabtenam, mainhazine, mainreport, tarifadmin, tarifdepartman, tariflesgroup, tariflesson, tarifprof, tarifbank, tarifhesab, tarifclas, tarifnoedore, tarifmojavez, tarifgharadad, tariftakhfif, dboptimize, dbbackup, dbrestore, dbinfo) values (null, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/usersetting_add.php
+
+Date:
+  2010-11-18 10:57:48
+
+Error:
+  SQL error: Column 'usercode' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO setting (usercode, showdisicon, mainhome, mainstudent, mainstudsearch, mainerae, mainsabtenam, mainhazine, mainreport, tarifadmin, tarifdepartman, tariflesgroup, tariflesson, tarifprof, tarifbank, tarifhesab, tarifclas, tarifnoedore, tarifmojavez, tarifgharadad, tariftakhfif, dboptimize, dbbackup, dbrestore, dbinfo) values (null, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/usersetting_add.php
+
+Date:
+  2010-11-18 10:58:24
+
+Error:
+  SQL error: Column 'usercode' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO setting (usercode, showdisicon, mainhome, mainstudent, mainstudsearch, mainerae, mainsabtenam, mainhazine, mainreport, tarifadmin, tarifdepartman, tariflesgroup, tariflesson, tarifprof, tarifbank, tarifhesab, tarifclas, tarifnoedore, tarifmojavez, tarifgharadad, tariftakhfif, dboptimize, dbbackup, dbrestore, dbinfo) values (null, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/usersetting_add.php
+
+Date:
+  2010-11-18 10:58:26
+
+Error:
+  SQL error: Column 'usercode' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO setting (usercode, showdisicon, mainhome, mainstudent, mainstudsearch, mainerae, mainsabtenam, mainhazine, mainreport, tarifadmin, tarifdepartman, tariflesgroup, tariflesson, tarifprof, tarifbank, tarifhesab, tarifclas, tarifnoedore, tarifmojavez, tarifgharadad, tariftakhfif, dboptimize, dbbackup, dbrestore, dbinfo) values (null, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/student_delete.php?id=1
+
+Date:
+  2010-11-20 05:49:40
+
+Error:
+  SQL error: Cannot delete or update a parent row: a foreign key constraint fails (`institute/certificate`, CONSTRAINT `certificate_ibfk_1` FOREIGN KEY (`std_code`) REFERENCES `student` (`code`) ON UPDATE CASCADE).
+
+Developer Details:
+  SQL error: DELETE FROM student WHERE id = 1. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_delete.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_delete.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_delete.saveData
+      tNG_delete.prepareSQL
+      tNG_delete.executeTransaction - execute sql*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/lessongroup_add.php
+
+Date:
+  2010-11-24 19:25:25
+
+Error:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/lessongroup_add.php
+
+Date:
+  2010-11-24 19:25:39
+
+Error:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/lesson_add.php
+
+Date:
+  2010-11-24 19:56:10
+
+Error:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/proflevelgroup_add.php?user=89080001
+
+Date:
+  2010-11-30 05:49:21
+
+Error:
+  SQL error: Table 'institute.paylevelgroup' doesn't exist.
+
+Developer Details:
+  SQL error: INSERT INTO paylevelgroup (levelcode, profdore, profpass, eraelist, eraehozorghiab, eraestudentlist, eraepayprof, eraepayprofs, eraenomrelistprint, eraeelamnomre, eraenomreprint, profpaylist) values ('89080001', 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/institute/proflevelgroup_add.php?user=89080001
+
+Date:
+  2010-11-30 05:50:08
+
+Error:
+  SQL error: Unknown column 'eraenomreprint' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO proflevelgroup (levelcode, profdore, profpass, eraelist, eraehozorghiab, eraestudentlist, eraepayprof, eraepayprofs, eraenomrelistprint, eraeelamnomre, eraenomreprint, profpaylist) values ('89080001', 1, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

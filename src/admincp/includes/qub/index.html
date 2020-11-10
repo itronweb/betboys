@@ -1,0 +1,69 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interaktonline.com/
+-->
+<html>
+<head>
+	<title>Query Builder (QuB) remote folder check, please wait</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<script>
+	function openQuB() {
+		proprietes = "resizable=yes,status=yes,scrollbars=no,location=no,width=800,height=600";
+		var qs = window.location.href + "";
+		qs = qs.replace(/^.*\?/, '');
+		page = "qub.html?" + qs;
+	
+		if (window.navigator.appName.match(/Microsoft/)) {
+			var wnd = window.open(page, "_blank", proprietes);
+			if (wnd)  {
+				if (wnd != window) {
+					window.opener = null;
+					window.close();
+				}
+			} else {
+				alert("Please allow window popups to be opened from this site to use Query Builder.");
+			}
+		} else {
+			window.location = page;
+		}
+	}
+	function checkRemoteFiles() {
+		seconds_left = 5;
+		window.setTimeout("qubNotFound()", seconds_left * 1000);
+		countdown_interval = window.setInterval("countdown()", 1000);
+		var zImg = document.getElementById('remote_test_image');
+		zImg.onload = openQuB;
+		zImg.src = 'images/interakt.jpg';
+	}
+
+	function countdown() {
+		document.getElementById("count_down").innerHTML = (--seconds_left);
+	}
+	
+	
+	function qubNotFound() {
+		clearInterval(countdown_interval);
+		document.getElementById("please_wait").style.display = "none";
+		document.getElementById("qub_not_found").style.display = "";
+	}
+	
+</script>
+</head>
+<body onload="checkRemoteFiles()">
+	<img id="remote_test_image" src="" width="1" height="1" style="position:absolute; left:-20px; top:-20px; width:1px; height:1px;"/>
+	<div id="please_wait">Please wait while Query Builder is checking for files on server. <span id="count_down"></span></div>
+	<div id="qub_not_found" style="display:none">Query Builder files were not found on the remote server. Please upload all files and return to this page.</div>
+</body>
+</html>

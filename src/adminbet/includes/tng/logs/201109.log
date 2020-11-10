@@ -1,0 +1,273 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/lesartag/bashgah_add.php
+
+Date:
+  2011-09-07 12:47:33
+
+Error:
+  SQL error: Column 'regdate' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO bashgah (name, username, pass, shahr, regdate, ostan, adres, tel, maneger, mob, email, active) values ('nastan', 'mir', '123456', 'ساری', null, 'مازندران', 'ghfgfg', 'ghh', 'rhrtrty', 'eryryry', 'farisa_bakhoda@yahoo.com', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/lesartag/bashgah_add.php
+
+Date:
+  2011-09-07 12:54:33
+
+Error:
+  SQL error: Column 'regdate' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO bashgah (name, username, pass, shahr, regdate, ostan, adres, tel, maneger, mob, email, active) values ('nastan', 'mir', '123456', 'ساری', null, 'مازندران', 'ghfgfg', 'asDF', 'rgerg', 'rtgert', 'farisa_bakhoda@yahoo.com', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/lesartag/bashgah_add.php
+
+Date:
+  2011-09-07 12:59:03
+
+Error:
+  SQL error: Column 'regdate' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO bashgah (name, username, pass, shahr, regdate, ostan, adres, tel, maneger, mob, email, active) values ('nastan', 'mir', '123456', 'ساری', null, 'مازندران', 'ghfgfg', 'asDF', 'rgerg', 'rtgert', 'farisa_bakhoda@yahoo.com', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/lesartag/bashgah_add.php
+
+Date:
+  2011-09-07 12:59:25
+
+Error:
+  SQL error: Column 'regdate' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO bashgah (name, username, pass, shahr, regdate, ostan, adres, tel, maneger, mob, email, active) values ('dgfsdg', 'mir', '123456', 'ساری', null, 'مازندران', 'gfrg', 'dggf', 'rgerg', 'eryryry', 'farisa_bakhoda@yahoo.com', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/lesartag/bashgah_add.php
+
+Date:
+  2011-09-07 13:02:38
+
+Error:
+  SQL error: Column 'regdate' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO bashgah (name, username, pass, shahr, regdate, ostan, adres, tel, maneger, mob, email, active) values ('dgfsdg', 'mir', '123456', 'ساری', null, 'مازندران', 'gfrg', 'asDF', 'rgerg', 'eryryry', 'farisa_bakhoda@yahoo.com', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/lesartag/team_add.php
+
+Date:
+  2011-09-07 14:14:55
+
+Error:
+  SQL error: Column 'regdate' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO team (clubcode, name, code, regdate, email, mob, capitan, active) values ('dfgdfgh', 'dfgsdg', 'dfhdfh', null, 'farisa_bakhoda@yahoo.com', '1111111111111111111111111111', '4', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/lesartag/levelgroup_edit.php?id=8
+
+Date:
+  2011-09-13 12:42:28
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'bankadd' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT levelcode,adminadd,adminlist,adminedit,admindelete,bankadd,banklist,bankedit,bankdelete,classad,classlist,classedit,classdelete,departmanadd,departmanlist,departmanedit,departmandelete,hesabadd,hesablist,hesabedit,hesabdelete,lessonadd,lessonlist,lessonedit,lessondelete,lessongroupadd,lessongrouplist,lessongroupedit,lessongroupdelete,noedoreadd,noedorelist,noedoreedit,noedoredelete,profadd,proflist,profedit,profdelete,profdetail,profdore,profpass,studentadd,studentlist,studentedit,studentdelete,studentdetail,studentprint,studententekhab,studententekhabha,studentpardakhtha,studentprintpardakhtha,studentpass,eraeadd,eraelist,eraeedit,eraedelete,eraedetail,eraehozorghiab,eraestudentlist,eraepayprof,eraepayprofs,eraeprofpayprint,eraenomrelistprint,eraebooklist,eraeelamnomre,eraenomreprint,eraemanagerreport,eraehazineprof,eraesetting,eraecertexcel,hazineadd,hazinelist,hazineedit,hazinedelete,hazinedetail,hazineprint,mojavezadd,mojavezlist,mojavezedit,mojavezdelete,certificateadd,certificatelist,certificateedit,certificatedelete,certificatepic,certificateprint,certificateprint2,gharardadadd,gharardadlist,gharardadedit,gharardaddelete,takhfifadd,takhfiflist,takhfifedit,takhfifdelete,entekhabmahal,entekhabfish,entekhabchek,entekhabodat,entekhabpayall,entekhabedit,entekhabdelete,entekhablist,adminremove,bankremove,classremove,departmanremove,hesabremove,lessonremove,lessongroupremove,noedoreremove,mojavezremove,gharardadremove,takhfifremove,bookremove,bookdelete,bookedit,booklist,bookadd,examdelete,examremove,examedit,examlist,examadd,hazineremove,profremove,studentremove,eraeremove,certificateremove,entekhabremove,pardakhtremove,pardakhtdelete,pardakhtlist,pardakhtdetail,pardakhtprint,pardakhtedit,adminpass,adminlevel,adminmypass,profpaylist,profpayprint,profpayedit,profpayremove,profpaydelete,hozorghiabadd,hozorghiablist,hozorghiabedit,hozorghiabdelete,hozorghiabremove,contactgroupadd,contactgrouplist,contactgroupedit,contactgroupdelete,contactgroupremove,contactadd,contactlist,contactdelete,contactedit,contactremove,home_profsearch,home_stdsearch,home_birth,home_chekroz,home_amar,dailyreportadd,dailyreportedit,dailyreportlist,dailyreportdelete,dailyreportremove,dailyreportlistall,dailyreportlistday,peivastadd,peivastlist,peivastedit,peivastremove,peivastdelete,peivastview,studentfile,reserveadd,reservelist,reserveedit,reservedelete,reserveremove,eraestartreport,class_scheduling,prof_scheduling,stud_scheduling,admin_scheduling,hesabtrans,id, id as kt_pk_levelgroup FROM levelgroup WHERE id =8 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/lesartag/levelgroup_edit.php?id=3
+
+Date:
+  2011-09-13 12:42:34
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'bankadd' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT levelcode,adminadd,adminlist,adminedit,admindelete,bankadd,banklist,bankedit,bankdelete,classad,classlist,classedit,classdelete,departmanadd,departmanlist,departmanedit,departmandelete,hesabadd,hesablist,hesabedit,hesabdelete,lessonadd,lessonlist,lessonedit,lessondelete,lessongroupadd,lessongrouplist,lessongroupedit,lessongroupdelete,noedoreadd,noedorelist,noedoreedit,noedoredelete,profadd,proflist,profedit,profdelete,profdetail,profdore,profpass,studentadd,studentlist,studentedit,studentdelete,studentdetail,studentprint,studententekhab,studententekhabha,studentpardakhtha,studentprintpardakhtha,studentpass,eraeadd,eraelist,eraeedit,eraedelete,eraedetail,eraehozorghiab,eraestudentlist,eraepayprof,eraepayprofs,eraeprofpayprint,eraenomrelistprint,eraebooklist,eraeelamnomre,eraenomreprint,eraemanagerreport,eraehazineprof,eraesetting,eraecertexcel,hazineadd,hazinelist,hazineedit,hazinedelete,hazinedetail,hazineprint,mojavezadd,mojavezlist,mojavezedit,mojavezdelete,certificateadd,certificatelist,certificateedit,certificatedelete,certificatepic,certificateprint,certificateprint2,gharardadadd,gharardadlist,gharardadedit,gharardaddelete,takhfifadd,takhfiflist,takhfifedit,takhfifdelete,entekhabmahal,entekhabfish,entekhabchek,entekhabodat,entekhabpayall,entekhabedit,entekhabdelete,entekhablist,adminremove,bankremove,classremove,departmanremove,hesabremove,lessonremove,lessongroupremove,noedoreremove,mojavezremove,gharardadremove,takhfifremove,bookremove,bookdelete,bookedit,booklist,bookadd,examdelete,examremove,examedit,examlist,examadd,hazineremove,profremove,studentremove,eraeremove,certificateremove,entekhabremove,pardakhtremove,pardakhtdelete,pardakhtlist,pardakhtdetail,pardakhtprint,pardakhtedit,adminpass,adminlevel,adminmypass,profpaylist,profpayprint,profpayedit,profpayremove,profpaydelete,hozorghiabadd,hozorghiablist,hozorghiabedit,hozorghiabdelete,hozorghiabremove,contactgroupadd,contactgrouplist,contactgroupedit,contactgroupdelete,contactgroupremove,contactadd,contactlist,contactdelete,contactedit,contactremove,home_profsearch,home_stdsearch,home_birth,home_chekroz,home_amar,dailyreportadd,dailyreportedit,dailyreportlist,dailyreportdelete,dailyreportremove,dailyreportlistall,dailyreportlistday,peivastadd,peivastlist,peivastedit,peivastremove,peivastdelete,peivastview,studentfile,reserveadd,reservelist,reserveedit,reservedelete,reserveremove,eraestartreport,class_scheduling,prof_scheduling,stud_scheduling,admin_scheduling,hesabtrans,id, id as kt_pk_levelgroup FROM levelgroup WHERE id =3 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/lesartag/levelgroup_edit.php?id=11
+
+Date:
+  2011-09-13 12:49:27
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'bankadd' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT levelcode,adminadd,adminlist,adminedit,admindelete,bankadd,banklist,bankedit,bankdelete,classad,classlist,classedit,classdelete,departmanadd,departmanlist,departmanedit,departmandelete,hesabadd,hesablist,hesabedit,hesabdelete,lessonadd,lessonlist,lessonedit,lessondelete,lessongroupadd,lessongrouplist,lessongroupedit,lessongroupdelete,noedoreadd,noedorelist,noedoreedit,noedoredelete,profadd,proflist,profedit,profdelete,profdetail,profdore,profpass,studentadd,studentlist,studentedit,studentdelete,studentdetail,studentprint,studententekhab,studententekhabha,studentpardakhtha,studentprintpardakhtha,studentpass,eraeadd,eraelist,eraeedit,eraedelete,eraedetail,eraehozorghiab,eraestudentlist,eraepayprof,eraepayprofs,eraeprofpayprint,eraenomrelistprint,eraebooklist,eraeelamnomre,eraenomreprint,eraemanagerreport,eraehazineprof,eraesetting,eraecertexcel,hazineadd,hazinelist,hazineedit,hazinedelete,hazinedetail,hazineprint,mojavezadd,mojavezlist,mojavezedit,mojavezdelete,certificateadd,certificatelist,certificateedit,certificatedelete,certificatepic,certificateprint,certificateprint2,gharardadadd,gharardadlist,gharardadedit,gharardaddelete,takhfifadd,takhfiflist,takhfifedit,takhfifdelete,entekhabmahal,entekhabfish,entekhabchek,entekhabodat,entekhabpayall,entekhabedit,entekhabdelete,entekhablist,adminremove,bankremove,classremove,departmanremove,hesabremove,lessonremove,lessongroupremove,noedoreremove,mojavezremove,gharardadremove,takhfifremove,bookremove,bookdelete,bookedit,booklist,bookadd,examdelete,examremove,examedit,examlist,examadd,hazineremove,profremove,studentremove,eraeremove,certificateremove,entekhabremove,pardakhtremove,pardakhtdelete,pardakhtlist,pardakhtdetail,pardakhtprint,pardakhtedit,adminpass,adminlevel,adminmypass,profpaylist,profpayprint,profpayedit,profpayremove,profpaydelete,hozorghiabadd,hozorghiablist,hozorghiabedit,hozorghiabdelete,hozorghiabremove,contactgroupadd,contactgrouplist,contactgroupedit,contactgroupdelete,contactgroupremove,contactadd,contactlist,contactdelete,contactedit,contactremove,home_profsearch,home_stdsearch,home_birth,home_chekroz,home_amar,dailyreportadd,dailyreportedit,dailyreportlist,dailyreportdelete,dailyreportremove,dailyreportlistall,dailyreportlistday,peivastadd,peivastlist,peivastedit,peivastremove,peivastdelete,peivastview,studentfile,reserveadd,reservelist,reserveedit,reservedelete,reserveremove,eraestartreport,class_scheduling,prof_scheduling,stud_scheduling,admin_scheduling,hesabtrans,id, id as kt_pk_levelgroup FROM levelgroup WHERE id =11 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===

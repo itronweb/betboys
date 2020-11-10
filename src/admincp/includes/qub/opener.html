@@ -1,0 +1,116 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interaktonline.com/
+-->
+<html>
+<head>
+	<title>Query Builder (QuB) remote folder check, please wait</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<script src="../common/js/base.js"></script>
+	<script src="../common/js/utility.js"></script>
+<script>
+	function openQuB() {
+		clearTimeout(countdown_timeout);
+		clearInterval(countdown_interval);
+		if (typeof utility == 'undefined') {
+			qubNotFound()
+			return;
+		}
+		document.getElementById("please_wait").style.display = "none";
+		document.getElementById("qub_start_window").style.display = "";
+		proprietes = "resizable=yes,status=yes,scrollbars=no,location=no,width=800,height=600";
+		var qs = window.location.href + "";
+		qs = qs.replace(/qub\/opener\.html/, 'qub/qub.html');
+		ecs = qs.match(/postConn=(.*)/);
+
+		if (window.location.search.indexOf("domyescape=true")>=0) {
+			postcon = myescape3(ecs[1]);
+		} else {
+			postcon = (ecs[1]);
+		}
+		page = qs.replace(/postConn=.*/, "postConn=" + postcon);
+
+		if (window.navigator.appName.match(/Netscape/) || window.navigator.appName.match(/Microsoft/)) {
+			if (window.opener) {
+				try {
+					var obj = window.opener;
+					obj.opener = null;
+					obj.close();
+					window.opener = null;
+				} catch(e) { }
+			}
+
+			var wnd = window.open(page, "_blank", proprietes);
+			if (wnd)  {
+				if (wnd != window) {
+					window.opener = null;
+					window.close();
+				}
+			} else {
+				alert("Please allow window popups to be opened from this site to use Query Builder.");
+			}
+		} else {
+			window.location = page;
+		}
+	}
+	function checkRemoteFiles() {
+		seconds_left = 5;
+		countdown_timeout = window.setTimeout("qubNotFound()", seconds_left * 1000);
+		countdown_interval = window.setInterval("countdown()", 1000);
+		var zImg = document.getElementById('remote_test_image');
+		zImg.onload = openQuB;
+		zImg.src = 'images/interakt.jpg?'+Math.random();
+	}
+
+	function countdown() {
+		document.getElementById("count_down").innerHTML = (--seconds_left);
+	}
+	
+	
+	function qubNotFound() {
+		clearInterval(countdown_interval);
+		document.getElementById("please_wait").style.display = "none";
+		document.getElementById("qub_not_found").style.display = "";
+	}
+
+function myescape3(str) {
+	var str1 = "";
+	var i=0, x, y;
+	var arr = [0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F'];
+	if (typeof str == 'undefined') {
+		str = '';
+	}
+	for (i=0;i<str.length;i++) {
+		x = str.charAt(i);
+		if (!x.match(/[0-9a-zA-Z]/)) {
+			x = str.charCodeAt(i);
+			y = x%16;
+			x = (x-y)/16;
+			str1 += "%" + arr[x] + "" + arr[y];
+		} else {
+			str1 += x;
+		}
+	}
+	return str1;
+}
+	
+</script>
+</head>
+<body onload="checkRemoteFiles()">
+	<img id="remote_test_image" src="" width="1" height="1" style="position:absolute; left:-20px; top:-20px; width:1px; height:1px;"/>
+	<div id="please_wait">Please wait while Query Builder is checking for files on server. <span id="count_down"></span></div>
+	<div id="qub_not_found" style="display:none">Query Builder files were not found on the remote server. Please upload all files and return to this page.</div>
+	<div id="qub_start_window" style="display:none">Query Builder has been started.<br>You may close this window.</div>
+</body>
+</html>

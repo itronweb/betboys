@@ -1,0 +1,1420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scores sport="soccer">
+  <category name="Algeria: Ligue 1" gid="1068" id="1068" file_group="algeria" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="16:45" commentary_available="" venue="Stade du 1er Novembre 1954" v="60" static_id="2554617" fix_id="3050024" id="3109633">
+        <localteam name="JS Kabylie" goals="2" id="5780" />
+        <visitorteam name="Hussein Dey" goals="1" id="5770" />
+        <events>
+          <event type="goal" minute="22" extra_min="" team="localteam" player="U. Nwofor" result="[1 - 0]" playerId="192679" assist="" assistid="" eventid="31096331" />
+          <event type="goal" minute="47" extra_min="" team="visitorteam" player="I. Deeb" result="[1 - 1]" playerId="540266" assist="" assistid="" eventid="31096332" />
+          <event type="goal" minute="74" extra_min="" team="localteam" player="R. Hamroune" result="[2 - 1]" playerId="" assist="" assistid="" eventid="31096333" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[2-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="17:00" commentary_available="" venue="Stade du 5 Juillet 1962" v="60" static_id="2554622" fix_id="3050029" id="3114610">
+        <localteam name="MC Alger" goals="0" id="5784" />
+        <visitorteam name="Bel Abbes" goals="1" id="5742" />
+        <events>
+          <event type="goal" minute="43" extra_min="" team="visitorteam" player="Z. Khali" result="[0 - 1]" playerId="278579" assist="" assistid="" eventid="31146101" />
+          <event type="redcard" minute="90" extra_min="1" team="localteam" player="A. Azzi" result="" playerId="266659" assist="" assistid="" eventid="31146102" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[0-1]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Argentina: Superliga" gid="1081" id="1081" file_group="argentina" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="00:30" commentary_available="argentina" venue="Estadio Presbítero Bartolomé Grella" static_id="2505009" fix_id="3000363" id="3116836">
+        <localteam name="Patronato" goals="3" id="6032" />
+        <visitorteam name="San Martin T." goals="3" id="6049" />
+        <events>
+          <event type="yellowcard" minute="14" team="visitorteam" player="H. Petrik" result="" playerId="" assist="" assistid="" eventid="31168361" />
+          <event type="goal" minute="21" team="localteam" player="F. Barcelo" result="[1 - 0]" playerId="" assist="M. Sperduti" assistid="" eventid="31168362" />
+          <event type="goal" minute="26" team="localteam" player="M. Sperduti (pen.)" result="[2 - 0]" playerId="" assist="" assistid="" eventid="31168363" />
+          <event type="goal" minute="35" team="localteam" player="F. Barcelo (pen.)" result="[3 - 0]" playerId="" assist="" assistid="" eventid="31168364" />
+          <event type="yellowcard" minute="62" team="localteam" player="S. Bertoli" result="" playerId="84515" assist="" assistid="" eventid="31168365" />
+          <event type="goal" minute="62" team="visitorteam" player="C. Bieler (pen.)" result="[3 - 1]" playerId="22986" assist="" assistid="" eventid="31168366" />
+          <event type="goal" minute="77" team="visitorteam" player="T. Costa" result="[3 - 2]" playerId="" assist="" assistid="" eventid="31168367" />
+          <event type="goal" minute="85" team="visitorteam" player="L. Pons" result="[3 - 3]" playerId="" assist="E. Purita" assistid="" eventid="31168368" />
+        </events>
+        <ht score="[3-0]" />
+        <ft score="[3-3]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="00:30" commentary_available="argentina" venue="Estadio José Amalfitani" static_id="2505007" fix_id="3000361" id="3114612">
+        <localteam name="Velez Sarsfield" goals="0" id="6076" />
+        <visitorteam name="San Lorenzo" goals="0" id="6045" />
+        <events>
+          <event type="yellowcard" minute="20" team="localteam" player="N. Dominguez" result="" playerId="477166" assist="" assistid="" eventid="31146121" />
+          <event type="yellowcard" minute="51" team="visitorteam" player="G. Poblete" result="" playerId="" assist="" assistid="" eventid="31146122" />
+          <event type="yellowcard" minute="53" team="localteam" player="F. Cubero" result="" playerId="14566" assist="" assistid="" eventid="31146123" />
+          <event type="yellowcard" minute="68" team="visitorteam" player="F. Coloccini" result="" playerId="105" assist="" assistid="" eventid="31146124" />
+          <event type="yellowcard" minute="76" team="localteam" player="B. E. Cufre" result="" playerId="" assist="" assistid="" eventid="31146125" />
+          <event type="yellowcard" minute="79" team="localteam" player="L. Robertone" result="" playerId="454679" assist="" assistid="" eventid="31146126" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Argentina: Primera B Nacional" gid="2740" id="1078" file_group="argentina" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" date="Nov 12" formatted_date="12.11.2018" time="23:00" commentary_available="" venue="Estadio Arquitecto Ricardo Etcheverry" static_id="2516252" fix_id="3011606" id="3113824">
+        <localteam name="Ferro" goals="2" id="5982" />
+        <visitorteam name="Villa Dalmine" goals="0" id="6078" />
+        <events>
+          <event type="yellowcard" minute="9" team="localteam" player="L. Landriel" result="" playerId="" assist="" assistid="" eventid="31138241" />
+          <event type="yellowcard" minute="15" team="visitorteam" player="M. Ballini" result="" playerId="" assist="" assistid="" eventid="31138242" />
+          <event type="yellowcard" minute="34" team="localteam" player="R. Melo" result="" playerId="" assist="" assistid="" eventid="31138243" />
+          <event type="yellowcard" minute="45+3" team="localteam" player="L. Torres" result="" playerId="447325" assist="" assistid="" eventid="31138244" />
+          <event type="goal" minute="45+4" team="localteam" player="E. Diaz" result="[1 - 0]" playerId="" assist="" assistid="" eventid="31138245" />
+          <event type="goal" minute="60" team="localteam" player="N. Sansotre (o.g.)" result="[2 - 0]" playerId="" assist="" assistid="" eventid="31138246" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[2-0]" />
+      </match>
+      <match status="FT" date="Nov 12" formatted_date="12.11.2018" time="23:00" commentary_available="" venue="Estadio Centenario Dr. José Luis Meiszner" static_id="2516255" fix_id="3011609" id="3113921">
+        <localteam name="Quilmes" goals="1" id="6035" />
+        <visitorteam name="Def. de Belgrano" goals="2" id="5956" />
+        <events>
+          <event type="goal" minute="20" team="visitorteam" player="E. Aguirre" result="[0 - 1]" playerId="247700" assist="" assistid="" eventid="31139211" />
+          <event type="goal" minute="46" team="visitorteam" player="M. Perez" result="[0 - 2]" playerId="" assist="" assistid="" eventid="31139212" />
+          <event type="yellowcard" minute="48" team="visitorteam" player="N. Del Priore" result="" playerId="" assist="" assistid="" eventid="31139213" />
+          <event type="yellowcard" minute="57" team="visitorteam" player="L. Caballero" result="" playerId="" assist="" assistid="" eventid="31139214" />
+          <event type="yellowcard" minute="58" team="visitorteam" player="D. Medina" result="" playerId="" assist="" assistid="" eventid="31139215" />
+          <event type="goal" minute="59" team="localteam" player="A. Max" result="[1 - 2]" playerId="" assist="" assistid="" eventid="31139216" />
+          <event type="yellowcard" minute="75" team="localteam" player="J. Larrea" result="" playerId="228833" assist="" assistid="" eventid="31139217" />
+          <event type="yellowcard" minute="88" team="visitorteam" player="E. Aguirre" result="" playerId="247700" assist="" assistid="" eventid="31139218" />
+          <event type="yellowcard" minute="90+4" team="visitorteam" player="M. Perez" result="" playerId="" assist="" assistid="" eventid="31139219" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[1-2]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="00:05" commentary_available="" venue="Estadio Roberto Natalio Carminatti" static_id="2516249" fix_id="3011603" id="3113960">
+        <localteam name="Olimpo Bahia Blanca" goals="2" id="6031" />
+        <visitorteam name="Almagro" goals="0" id="5900" />
+        <events>
+          <event type="yellowcard" minute="12" team="visitorteam" player="A. Torres" result="" playerId="141519" assist="" assistid="" eventid="31139601" />
+          <event type="yellowcard" minute="28" team="visitorteam" player="M. Puch" result="" playerId="" assist="" assistid="" eventid="31139602" />
+          <event type="yellowcard" minute="35" team="localteam" player="M. Arguello" result="" playerId="" assist="" assistid="" eventid="31139603" />
+          <event type="yellowcard" minute="38" team="visitorteam" player="N. Basualdo" result="" playerId="283065" assist="" assistid="" eventid="31139604" />
+          <event type="yellowred" minute="64" team="visitorteam" player="N. Basualdo" result="" playerId="283065" assist="" assistid="" eventid="31139605" />
+          <event type="yellowcard" minute="67" team="localteam" player="L. Orozco" result="" playerId="" assist="" assistid="" eventid="31139606" />
+          <event type="goal" minute="82" team="localteam" player="A. Rodriguez" result="[1 - 0]" playerId="" assist="" assistid="" eventid="31139607" />
+          <event type="yellowcard" minute="82" team="localteam" player="A. Rodriguez" result="" playerId="" assist="" assistid="" eventid="31139608" />
+          <event type="goal" minute="90" team="localteam" player="N. Arrechea (o.g.)" result="[2 - 0]" playerId="" assist="" assistid="" eventid="31139609" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[2-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Asia: East Asian Championship - Qualification - Second Stage" gid="3951" id="2290" file_group="asia" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="07:10" commentary_available="" venue="Taipei Municipal Stadium" v="60" static_id="2553704" fix_id="3049105" id="3096679">
+        <localteam name="Hong Kong" goals="0" id="11028" />
+        <visitorteam name="North Korea" goals="0" id="12299" />
+        <events>
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="11:10" commentary_available="" venue="" v="60" static_id="" fix_id="" id="3096680">
+        <localteam name="Chinese Taipei" goals="2" id="8095" />
+        <visitorteam name="Mongolia" goals="1" id="13051" />
+        <events>
+          <event type="goal" minute="7" extra_min="" team="localteam" player="E. Chu" result="[1 - 0]" playerId="130649" assist="" assistid="" eventid="30966801" />
+          <event type="goal" minute="10" extra_min="" team="localteam" player="E. Chu" result="[2 - 0]" playerId="130649" assist="" assistid="" eventid="30966802" />
+          <event type="goal" minute="62" extra_min="" team="visitorteam" player="N. Tsedenbal" result="[2 - 1]" playerId="119939" assist="" assistid="" eventid="30966803" />
+        </events>
+        <ht score="[2-0]" />
+        <ft score="[2-1]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Asia: Aff Suzuki Cup" gid="1943" id="1943" file_group="asia" iscup="True">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="12:00" commentary_available="" venue="" v="60" static_id="2545374" fix_id="3040733" id="3053527">
+        <localteam name="Indonesia" goals="3" id="11353" />
+        <visitorteam name="East Timor" goals="1" id="8847" />
+        <events>
+          <event type="yellowcard" minute="45" extra_min="2" team="visitorteam" player="F. Goncalves" result="" playerId="384771" assist="" assistid="" eventid="30535271" />
+          <event type="goal" minute="48" extra_min="" team="visitorteam" player="R. Walter Gama" result="[0 - 1]" playerId="446869" assist="" assistid="" eventid="30535272" />
+          <event type="subst" minute="56" extra_min="" team="localteam" player="R. Simanjuntak" result="" playerId="396947" assist="S. Maulana" assistid="216007" eventid="30535273" />
+          <event type="goal" minute="60" extra_min="" team="localteam" player="A. Fathier" result="[1 - 1]" playerId="" assist="" assistid="" eventid="30535274" />
+          <event type="subst" minute="62" extra_min="" team="localteam" player="S. Lilipaly" result="" playerId="136114" assist="F. Haryadi" assistid="443568" eventid="30535275" />
+          <event type="yellowcard" minute="63" extra_min="" team="visitorteam" player="R. Walter Gama" result="" playerId="446869" assist="" assistid="" eventid="30535276" />
+          <event type="goal" minute="69" extra_min="" team="localteam" player="S. Lilipaly (pen.)" result="[2 - 1]" playerId="136114" assist="" assistid="" eventid="30535277" />
+          <event type="subst" minute="71" extra_min="" team="visitorteam" player="Savio" result="" playerId="441421" assist="Henrique" assistid="399490" eventid="30535278" />
+          <event type="subst" minute="73" extra_min="" team="visitorteam" player="J. Almeida" result="" playerId="" assist="Nataniel" assistid="" eventid="30535279" />
+          <event type="yellowcard" minute="75" extra_min="" team="localteam" player="A. Fathier" result="" playerId="" assist="" assistid="" eventid="305352710" />
+          <event type="goal" minute="82" extra_min="" team="localteam" player="Beto" result="[3 - 1]" playerId="48443" assist="" assistid="" eventid="305352711" />
+          <event type="subst" minute="84" extra_min="" team="visitorteam" player="Candido" result="" playerId="373263" assist="J. G. Silva" assistid="" eventid="305352712" />
+          <event type="subst" minute="89" extra_min="" team="localteam" player="B. Pradana" result="" playerId="296918" assist="A. Vermansyah" assistid="101018" eventid="305352713" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[3-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="12:00" commentary_available="" venue="" v="60" static_id="2316682" fix_id="2200826" id="2443025">
+        <localteam name="Philippines" goals="1" id="13952" />
+        <visitorteam name="Singapore" goals="0" id="15359" />
+        <events>
+          <event type="yellowcard" minute="31" extra_min="" team="visitorteam" player="S. Baharudin" result="" playerId="82711" assist="" assistid="" eventid="24430251" />
+          <event type="subst" minute="34" extra_min="" team="localteam" player="D. Sato" result="" playerId="343199" assist="L. Woodland" assistid="235882" eventid="24430252" />
+          <event type="yellowcard" minute="39" extra_min="" team="visitorteam" player="Y. Hanapi" result="" playerId="73264" assist="" assistid="" eventid="24430253" />
+          <event type="subst" minute="46" extra_min="" team="localteam" player="J. Younghusband" result="" playerId="36499" assist="M. Ott" assistid="259495" eventid="24430254" />
+          <event type="subst" minute="66" extra_min="" team="visitorteam" player="S. Ishak" result="" playerId="24440" assist="F. Ramli" assistid="136221" eventid="24430255" />
+          <event type="subst" minute="72" extra_min="" team="visitorteam" player="M. J. William" result="" playerId="" assist="S. Ishak" assistid="24440" eventid="24430256" />
+          <event type="goal" minute="78" extra_min="" team="localteam" player="P. Younghusband" result="[1 - 0]" playerId="36499" assist="" assistid="" eventid="24430257" />
+          <event type="subst" minute="85" extra_min="" team="visitorteam" player="K. Amri" result="" playerId="24522" assist="F. A. Irfan b." assistid="398866" eventid="24430258" />
+          <event type="subst" minute="90" extra_min="6" team="localteam" player="C. Dizon" result="" playerId="345387" assist="P. Younghusband" assistid="36499" eventid="24430259" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[1-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Asia: Olympic Games Women - First Stage" gid="5238" id="5238" file_group="asia" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="08:00" commentary_available="" venue="" static_id="" fix_id="" id="3114985">
+        <localteam name="Chinese Taipei W" goals="5" id="" />
+        <visitorteam name="Philippines W" goals="0" id="" />
+        <events>
+          <event type="goal" minute="41" team="localteam" player="Lai Li-Ching" result="[1 - 0]" playerId="" assist="" assistid="" eventid="31149851" />
+          <event type="goal" minute="44" team="localteam" player="H. Lee" result="[2 - 0]" playerId="" assist="" assistid="" eventid="31149852" />
+          <event type="goal" minute="57" team="localteam" player="Yu Hsiu-Chin" result="[3 - 0]" playerId="" assist="" assistid="" eventid="31149853" />
+          <event type="redcard" minute="60" team="localteam" player="" result="" playerId="" assist="" assistid="" eventid="31149854" />
+          <event type="redcard" minute="60" team="visitorteam" player="K. Inquig" result="" playerId="" assist="" assistid="" eventid="31149855" />
+          <event type="goal" minute="65" team="localteam" player="H. Lee" result="[4 - 0]" playerId="" assist="" assistid="" eventid="31149856" />
+          <event type="goal" minute="81" team="localteam" player="Lin Hsin-Hui" result="[5 - 0]" playerId="" assist="" assistid="" eventid="31149857" />
+        </events>
+        <ht score="[2-0]" />
+        <ft score="[5-0]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="08:00" commentary_available="" venue="" static_id="" fix_id="" id="3114986">
+        <localteam name="Iran W" goals="1" id="" />
+        <visitorteam name="Hong Kong W" goals="1" id="" />
+        <events>
+          <event type="goal" minute="16" team="visitorteam" player="L. Wing" result="[0 - 1]" playerId="" assist="" assistid="" eventid="31149861" />
+          <event type="goal" minute="47" team="localteam" player="H. Dabbaghi" result="[1 - 1]" playerId="" assist="" assistid="" eventid="31149862" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[1-1]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="08:30" commentary_available="" venue="" static_id="" fix_id="" id="3116985">
+        <localteam name="Nepal W" goals="1" id="" />
+        <visitorteam name="Bangladesh W" goals="1" id="" />
+        <events>
+          <event type="goal" minute="17" team="localteam" player="N. Thapa" result="[1 - 0]" playerId="" assist="" assistid="" eventid="31169851" />
+          <event type="goal" minute="90+3" team="visitorteam" player="A. Khatun" result="[1 - 1]" playerId="" assist="" assistid="" eventid="31169852" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[1-1]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="11:00" commentary_available="" venue="" static_id="" fix_id="" id="3116986">
+        <localteam name="Tajikistan W" goals="6" id="" />
+        <visitorteam name="Singapore W" goals="0" id="" />
+        <events>
+          <event type="goal" minute="5" team="localteam" player="G. Khalimova" result="[1 - 0]" playerId="" assist="" assistid="" eventid="31169861" />
+          <event type="goal" minute="12" team="localteam" player="G. Khalimova" result="[2 - 0]" playerId="" assist="" assistid="" eventid="31169862" />
+          <event type="goal" minute="26" team="localteam" player="G. Khalimova" result="[3 - 0]" playerId="" assist="" assistid="" eventid="31169863" />
+          <event type="goal" minute="38" team="localteam" player="G. Khalimova" result="[4 - 0]" playerId="" assist="" assistid="" eventid="31169864" />
+          <event type="goal" minute="47" team="localteam" player="M. Fozilova" result="[5 - 0]" playerId="" assist="" assistid="" eventid="31169865" />
+          <event type="goal" minute="77" team="localteam" player="G. Khalimova" result="[6 - 0]" playerId="" assist="" assistid="" eventid="31169866" />
+        </events>
+        <ht score="[4-0]" />
+        <ft score="[6-0]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="11:30" commentary_available="" venue="" static_id="" fix_id="" id="3117618">
+        <localteam name="Myanmar W" goals="2" id="" />
+        <visitorteam name="India W" goals="1" id="" />
+        <events>
+          <event type="goal" minute="3" team="localteam" player="T. T. Win" result="[1 - 0]" playerId="" assist="" assistid="" eventid="31176181" />
+          <event type="goal" minute="24" team="visitorteam" player="D. N. Ratanbala" result="[1 - 1]" playerId="" assist="" assistid="" eventid="31176182" />
+          <event type="goal" minute="83" team="localteam" player="T. T. Htwe" result="[2 - 1]" playerId="" assist="" assistid="" eventid="31176183" />
+        </events>
+        <ht score="[1-1]" />
+        <ft score="[2-1]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="12:30" commentary_available="" venue="" static_id="" fix_id="" id="3117619">
+        <localteam name="Jordan W" goals="3" id="" />
+        <visitorteam name="Indonesia W" goals="0" id="" />
+        <events>
+          <event type="goal" minute="16" team="localteam" player="S. Jebreen" result="[1 - 0]" playerId="" assist="" assistid="" eventid="31176191" />
+          <event type="goal" minute="74" team="localteam" player="A. Al-Nahar" result="[2 - 0]" playerId="" assist="" assistid="" eventid="31176192" />
+          <event type="goal" minute="87" team="localteam" player="J. Abu Ghosh" result="[3 - 0]" playerId="" assist="" assistid="" eventid="31176193" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[3-0]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="15:30" commentary_available="" venue="" static_id="" fix_id="" id="3117620">
+        <localteam name="Palestine W" goals="2" id="" />
+        <visitorteam name="Maldives W" goals="1" id="" />
+        <events>
+          <event type="goal" minute="23" team="visitorteam" player="" result="[0 - 1]" playerId="" assist="" assistid="" eventid="31176201" />
+          <event type="goal" minute="69" team="localteam" player="" result="[1 - 1]" playerId="" assist="" assistid="" eventid="31176202" />
+          <event type="goal" minute="74" team="localteam" player="" result="[2 - 1]" playerId="" assist="" assistid="" eventid="31176203" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[2-1]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Brazil: Serie B" gid="1117" id="1117" file_group="brazil" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="21:15" commentary_available="1117" venue="Estádio Orlando Scarpelli" v="60" static_id="2507151" fix_id="3002505" id="3117621">
+        <localteam name="Figueirense" goals="2" id="7298" />
+        <visitorteam name="Paysandu PA" goals="3" id="7487" />
+        <events>
+          <event type="goal" minute="6" extra_min="" team="localteam" player="Elton" result="[1 - 0]" playerId="34705" assist="" assistid="" eventid="31176211" />
+          <event type="yellowcard" minute="8" extra_min="" team="localteam" player="M. Sales" result="" playerId="373415" assist="" assistid="" eventid="31176212" />
+          <event type="goal" minute="14" extra_min="" team="localteam" player="Elton" result="[2 - 0]" playerId="34705" assist="" assistid="" eventid="31176213" />
+          <event type="goal" minute="36" extra_min="" team="visitorteam" player="P. Carmona (pen.)" result="[2 - 1]" playerId="9228" assist="" assistid="" eventid="31176214" />
+          <event type="yellowcard" minute="43" extra_min="" team="localteam" player="R. Mota" result="" playerId="132845" assist="" assistid="" eventid="31176215" />
+          <event type="subst" minute="46" extra_min="" team="visitorteam" player="Hugo" result="" playerId="97059" assist="Thomaz" assistid="113014" eventid="31176216" />
+          <event type="subst" minute="53" extra_min="" team="localteam" player="M. Sousa Pereira" result="" playerId="472576" assist="R. Pimenta Vinagre Filho" assistid="136818" eventid="31176217" />
+          <event type="goal" minute="56" extra_min="" team="visitorteam" player="Renato" result="[2 - 2]" playerId="227250" assist="" assistid="" eventid="31176218" />
+          <event type="subst" minute="61" extra_min="" team="localteam" player="Patrick" result="" playerId="472577" assist="R. Mota" assistid="132845" eventid="31176219" />
+          <event type="subst" minute="69" extra_min="" team="localteam" player="M. Leite" result="" playerId="40138" assist="Romarinho" assistid="298828" eventid="311762110" />
+          <event type="yellowcard" minute="72" extra_min="" team="visitorteam" player="Perema" result="" playerId="258918" assist="" assistid="" eventid="311762111" />
+          <event type="subst" minute="75" extra_min="" team="visitorteam" player="M. Silva" result="" playerId="443962" assist="M. dos Santos Ribeiro" assistid="408411" eventid="311762112" />
+          <event type="subst" minute="88" extra_min="" team="visitorteam" player="Timbo" result="" playerId="252263" assist="Maicon" assistid="79759" eventid="311762113" />
+          <event type="goal" minute="90" extra_min="1" team="visitorteam" player="Timbo" result="[2 - 3]" playerId="252263" assist="" assistid="" eventid="311762114" />
+        </events>
+        <ht score="[2-1]" />
+        <ft score="[2-3]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="23:30" commentary_available="brazil_b" venue="Estádio Moisés Lucarelli" static_id="2507148" fix_id="3002502" id="3117622">
+        <localteam name="Ponte Preta" goals="2" id="7501" />
+        <visitorteam name="Coritiba" goals="0" id="7245" />
+        <events>
+          <event type="goal" minute="4" team="localteam" player="L. Silva (o.g.)" result="[1 - 0]" playerId="83266" assist="" assistid="" eventid="31176221" />
+          <event type="goal" minute="39" team="localteam" player="Junior Santos" result="[2 - 0]" playerId="" assist="V. M. de" assistid="" eventid="31176222" />
+          <event type="redcard" minute="59" team="localteam" player="J. Vitor" result="" playerId="37513" assist="" assistid="" eventid="31176223" />
+          <event type="yellowcard" minute="68" team="visitorteam" player="Paraguaio" result="" playerId="" assist="" assistid="" eventid="31176224" />
+          <event type="yellowcard" minute="75" team="localteam" player="Nathan" result="" playerId="" assist="" assistid="" eventid="31176225" />
+          <event type="yellowcard" minute="83" team="visitorteam" player="R. Lima" result="" playerId="" assist="" assistid="" eventid="31176226" />
+        </events>
+        <ht score="[2-0]" />
+        <ft score="[2-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Ecuador: Serie A - Second Stage" gid="2811" id="1191" file_group="equador" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="00:15" commentary_available="ecuador" venue="" static_id="2410156" fix_id="2224522" id="3104113">
+        <localteam name="Guayaquil City" goals="1" id="18696" />
+        <visitorteam name="EL Nacional" goals="0" id="8859" />
+        <events>
+          <event type="goal" minute="51" team="localteam" player="M. Hoyos" result="[1 - 0]" playerId="" assist="" assistid="" eventid="31041131" />
+          <event type="yellowcard" minute="64" team="localteam" player="N. C. Anderson" result="" playerId="" assist="" assistid="" eventid="31041132" />
+          <event type="yellowcard" minute="83" team="visitorteam" player="J. Pena" result="" playerId="398926" assist="" assistid="" eventid="31041133" />
+          <event type="yellowcard" minute="84" team="localteam" player="A. Vasquez" result="" playerId="403052" assist="" assistid="" eventid="31041134" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[1-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="England: National League North" gid="5239" id="1202" file_group="england" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Edgar Street Athletic Ground" v="60" static_id="2399830" fix_id="2225730" id="3084719">
+        <localteam name="Hereford" goals="0" id="25909" />
+        <visitorteam name="Southport" goals="3" id="9365" />
+        <events>
+          <event type="redcard" minute="22" extra_min="" team="localteam" player="D. Greenslade" result="" playerId="388957" assist="" assistid="" eventid="30847191" />
+          <event type="goal" minute="24" extra_min="" team="visitorteam" player="D. Charles (pen.)" result="[0 - 1]" playerId="306849" assist="" assistid="" eventid="30847192" />
+          <event type="goal" minute="45" extra_min="2" team="visitorteam" player="D. Winnard" result="[0 - 2]" playerId="23288" assist="" assistid="" eventid="30847193" />
+          <event type="goal" minute="67" extra_min="" team="visitorteam" player="J. Archer" result="[0 - 3]" playerId="516402" assist="" assistid="" eventid="30847194" />
+        </events>
+        <ht score="[0-2]" />
+        <ft score="[0-3]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Bootham Crescent" v="60" static_id="2399833" fix_id="2225733" id="3084720">
+        <localteam name="York" goals="0" id="9460" />
+        <visitorteam name="Chester" goals="0" id="18822" />
+        <events>
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="England: National League South" gid="5241" id="1202" file_group="england" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Thames Road" v="60" static_id="2400301" fix_id="2226187" id="3084723">
+        <localteam name="Concord" goals="3" id="9110" />
+        <visitorteam name="Eastbourne Boro" goals="0" id="9146" />
+        <events>
+          <event type="goal" minute="29" extra_min="" team="localteam" player="J. Midson" result="[1 - 0]" playerId="36100" assist="" assistid="" eventid="30847231" />
+          <event type="goal" minute="62" extra_min="" team="localteam" player="N. Kyei" result="[2 - 0]" playerId="437098" assist="" assistid="" eventid="30847232" />
+          <event type="goal" minute="82" extra_min="" team="localteam" player="J. Midson" result="[3 - 0]" playerId="36100" assist="" assistid="" eventid="30847233" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[3-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Princes Park" v="60" static_id="2400302" fix_id="2226188" id="3084816">
+        <localteam name="Dartford" goals="3" id="9131" />
+        <visitorteam name="Oxford City" goals="2" id="9304" />
+        <events>
+          <event type="goal" minute="5" extra_min="" team="localteam" player="A. Coker" result="[1 - 0]" playerId="506450" assist="" assistid="" eventid="30848161" />
+          <event type="goal" minute="15" extra_min="" team="localteam" player="J. Wynter" result="[2 - 0]" playerId="297462" assist="" assistid="" eventid="30848162" />
+          <event type="goal" minute="17" extra_min="" team="visitorteam" player="J. Oastler" result="[2 - 1]" playerId="96667" assist="" assistid="" eventid="30848163" />
+          <event type="goal" minute="30" extra_min="" team="localteam" player="C. Sheringham" result="[3 - 1]" playerId="" assist="" assistid="" eventid="30848164" />
+          <event type="goal" minute="70" extra_min="" team="visitorteam" player="Z. McEachran" result="[3 - 2]" playerId="280879" assist="" assistid="" eventid="30848165" />
+        </events>
+        <ht score="[3-1]" />
+        <ft score="[3-2]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Vauxhall Ground" v="60" static_id="2400307" fix_id="2226193" id="3084728">
+        <localteam name="Hemel Hempstead" goals="0" id="9208" />
+        <visitorteam name="Wealdstone" goals="1" id="9424" />
+        <events>
+          <event type="goal" minute="33" extra_min="" team="visitorteam" player="D. Pratt" result="[0 - 1]" playerId="88371" assist="" assistid="" eventid="30847281" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[0-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Plainmoor Ground" v="60" static_id="2400309" fix_id="2226195" id="3084817">
+        <localteam name="Torquay" goals="4" id="9405" />
+        <visitorteam name="St. Albans" goals="1" id="9368" />
+        <events>
+          <event type="goal" minute="6" extra_min="" team="localteam" player="J. Reid" result="[1 - 0]" playerId="258952" assist="" assistid="" eventid="30848171" />
+          <event type="goal" minute="9" extra_min="" team="visitorteam" player="C. Kamdjo" result="[1 - 1]" playerId="" assist="" assistid="" eventid="30848172" />
+          <event type="goal" minute="14" extra_min="" team="localteam" player="T. Bender (o.g.)" result="[2 - 1]" playerId="96473" assist="" assistid="" eventid="30848173" />
+          <event type="goal" minute="59" extra_min="" team="localteam" player="J. Reid" result="[3 - 1]" playerId="258952" assist="" assistid="" eventid="30848174" />
+          <event type="goal" minute="60" extra_min="" team="localteam" player="J. Andrews" result="[4 - 1]" playerId="492826" assist="" assistid="" eventid="30848175" />
+        </events>
+        <ht score="[2-1]" />
+        <ft score="[4-1]" />
+      </match>
+    </matches>
+  </category>
+  <category name="England: Npl Premier Division" gid="5236" id="1201" file_group="england" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="Postp." date="Nov 13" formatted_date="13.11.2018" time="19:45" venue="The Northolme" static_id="2418951" fix_id="2230096" id="3083868">
+        <localteam name="Gainsborough" goals="?" id="9176" />
+        <visitorteam name="Buxton" goals="?" id="9077" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Giant Axe" v="60" static_id="2418965" fix_id="2230110" id="3111692">
+        <localteam name="Lancaster" goals="2" id="9234" />
+        <visitorteam name="Hyde" goals="1" id="9223" />
+        <events>
+          <event type="goal" minute="20" extra_min="" team="visitorteam" player="C. Simpson" result="[0 - 1]" playerId="" assist="" assistid="" eventid="31116921" />
+          <event type="goal" minute="57" extra_min="" team="localteam" player="R. Wilson (pen.)" result="[1 - 1]" playerId="" assist="" assistid="" eventid="31116922" />
+          <event type="goal" minute="77" extra_min="" team="localteam" player="R. Wilson" result="[2 - 1]" playerId="" assist="" assistid="" eventid="31116923" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[2-1]" />
+      </match>
+      <match status="Postp." date="Nov 13" formatted_date="13.11.2018" time="19:45" venue="Don Amott Leisure Group Arena" static_id="2418955" fix_id="2230100" id="3083872">
+        <localteam name="Mickleover" goals="?" id="9273" />
+        <visitorteam name="Marine" goals="?" id="9264" />
+        <events />
+        <ht score="" />
+      </match>
+      <match status="Postp." date="Nov 13" formatted_date="13.11.2018" time="19:45" venue="Help For Heroes Stadium" static_id="2418927" fix_id="2230072" id="3053622">
+        <localteam name="Witton" goals="?" id="9443" />
+        <visitorteam name="Farsley" goals="?" id="9163" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="England: Southern League Central Division" gid="5159" id="1201" file_group="england" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Hayden Road" v="60" static_id="2500741" fix_id="2326560" id="3116341">
+        <localteam name="AFC Rushden &amp; Diamonds" goals="2" id="24667" />
+        <visitorteam name="Hitchin" goals="1" id="9215" />
+        <events>
+          <event type="goal" minute="25" extra_min="" team="localteam" player="B. Diamond" result="[1 - 0]" playerId="" assist="" assistid="" eventid="31163411" />
+          <event type="goal" minute="52" extra_min="" team="localteam" player="J. Bowen" result="[2 - 0]" playerId="" assist="" assistid="" eventid="31163412" />
+          <event type="goal" minute="60" extra_min="" team="visitorteam" player="E. Forde" result="[2 - 1]" playerId="" assist="" assistid="" eventid="31163413" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[2-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="The Valley Stadium" v="60" static_id="2500725" fix_id="2326544" id="3061730">
+        <localteam name="Redditch" goals="0" id="9326" />
+        <visitorteam name="Stourbridge" goals="4" id="9380" />
+        <events>
+          <event type="goal" minute="36" extra_min="" team="visitorteam" player="C. Powell" result="[0 - 1]" playerId="450227" assist="" assistid="" eventid="30617301" />
+          <event type="goal" minute="48" extra_min="" team="visitorteam" player="G. Mills (pen.)" result="[0 - 2]" playerId="96694" assist="" assistid="" eventid="30617302" />
+          <event type="goal" minute="65" extra_min="" team="visitorteam" player="L. Benbow" result="[0 - 3]" playerId="319315" assist="" assistid="" eventid="30617303" />
+          <event type="goal" minute="74" extra_min="" team="visitorteam" player="G. Mills" result="[0 - 4]" playerId="96694" assist="" assistid="" eventid="30617304" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[0-4]" />
+      </match>
+    </matches>
+  </category>
+  <category name="England: Southern League South Division" gid="5158" id="1201" file_group="england" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Silver Jubilee Park" v="60" static_id="2419384" fix_id="2230530" id="3061719">
+        <localteam name="Hendon" goals="5" id="9209" />
+        <visitorteam name="Staines" goals="1" id="9370" />
+        <events>
+          <event type="goal" minute="23" extra_min="" team="localteam" player="C. Calcutt" result="[1 - 0]" playerId="" assist="" assistid="" eventid="30617191" />
+          <event type="goal" minute="47" extra_min="" team="localteam" player="C. Calcutt" result="[2 - 0]" playerId="" assist="" assistid="" eventid="30617192" />
+          <event type="goal" minute="54" extra_min="" team="localteam" player="S. Hippolyte-Patrick" result="[3 - 0]" playerId="" assist="" assistid="" eventid="30617193" />
+          <event type="goal" minute="63" extra_min="" team="localteam" player="S. Hippolyte-Patrick" result="[4 - 0]" playerId="" assist="" assistid="" eventid="30617194" />
+          <event type="goal" minute="79" extra_min="" team="visitorteam" player="K. Makhosini Ryan" result="[4 - 1]" playerId="" assist="" assistid="" eventid="30617195" />
+          <event type="goal" minute="81" extra_min="" team="localteam" player="S. Hippolyte-Patrick" result="[5 - 1]" playerId="" assist="" assistid="" eventid="30617196" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[5-1]" />
+      </match>
+    </matches>
+  </category>
+  <category name="England: Isthmian League Premier Division" gid="1201" id="1201" file_group="england" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Nyewood Lane" v="60" static_id="2419866" fix_id="2229625" id="3083880">
+        <localteam name="Bognor Regis" goals="0" id="9047" />
+        <visitorteam name="Corinthian-Casuals" goals="1" id="9114" />
+        <events>
+          <event type="goal" minute="88" extra_min="" team="visitorteam" player="G. Odunaike" result="[0 - 1]" playerId="" assist="" assistid="" eventid="30838801" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="North Road" v="60" static_id="2419867" fix_id="2229626" id="3083881">
+        <localteam name="Brightlingsea" goals="0" id="22151" />
+        <visitorteam name="Wingate &amp; Finchley" goals="1" id="9440" />
+        <events>
+          <event type="goal" minute="45" extra_min="" team="visitorteam" player="C. Cole" result="[0 - 1]" playerId="" assist="" assistid="" eventid="30838811" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[0-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Queen Elizabeth Stadium" v="60" static_id="2419870" fix_id="2229629" id="3083884">
+        <localteam name="Enfield Town" goals="1" id="9155" />
+        <visitorteam name="Worthing" goals="4" id="9452" />
+        <events>
+          <event type="goal" minute="39" extra_min="" team="visitorteam" player="J. Starkey" result="[0 - 1]" playerId="454511" assist="" assistid="" eventid="30838841" />
+          <event type="redcard" minute="47" extra_min="" team="localteam" player="S. Hatton" result="" playerId="33958" assist="" assistid="" eventid="30838842" />
+          <event type="goal" minute="64" extra_min="" team="visitorteam" player="D. Ajiboye" result="[0 - 2]" playerId="453244" assist="" assistid="" eventid="30838843" />
+          <event type="goal" minute="72" extra_min="" team="localteam" player="B. Bricknell (pen.)" result="[1 - 2]" playerId="143638" assist="" assistid="" eventid="30838844" />
+          <event type="goal" minute="78" extra_min="" team="visitorteam" player="Z. Newton" result="[1 - 3]" playerId="470522" assist="" assistid="" eventid="30838845" />
+          <event type="goal" minute="82" extra_min="" team="visitorteam" player="D. Ajiboye" result="[1 - 4]" playerId="453244" assist="" assistid="" eventid="30838846" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[1-4]" />
+      </match>
+    </matches>
+  </category>
+  <category name="England: Efl Trophy" gid="1200" id="1200" file_group="england" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:00" commentary_available="" venue="Abbey Stadium" v="60" static_id="2432195" fix_id="2302706" id="3092674">
+        <localteam name="Cambridge Utd" goals="3" id="9080" />
+        <visitorteam name="Colchester" goals="1" id="9106" />
+        <events>
+          <event type="yellowcard" minute="3" extra_min="" team="localteam" player="J. Carroll" result="" playerId="182040" assist="" assistid="" eventid="30926741" />
+          <event type="goal" minute="32" extra_min="" team="localteam" player="A. Azeez" result="[1 - 0]" playerId="269595" assist="E. Osadebe" assistid="412656" eventid="30926742" />
+          <event type="yellowcard" minute="38" extra_min="" team="localteam" player="L. O'Neil" result="" playerId="222648" assist="" assistid="" eventid="30926743" />
+          <event type="subst" minute="46" extra_min="" team="localteam" player="G. Maris" result="" playerId="354883" assist="L. O'Neil" assistid="222648" eventid="30926744" />
+          <event type="subst" minute="46" extra_min="" team="localteam" player="D. Amoo" result="" playerId="118841" assist="H. Dunk" assistid="94578" eventid="30926745" />
+          <event type="subst" minute="60" extra_min="" team="visitorteam" player="R. Jackson" result="" playerId="124982" assist="O. Kensdale" assistid="" eventid="30926746" />
+          <event type="subst" minute="64" extra_min="" team="visitorteam" player="C. Senior" result="" playerId="394134" assist="S. Szmodics" assistid="316472" eventid="30926747" />
+          <event type="subst" minute="71" extra_min="" team="visitorteam" player="R. Gondoh" result="" playerId="412887" assist="K. Vincent-Young" assistid="393213" eventid="30926748" />
+          <event type="subst" minute="71" extra_min="" team="localteam" player="B. Halliday" result="" playerId="333831" assist="L. Davies" assistid="429629" eventid="30926749" />
+          <event type="goal" minute="81" extra_min="" team="localteam" player="A. Azeez" result="[2 - 0]" playerId="269595" assist="" assistid="" eventid="309267410" />
+          <event type="goal" minute="90" extra_min="2" team="visitorteam" player="H. Pell" result="[2 - 1]" playerId="142700" assist="R. Jackson" assistid="124982" eventid="309267411" />
+          <event type="goal" minute="90" extra_min="3" team="localteam" player="E. Osadebe" result="[3 - 1]" playerId="412656" assist="J. Carroll" assistid="182040" eventid="309267412" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[3-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:00" commentary_available="" venue="The Banks&amp;apos;s Stadium" v="60" static_id="2432183" fix_id="2302694" id="3092675">
+        <localteam name="Walsall" goals="1" id="9416" />
+        <visitorteam name="Port Vale" goals="2" id="9313" />
+        <events>
+          <event type="goal" minute="4" extra_min="" team="visitorteam" player="S. Quigley" result="[0 - 1]" playerId="251531" assist="" assistid="" eventid="30926751" />
+          <event type="yellowcard" minute="11" extra_min="" team="visitorteam" player="A. Kay" result="" playerId="15980" assist="" assistid="" eventid="30926752" />
+          <event type="yellowcard" minute="26" extra_min="" team="localteam" player="C. Johnson" result="" playerId="452929" assist="" assistid="" eventid="30926753" />
+          <event type="goal" minute="45" extra_min="1" team="localteam" player="C. Johnson" result="[1 - 1]" playerId="452929" assist="" assistid="" eventid="30926754" />
+          <event type="subst" minute="46" extra_min="" team="localteam" player="N. Devlin" result="" playerId="161562" assist="L. Leahy" assistid="254576" eventid="30926755" />
+          <event type="subst" minute="46" extra_min="" team="visitorteam" player="D. Pugh" result="" playerId="15619" assist="T. Conlon" assistid="317809" eventid="30926756" />
+          <event type="yellowred" minute="50" extra_min="" team="localteam" player="C. Johnson" result="" playerId="452929" assist="" assistid="" eventid="30926757" />
+          <event type="subst" minute="57" extra_min="" team="localteam" player="L. Kinsella" result="" playerId="338497" assist="Z. Ismail" assistid="268932" eventid="30926758" />
+          <event type="goal" minute="65" extra_min="" team="visitorteam" player="D. Pugh" result="[1 - 2]" playerId="15619" assist="L. Dodds" assistid="50694" eventid="30926759" />
+          <event type="subst" minute="65" extra_min="" team="visitorteam" player="B. Daniels" result="" playerId="257994" assist="A. Kay" assistid="15980" eventid="309267510" />
+          <event type="subst" minute="75" extra_min="" team="localteam" player="D. Parker" result="" playerId="" assist="J. Gordon" assistid="430824" eventid="309267511" />
+          <event type="subst" minute="86" extra_min="" team="visitorteam" player="N. Agho" result="" playerId="" assist="I. Kanu" assistid="458611" eventid="309267512" />
+          <event type="yellowcard" minute="90" extra_min="2" team="localteam" player="L. Kinsella" result="" playerId="338497" assist="" assistid="" eventid="309267513" />
+        </events>
+        <ht score="[1-1]" />
+        <ft score="[1-2]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:30" commentary_available="" venue="Oakwell Stadium" v="60" static_id="2432176" fix_id="2302687" id="3092676">
+        <localteam name="Barnsley" goals="2" id="9021" />
+        <visitorteam name="Bradford City" goals="1" id="9056" />
+        <events>
+          <event type="goal" minute="8" extra_min="" team="visitorteam" player="D. Ball" result="[0 - 1]" playerId="140795" assist="" assistid="" eventid="30926761" />
+          <event type="goal" minute="28" extra_min="" team="localteam" player="G. Moncur" result="[1 - 1]" playerId="203972" assist="" assistid="" eventid="30926762" />
+          <event type="yellowcard" minute="34" extra_min="" team="localteam" player="A. Jackson" result="" playerId="160418" assist="" assistid="" eventid="30926763" />
+          <event type="subst" minute="46" extra_min="" team="visitorteam" player="L. O'Brien" result="" playerId="" assist="J. O'Brien" assistid="12939" eventid="30926764" />
+          <event type="yellowcard" minute="54" extra_min="" team="visitorteam" player="L. O'Brien" result="" playerId="" assist="" assistid="" eventid="30926765" />
+          <event type="subst" minute="55" extra_min="" team="visitorteam" player="C. Wood" result="" playerId="454538" assist="S. Seedorf" assistid="496665" eventid="30926766" />
+          <event type="yellowcard" minute="62" extra_min="" team="visitorteam" player="N. Knight-Percival" result="" playerId="36102" assist="" assistid="" eventid="30926767" />
+          <event type="goal" minute="64" extra_min="" team="localteam" player="G. Moncur" result="[2 - 1]" playerId="203972" assist="" assistid="" eventid="30926768" />
+          <event type="subst" minute="73" extra_min="" team="localteam" player="L. Isgrove" result="" playerId="275905" assist="J. Brown" assistid="481592" eventid="30926769" />
+          <event type="yellowcard" minute="74" extra_min="" team="visitorteam" player="K. Brunker" result="" playerId="411304" assist="" assistid="" eventid="309267610" />
+          <event type="redcard" minute="77" extra_min="" team="localteam" player="A. Jackson" result="" playerId="160418" assist="" assistid="" eventid="309267611" />
+          <event type="subst" minute="79" extra_min="" team="localteam" player="W. Smith" result="" playerId="481595" assist="G. Moncur" assistid="203972" eventid="309267612" />
+          <event type="yellowcard" minute="84" extra_min="" team="localteam" player="V. Adeboyejo" result="" playerId="386345" assist="" assistid="" eventid="309267613" />
+          <event type="yellowcard" minute="85" extra_min="" team="visitorteam" player="A. Chicksen" result="" playerId="51033" assist="" assistid="" eventid="309267614" />
+          <event type="subst" minute="87" extra_min="" team="localteam" player="J. Helliwell" result="" playerId="" assist="V. Adeboyejo" assistid="386345" eventid="309267615" />
+        </events>
+        <ht score="[1-1]" />
+        <ft score="[2-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:30" commentary_available="" venue="Alexandra Stadium" v="60" static_id="2432184" fix_id="2302695" id="3092677">
+        <localteam name="Crewe" goals="1" id="9122" />
+        <visitorteam name="Shrewsbury" goals="2" id="9354" />
+        <events>
+          <event type="yellowcard" minute="16" extra_min="" team="localteam" player="G. Ray" result="" playerId="199609" assist="" assistid="" eventid="30926771" />
+          <event type="goal" minute="20" extra_min="" team="visitorteam" player="G. Ray (o.g.)" result="[0 - 1]" playerId="199609" assist="" assistid="" eventid="30926772" />
+          <event type="yellowcard" minute="35" extra_min="" team="localteam" player="J. Jones" result="" playerId="356765" assist="" assistid="" eventid="30926773" />
+          <event type="yellowcard" minute="40" extra_min="" team="localteam" player="E. Nolan" result="" playerId="23287" assist="" assistid="" eventid="30926774" />
+          <event type="subst" minute="58" extra_min="" team="localteam" player="R. Wintle" result="" playerId="412646" assist="K. O'Connor" assistid="213972" eventid="30926775" />
+          <event type="subst" minute="62" extra_min="" team="localteam" player="C. Ainley" result="" playerId="418103" assist="A. Nicholls" assistid="51196" eventid="30926776" />
+          <event type="goal" minute="63" extra_min="" team="visitorteam" player="A. Gilliead" result="[0 - 2]" playerId="274808" assist="" assistid="" eventid="30926777" />
+          <event type="yellowcard" minute="66" extra_min="" team="localteam" player="C. Whelan" result="" playerId="320320" assist="" assistid="" eventid="30926778" />
+          <event type="subst" minute="67" extra_min="" team="visitorteam" player="J. Rowlands" result="" playerId="" assist="C. Colkett" assistid="271291" eventid="30926779" />
+          <event type="yellowcard" minute="72" extra_min="" team="visitorteam" player="D. Loft" result="" playerId="50811" assist="" assistid="" eventid="309267710" />
+          <event type="subst" minute="76" extra_min="" team="visitorteam" player="A. Gnahoua" result="" playerId="168927" assist="L. Angol" assistid="218156" eventid="309267711" />
+          <event type="goal" minute="79" extra_min="" team="localteam" player="J. Bowery" result="[1 - 2]" playerId="111936" assist="" assistid="" eventid="309267712" />
+          <event type="subst" minute="90" extra_min="" team="visitorteam" player="F. Okenabirhie" result="" playerId="334037" assist="A. Eisa" assistid="490473" eventid="309267713" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[1-2]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Bloomfield Road" v="60" static_id="2432187" fix_id="2302698" id="3092698">
+        <localteam name="Blackpool" goals="3" id="9045" />
+        <visitorteam name="Accrington" goals="2" id="8987" />
+        <events>
+          <event type="goal" minute="17" extra_min="" team="visitorteam" player="C. Hall" result="[0 - 1]" playerId="140753" assist="" assistid="" eventid="30926981" />
+          <event type="goal" minute="30" extra_min="" team="localteam" player="J. Dodoo" result="[1 - 1]" playerId="333829" assist="" assistid="" eventid="30926982" />
+          <event type="goal" minute="41" extra_min="" team="localteam" player="J. Dodoo" result="[2 - 1]" playerId="333829" assist="" assistid="" eventid="30926983" />
+          <event type="yellowcard" minute="54" extra_min="" team="visitorteam" player="R. Sykes" result="" playerId="451703" assist="" assistid="" eventid="30926984" />
+          <event type="subst" minute="61" extra_min="" team="localteam" player="S. Davies" result="" playerId="46257" assist="J. Dodoo" assistid="333829" eventid="30926985" />
+          <event type="subst" minute="61" extra_min="" team="localteam" player="H. Pritchard" result="" playerId="230570" assist="C. Guy" assistid="" eventid="30926986" />
+          <event type="goal" minute="67" extra_min="" team="localteam" player="A. Gnanduillet" result="[3 - 1]" playerId="156671" assist="" assistid="" eventid="30926987" />
+          <event type="subst" minute="72" extra_min="" team="visitorteam" player="S. Finley" result="" playerId="92960" assist="P. Mingoia" assistid="132458" eventid="30926988" />
+          <event type="yellowcard" minute="72" extra_min="" team="localteam" player="J. O'Sullivan" result="" playerId="191637" assist="" assistid="" eventid="30926989" />
+          <event type="yellowcard" minute="79" extra_min="" team="localteam" player="H. Pritchard" result="" playerId="230570" assist="" assistid="" eventid="309269810" />
+          <event type="subst" minute="87" extra_min="" team="localteam" player="M. Nottingham" result="" playerId="299103" assist="A. Gnanduillet" assistid="156671" eventid="309269811" />
+          <event type="subst" minute="88" extra_min="" team="visitorteam" player="A. Scott" result="" playerId="" assist="L. Charman" assistid="454451" eventid="309269812" />
+          <event type="goal" minute="90" extra_min="1" team="visitorteam" player="C. Hall (pen.)" result="[3 - 2]" playerId="140753" assist="" assistid="" eventid="309269813" />
+        </events>
+        <ht score="[2-1]" />
+        <ft score="[3-2]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Gigg Lane" v="60" static_id="2432186" fix_id="2302697" id="3092703">
+        <localteam name="Bury" goals="3" id="9075" />
+        <visitorteam name="Fleetwood" goals="1" id="9168" />
+        <events>
+          <event type="goal" minute="14" extra_min="" team="visitorteam" player="K. Dempsey" result="[0 - 1]" playerId="327686" assist="" assistid="" eventid="30927031" />
+          <event type="goal" minute="21" extra_min="" team="localteam" player="D. Telford" result="[1 - 1]" playerId="356753" assist="" assistid="" eventid="30927032" />
+          <event type="goal" minute="32" extra_min="" team="localteam" player="C. Dagnall" result="[2 - 1]" playerId="50712" assist="" assistid="" eventid="30927033" />
+          <event type="yellowcard" minute="35" extra_min="" team="localteam" player="R. Cooney" result="" playerId="470404" assist="" assistid="" eventid="30927034" />
+          <event type="goal" minute="37" extra_min="" team="localteam" player="N. Adams" result="[3 - 1]" playerId="53557" assist="" assistid="" eventid="30927035" />
+          <event type="subst" minute="45" extra_min="" team="visitorteam" player="L. Baines" result="" playerId="521540" assist="E. Clarke" assistid="473917" eventid="30927036" />
+          <event type="subst" minute="46" extra_min="" team="visitorteam" player="D. Marney" result="" playerId="15769" assist="C. Long" assistid="299876" eventid="30927037" />
+          <event type="subst" minute="46" extra_min="" team="visitorteam" player="C. McAleny" result="" playerId="110667" assist="G. Garner" assistid="495483" eventid="30927038" />
+          <event type="subst" minute="66" extra_min="" team="localteam" player="A. Thompson" result="" playerId="34095" assist="C. Stokes" assistid="121963" eventid="30927039" />
+          <event type="subst" minute="74" extra_min="" team="localteam" player="B. Moore" result="" playerId="50914" assist="C. Dagnall" assistid="50712" eventid="309270310" />
+          <event type="yellowcard" minute="76" extra_min="" team="localteam" player="P. Edwards" result="" playerId="50330" assist="" assistid="" eventid="309270311" />
+          <event type="yellowcard" minute="86" extra_min="" team="visitorteam" player="H. Biggins" result="" playerId="430474" assist="" assistid="" eventid="309270312" />
+          <event type="subst" minute="90" extra_min="" team="localteam" player="C. Hulme" result="" playerId="453106" assist="J. Barjonas" assistid="426841" eventid="309270313" />
+        </events>
+        <ht score="[3-1]" />
+        <ft score="[3-1]" />
+      </match>
+      <match status="Pen." timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Brunton Park" v="60" static_id="2432177" fix_id="2302688" id="3092700">
+        <localteam name="Carlisle" goals="1" id="9084" />
+        <visitorteam name="Stoke City U21" goals="1" id="21743" />
+        <events>
+          <event type="goal" minute="23" extra_min="" team="localteam" player="J. Sowerby" result="[1 - 0]" playerId="395420" assist="" assistid="" eventid="30927001" />
+          <event type="goal" minute="34" extra_min="" team="visitorteam" player="T. Campbell" result="[1 - 1]" playerId="422456" assist="" assistid="" eventid="30927002" />
+          <event type="subst" minute="51" extra_min="" team="localteam" player="M. Jones" result="" playerId="50437" assist="G. Glendon" assistid="265365" eventid="30927003" />
+          <event type="subst" minute="59" extra_min="" team="visitorteam" player="T. Pemberton" result="" playerId="455344" assist="T. Verlinden" assistid="421836" eventid="30927004" />
+          <event type="subst" minute="70" extra_min="" team="localteam" player="R. Bennett" result="" playerId="426017" assist="R. Slater" assistid="468774" eventid="30927005" />
+          <event type="yellowcard" minute="80" extra_min="" team="localteam" player="G. Liddle" result="" playerId="50925" assist="" assistid="" eventid="30927006" />
+          <event type="subst" minute="83" extra_min="" team="localteam" player="L. McCarron" result="" playerId="569491" assist="H. Hope" assistid="160416" eventid="30927007" />
+        </events>
+        <ht score="[1-1]" />
+        <ft score="[1-1]" />
+        <et score="[0-0]" />
+        <penalty localteam="4" visitorteam="5">
+          <event type="goal" minute="1" team="localteam" player="D. Grainger (pen.)" result="[1 - 0]" playerId="12981" eventid="30927008" />
+          <event type="pen. miss" minute="1" team="visitorteam" player="J. Dunwoody" result="" playerId="453710" eventid="30927009" />
+          <event type="goal" minute="2" team="localteam" player="J. Yates (pen.)" result="[2 - 0]" playerId="393464" eventid="309270010" />
+          <event type="goal" minute="2" team="visitorteam" player="T. Campbell (pen.)" result="[2 - 1]" playerId="422456" eventid="309270011" />
+          <event type="pen. miss" minute="3" team="localteam" player="M. Jones" result="" playerId="50437" eventid="309270012" />
+          <event type="goal" minute="3" team="visitorteam" player="S. Thandi (pen.)" result="[2 - 2]" playerId="453321" eventid="309270013" />
+          <event type="goal" minute="4" team="localteam" player="A. Nadesan (pen.)" result="[3 - 2]" playerId="449209" eventid="309270014" />
+          <event type="goal" minute="4" team="visitorteam" player="S. Clucas (pen.)" result="[3 - 3]" playerId="94174" eventid="309270015" />
+          <event type="goal" minute="5" team="localteam" player="L. McCarron (pen.)" result="[4 - 3]" playerId="569491" eventid="309270016" />
+          <event type="goal" minute="5" team="visitorteam" player="D. Jarvis (pen.)" result="[4 - 4]" playerId="456006" eventid="309270017" />
+          <event type="pen. miss" minute="6" team="localteam" player="G. Miller" result="" playerId="38559" eventid="309270018" />
+          <event type="goal" minute="6" team="visitorteam" player="O. Shenton (pen.)" result="[4 - 5]" playerId="363921" eventid="309270019" />
+        </penalty>
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="The Valley" v="60" static_id="2522858" fix_id="3018212" id="3112594">
+        <localteam name="Charlton" goals="0" id="9088" />
+        <visitorteam name="Swansea U21" goals="1" id="24829" />
+        <events>
+          <event type="subst" minute="41" extra_min="" team="localteam" player="B. Dempsey" result="" playerId="" assist="R. Hackett-Fairchild" assistid="456007" eventid="31125941" />
+          <event type="yellowcard" minute="45" extra_min="3" team="localteam" player="R. Blumberg" result="" playerId="" assist="" assistid="" eventid="31125942" />
+          <event type="goal" minute="54" extra_min="" team="visitorteam" player="A. Maric" result="[0 - 1]" playerId="282174" assist="" assistid="" eventid="31125943" />
+          <event type="yellowcard" minute="61" extra_min="" team="visitorteam" player="C. Harries" result="" playerId="316303" assist="" assistid="" eventid="31125944" />
+          <event type="yellowcard" minute="66" extra_min="" team="visitorteam" player="S. Paulet" result="" playerId="" assist="" assistid="" eventid="31125945" />
+          <event type="subst" minute="74" extra_min="" team="localteam" player="T. Anderson" result="" playerId="" assist="B. Wiredu" assistid="" eventid="31125946" />
+          <event type="subst" minute="75" extra_min="" team="visitorteam" player="T. Price" result="" playerId="" assist="S. Paulet" assistid="" eventid="31125947" />
+          <event type="subst" minute="77" extra_min="" team="localteam" player="T. Maloney" result="" playerId="502817" assist="B. Clarke" assistid="15746" eventid="31125948" />
+          <event type="subst" minute="79" extra_min="" team="visitorteam" player="J. Govea" result="" playerId="506366" assist="B. Biabi" assistid="" eventid="31125949" />
+          <event type="yellowcard" minute="83" extra_min="" team="visitorteam" player="A. Maric" result="" playerId="282174" assist="" assistid="" eventid="311259410" />
+          <event type="subst" minute="86" extra_min="" team="visitorteam" player="K. Evans" result="" playerId="" assist="O. Cooper" assistid="" eventid="311259411" />
+          <event type="yellowcard" minute="90" extra_min="1" team="visitorteam" player="K. Evans" result="" playerId="" assist="" assistid="" eventid="311259412" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Jonny-Rocks Stadium" v="60" static_id="2432198" fix_id="2302709" id="3108210">
+        <localteam name="Cheltenham" goals="2" id="9093" />
+        <visitorteam name="Coventry" goals="0" id="9116" />
+        <events>
+          <event type="yellowcard" minute="13" extra_min="" team="visitorteam" player="J. Eccles" result="" playerId="" assist="" assistid="" eventid="31082101" />
+          <event type="goal" minute="35" extra_min="" team="localteam" player="J. Maddox" result="[1 - 0]" playerId="376711" assist="" assistid="" eventid="31082102" />
+          <event type="goal" minute="47" extra_min="" team="localteam" player="W. Boyle" result="[2 - 0]" playerId="391409" assist="" assistid="" eventid="31082103" />
+          <event type="subst" minute="54" extra_min="" team="localteam" player="C. Alcock" result="" playerId="51204" assist="J. Maddox" assistid="376711" eventid="31082104" />
+          <event type="subst" minute="54" extra_min="" team="localteam" player="C. Hussey" result="" playerId="33952" assist="J. Forster" assistid="190214" eventid="31082105" />
+          <event type="subst" minute="55" extra_min="" team="visitorteam" player="S. McCallum" result="" playerId="" assist="B. Mason" assistid="471120" eventid="31082106" />
+          <event type="subst" minute="63" extra_min="" team="visitorteam" player="J. Burroughs" result="" playerId="" assist="T. Bayliss" assistid="492813" eventid="31082107" />
+          <event type="subst" minute="72" extra_min="" team="visitorteam" player="J. Hickman" result="" playerId="492816" assist="J. Ngandu" assistid="" eventid="31082108" />
+          <event type="subst" minute="78" extra_min="" team="localteam" player="A. Addai" result="" playerId="325799" assist="K. Mooney" assistid="453236" eventid="31082109" />
+          <event type="yellowcard" minute="83" extra_min="" team="visitorteam" player="J. Thompson" result="" playerId="482234" assist="" assistid="" eventid="310821010" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[2-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="St. James&amp;apos; Park" v="60" static_id="2432197" fix_id="2302708" id="3092704">
+        <localteam name="Exeter" goals="2" id="9160" />
+        <visitorteam name="Bristol Rovers" goals="0" id="9067" />
+        <events>
+          <event type="yellowcard" minute="35" extra_min="" team="visitorteam" player="R. Menayese" result="" playerId="274847" assist="" assistid="" eventid="30927041" />
+          <event type="goal" minute="50" extra_min="" team="localteam" player="J. Forte" result="[1 - 0]" playerId="15563" assist="" assistid="" eventid="30927042" />
+          <event type="subst" minute="52" extra_min="" team="visitorteam" player="C. Hargreaves" result="" playerId="493608" assist="Z. Walker" assistid="" eventid="30927043" />
+          <event type="subst" minute="60" extra_min="" team="localteam" player="J. Key" result="" playerId="502812" assist="C. Ogbene" assistid="417306" eventid="30927044" />
+          <event type="subst" minute="61" extra_min="" team="visitorteam" player="T. Widdrington" result="" playerId="492500" assist="C. Jones" assistid="493596" eventid="30927045" />
+          <event type="subst" minute="61" extra_min="" team="visitorteam" player="T. Holmes-Dennis" result="" playerId="330305" assist="M. Kelly" assistid="316200" eventid="30927046" />
+          <event type="subst" minute="65" extra_min="" team="localteam" player="H. Kite" result="" playerId="502808" assist="L. Croll" assistid="423057" eventid="30927047" />
+          <event type="subst" minute="70" extra_min="" team="localteam" player="J. Randall" result="" playerId="525719" assist="J. Forte" assistid="15563" eventid="30927048" />
+          <event type="goal" minute="81" extra_min="" team="localteam" player="J. Randall" result="[2 - 0]" playerId="525719" assist="" assistid="" eventid="30927049" />
+          <event type="yellowcard" minute="90" extra_min="2" team="localteam" player="T. Abrahams" result="" playerId="476756" assist="" assistid="" eventid="309270410" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[2-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="MEMS Priestfield Stadium" v="60" static_id="2432193" fix_id="2302704" id="3108200">
+        <localteam name="Gillingham" goals="2" id="9179" />
+        <visitorteam name="Crawley" goals="1" id="9120" />
+        <events>
+          <event type="goal" minute="18" extra_min="" team="visitorteam" player="D. Poleon" result="[0 - 1]" playerId="258013" assist="" assistid="" eventid="31082001" />
+          <event type="yellowcard" minute="30" extra_min="" team="visitorteam" player="J. McNerney" result="" playerId="95170" assist="" assistid="" eventid="31082002" />
+          <event type="yellowcard" minute="45" extra_min="2" team="localteam" player="N. Mbo" result="" playerId="426616" assist="" assistid="" eventid="31082003" />
+          <event type="goal" minute="57" extra_min="" team="localteam" player="E. List" result="[1 - 1]" playerId="414158" assist="" assistid="" eventid="31082004" />
+          <event type="subst" minute="65" extra_min="" team="localteam" player="B. Stevenson" result="" playerId="458114" assist="E. List" assistid="414158" eventid="31082005" />
+          <event type="subst" minute="66" extra_min="" team="visitorteam" player="D. Sesay" result="" playerId="" assist="D. Poleon" assistid="258013" eventid="31082006" />
+          <event type="yellowcard" minute="68" extra_min="" team="localteam" player="A. Simpson" result="" playerId="476462" assist="" assistid="" eventid="31082007" />
+          <event type="subst" minute="75" extra_min="" team="localteam" player="B. Chapman" result="" playerId="463177" assist="B. Bingham" assistid="90130" eventid="31082008" />
+          <event type="subst" minute="79" extra_min="" team="localteam" player="H. Woods" result="" playerId="" assist="N. Nasseri" assistid="330996" eventid="31082009" />
+          <event type="subst" minute="80" extra_min="" team="visitorteam" player="M. Randall" result="" playerId="5305" assist="T. Allarakhia" assistid="559405" eventid="310820010" />
+          <event type="yellowcard" minute="83" extra_min="" team="localteam" player="D. G. Parrett" result="" playerId="73406" assist="" assistid="" eventid="310820011" />
+          <event type="goal" minute="86" extra_min="" team="localteam" player="B. Stevenson" result="[2 - 1]" playerId="458114" assist="" assistid="" eventid="310820012" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[2-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Blundell Park" v="60" static_id="2432190" fix_id="2302701" id="3108181">
+        <localteam name="Grimsby" goals="2" id="9191" />
+        <visitorteam name="Newcastle Utd U23" goals="3" id="26205" />
+        <events>
+          <event type="goal" minute="9" extra_min="" team="localteam" player="J. Hooper" result="[1 - 0]" playerId="279548" assist="" assistid="" eventid="31081811" />
+          <event type="goal" minute="19" extra_min="" team="visitorteam" player="C. Roberts" result="[1 - 1]" playerId="393110" assist="" assistid="" eventid="31081812" />
+          <event type="yellowcard" minute="22" extra_min="" team="localteam" player="M. Woolford" result="" playerId="36459" assist="" assistid="" eventid="31081813" />
+          <event type="goal" minute="26" extra_min="" team="visitorteam" player="E. Sorensen" result="[1 - 2]" playerId="" assist="" assistid="" eventid="31081814" />
+          <event type="goal" minute="53" extra_min="" team="localteam" player="J. Cook" result="[2 - 2]" playerId="90416" assist="" assistid="" eventid="31081815" />
+          <event type="subst" minute="65" extra_min="" team="localteam" player="L. Robles" result="" playerId="" assist="A. Rose" assistid="489756" eventid="31081816" />
+          <event type="subst" minute="66" extra_min="" team="visitorteam" player="A. Wilson" result="" playerId="" assist="R. Longelo" assistid="453657" eventid="31081817" />
+          <event type="subst" minute="69" extra_min="" team="visitorteam" player="Y. Toure" result="" playerId="" assist="E. Sorensen" assistid="" eventid="31081818" />
+          <event type="goal" minute="78" extra_min="" team="visitorteam" player="M. Longstaff" result="[2 - 3]" playerId="" assist="" assistid="" eventid="31081819" />
+          <event type="subst" minute="78" extra_min="" team="localteam" player="M. Wright" result="" playerId="" assist="H. Cardwell" assistid="343839" eventid="310818110" />
+          <event type="subst" minute="86" extra_min="" team="localteam" player="L. Hendrie" result="" playerId="160422" assist="R. Hall-Johnson" assistid="326322" eventid="310818111" />
+          <event type="subst" minute="86" extra_min="" team="visitorteam" player="J. Nunez-Cumbreras" result="" playerId="" assist="T. Allan" assistid="" eventid="310818112" />
+        </events>
+        <ht score="[1-2]" />
+        <ft score="[2-3]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Moss Rose Ground" v="60" static_id="2432188" fix_id="2302699" id="3092696">
+        <localteam name="Macclesfield" goals="2" id="9254" />
+        <visitorteam name="West Brom U23" goals="1" id="26102" />
+        <events>
+          <event type="goal" minute="14" extra_min="" team="visitorteam" player="R. Tulloch" result="[0 - 1]" playerId="453165" assist="" assistid="" eventid="30926961" />
+          <event type="goal" minute="19" extra_min="" team="localteam" player="B. Stephens" result="[1 - 1]" playerId="" assist="" assistid="" eventid="30926962" />
+          <event type="goal" minute="24" extra_min="" team="localteam" player="K. Arthur" result="[2 - 1]" playerId="290881" assist="" assistid="" eventid="30926963" />
+          <event type="yellowcard" minute="44" extra_min="" team="visitorteam" player="N. Ferguson" result="" playerId="" assist="" assistid="" eventid="30926964" />
+          <event type="subst" minute="46" extra_min="" team="visitorteam" player="J. Soule" result="" playerId="453163" assist="G. Barry" assistid="2800" eventid="30926965" />
+          <event type="subst" minute="59" extra_min="" team="localteam" player="C. L. Evans" result="" playerId="314165" assist="M. Rose" assistid="51116" eventid="30926966" />
+          <event type="subst" minute="59" extra_min="" team="localteam" player="H. Smith" result="" playerId="458641" assist="B. Stephens" assistid="" eventid="30926967" />
+          <event type="subst" minute="69" extra_min="" team="localteam" player="M. Welch-Hayes" result="" playerId="451560" assist="E. Durrell" assistid="34320" eventid="30926968" />
+        </events>
+        <ht score="[2-1]" />
+        <ft score="[2-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="One Call Stadium" v="60" static_id="2432192" fix_id="2302703" id="3092678">
+        <localteam name="Mansfield" goals="3" id="9262" />
+        <visitorteam name="Scunthorpe" goals="2" id="9345" />
+        <events>
+          <event type="goal" minute="21" extra_min="" team="localteam" player="N. Blake" result="[1 - 0]" playerId="" assist="" assistid="" eventid="30926781" />
+          <event type="subst" minute="46" extra_min="" team="localteam" player="M. Preston" result="" playerId="335060" assist="R. Sweeney" assistid="390961" eventid="30926782" />
+          <event type="subst" minute="52" extra_min="" team="localteam" player="M. Benning" result="" playerId="222048" assist="N. Blake" assistid="" eventid="30926783" />
+          <event type="goal" minute="53" extra_min="" team="localteam" player="C. Butcher" result="[2 - 0]" playerId="110110" assist="" assistid="" eventid="30926784" />
+          <event type="yellowcard" minute="66" extra_min="" team="visitorteam" player="C. Burgess" result="" playerId="318594" assist="" assistid="" eventid="30926785" />
+          <event type="goal" minute="73" extra_min="" team="visitorteam" player="B. El-Mhanni" result="[2 - 1]" playerId="462888" assist="" assistid="" eventid="30926786" />
+          <event type="subst" minute="86" extra_min="" team="visitorteam" player="T. Pugh" result="" playerId="" assist="C. Lewis" assistid="319140" eventid="30926787" />
+          <event type="subst" minute="87" extra_min="" team="localteam" player="T. Fielding" result="" playerId="" assist="D. Rose" assistid="187374" eventid="30926788" />
+          <event type="goal" minute="89" extra_min="" team="visitorteam" player="A. Dales" result="[2 - 2]" playerId="333822" assist="" assistid="" eventid="30926789" />
+          <event type="goal" minute="90" extra_min="" team="localteam" player="T. Elsnik" result="[3 - 2]" playerId="374781" assist="" assistid="" eventid="309267810" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[3-2]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Stadium mk" v="60" static_id="2432199" fix_id="2302710" id="3092944">
+        <localteam name="MK Dons" goals="2" id="9277" />
+        <visitorteam name="Brighton U21" goals="3" id="23809" />
+        <events>
+          <event type="goal" minute="6" extra_min="" team="localteam" player="K. Agard" result="[1 - 0]" playerId="83504" assist="" assistid="" eventid="30929441" />
+          <event type="goal" minute="23" extra_min="" team="visitorteam" player="A. Connolly" result="[1 - 1]" playerId="453853" assist="" assistid="" eventid="30929442" />
+          <event type="goal" minute="40" extra_min="" team="localteam" player="M. Hancox" result="[2 - 1]" playerId="204243" assist="" assistid="" eventid="30929443" />
+          <event type="subst" minute="45" extra_min="2" team="localteam" player="C. Brittain" result="" playerId="431864" assist="J. Walsh" assistid="119330" eventid="30929444" />
+          <event type="yellowcard" minute="63" extra_min="" team="visitorteam" player="B. Barclay" result="" playerId="454506" assist="" assistid="" eventid="30929445" />
+          <event type="subst" minute="65" extra_min="" team="localteam" player="J. Houghton" result="" playerId="215542" assist="C. McGrandles" assistid="258235" eventid="30929446" />
+          <event type="goal" minute="69" extra_min="" team="visitorteam" player="A. Connolly" result="[2 - 2]" playerId="453853" assist="" assistid="" eventid="30929447" />
+          <event type="goal" minute="76" extra_min="" team="visitorteam" player="A. Connolly" result="[2 - 3]" playerId="453853" assist="" assistid="" eventid="30929448" />
+          <event type="yellowcard" minute="77" extra_min="" team="visitorteam" player="J. Tilley" result="" playerId="404055" assist="" assistid="" eventid="30929449" />
+          <event type="subst" minute="78" extra_min="" team="localteam" player="A. Gilbey" result="" playerId="259161" assist="L. D'Ath" assistid="143088" eventid="309294410" />
+          <event type="subst" minute="78" extra_min="" team="visitorteam" player="A. Davies" result="" playerId="453243" assist="J. Tilley" assistid="404055" eventid="309294411" />
+          <event type="subst" minute="88" extra_min="" team="visitorteam" player="S. Ljubicic" result="" playerId="421573" assist="W. O'Hora" assistid="" eventid="309294412" />
+          <event type="yellowcard" minute="90" extra_min="" team="visitorteam" player="A. Connolly" result="" playerId="453853" assist="" assistid="" eventid="309294413" />
+        </events>
+        <ht score="[2-1]" />
+        <ft score="[2-3]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Globe Arena" v="60" static_id="2432185" fix_id="2302696" id="3092682">
+        <localteam name="Morecambe" goals="0" id="9280" />
+        <visitorteam name="Sunderland" goals="1" id="9384" />
+        <events>
+          <event type="yellowcard" minute="35" extra_min="" team="localteam" player="A. Kenyon" result="" playerId="245114" assist="" assistid="" eventid="30926821" />
+          <event type="yellowcard" minute="45" extra_min="2" team="localteam" player="F. Cuvelier" result="" playerId="135638" assist="" assistid="" eventid="30926822" />
+          <event type="yellowcard" minute="54" extra_min="" team="localteam" player="G. Thompson" result="" playerId="53088" assist="" assistid="" eventid="30926823" />
+          <event type="subst" minute="57" extra_min="" team="localteam" player="A. Tutte" result="" playerId="97363" assist="F. Cuvelier" assistid="135638" eventid="30926824" />
+          <event type="subst" minute="61" extra_min="" team="visitorteam" player="B. Taylor" result="" playerId="453701" assist="J. Hunter" assistid="" eventid="30926825" />
+          <event type="subst" minute="65" extra_min="" team="visitorteam" player="L. Connelly" result="" playerId="426843" assist="J. Diamond" assistid="453687" eventid="30926826" />
+          <event type="subst" minute="68" extra_min="" team="localteam" player="J. Piggott" result="" playerId="504025" assist="C. Mendes Gomes" assistid="563603" eventid="30926827" />
+          <event type="subst" minute="76" extra_min="" team="localteam" player="B. Hedley" result="" playerId="432305" assist="G. Thompson" assistid="53088" eventid="30926828" />
+          <event type="goal" minute="90" extra_min="1" team="visitorteam" player="J. Maja" result="[0 - 1]" playerId="453695" assist="" assistid="" eventid="30926829" />
+          <event type="subst" minute="90" extra_min="3" team="visitorteam" player="D. Neill" result="" playerId="" assist="J. Hackett" assistid="453693" eventid="309268210" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Rodney Parade" v="60" static_id="2432196" fix_id="2302707" id="3108170">
+        <localteam name="Newport Co" goals="2" id="9288" />
+        <visitorteam name="Plymouth" goals="0" id="9311" />
+        <events>
+          <event type="yellowcard" minute="28" extra_min="" team="visitorteam" player="M. Peck" result="" playerId="" assist="" assistid="" eventid="31081701" />
+          <event type="subst" minute="28" extra_min="" team="localteam" player="C. Cooper" result="" playerId="432711" assist="S. Bennett" assistid="99987" eventid="31081702" />
+          <event type="goal" minute="35" extra_min="" team="localteam" player="A. Semenyo" result="[1 - 0]" playerId="529560" assist="" assistid="" eventid="31081703" />
+          <event type="goal" minute="45" extra_min="" team="localteam" player="M. Harris" result="[2 - 0]" playerId="" assist="" assistid="" eventid="31081704" />
+          <event type="subst" minute="74" extra_min="" team="visitorteam" player="C. Dyson" result="" playerId="413273" assist="R. Taylor" assistid="50744" eventid="31081705" />
+          <event type="subst" minute="77" extra_min="" team="localteam" player="T. Hillman" result="" playerId="" assist="T. Bakinson" assistid="444217" eventid="31081706" />
+          <event type="subst" minute="78" extra_min="" team="visitorteam" player="A. Fletcher" result="" playerId="470090" assist="L. Ainsworth" assistid="47490" eventid="31081707" />
+          <event type="subst" minute="81" extra_min="" team="visitorteam" player="T. Purrigton" result="" playerId="" assist="S. O'Keefe" assistid="51114" eventid="31081708" />
+          <event type="subst" minute="85" extra_min="" team="localteam" player="O. Taylor" result="" playerId="521382" assist="R. Willmott" assistid="35943" eventid="31081709" />
+        </events>
+        <ht score="[2-0]" />
+        <ft score="[2-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="ABAX Stadium" v="60" static_id="2432200" fix_id="2302711" id="3108182">
+        <localteam name="Peterborough" goals="2" id="9309" />
+        <visitorteam name="Luton" goals="1" id="9253" />
+        <events>
+          <event type="goal" minute="19" extra_min="" team="localteam" player="C. Daniel" result="[1 - 0]" playerId="50909" assist="" assistid="" eventid="31081821" />
+          <event type="goal" minute="36" extra_min="" team="localteam" player="I. Toney" result="[2 - 0]" playerId="277348" assist="" assistid="" eventid="31081822" />
+          <event type="yellowcard" minute="51" extra_min="" team="localteam" player="C. Daniel" result="" playerId="50909" assist="" assistid="" eventid="31081823" />
+          <event type="yellowcard" minute="54" extra_min="" team="visitorteam" player="A. McCormack" result="" playerId="909" assist="" assistid="" eventid="31081824" />
+          <event type="goal" minute="73" extra_min="" team="visitorteam" player="C. O'Malley (o.g.)" result="[2 - 1]" playerId="" assist="" assistid="" eventid="31081825" />
+          <event type="subst" minute="78" extra_min="" team="localteam" player="I. Buckley" result="" playerId="376319" assist="S. Dembele" assistid="489755" eventid="31081826" />
+          <event type="subst" minute="83" extra_min="" team="localteam" player="M. O'Hara" result="" playerId="261364" assist="C. Cooke" assistid="320276" eventid="31081827" />
+          <event type="subst" minute="83" extra_min="" team="visitorteam" player="J. Justin" result="" playerId="431215" assist="A. Read" assistid="458118" eventid="31081828" />
+          <event type="subst" minute="89" extra_min="" team="visitorteam" player="J. Neufville" result="" playerId="513993" assist="H. Cornick" assistid="313605" eventid="31081829" />
+          <event type="subst" minute="90" extra_min="" team="localteam" player="G. Cooper" result="" playerId="356777" assist="M. Maddison" assistid="285321" eventid="310818210" />
+        </events>
+        <ht score="[2-0]" />
+        <ft score="[2-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Fratton Park" v="60" static_id="2432194" fix_id="2302705" id="3092687">
+        <localteam name="Portsmouth" goals="3" id="9314" />
+        <visitorteam name="Tottenham U23" goals="2" id="26209" />
+        <events>
+          <event type="goal" minute="20" extra_min="" team="visitorteam" player="P. Patterson" result="[0 - 1]" playerId="" assist="" assistid="" eventid="30926871" />
+          <event type="goal" minute="50" extra_min="" team="localteam" player="A. Green" result="[1 - 1]" playerId="405691" assist="" assistid="" eventid="30926872" />
+          <event type="subst" minute="65" extra_min="" team="localteam" player="M. Clarke" result="" playerId="161885" assist="A. Green" assistid="405691" eventid="30926873" />
+          <event type="subst" minute="66" extra_min="" team="localteam" player="G. Evans" result="" playerId="50647" assist="H. Mnoga" assistid="" eventid="30926874" />
+          <event type="subst" minute="66" extra_min="" team="localteam" player="O. Hawkins" result="" playerId="319577" assist="B. Lethbridge" assistid="526362" eventid="30926875" />
+          <event type="goal" minute="69" extra_min="" team="localteam" player="G. Evans" result="[2 - 1]" playerId="50647" assist="" assistid="" eventid="30926876" />
+          <event type="subst" minute="75" extra_min="" team="visitorteam" player="R. Richards" result="" playerId="" assist="D. Duncan" assistid="" eventid="30926877" />
+          <event type="goal" minute="81" extra_min="" team="localteam" player="O. Hawkins" result="[3 - 1]" playerId="319577" assist="" assistid="" eventid="30926878" />
+          <event type="subst" minute="86" extra_min="" team="visitorteam" player="T. Parrot" result="" playerId="" assist="T. Oakley-Boothe" assistid="453867" eventid="30926879" />
+          <event type="subst" minute="89" extra_min="" team="visitorteam" player="S. Shashoua" result="" playerId="422457" assist="J. Bowden" assistid="460113" eventid="309268710" />
+          <event type="goal" minute="90" extra_min="" team="visitorteam" player="H. White" result="[3 - 2]" playerId="" assist="" assistid="" eventid="309268711" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[3-2]" />
+      </match>
+    </matches>
+  </category>
+  <category name="England: Fa Trophy - Qualification" gid="3793" id="1196" file_group="england" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="The New Eyrie" v="60" static_id="2558145" fix_id="3053567" id="3118649">
+        <localteam name="Bedford" goals="2" agg="true" id="23788" />
+        <visitorteam name="Chipstead" goals="0" agg="false" id="9099" />
+        <events>
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[2-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="The Silverlands" v="60" static_id="2558141" fix_id="3053563" id="3118650">
+        <localteam name="Buxton" goals="1" agg="false" id="9077" />
+        <visitorteam name="Stalybridge" goals="2" agg="true" id="9371" />
+        <events>
+        </events>
+        <ht score="[1-1]" />
+        <ft score="[1-2]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Don Amott Leisure Group Arena" v="60" static_id="2558144" fix_id="3053566" id="3118652">
+        <localteam name="Mickleover" goals="0" agg="false" id="9273" />
+        <visitorteam name="Stratford" goals="1" agg="true" id="9382" />
+        <events>
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Mill Lane" v="60" static_id="2558142" fix_id="3053564" id="3118653">
+        <localteam name="Pickering Town" goals="2" id="9310" />
+        <visitorteam name="AFC Mansfield" goals="0" id="24616" />
+        <events>
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[2-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="The BlackGold Stadium" v="60" static_id="2558146" fix_id="3053568" id="3118654">
+        <localteam name="Poole" goals="4" agg="true" id="9312" />
+        <visitorteam name="Brentwood" goals="1" agg="false" id="9060" />
+        <events>
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[4-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="The Tannery Ground" v="60" static_id="2558147" fix_id="3053569" id="3118655">
+        <localteam name="Street" goals="0" agg="false" id="20927" />
+        <visitorteam name="Weymouth" goals="1" agg="true" id="9429" />
+        <events>
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Borough Park" v="60" static_id="2558143" fix_id="3053565" id="3118656">
+        <localteam name="Workington" goals="5" agg="true" id="9450" />
+        <visitorteam name="Newcastle Town" goals="0" agg="false" id="18075" />
+        <events>
+        </events>
+        <ht score="[3-0]" />
+        <ft score="[5-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="20:00" commentary_available="" venue="" v="60" static_id="2558149" fix_id="3053571" id="3118499">
+        <localteam name="Yaxley" goals="2" id="9457" />
+        <visitorteam name="Ramsbottom" goals="2" id="18095" />
+        <events>
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[2-2]" />
+      </match>
+    </matches>
+  </category>
+  <category name="England: Premier League International Cup" gid="3702" id="3702" file_group="england" iscup="True">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:00" commentary_available="" venue="" v="60" static_id="2317827" fix_id="2202084" id="2468644">
+        <localteam name="West Ham U23" goals="0" id="21732" />
+        <visitorteam name="NK Dinamo Zagreb 2" goals="2" id="24168" />
+        <events>
+          <event type="goal" minute="25" extra_min="" team="visitorteam" player="B. Knezevic" result="[0 - 1]" playerId="318354" assist="" assistid="" eventid="24686441" />
+          <event type="goal" minute="64" extra_min="" team="visitorteam" player="B. Knezevic" result="[0 - 2]" playerId="318354" assist="" assistid="" eventid="24686442" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[0-2]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Europe: Euro U19 - First Stage" gid="2552" id="4131" file_group="eurocups" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="09:00" commentary_available="" venue="" v="60" static_id="2502772" fix_id="2328593" id="3019355">
+        <localteam name="Cyprus U19" goals="0" id="18212" />
+        <visitorteam name="Montenegro U19" goals="0" id="18207" />
+        <events>
+          <event type="yellowcard" minute="37" extra_min="" team="visitorteam" player="M. Pejovic" result="" playerId="" assist="" assistid="" eventid="30193551" />
+          <event type="yellowcard" minute="45" extra_min="2" team="visitorteam" player="M. Rakonjac" result="" playerId="" assist="" assistid="" eventid="30193552" />
+          <event type="subst" minute="46" extra_min="" team="visitorteam" player="S. Perisic" result="" playerId="541542" assist="M. Pejovic" assistid="" eventid="30193553" />
+          <event type="subst" minute="46" extra_min="" team="visitorteam" player="I. Vukcevic" result="" playerId="" assist="M. Rakonjac" assistid="" eventid="30193554" />
+          <event type="yellowcard" minute="61" extra_min="" team="visitorteam" player="A. Vlahovic" result="" playerId="" assist="" assistid="" eventid="30193555" />
+          <event type="subst" minute="64" extra_min="" team="localteam" player="I. Kosti" result="" playerId="443192" assist="G. Gerolemou" assistid="438967" eventid="30193556" />
+          <event type="yellowred" minute="74" extra_min="" team="visitorteam" player="A. Vlahovic" result="" playerId="" assist="" assistid="" eventid="30193557" />
+          <event type="yellowcard" minute="75" extra_min="" team="localteam" player="C. Shelis" result="" playerId="" assist="" assistid="" eventid="30193558" />
+          <event type="yellowcard" minute="75" extra_min="" team="visitorteam" player="N. Stanisic" result="" playerId="466668" assist="" assistid="" eventid="30193559" />
+          <event type="subst" minute="77" extra_min="" team="visitorteam" player="M. Milikic" result="" playerId="" assist="N. Stanisic" assistid="466668" eventid="301935510" />
+          <event type="subst" minute="78" extra_min="" team="localteam" player="D. Paroutis" result="" playerId="" assist="M. Ioannou" assistid="467597" eventid="301935511" />
+          <event type="subst" minute="90" extra_min="1" team="visitorteam" player="P. Vukcevic" result="" playerId="134601" assist="M. Brnovic" assistid="" eventid="301935512" />
+          <event type="yellowcard" minute="90" extra_min="2" team="visitorteam" player="B. Roganovic" result="" playerId="466661" assist="" assistid="" eventid="301935513" />
+          <event type="yellowcard" minute="90" extra_min="3" team="visitorteam" player="S. Grubac" result="" playerId="441391" assist="" assistid="" eventid="301935514" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="12:30" commentary_available="" venue="" v="60" static_id="2502769" fix_id="2328590" id="3019359">
+        <localteam name="Russia U19" goals="1" id="18166" />
+        <visitorteam name="Latvia U19" goals="1" id="18217" />
+        <events>
+          <event type="goal" minute="31" extra_min="" team="localteam" player="H. Agalarov" result="[1 - 0]" playerId="551680" assist="" assistid="" eventid="30193591" />
+          <event type="yellowcard" minute="43" extra_min="" team="visitorteam" player="I. Korotkovs" result="" playerId="" assist="" assistid="" eventid="30193592" />
+          <event type="subst" minute="46" extra_min="" team="localteam" player="D. Proshliakov" result="" playerId="501367" assist="H. Agalarov" assistid="551680" eventid="30193593" />
+          <event type="subst" minute="46" extra_min="" team="localteam" player="K. Kolesnichenko" result="" playerId="446815" assist="V. Zhironkin" assistid="478307" eventid="30193594" />
+          <event type="yellowcard" minute="51" extra_min="" team="visitorteam" player="R. Jaunarajs-Janvaris" result="" playerId="" assist="" assistid="" eventid="30193595" />
+          <event type="subst" minute="61" extra_min="" team="localteam" player="D. Yanov" result="" playerId="" assist="M. Ignatov" assistid="461871" eventid="30193596" />
+          <event type="subst" minute="63" extra_min="" team="visitorteam" player="K. Lusins" result="" playerId="461841" assist="V. Ziemelis" assistid="" eventid="30193597" />
+          <event type="subst" minute="68" extra_min="" team="visitorteam" player="R. Ozolins" result="" playerId="490793" assist="I. Korotkovs" assistid="" eventid="30193598" />
+          <event type="subst" minute="68" extra_min="" team="visitorteam" player="R. Kirss" result="" playerId="" assist="B. Samoilovs" assistid="427633" eventid="30193599" />
+          <event type="subst" minute="79" extra_min="" team="localteam" player="D. Velikorodni" result="" playerId="" assist="V. Moskvichev" assistid="461569" eventid="301935910" />
+          <event type="yellowcard" minute="85" extra_min="" team="visitorteam" player="M. Tonisevs" result="" playerId="461846" assist="" assistid="" eventid="301935911" />
+          <event type="yellowcard" minute="88" extra_min="" team="localteam" player="P. Maslov" result="" playerId="440123" assist="" assistid="" eventid="301935912" />
+          <event type="goal" minute="90" extra_min="2" team="visitorteam" player="R. Kirss" result="[1 - 1]" playerId="" assist="" assistid="" eventid="301935913" />
+          <event type="yellowcard" minute="90" extra_min="4" team="localteam" player="I. Martynov" result="" playerId="" assist="" assistid="" eventid="301935914" />
+          <event type="yellowcard" minute="90" extra_min="5" team="visitorteam" player="K. Lusins" result="" playerId="461841" assist="" assistid="" eventid="301935915" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[1-1]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Europe: World Cup Women - Qualification - Third Stage" gid="5201" id="5200" file_group="eurocups" iscup="True">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="18:00" commentary_available="" venue="" v="60" static_id="" fix_id="" id="3092622">
+        <localteam name="Switzerland W" goals="1" agg="false" id="24469" />
+        <visitorteam name="Netherlands W" goals="1" agg="true" id="19236" />
+        <events>
+          <event type="redcard" minute="8" extra_min="" team="visitorteam" player="A. Dekker" result="" playerId="18178" assist="" assistid="" eventid="30926221" />
+          <event type="subst" minute="13" extra_min="" team="visitorteam" player="M. van Dongen" result="" playerId="" assist="J. Roord" assistid="240930" eventid="30926222" />
+          <event type="yellowcard" minute="28" extra_min="" team="visitorteam" player="M. van Dongen" result="" playerId="" assist="" assistid="" eventid="30926223" />
+          <event type="yellowcard" minute="33" extra_min="" team="localteam" player="R. Kiwic" result="" playerId="" assist="" assistid="" eventid="30926224" />
+          <event type="subst" minute="46" extra_min="" team="localteam" player="A. Lehmann" result="" playerId="" assist="L. Buhler" assistid="" eventid="30926225" />
+          <event type="goal" minute="52" extra_min="" team="visitorteam" player="V. Miedema" result="[0 - 1]" playerId="195616" assist="" assistid="" eventid="30926226" />
+          <event type="subst" minute="62" extra_min="" team="localteam" player="C. Sow" result="" playerId="" assist="R. Tschopp" assistid="" eventid="30926227" />
+          <event type="goal" minute="71" extra_min="" team="localteam" player="C. Sow" result="[1 - 1]" playerId="" assist="N. Maritz" assistid="" eventid="30926228" />
+          <event type="subst" minute="74" extra_min="" team="visitorteam" player="L. Beerensteyn" result="" playerId="259610" assist="S. van de Sanden" assistid="55809" eventid="30926229" />
+          <event type="subst" minute="78" extra_min="" team="localteam" player="N. Megroz" result="" playerId="" assist="G. Reuteler" assistid="402519" eventid="309262210" />
+          <event type="subst" minute="85" extra_min="" team="visitorteam" player="R. Jansen" result="" playerId="55803" assist="V. Miedema" assistid="195616" eventid="309262211" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[1-1]" />
+      </match>
+    </matches>
+  </category>
+  <category name="India: I-League" gid="1250" id="1250" file_group="india" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="11:30" commentary_available="" venue="Yuba Bharati Krirangan" v="60" static_id="2553750" fix_id="3049151" id="3104090">
+        <localteam name="East Bengal" goals="1" id="11325" />
+        <visitorteam name="Chennai City" goals="2" id="27203" />
+        <events>
+          <event type="subst" minute="40" extra_min="" team="localteam" player="S. Mollick" result="" playerId="272066" assist="L. Ralte" assistid="471307" eventid="31040901" />
+          <event type="yellowcard" minute="42" extra_min="" team="localteam" player="S. Mollick" result="" playerId="272066" assist="" assistid="" eventid="31040902" />
+          <event type="yellowcard" minute="45" extra_min="" team="localteam" player="L. Ralte" result="" playerId="118622" assist="" assistid="" eventid="31040903" />
+          <event type="goal" minute="45" extra_min="2" team="visitorteam" player="S. Rodriguez" result="[0 - 1]" playerId="" assist="" assistid="" eventid="31040904" />
+          <event type="goal" minute="52" extra_min="" team="localteam" player="E. Esqueda" result="[1 - 1]" playerId="17178" assist="S. Mollick" assistid="272066" eventid="31040905" />
+          <event type="subst" minute="56" extra_min="" team="visitorteam" player="A. Mohaideen" result="" playerId="" assist="P. Manzi" assistid="578762" eventid="31040906" />
+          <event type="subst" minute="61" extra_min="" team="localteam" player="B. Vanlalremdika" result="" playerId="431530" assist="Y. Longvah" assistid="532750" eventid="31040907" />
+          <event type="yellowcard" minute="68" extra_min="" team="localteam" player="E. Esqueda" result="" playerId="17178" assist="" assistid="" eventid="31040908" />
+          <event type="subst" minute="84" extra_min="" team="localteam" player="K. Bidyashagar Singh" result="" playerId="" assist="E. Esqueda" assistid="17178" eventid="31040909" />
+          <event type="yellowcard" minute="86" extra_min="" team="localteam" player="R. Dagar" result="" playerId="431722" assist="" assistid="" eventid="310409010" />
+          <event type="goal" minute="87" extra_min="" team="visitorteam" player="N. Gordillo (pen.)" result="[1 - 2]" playerId="329035" assist="" assistid="" eventid="310409011" />
+          <event type="subst" minute="90" extra_min="1" team="visitorteam" player="M. Thangalakath" result="" playerId="525015" assist="P. Raju" assistid="" eventid="310409012" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[1-2]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Jamaica: Premier League" gid="1270" id="1270" file_group="jamaica" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="01:35" commentary_available="" venue="Waterhouse Stadium" v="60" static_id="2545853" fix_id="3041212" id="3114099">
+        <localteam name="Waterhouse" goals="1" id="12123" />
+        <visitorteam name="Tivoli" goals="1" id="12120" />
+        <events>
+          <event type="goal" minute="78" extra_min="" team="localteam" player="N. Finlayson" result="[1 - 0]" playerId="64966" assist="" assistid="" eventid="31140991" />
+          <event type="goal" minute="87" extra_min="" team="visitorteam" player="A. Molton" result="[1 - 1]" playerId="" assist="" assistid="" eventid="31140992" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[1-1]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Libya: Premier League" gid="1289" id="1289" file_group="libya" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="13:00" date="Nov 13" formatted_date="13.11.2018" time="13:00" venue="" static_id="2557829" fix_id="3053249" id="3118229">
+        <localteam name="Al Ahly Benghazi" goals="?" id="12506" />
+        <visitorteam name="Al Taawun" goals="?" id="25633" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="Mexico: Liga Mx Women - Apertura" gid="5149" id="5149" file_group="mexico" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="02:00" commentary_available="" venue="" static_id="" fix_id="" id="3086540">
+        <localteam name="U.A.N.L.- Tigres W" goals="7" id="" />
+        <visitorteam name="Necaxa W" goals="0" id="" />
+        <events>
+          <event type="goal" minute="19" team="localteam" player="B. Cruz" result="[1 - 0]" playerId="" assist="" assistid="" eventid="30865401" />
+          <event type="goal" minute="37" team="localteam" player="B. Escobedo (o.g.)" result="[2 - 0]" playerId="" assist="" assistid="" eventid="30865402" />
+          <event type="goal" minute="41" team="localteam" player="E. Gonzalez" result="[3 - 0]" playerId="" assist="" assistid="" eventid="30865403" />
+          <event type="goal" minute="50" team="localteam" player="K. Martinez" result="[4 - 0]" playerId="" assist="" assistid="" eventid="30865404" />
+          <event type="goal" minute="59" team="localteam" player="E. Gonzalez" result="[5 - 0]" playerId="" assist="" assistid="" eventid="30865405" />
+          <event type="goal" minute="78" team="localteam" player="E. Gonzalez" result="[6 - 0]" playerId="" assist="" assistid="" eventid="30865406" />
+          <event type="goal" minute="81" team="localteam" player="M. Elizondo" result="[7 - 0]" playerId="" assist="" assistid="" eventid="30865407" />
+        </events>
+        <ht score="[3-0]" />
+        <ft score="[7-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="North &amp; Central America: Concacaf Championship U20 - Promotion" gid="4183" id="2319" file_group="north_&amp;_central_america" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="21:15" commentary_available="" venue="IMG Soccer Stadium" v="60" static_id="2558315" fix_id="3053738" id="3120080">
+        <localteam name="Panama U20" goals="1" id="13851" />
+        <visitorteam name="El Salvador U20" goals="0" id="8962" />
+        <events>
+          <event type="goal" minute="74" extra_min="" team="localteam" player="A. A. McKenzie Morales" result="[1 - 0]" playerId="" assist="" assistid="" eventid="31200801" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[1-0]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="23:30" commentary_available="" venue="" static_id="" fix_id="" id="3120081">
+        <localteam name="Honduras U20" goals="1" id="11013" />
+        <visitorteam name="Costa Rica U20" goals="1" id="8184" />
+        <events>
+          <event type="goal" minute="20" team="localteam" player="J. Villafranca" result="[1 - 0]" playerId="" assist="" assistid="" eventid="31200811" />
+          <event type="redcard" minute="35" team="localteam" player="M. Alvarez" result="" playerId="" assist="" assistid="" eventid="31200812" />
+          <event type="goal" minute="48" team="visitorteam" player="A. Gomez Rodriguez" result="[1 - 1]" playerId="" assist="" assistid="" eventid="31200813" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[1-1]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Northern Ireland: Irish League Cup" gid="2087" id="2087" file_group="northern_ireland" iscup="True">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="Bangor Fuels Arena" v="60" static_id="2555240" fix_id="3050648" id="3111590">
+        <localteam name="Ards" goals="0" agg="false" id="13625" />
+        <visitorteam name="Ballymena" goals="1" agg="true" id="13629" />
+        <events>
+          <event type="goal" minute="90" extra_min="3" team="visitorteam" player="J. Winchester" result="[0 - 1]" playerId="129143" assist="" assistid="" eventid="31115901" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:45" commentary_available="" venue="" v="60" static_id="2556344" fix_id="3051754" id="3114644">
+        <localteam name="Glentoran" goals="2" agg="false" id="13652" />
+        <visitorteam name="Crusaders" goals="4" agg="true" id="13641" />
+        <events>
+          <event type="goal" minute="7" extra_min="" team="localteam" player="R. McDaid" result="[1 - 0]" playerId="274922" assist="" assistid="" eventid="31146441" />
+          <event type="goal" minute="20" extra_min="" team="visitorteam" player="J. Owens" result="[1 - 1]" playerId="45672" assist="" assistid="" eventid="31146442" />
+          <event type="goal" minute="29" extra_min="" team="localteam" player="C. Allen" result="[2 - 1]" playerId="35034" assist="" assistid="" eventid="31146443" />
+          <event type="goal" minute="59" extra_min="" team="visitorteam" player="D. Cushley" result="[2 - 2]" playerId="45382" assist="" assistid="" eventid="31146444" />
+          <event type="goal" minute="63" extra_min="" team="visitorteam" player="J. Owens" result="[2 - 3]" playerId="45672" assist="" assistid="" eventid="31146445" />
+          <event type="goal" minute="85" extra_min="" team="visitorteam" player="P. Heatley" result="[2 - 4]" playerId="162145" assist="" assistid="" eventid="31146446" />
+        </events>
+        <ht score="[2-1]" />
+        <ft score="[2-4]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Paraguay: Primera Division - Clausura" gid="1894" id="1338" file_group="paraguay" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" date="Nov 12" formatted_date="12.11.2018" time="23:00" commentary_available="paraguay" venue="" static_id="2410290" fix_id="2265166" id="3108145">
+        <localteam name="Sp. Luqueno" goals="1" id="13895" />
+        <visitorteam name="Nacional Asuncion" goals="1" id="13886" />
+        <events>
+          <event type="goal" minute="17" team="visitorteam" player="A. Bareiro" result="[0 - 1]" playerId="395013" assist="" assistid="" eventid="31081451" />
+          <event type="redcard" minute="20" team="visitorteam" player="D. Melgarejo" result="" playerId="432438" assist="" assistid="" eventid="31081452" />
+          <event type="goal" minute="24" team="localteam" player="A. Gimenez" result="[1 - 1]" playerId="248686" assist="" assistid="" eventid="31081453" />
+          <event type="yellowcard" minute="32" team="localteam" player="M. Gamarra" result="" playerId="" assist="" assistid="" eventid="31081454" />
+          <event type="yellowcard" minute="37" team="localteam" player="M. Villasanti" result="" playerId="" assist="" assistid="" eventid="31081455" />
+          <event type="yellowcard" minute="70" team="localteam" player="G. Gimenez" result="" playerId="63965" assist="" assistid="" eventid="31081456" />
+          <event type="yellowcard" minute="72" team="visitorteam" player="M. Paniagua" result="" playerId="31976" assist="" assistid="" eventid="31081457" />
+          <event type="yellowcard" minute="87" team="localteam" player="F. Escobar" result="" playerId="" assist="" assistid="" eventid="31081458" />
+          <event type="yellowcard" minute="89" team="localteam" player="A. Rojas" result="" playerId="405046" assist="" assistid="" eventid="31081459" />
+        </events>
+        <ht score="[1-1]" />
+        <ft score="[1-1]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Saudi Arabia: Division 1" gid="1367" id="1367" file_group="saudi_arabia" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="12:10" commentary_available="" venue="" v="60" static_id="2423189" fix_id="2273225" id="3114720">
+        <localteam name="Al-Kawkab" goals="1" id="22352" />
+        <visitorteam name="Al Najoom" goals="1" id="24716" />
+        <events>
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[1-1]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="12:25" commentary_available="" venue="" v="60" static_id="2423191" fix_id="2273226" id="3114721">
+        <localteam name="Al Taee" goals="0" id="15020" />
+        <visitorteam name="Al-Nahda" goals="2" id="15008" />
+        <events>
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[0-2]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="12:30" commentary_available="" venue="Michael Ashcroft Stadium" v="60" static_id="" fix_id="" id="3114722">
+        <localteam name="Damac" goals="1" id="" />
+        <visitorteam name="Al-Qaisumah" goals="0" id="" />
+        <events>
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[1-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="14:35" commentary_available="" venue="" v="60" static_id="2423196" fix_id="2273228" id="3114723">
+        <localteam name="Hajer" goals="1" id="15024" />
+        <visitorteam name="Najran" goals="0" id="15027" />
+        <events>
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[1-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="Slovakia: Divison C West" gid="1994" id="1384" file_group="slovakia" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="12:30" commentary_available="" venue="?tadión pod Zoborom" v="60" static_id="2412298" fix_id="2276075" id="3112848">
+        <localteam name="Nitra B" goals="4" id="15416" />
+        <visitorteam name="Galanta" goals="0" id="24763" />
+        <events>
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[4-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="United Arab Emirates: Arabian Gulf Cup" gid="2922" id="2922" file_group="united_arab_emirates" iscup="True">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="12:45" commentary_available="" venue="Al-Fujairah Stadium" v="60" static_id="2388591" fix_id="2321978" id="3117677">
+        <localteam name="Dibba Al Fujairah" goals="1" id="17249" />
+        <visitorteam name="Shabab Al-Ahli Dubai" goals="0" id="17230" />
+        <events>
+          <event type="goal" minute="50" extra_min="" team="localteam" player="Y. Jabrane (pen.)" result="[1 - 0]" playerId="531784" assist="" assistid="" eventid="31176771" />
+          <event type="yellowcard" minute="51" extra_min="" team="localteam" player="K. Rashed" result="" playerId="506960" assist="" assistid="" eventid="31176772" />
+          <event type="yellowcard" minute="83" extra_min="" team="localteam" player="A. Ahly" result="" playerId="" assist="" assistid="" eventid="31176773" />
+          <event type="yellowcard" minute="90" extra_min="" team="localteam" player="A. Ibraheim" result="" playerId="" assist="" assistid="" eventid="31176774" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[1-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="12:55" commentary_available="" venue="Hamdan bin Zayed Al Nahyan Stadium" v="60" static_id="2388592" fix_id="2321979" id="3117678">
+        <localteam name="Al Dhafra" goals="1" id="17233" />
+        <visitorteam name="Al Sharjah" goals="0" id="17256" />
+        <events>
+          <event type="yellowcard" minute="33" extra_min="" team="localteam" player="D. Rigonato" result="" playerId="" assist="" assistid="" eventid="31176781" />
+          <event type="goal" minute="34" extra_min="" team="localteam" player="Diego" result="[1 - 0]" playerId="33744" assist="" assistid="" eventid="31176782" />
+          <event type="yellowcard" minute="63" extra_min="" team="localteam" player="B. A. Zaabi K." result="" playerId="" assist="" assistid="" eventid="31176783" />
+          <event type="yellowcard" minute="68" extra_min="" team="visitorteam" player="M. Khalifa" result="" playerId="214251" assist="" assistid="" eventid="31176784" />
+          <event type="yellowcard" minute="76" extra_min="" team="visitorteam" player="A. Aldhanhani" result="" playerId="" assist="" assistid="" eventid="31176785" />
+          <event type="yellowcard" minute="82" extra_min="" team="localteam" player="K. A. Aldarmaki" result="" playerId="" assist="" assistid="" eventid="31176786" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[1-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="15:30" commentary_available="" venue="Bani Yas Stadium" v="60" static_id="2388593" fix_id="2321980" id="3053380">
+        <localteam name="Bani Yas" goals="0" id="17248" />
+        <visitorteam name="Al Wahda" goals="0" id="15021" />
+        <events>
+          <event type="yellowcard" minute="33" extra_min="" team="localteam" player="K. M. Hashemi" result="" playerId="" assist="" assistid="" eventid="30533801" />
+          <event type="yellowcard" minute="80" extra_min="" team="localteam" player="M. Ortega" result="" playerId="" assist="" assistid="" eventid="30533802" />
+          <event type="yellowcard" minute="83" extra_min="" team="localteam" player="M. A. Almansoori" result="" playerId="" assist="" assistid="" eventid="30533803" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-0]" />
+      </match>
+    </matches>
+  </category>
+  <category name="World: Friendly International" gid="1535" id="1535" file_group="world" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="20:30" commentary_available="" venue="" v="60" static_id="2558438" fix_id="3053861" id="3120343">
+        <localteam name="Chile U20" goals="1" id="7960" />
+        <visitorteam name="Uruguay U20" goals="1" id="17414" />
+        <events>
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[1-1]" />
+      </match>
+      <match status="Cancl." date="Nov 13" formatted_date="13.11.2018" time="21:00" venue="" static_id="2553549" fix_id="3048949" id="3104196">
+        <localteam name="El Salvador" goals="?" id="8960" />
+        <visitorteam name="Guatemala" goals="?" id="10926" />
+        <events />
+        <ht score="" />
+      </match>
+    </matches>
+  </category>
+  <category name="World: Friendly International Women" gid="1877" id="1877" file_group="world" iscup="False">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="08:30" commentary_available="" venue="" static_id="" fix_id="" id="3115741">
+        <localteam name="Australia W" goals="5" id="19269" />
+        <visitorteam name="Chile W" goals="0" id="" />
+        <events>
+          <event type="yellowcard" minute="41" team="visitorteam" player="H. Galaz Su" result="" playerId="" assist="" assistid="" eventid="31157411" />
+          <event type="goal" minute="52" team="localteam" player="S. Kerr" result="[1 - 0]" playerId="" assist="" assistid="" eventid="31157412" />
+          <event type="goal" minute="54" team="localteam" player="C. Foord" result="[2 - 0]" playerId="" assist="" assistid="" eventid="31157413" />
+          <event type="goal" minute="67" team="localteam" player="C. Foord" result="[3 - 0]" playerId="" assist="" assistid="" eventid="31157414" />
+          <event type="goal" minute="69" team="localteam" player="E. Gielnik" result="[4 - 0]" playerId="" assist="" assistid="" eventid="31157415" />
+          <event type="yellowcard" minute="82" team="localteam" player="A. Kennedy" result="" playerId="" assist="" assistid="" eventid="31157416" />
+          <event type="goal" minute="88" team="localteam" player="C. Foord" result="[5 - 0]" playerId="" assist="" assistid="" eventid="31157417" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[5-0]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="15:00" commentary_available="" venue="" static_id="" fix_id="" id="3085570">
+        <localteam name="Germany W" goals="0" id="19235" />
+        <visitorteam name="Spain W" goals="0" id="22092" />
+        <events>
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-0]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="15:00" commentary_available="" venue="" static_id="" fix_id="" id="3117929">
+        <localteam name="Portugal W" goals="0" id="27982" />
+        <visitorteam name="Wales W" goals="0" id="28678" />
+        <events>
+          <event type="redcard" minute="90+3" team="visitorteam" player="K. Green" result="" playerId="" assist="" assistid="" eventid="31179291" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-0]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="16:00" commentary_available="" venue="" static_id="" fix_id="" id="3117675">
+        <localteam name="Poland W" goals="4" id="20362" />
+        <visitorteam name="Bosnia &amp; Herzegovina W" goals="0" id="28832" />
+        <events>
+          <event type="goal" minute="38" team="localteam" player="M. Lukic (o.g.)" result="[1 - 0]" playerId="" assist="" assistid="" eventid="31176751" />
+          <event type="goal" minute="64" team="localteam" player="E. Zdunek" result="[2 - 0]" playerId="" assist="" assistid="" eventid="31176752" />
+          <event type="goal" minute="66" team="localteam" player="E. Kamczyk" result="[3 - 0]" playerId="" assist="" assistid="" eventid="31176753" />
+          <event type="goal" minute="81" team="localteam" player="G. Grzywinska" result="[4 - 0]" playerId="" assist="" assistid="" eventid="31176754" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[4-0]" />
+      </match>
+      <match status="FT" date="Nov 13" formatted_date="13.11.2018" time="19:15" commentary_available="" venue="" static_id="" fix_id="" id="3114559">
+        <localteam name="Scotland W" goals="0" id="27983" />
+        <visitorteam name="USA W" goals="1" id="19266" />
+        <events>
+          <event type="goal" minute="39" team="visitorteam" player="A. Morgan" result="[0 - 1]" playerId="" assist="" assistid="" eventid="31145591" />
+        </events>
+        <ht score="[0-1]" />
+        <ft score="[0-1]" />
+      </match>
+    </matches>
+  </category>
+  <category name="World: World Cup Women U17" gid="2271" id="2271" file_group="world" iscup="True">
+    <matches date="Nov 12" formatted_date="12.11.2018">
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="17:00" commentary_available="" venue="" v="60" static_id="2317676" fix_id="2201933" id="2450467">
+        <localteam name="Brazil U17 W" goals="0" id="26921" />
+        <visitorteam name="Japan U17 W" goals="0" id="26919" />
+        <events>
+          <event type="yellowcard" minute="9" extra_min="" team="visitorteam" player="W. Goto" result="" playerId="" assist="" assistid="" eventid="24504671" />
+          <event type="subst" minute="46" extra_min="" team="localteam" player="Bruna" result="" playerId="" assist="Jheniffer" assistid="" eventid="24504672" />
+          <event type="subst" minute="61" extra_min="" team="localteam" player="Maria Luiza" result="" playerId="" assist="Vitoria" assistid="" eventid="24504673" />
+          <event type="subst" minute="63" extra_min="" team="visitorteam" player="Y. Yamamoto" result="" playerId="" assist="H. Osawa" assistid="" eventid="24504674" />
+          <event type="subst" minute="78" extra_min="" team="localteam" player="Yasmin" result="" playerId="" assist="Vitoria Bruna" assistid="" eventid="24504675" />
+          <event type="subst" minute="80" extra_min="" team="visitorteam" player="T. Tanaka" result="" playerId="" assist="C. Kamiya" assistid="" eventid="24504676" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="19:00" commentary_available="" venue="" v="60" static_id="2317677" fix_id="2201934" id="2450468">
+        <localteam name="New Zealand U17 W" goals="1" id="26900" />
+        <visitorteam name="Finland U17 W" goals="0" id="29377" />
+        <events>
+          <event type="goal" minute="41" extra_min="" team="localteam" player="K. Brown" result="[1 - 0]" playerId="" assist="" assistid="" eventid="24504681" />
+          <event type="subst" minute="46" extra_min="" team="visitorteam" player="J. Kantanen" result="" playerId="" assist="J. Topra" assistid="" eventid="24504682" />
+          <event type="subst" minute="64" extra_min="" team="localteam" player="M. Hahn" result="" playerId="" assist="M. Fraser" assistid="" eventid="24504683" />
+          <event type="subst" minute="64" extra_min="" team="visitorteam" player="V. Koivisto" result="" playerId="" assist="O. Siren" assistid="" eventid="24504684" />
+          <event type="yellowcard" minute="75" extra_min="" team="localteam" player="M. Jenkins" result="" playerId="" assist="" assistid="" eventid="24504685" />
+          <event type="subst" minute="77" extra_min="" team="visitorteam" player="D. Leskinen" result="" playerId="" assist="A. Vuorinen" assistid="" eventid="24504686" />
+          <event type="subst" minute="78" extra_min="" team="localteam" player="B. Cunnigham-Lee" result="" playerId="" assist="G. Rennie" assistid="" eventid="24504687" />
+          <event type="subst" minute="84" extra_min="" team="localteam" player="A. Maynard" result="" playerId="" assist="K. Brown" assistid="" eventid="24504688" />
+        </events>
+        <ht score="[1-0]" />
+        <ft score="[1-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="20:00" commentary_available="" venue="" v="60" static_id="2317678" fix_id="2201935" id="2452982">
+        <localteam name="Mexico U17 W" goals="0" id="26899" />
+        <visitorteam name="South Africa U17 W" goals="0" id="30505" />
+        <events>
+          <event type="subst" minute="59" extra_min="" team="visitorteam" player="Z. Vilakazi" result="" playerId="" assist="M. Minnies" assistid="" eventid="24529821" />
+          <event type="yellowcard" minute="61" extra_min="" team="localteam" player="N. Diaz" result="" playerId="" assist="" assistid="" eventid="24529822" />
+          <event type="subst" minute="66" extra_min="" team="localteam" player="F. Arellano" result="" playerId="" assist="N. Diaz" assistid="" eventid="24529823" />
+          <event type="yellowcard" minute="67" extra_min="" team="localteam" player="R. Reyes" result="" playerId="" assist="" assistid="" eventid="24529824" />
+          <event type="yellowcard" minute="74" extra_min="" team="visitorteam" player="S. Holweni" result="" playerId="" assist="" assistid="" eventid="24529825" />
+          <event type="subst" minute="76" extra_min="" team="localteam" player="F. Escobar" result="" playerId="" assist="T. Carreto" assistid="" eventid="24529826" />
+          <event type="yellowcard" minute="79" extra_min="" team="visitorteam" player="J. Wade" result="" playerId="" assist="" assistid="" eventid="24529827" />
+          <event type="subst" minute="83" extra_min="" team="visitorteam" player="K. Mali" result="" playerId="" assist="S. Shamase" assistid="" eventid="24529828" />
+          <event type="subst" minute="83" extra_min="" team="localteam" player="A. Avilez" result="" playerId="" assist="R. Reyes" assistid="" eventid="24529829" />
+        </events>
+        <ht score="[0-0]" />
+        <ft score="[0-0]" />
+      </match>
+      <match status="FT" timer="" date="Nov 13" formatted_date="13.11.2018" time="22:00" commentary_available="" venue="" v="26" static_id="2317679" fix_id="2201936" id="2450469">
+        <localteam name="Uruguay U17 W" goals="0" id="30506" />
+        <visitorteam name="Ghana U17 W" goals="5" id="26918" />
+        <events>
+          <event type="goal" minute="20" extra_min="" team="visitorteam" player="F. Mumuni" result="[0 - 1]" playerId="" assist="" assistid="" eventid="24504691" />
+          <event type="goal" minute="25" extra_min="" team="visitorteam" player="M. Abdulai" result="[0 - 2]" playerId="" assist="" assistid="" eventid="24504692" />
+          <event type="yellowcard" minute="27" extra_min="" team="visitorteam" player="T. Sekyere" result="" playerId="" assist="" assistid="" eventid="24504693" />
+          <event type="subst" minute="29" extra_min="" team="localteam" player="M. Costa" result="" playerId="" assist="S. Pazos" assistid="" eventid="24504694" />
+          <event type="subst" minute="36" extra_min="" team="localteam" player="A. Caraballo" result="" playerId="" assist="J. Sosa" assistid="" eventid="24504695" />
+          <event type="subst" minute="39" extra_min="" team="visitorteam" player="M. Pokuaa" result="" playerId="" assist="F. Mumuni" assistid="" eventid="24504696" />
+          <event type="subst" minute="55" extra_min="" team="localteam" player="D. Morales" result="" playerId="" assist="S. Larrea" assistid="" eventid="24504697" />
+          <event type="subst" minute="66" extra_min="" team="visitorteam" player="S. Teye" result="" playerId="" assist="M. Owusu" assistid="" eventid="24504698" />
+          <event type="goal" minute="66" extra_min="" team="visitorteam" player="M. Pokuaa" result="[0 - 3]" playerId="" assist="" assistid="" eventid="24504699" />
+          <event type="goal" minute="78" extra_min="" team="visitorteam" player="M. Abdulai" result="[0 - 4]" playerId="" assist="" assistid="" eventid="245046910" />
+          <event type="goal" minute="90" extra_min="1" team="visitorteam" player="M. Abdulai" result="[0 - 5]" playerId="" assist="" assistid="" eventid="245046911" />
+        </events>
+        <ht score="[0-2]" />
+        <ft score="[0-5]" />
+      </match>
+    </matches>
+  </category>
+</scores>

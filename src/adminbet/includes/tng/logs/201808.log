@@ -1,0 +1,121 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  2.181.74.203
+
+Host:
+  4ubets.com
+
+Requested URI:
+  http://4ubets.com/admin/plugins/users/users_edit.php?id=!!!!AnSomdhwCKKUKEZ43FDf7A
+
+Date:
+  2018-08-21 11:50:53
+
+Error:
+  این نام کاربری قبلا استفاده شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique2*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.181.74.203
+
+Host:
+  4ubets.com
+
+Requested URI:
+  http://4ubets.com/admin/plugins/users/users_edit.php?id=!!!!AnSomdhwCKKUKEZ43FDf7A
+
+Date:
+  2018-08-21 11:51:06
+
+Error:
+  این نام کاربری قبلا استفاده شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique2*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.181.74.203
+
+Host:
+  4ubets.com
+
+Requested URI:
+  http://4ubets.com/admin/plugins/users/users_edit.php?id=!!!!wsMwKngqt21y0Tyvp@@JKkh
+
+Date:
+  2018-08-21 11:51:41
+
+Error:
+  این نام کاربری قبلا استفاده شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique2*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.181.74.203
+
+Host:
+  4ubets.com
+
+Requested URI:
+  http://4ubets.com/admin/plugins/casino/casino_edit.php?id=!!!!gv5dwU9no2bQEgOfYVzX03
+
+Date:
+  2018-08-21 13:14:22
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'multi_player' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name_en,name_fa,url,min_amount,max_amount,multi_player,percent_play,image,sort,status,id, id as kt_pk_casino FROM casino WHERE id =5 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===

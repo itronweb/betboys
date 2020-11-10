@@ -1,0 +1,238 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+<html>
+<head>
+<title>Query Builder (QuB) :: Edit SQL Condition</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="includes/styles/dlg.css" type="text/css">
+<script src="../common/js/base.js"></script>
+<script src="../common/js/utility.js"></script>
+<script src="./includes/chromeless.js"></script>
+<script src="./includes/utils.js"></script>
+
+<script>
+	if (!opener && window.dialogArguments) {
+		dlgOpener = window.dialogArguments;
+	} else if(opener) {
+		dlgOpener = opener;
+	} else {
+		dlgOpener = parent;
+	}
+
+canvas = dlgOpener.top.canvas;
+current = dlgOpener.current
+
+mustUpdate = true;
+function keyPressed(e) {
+	if (!window.event) {
+		var event = e;
+	} else {
+		var event = window.event;
+	}
+	if(event.keyCode == 116) {
+		window.onunload = null;
+		return;
+	}
+	if(event.keyCode == 27) {
+		window.mustUpdate = false;
+		window.close();
+	}
+	if(event.keyCode == 13) {
+		window.mustUpdate = true;
+		window.close();
+	}
+}
+</script>
+</head>
+<body onUnload="updateOpener()" onkeydown="keyPressed(event)">
+	<fieldset><legend>Edit SQL Condition</legend>
+		<table id="t1" cellSpacing=0 cellPadding=3 width="100%">
+		<tbody>
+			<tr>
+				<th>Table Column</th>
+				<td><input type="text" id="column_name" readonly class="readonly" style="width: 120px"></td>
+			</tr>
+			<tr>
+				<th>Condition</th>
+				<td><select id="cond_type"></select></td>
+			</tr>
+			<tr>
+				<th>Variable Type</th>
+				<td><select id=var_type></select></td>
+			</tr>
+			<tr>
+				<th>Run-time Value</th>
+				<td><input id=param_name></td>
+			</tr>
+			<tr>
+				<th>Default Value</th>
+				<td><input id=test_value></td>
+			</tr>
+		</tbody>
+		</table>
+	</fieldset>
+	<div id="context_help">
+	</div>
+	<div id="bottom_buttons">
+		<input type="button" value="OK" onclick="window.mustUpdate = true; window.close();">
+		<input type="button" value="Cancel" onclick="window.mustUpdate = false; window.close();">
+		<input type="button" value="Help" onClick="dlgOpener.top.showQUBHelp('qub.dlg.editsqlcondition')">
+	</div>
+</body>
+</html>
+<script>
+function updateOpener() {
+	if (!window.mustUpdate) {
+		return;
+	}
+
+	ct = newvals['cond_type'];
+	exc = ct == 'is null' || ct == 'is not null';
+
+	if (exc) {
+		column.condition['string'] = ct;
+	}
+
+	vt = newvals['var_type'];
+	pn = newvals['param_name'];
+	tv = newvals['test_value'];
+	if (ct=='' || ct!='' && !exc && (vt=='' || pn=='' || tv=='')) {
+		//delete condition
+		column.condition.string = '';
+		column.condition['cond_type'] = '';
+		column.condition['var_type'] = '';
+		column.condition['param_name'] = '';
+		column.condition['test_value'] = '';
+	} else {
+		column.condition['cond_type'] = ct;
+		column.condition['var_type'] = vt;
+		column.condition['param_name'] = pn;
+		column.condition['test_value'] = tv;
+	}
+	dlgOpener.changed(dlgOpener.currentTR, 'condition');
+}
+
+var CONDITION_TYPES = canvas.CONDITION_TYPES;
+
+var var_type = [
+	'', 
+	'Form Variable', 
+	'URL Variable', 
+	'Session Variable', 
+	'Cookie Variable', 
+	'Entered Value'
+];
+
+function changed(obj, prop_name) {
+	var new_value = obj.value;
+	var new_value_lc = new_value.toLowerCase();
+	if (prop_name == 'cond_type') {
+		if ( new_value_lc == 'is null' || new_value_lc == 'is not null' ) {
+			group_setDisabled(true);
+		} else {
+			group_setDisabled(false);
+		}
+		if (new_value_lc == '<>' || new_value_lc == '!=') {
+			new_value = '<>';
+		}
+	}
+	newvals[prop_name] = new_value;
+	if (prop_name == 'var_type' && new_value=='Entered Value' && !newvals['param_name'] && !newvals['test_value']) {
+		document.getElementById('param_name').value = '1';
+		document.getElementById('test_value').value = '1';
+		newvals['param_name'] = '1';
+		newvals['test_value'] = '1';
+	}
+
+	if (prop_name == 'param_name' && newvals['var_type']=='Entered Value') {
+		document.getElementById('test_value').value = new_value;
+		newvals['test_value'] = new_value;
+	}
+}
+function group_setDisabled(how) {
+	document.getElementById('var_type').disabled = how;
+	document.getElementById('param_name').disabled = how;
+	document.getElementById('test_value').disabled = how;
+	if (how) {
+		document.getElementById('var_type').value = '';
+		document.getElementById('param_name').value = '';
+		document.getElementById('test_value').value = '';
+		newvals['var_type'] = '';
+		newvals['param_name'] = '';
+		newvals['test_value'] = '';
+	}
+}
+function loadData() {
+	//global
+	newvals = {};
+	defvals = {cond_type:'=', var_type:'Entered Value', param_name:'', test_value:''};
+	query = canvas.myQuery;
+	column = query.tables.item(current.table).columns.item( (current.alias != '' ? current.alias : current.column) )
+	if (typeof column.condition != 'undefined' && column.condition.cond_type!='') {
+		oldvals = {cond_type:column.condition.cond_type, var_type:column.condition.var_type, param_name:column.condition.param_name, test_value:column.condition.test_value};
+	} else {
+		oldvals = defvals;
+	}
+
+	var tbl = document.getElementById('t1');
+
+	// Fill Column Name
+	document.getElementById('column_name').value = current.alias + ' (' + current.column + ')';
+	// Fill Condition Type
+	var sel = document.getElementById('cond_type');
+	sel.onchange = function() {changed(this, 'cond_type')};
+	for (var ct in CONDITION_TYPES) {
+		if (!CONDITION_TYPES.hasOwnProperty(ct)) {
+			continue;
+		}
+		if (ct == '<>' || ct == '!=') {
+			ctv = canvas.notequals;
+		} else {
+			ctv = ct;
+		}
+		sel.options[sel.options.length] = new Option(ctv, ct);
+	}
+	utility.dom.selectOption(sel, oldvals['cond_type']);
+	newvals['cond_type'] = oldvals['cond_type'];
+
+	// Fill Var Type
+	var sel = document.getElementById('var_type');
+	sel.onchange = function() {changed(this, 'var_type')};
+	Array_each(var_type, function(vr) {
+		sel.options[sel.options.length] = new Option(vr, vr);
+	});
+	utility.dom.selectOption(sel, oldvals['var_type']);
+	newvals['var_type'] = oldvals['var_type'];
+
+	// Fill parameter name
+	var inp = document.getElementById('param_name');
+	inp.value = oldvals['param_name'];
+	newvals['param_name'] = oldvals['param_name'];
+	inp.onblur = function() {changed(this, 'param_name')};
+
+	// Fill Test Value
+	var inp = document.getElementById('test_value');
+	inp.value = oldvals['test_value'];
+	newvals['test_value'] = oldvals['test_value'];
+	inp.onchange = function() {changed(this, 'test_value')};
+
+	if ( column.condition.cond_type == 'is null' || column.condition.cond_type == 'is not null' ) {
+		group_setDisabled(true);
+	}
+}
+loadData();
+
+</script>

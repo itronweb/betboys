@@ -1,0 +1,804 @@
+﻿<html>
+<head>
+	<title>Roulette</title>
+	<meta charset="UTF-8" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="msapplication-tap-highlight" content="no">
+	<link rel="stylesheet" href="/default/modules/games/roulette2/css/reset.css" />
+	<link rel="stylesheet" href="/default/modules/games/roulette2/css/sweetalert.css" />
+	<link rel="stylesheet" href="/default/modules/games/roulette2/css/style.css?v1.0" />
+	<script type="text/javascript">
+		var DEVICE_TYPE	= 'browser';
+		var MONEY_FORMAT = [2,'.',','];
+		var API_URL	= 'http://46.4.83.237:3000/api/';
+		var GAME_FOLDER = '/default/modules/games/roulette2/';
+		var HOME_URL = '/games';
+        var PER_BET_AMOUNT = 50;
+	</script>
+    <script type="text/javascript" src="/default/modules/games/roulette2/js/jquery.js"></script>
+  	<script type="text/javascript" src="/default/modules/games/roulette2/js/jquery-ui.js"></script>
+  	<script type="text/javascript" src="/default/modules/games/roulette2/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="/default/modules/games/roulette2/js/jquery.maskedinput.js"></script>
+    <script type="text/javascript" src="/default/modules/games/roulette2/js/sweetalert.min.js"></script>
+    <script type="text/javascript" src="/default/modules/games/roulette2/js/game.min.js?000.001"></script>
+
+</head>
+<body oncontextmenu1="return false">
+
+<center class="main-con" style="border-top: 1px solid #383838; border-bottom: 1px solid #383838; padding-bottom: 0px;">
+
+    <div id="g-roulette" class="g-main-wrapper casino">
+    
+    <div class="g-playfield">
+        <div class="game-area">
+            <div id="spinner">
+                <div class="results-wrapper">
+                    <ol class="results" id="lucky-numbers-cnt"></ol>
+                </div>
+                <div class="wheel-wrapper" id="wheel-wrapper" data="0">
+                    <ol class="wheel" id="wheel">
+                        <li class="number green" data-num="0">
+                            <div class="num">0</div>
+                            <div class="bucket">
+                                <div class="ball" id="ball"></div>
+                            </div>
+                        </li>
+                        <li class="number red" data-num="1">
+                            <div class="num">1</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="2">
+                            <div class="num">2</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="3">
+                            <div class="num">3</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="4">
+                            <div class="num">4</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="5">
+                            <div class="num">5</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="6">
+                            <div class="num">6</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="7">
+                            <div class="num">7</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="8">
+                            <div class="num">8</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="9">
+                            <div class="num">9</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="10">
+                            <div class="num">10</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="11">
+                            <div class="num">11</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="12">
+                            <div class="num">12</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="13">
+                            <div class="num">13</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="14">
+                            <div class="num">14</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="15">
+                            <div class="num">15</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="16">
+                            <div class="num">16</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="17">
+                            <div class="num">17</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="18">
+                            <div class="num">18</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="19">
+                            <div class="num">19</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="20">
+                            <div class="num">20</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="21">
+                            <div class="num">21</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="22">
+                            <div class="num">22</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="23">
+                            <div class="num">23</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="24">
+                            <div class="num">24</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="25">
+                            <div class="num">25</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="26">
+                            <div class="num">26</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="27">
+                            <div class="num">27</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="28">
+                            <div class="num">28</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="29">
+                            <div class="num">29</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="30">
+                            <div class="num">30</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="31">
+                            <div class="num">31</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="32">
+                            <div class="num">32</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="33">
+                            <div class="num">33</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="34">
+                            <div class="num">34</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number black" data-num="35">
+                            <div class="num">35</div>
+                            <div class="bucket"></div>
+                        </li>
+                        <li class="number red" data-num="36">
+                            <div class="num">36</div>
+                            <div class="bucket"></div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="board" id="board">
+                <div id="col-1">2:1</div>
+                <div id="col-2" class="">2:1</div>
+                <div id="col-3">2:1</div>
+                <div id="doz-1" class="">1st 12</div>
+                <div id="doz-2" class="">2nd 12</div>
+                <div id="doz-3" class="">3rd 12</div>
+                <div id="hilo-1" class="">1 to 18</div>
+                <div id="hilo-2" class="">19 to 36</div>
+                <div id="eo-1" class="">Even</div>
+                <div id="eo-2">Odd</div>
+                <div id="rb-1" class=""></div>
+                <div id="rb-2" class=""></div>
+                <!-- -> Number Bets-->
+                <div class="green" id="num-0">0</div>
+                <div data-bet="straight_0" id="bet-num-0" class="">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-1">1</div>
+                <div data-bet="straight_1" id="bet-num-1">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-2">2</div>
+                <div data-bet="straight_2" id="bet-num-2">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-3">3</div>
+                <div data-bet="straight_3" id="bet-num-3">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-4">4</div>
+                <div data-bet="straight_4" id="bet-num-4">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-5">5</div>
+                <div data-bet="straight_5" id="bet-num-5">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-6">6</div>
+                <div data-bet="straight_6" id="bet-num-6">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-7">7</div>
+                <div data-bet="straight_7" id="bet-num-7">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-8">8</div>
+                <div data-bet="straight_8" id="bet-num-8">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-9">9</div>
+                <div data-bet="straight_9" id="bet-num-9">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-10">10</div>
+                <div data-bet="straight_10" id="bet-num-10">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-11">11</div>
+                <div data-bet="straight_11" id="bet-num-11">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-12">12</div>
+                <div data-bet="straight_12" id="bet-num-12">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-13">13</div>
+                <div data-bet="straight_13" id="bet-num-13">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-14">14</div>
+                <div data-bet="straight_14" id="bet-num-14">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-15">15</div>
+                <div data-bet="straight_15" id="bet-num-15">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-16">16</div>
+                <div data-bet="straight_16" id="bet-num-16">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-17">17</div>
+                <div data-bet="straight_17" id="bet-num-17">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-18">18</div>
+                <div data-bet="straight_18" id="bet-num-18">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-19">19</div>
+                <div data-bet="straight_19" id="bet-num-19">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-20">20</div>
+                <div data-bet="straight_20" id="bet-num-20">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-21">21</div>
+                <div data-bet="straight_21" id="bet-num-21">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-22">22</div>
+                <div data-bet="straight_22" id="bet-num-22">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-23">23</div>
+                <div data-bet="straight_23" id="bet-num-23">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-24">24</div>
+                <div data-bet="straight_24" id="bet-num-24">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-25">25</div>
+                <div data-bet="straight_25" id="bet-num-25">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-26">26</div>
+                <div data-bet="straight_26" id="bet-num-26">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-27">27</div>
+                <div data-bet="straight_27" id="bet-num-27">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-28">28</div>
+                <div data-bet="straight_28" id="bet-num-28">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-29">29</div>
+                <div data-bet="straight_29" id="bet-num-29">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-30">30</div>
+                <div data-bet="straight_30" id="bet-num-30">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-31">31</div>
+                <div data-bet="straight_31" id="bet-num-31">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-32">32</div>
+                <div data-bet="straight_32" id="bet-num-32">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-33">33</div>
+                <div data-bet="straight_33" id="bet-num-33">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-34">34</div>
+                <div data-bet="straight_34" id="bet-num-34">
+                    <div class="chips"></div>
+                </div>
+                <div class="number black" id="num-35">35</div>
+                <div data-bet="straight_35" id="bet-num-35">
+                    <div class="chips"></div>
+                </div>
+                <div class="number red" id="num-36">36</div>
+                <div data-bet="straight_36" id="bet-num-36">
+                    <div class="chips"></div>
+                </div>
+                <!-- -> Vertical Split Bets-->
+                <div data-bet="splitv_3" id="bet-spl-v-0-2">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_6" id="bet-spl-v-0-3">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_9" id="bet-spl-v-0-4">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_12" id="bet-spl-v-0-5">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_15" id="bet-spl-v-0-6">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_18" id="bet-spl-v-0-7">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_21" id="bet-spl-v-0-8">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_24" id="bet-spl-v-0-9">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_27" id="bet-spl-v-0-10">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_30" id="bet-spl-v-0-11">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_33" id="bet-spl-v-0-12">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_2" id="bet-spl-v-1-2">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_5" id="bet-spl-v-1-3">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_8" id="bet-spl-v-1-4">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_11" id="bet-spl-v-1-5">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_14" id="bet-spl-v-1-6">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_17" id="bet-spl-v-1-7">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_20" id="bet-spl-v-1-8">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_23" id="bet-spl-v-1-9">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_26" id="bet-spl-v-1-10">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_29" id="bet-spl-v-1-11">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_32" id="bet-spl-v-1-12">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_1" id="bet-spl-v-2-2">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_4" id="bet-spl-v-2-3">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_7" id="bet-spl-v-2-4">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_10" id="bet-spl-v-2-5">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_13" id="bet-spl-v-2-6">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_16" id="bet-spl-v-2-7">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_19" id="bet-spl-v-2-8">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_22" id="bet-spl-v-2-9">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_25" id="bet-spl-v-2-10">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_28" id="bet-spl-v-2-11">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_31" id="bet-spl-v-2-12">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_0" id="bet-spl-v-0-1">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_-1" id="bet-spl-v-1-1">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splitv_-2" id="bet-spl-v-2-1">
+                    <div class="chips"></div>
+                </div>
+                <!-- -> Horizontal Split Bets-->
+                <div data-bet="splith_2" id="bet-spl-h-1-1">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_1" id="bet-spl-h-2-1">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_5" id="bet-spl-h-1-2">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_4" id="bet-spl-h-2-2">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_8" id="bet-spl-h-1-3">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_7" id="bet-spl-h-2-3">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_11" id="bet-spl-h-1-4">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_10" id="bet-spl-h-2-4">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_14" id="bet-spl-h-1-5">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_13" id="bet-spl-h-2-5">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_17" id="bet-spl-h-1-6">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_16" id="bet-spl-h-2-6">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_20" id="bet-spl-h-1-7">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_19" id="bet-spl-h-2-7">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_23" id="bet-spl-h-1-8">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_22" id="bet-spl-h-2-8">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_26" id="bet-spl-h-1-9">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_25" id="bet-spl-h-2-9">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_29" id="bet-spl-h-1-10">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_28" id="bet-spl-h-2-10">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_32" id="bet-spl-h-1-11">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_31" id="bet-spl-h-2-11">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_35" id="bet-spl-h-1-12">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="splith_34" id="bet-spl-h-2-12">
+                    <div class="chips"></div>
+                </div>
+                <!-- -> Corners Bets-->
+                <div data-bet="corner_2" id="bet-cor-1-2">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_1" id="bet-cor-2-2">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_5" id="bet-cor-1-3">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_4" id="bet-cor-2-3">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_8" id="bet-cor-1-4">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_7" id="bet-cor-2-4">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_11" id="bet-cor-1-5">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_10" id="bet-cor-2-5">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_14" id="bet-cor-1-6">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_13" id="bet-cor-2-6">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_17" id="bet-cor-1-7">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_16" id="bet-cor-2-7">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_20" id="bet-cor-1-8">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_19" id="bet-cor-2-8">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_23" id="bet-cor-1-9">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_22" id="bet-cor-2-9">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_26" id="bet-cor-1-10">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_25" id="bet-cor-2-10">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_29" id="bet-cor-1-11">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_28" id="bet-cor-2-11">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_32" id="bet-cor-1-12">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_31" id="bet-cor-2-12">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_-1" id="bet-cor-1-1">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="corner_-2" id="bet-cor-2-1">
+                    <div class="chips"></div>
+                </div>
+                <!-- -> Line Bets, Street Bets-->
+                <div data-bet="line_1" id="bet-line-1">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="street_1" id="bet-str-1">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="line_2" id="bet-line-2">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="street_2" id="bet-str-2">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="line_3" id="bet-line-3">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="street_3" id="bet-str-3">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="line_4" id="bet-line-4">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="street_4" id="bet-str-4">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="line_5" id="bet-line-5">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="street_5" id="bet-str-5">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="line_6" id="bet-line-6">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="street_6" id="bet-str-6">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="line_7" id="bet-line-7">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="street_7" id="bet-str-7">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="line_8" id="bet-line-8">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="street_8" id="bet-str-8">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="line_9" id="bet-line-9">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="street_9" id="bet-str-9">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="line_10" id="bet-line-10">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="street_10" id="bet-str-10">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="line_11" id="bet-line-11">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="street_11" id="bet-str-11">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="line_12" id="bet-line-12">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="street_12" id="bet-str-12">
+                    <div class="chips"></div>
+                </div>
+                <!-- -> Column Bets, Dozen Bets-->
+                <div data-bet="column_1" id="bet-col-1">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="dozen_1" id="bet-doz-1">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="column_2" id="bet-col-2">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="dozen_2" id="bet-doz-2">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="column_3" id="bet-col-3">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="dozen_3" id="bet-doz-3">
+                    <div class="chips"></div>
+                </div>
+                <!-- -> High/Low Bets, Even/Odd Bets, Red/Black Bets-->
+                <div data-bet="lowHigh_low" id="bet-hilo-1">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="evenOdd_even" id="bet-eo-1">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="color_red" id="bet-rb-1">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="lowHigh_high" id="bet-hilo-2">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="evenOdd_odd" id="bet-eo-2">
+                    <div class="chips"></div>
+                </div>
+                <div data-bet="color_black" id="bet-rb-2">
+                    <div class="chips"></div>
+                </div>
+            </div>
+            <div id="bet-meta">
+                <div id="bet-size" style="direction: ltr !important;">
+                    
+                </div>
+                <div id="game-result-cnt">
+                	<div class="game-result win" style="display: none; direction: ltr !important;">
+                		<span><span class="game-result-amount" style="direction: ltr !important;">0</span></span>
+                	</div>
+                    <div class="game-result fail" style="display: none; direction: ltr !important;">
+                        <span><span class="game-result-amount" style="direction: ltr !important;">0</span></span>
+                    </div>
+                </div>
+                <div id="total-amount" style="color: yellow; direction: ltr !important; font-size: 18px; font-weight: 700; position: absolute; top: 0; right: auto !important; left: 0px !important; display: inline-block;">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .little_transparent { opacity: 0.5 !important; filter: alpha(opacity=50) !important; pointer-events: none !important; }
+    </style>
+
+    <div class="g-actions-wrapper" style="bottom: auto !important; top: 500px !important;">
+        <div class="g-actions">
+            <div class="betperclickinput"><div style="padding:2px 0" id="perclick-text"><!--per click--></div><input type="text" class="betsize" value="" id="betperclick-amount"></div>
+            <div class="g-actions-bet little_transparent" id="bet-choices">
+                <button class="action" id="clear-bt"><!--Clear--></button>
+                <button class="action start" id="bet-bt"><!--Spin--></button>
+                <div id="bet-sizer">
+                    <div class="shortcuts">
+                        <button class="action" id="bet-divider">½</button>
+                        <button class="action" id="bet-multiplier"><small>x</small>2</button>
+                        <button class="action" id="bet-minus">-</button>
+                        <button class="action" id="bet-plus">+</button>
+                        <button class="action" id="bet-max">max</button>
+                    </div><span class="betinput"><input type="text" class="betsize" value="0" id="bet-amount" disabled="true"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="soundmaker">
+        <audio id="chips-sound" controls="">
+            <source src="/default/modules/games/roulette2/assets/chips.mp3">
+        </audio>
+        <audio id="spinning-sound" controls="">
+            <source src="/default/modules/games/roulette2/assets/spinning.mp3">
+        </audio>
+    </div>
+
+    <div id="ro-waiting" style="z-index: 999999; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background: rgba(0,0,0,0.9);"></div>
+
+</div>
+
+
+	</center>
+
+	<script>
+		$(document).ready(function() {
+            $("#betperclick-amount").val(PER_BET_AMOUNT);
+			$("#view-rule").click(function() {
+				$("#help").fadeIn();
+			});
+			$(".close-bt").click(function() {
+				$("#help").fadeOut();
+			});
+
+            start_to_game();
+
+		});
+	</script>
+
+
+    <script>
+        if(window.self === window.top) {
+            setInterval(function() {
+                $.get("/ping");
+            }, 30000);
+        }
+    </script>    
+
+</html>

@@ -1,0 +1,25 @@
+2019-08-05T14:31:48.402698300 0.015764s notice: In recursion: removing file 'c:\\users\\administrator\\desktop\\node_server\\data\\\\tmp'
+2019-08-05T14:31:48.402698301 0.017271s warn: Trying to delete non-existent file 'c:\\users\\administrator\\desktop\\node_server\\data\\\\tmp'
+2019-08-05T14:31:48.402698302 0.020742s notice: Initializing directory c:\\users\\administrator\\desktop\\node_server\\data\\
+2019-08-05T14:31:48.402698303 0.022420s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory 'c:\\users\\administrator\\desktop\\node_server\\data\\' did not already exist or is empty.)
+2019-08-05T14:31:48.402698304 0.022510s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-08-05T14:31:48.402698305 0.023065s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2019-08-05T14:31:48.402698306 0.023882s notice: Loading data from directory c:\\users\\administrator\\desktop\\node_server\\data\\
+2019-08-05T14:31:48.652764400 0.279334s info: Automatically using cache size of 6728 MB
+2019-08-05T14:31:48.668350700 0.281842s notice: Listening for intracluster connections on port 29015
+2019-08-05T14:31:48.668350701 0.284167s notice: Listening for client driver connections on port 28015
+2019-08-05T14:31:48.668350702 0.284514s notice: Listening for administrative HTTP connections on port 8080
+2019-08-05T14:31:48.668350703 0.284518s notice: Listening on cluster address: 127.0.0.1
+2019-08-05T14:31:48.668350704 0.284522s notice: Listening on driver address: 127.0.0.1
+2019-08-05T14:31:48.668350705 0.284524s notice: Listening on http address: 127.0.0.1
+2019-08-05T14:31:48.668350706 0.284528s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2019-08-05T14:31:48.668350707 0.284531s notice: Server ready, "WIN_KDPRLGJKD2G_v7w" a5503716-e442-47a1-a0e1-320702c3547d
+2019-08-05T14:35:07.025892900 198.646585s info: Table 53025c40-113a-4992-aa9d-744d5c22ea0b: Starting a new Raft election for term 1.
+2019-08-05T14:35:07.025892901 198.646994s info: Table 53025c40-113a-4992-aa9d-744d5c22ea0b: Added replica on this server.
+2019-08-05T14:35:07.025892902 198.647571s info: Table 53025c40-113a-4992-aa9d-744d5c22ea0b: This server is Raft leader for term 1. Latest log index is 0.
+2019-08-06T16:35:45.594175500 0.019720s notice: Running rethinkdb 2.3.6-windows (MSC 190024215)...
+2019-08-06T16:35:45.594175501 0.020286s notice: Running on 6.2.9200 (Windows 8, Server 2012)
+2019-08-06T16:35:45.594175502 0.020552s notice: Loading data from directory c:\\users\\administrator\\desktop\\node_server\\data\\
+2019-08-06T16:35:45.609800100 0.036749s info: Automatically using cache size of 6822 MB
+2019-08-06T16:35:45.609800101 0.036778s warn: bind failed: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+2019-08-06T16:35:45.609800102 0.038426s error: TCP socket creation failed for port 29015: Input/output error.

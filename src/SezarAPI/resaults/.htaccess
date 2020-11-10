@@ -1,0 +1,6 @@
+# BEGIN URL Redirecting Base
+<IfModule mod_rewrite.c>
+	RewriteEngine on
+	RewriteRule ^([a-z0-9_-]+)/([a-z0-9_-]+)\.json$ index.php?date=$1&id=$2
+</IfModule>
+# END URL Redirecting Base

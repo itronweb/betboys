@@ -1,0 +1,31 @@
+
+	.event-type .left { float:left !important; }
+	.event-type .right { float:right !important; }
+	.event-type .title .odd-title { float: left !important; }
+	.event-type .title .text { float: left !important; background-position: left 0px center !important; text-align: left !important; direction: ltr !important; }
+	.event-type .event-title { float: left !important; text-align: left !important; margin-left: 3px !important; margin-right: 0px !important; }
+	.event-type .mr8 { margin-right: 8px !important; margin-left: initial !important; }
+	.event-type .odd-rate { margin-right: 0px !important; margin-left: 1px !important; float: left !important; }
+	.event-type .odd-all { margin-right: 0px !important; margin-left: 1px !important; float: left !important; }
+
+
+	.score-type .left { float:left !important; }
+	.score-type .right { float:right !important; }
+	.score-type .title .text { float: left !important; background-position: left 0px center !important; text-align: left !important; padding-right: 6px !important; padding-left: 21px !important; }
+
+	.score-type .score-row .team { float: left !important; border-left: 0px !important; border-right: 1px solid #ccc !important; }
+	.score-type .score-row .score { float: left !important; border-left: 0px !important; border-right: 1px solid #ccc !important; }
+	.score-type .score-row .status { float: left !important; border-left: 0px !important; border-right: 1px solid #ccc !important; }
+	.score-type .score-row .time { float: left !important; }
+
+
+	.event-container .left { float:left !important; }
+	.event-container .right { float:right !important; }
+	.event-container .left-align { text-align:left !important; }
+	.event-container .right-align { text-align:right !important; }
+
+	.market-type .title { text-align: left !important; direction: ltr !important; }
+
+	.market-type .odd-container .odd-link { float: left !important; }
+	.market-type .odd-container .odd-link .odd-title { float: left !important; margin-right: 0px !important; margin-left: 3px !important; direction: ltr !important; text-align: left !important; }
+	.market-type .odd-container .odd-link .odd-rate { float: left !important; direction: ltr !important; }

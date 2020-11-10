@@ -1,0 +1,29 @@
+1.installing mongoDB throigh .msi file
+
+2.creating data/db 
+
+3."C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe" --dbpath "C:\wamp64\www\4ubets\node_server\data"
+
+4."C:\Program Files\MongoDB\Server\3.4\bin\mongo.exe"
+
+5."C:\Program Files\MongoDB\Server\3.4\bin\mongo.exe" for shell
+6.mongo compass
+
+
+
+7.mongoDB https://www.tutorialspoint.com/mongodb/mongodb_advantages.htm
+
+
+
+
+
+
+rethinkdb.exe -d c:\wamp64\www\4ubets\node_server\data\
+
+
+
+db.user.insert({
+    "firstName": "ali",
+    "lastName" : "tavasoli",
+    "email"    : "ali.tavasoli@yahoo.com"
+})

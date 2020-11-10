@@ -1,0 +1,61 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+<html>
+<head>
+<title>Query Builder (QuB)</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="includes/styles/styles.css" type="text/css">
+<link rel="stylesheet" href="includes/styles/canvas.css" type="text/css">
+<script src="../common/js/base.js"></script>
+<script src="../common/js/utility.js"></script>
+<script src="./includes/model.js"></script>
+<script src="./includes/dragndrop.js"></script>
+<script src="./includes/links.js"></script>
+<script src="./includes/table.js"></script>
+<script src="./includes/sql.js"></script>
+<script src="./includes/tabsets.js"></script>
+<script src="./includes/chromeless.js"></script>
+<script src="./includes/contextMenu.js"></script>
+<script src="./includes/zoom.js"></script>
+<script src="./includes/config.js"></script>
+<script src="./includes/mmdb.js"></script>
+<script src="./includes/canvas.js"></script>
+<style>
+</style>
+<script>
+function zdbg(s, append) {
+	//append = df(append, false);//df returns a default value for the variable, if that is undefined
+	s += "";
+	append = typeof(append)=="undefined"?false:append;
+	document.getElementById("dbg").innerHTML = (append?document.getElementById("dbg").innerHTML:"") + s.replace(/[\r\n]/g,"<br>") + "<br>";
+}
+</script>
+</head>
+<body bgcolor="#FFFFFF" 
+	oncontextmenu="return false;" 
+	onselectstart="return false;" 
+	onkeypress="return bodyKeyDown(event);"
+	onkeyup="return bodyKeyUp(event);"
+	onscroll="return false;"
+	onload="canvas_init(); loaded(); top.ui.invalidate(true, false, 'sqlcolumns,sqlresults'); top.hidePleaseWait();top.canvas.undo.unlock();"
+>
+<div id="selectRegion" style="position:absolute; overflow:hidden; border-style: dashed;border-width: 1px;display:none;z-index:999"></div>
+<div id="dragLink">Dragging Link...</div>
+<div id="dragdrop_helper"></div>
+<div id="dbg" style="font-family:fixed;font-size:11px;"></div>
+<textarea id="scrollbarwidthcalculator" style="display:none" cols="20" rows="2"></textarea>
+</body>
+</html>

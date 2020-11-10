@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>B90</title>
+    <meta charset="utf-8" />
+	<meta name="keywords" content="پيش بينى فوتبال، شرطبندى، سايت شرط بندى، شرطبندى آنلاين، پيش بينى ورزشى، شرط بندى آنلاين، كازينو، كازينو آنلاين، پوكر، تخته نرد، بلك جك، ٢١، پاسور، رولت، رولت اوروپايى، رولن آنلاين، پوكر آنلاين، اسلات ماشين، سايت بازى، " />
+	<meta name="description" content="بزرگترین مرکز پیش بینی ورزشی و کازینو آنلاین" />
+	<meta name="robots" content="noindex" />
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />	<meta name="format-detection" content="telephone=no">
+    <link href="/default/assets/icons/favicon.ico?" rel="shortcut icon" type="image/x-icon" />
+	<link href="/default/assets/css/normalize.css" rel="stylesheet" />
+	<link href="/default/assets/plugin/sweetalert2/sweetalert2.min.css" rel="stylesheet" />
+	<link href="/default/assets/css/default.style.rtl.css?1000.012" rel="stylesheet" />
+	<link href="/default/assets/css/fix.css?000.000" rel="stylesheet" />    <script type="text/javascript" src="/default/assets/js/jquery.js"></script>
+  	<script type="text/javascript" src="/default/assets/js/jquery.maskedinput.js"></script>
+    <script type="text/javascript" src="/default/assets/plugin/sweetalert2/sweetalert2.min.js"></script>
+	<script type="text/javascript">
+		var pers_num  = true;
+		var m_format  = [0,'.',','];
+		var b_setting = {'maxbet':15,'maxwin':30000000,'maxrate':100};
+		var direction = "rtl";
+		var language  = JSON.parse(decodeURIComponent("%7B%22ok%22%3A%22%5Cu062a%5Cu0627%5Cu06cc%5Cu06cc%5Cu062f%22%2C%22cancel%22%3A%22%5Cu0644%5Cu063a%5Cu0648%22%2C%22odd_changed%22%3A%22%5Cu0627%5Cu06cc%5Cu0646%20%5Cu0636%5Cu0631%5Cu06cc%5Cu0628%20%5Cu0641%5Cu0639%5Cu0627%5Cu0644%20%5Cu0646%5Cu0645%5Cu06cc%20%5Cu0628%5Cu0627%5Cu0634%5Cu062f%22%2C%22bet_split_amount%22%3A%22%7Bcount%7D%20%5Cu0645%5Cu0628%5Cu0644%5Cu063a%20%28x%7Btimes%7D%29%22%2C%22bet_split_amounts%22%3A%22%7Bcount%7D%20%5Cu0633%5Cu06cc%5Cu0633%5Cu062a%5Cu0645%20%28x%7Btimes%7D%29%22%2C%22bet_split_total_rate%22%3A%22%5Cu0636%5Cu0631%5Cu06cc%5Cu0628%20%5Cu06a9%5Cu0644%20%7Bamount%7D%22%2C%22bet_slip_wait%22%3A%22%5Cu0644%5Cu0637%5Cu0641%5Cu0627%20%5Cu0645%5Cu0646%5Cu062a%5Cu0638%5Cu0631%20%5Cu0628%5Cu0645%5Cu0627%5Cu0646%5Cu06cc%5Cu062f%22%2C%22bet_slip_cash%22%3A%22%5Cu062a%5Cu0648%5Cu0645%5Cu0627%5Cu0646%20%7Bamount%7D%20%5Cu0648%5Cu062c%5Cu0647%22%2C%22bet_slip_bonus%22%3A%22%5Cu062a%5Cu0648%5Cu0645%5Cu0627%5Cu0646%20%7Bamount%7D%20%5Cu0647%5Cu062f%5Cu06cc%5Cu0647%22%2C%22bonus_del_confirm%22%3A%22%5Cu0622%5Cu06cc%5Cu0627%20%5Cu0645%5Cu0637%5Cu0645%5Cu0626%5Cu0646%20%5Cu0647%5Cu0633%5Cu062a%5Cu06cc%5Cu062f%20%5Cu061f%22%2C%22bonus_del_change%22%3A%22%5Cu062f%5Cu0631%20%5Cu0635%5Cu0648%5Cu0631%5Cu062a%20%5Cu0641%5Cu0639%5Cu0627%5Cu0644%20%5Cu0633%5Cu0627%5Cu0632%5Cu06cc%20%5Cu0627%5Cu06cc%5Cu0646%20%5Cu0637%5Cu0631%5Cu062d%20%5Cu0647%5Cu062f%5Cu06cc%5Cu0647%5Cu060c%20%5Cu0637%5Cu0631%5Cu062d%20%5Cu0642%5Cu0628%5Cu0644%5Cu06cc%20%5Cu063a%5Cu06cc%5Cu0631%20%5Cu0641%5Cu0639%5Cu0627%5Cu0644%20%5Cu0645%5Cu06cc%20%5Cu0634%5Cu0648%5Cu062f%22%2C%22bonus_del_yes%22%3A%22%5Cu0628%5Cu0644%5Cu0647%22%7D"));
+	</script>
+    <script type="text/javascript" src="/default/assets/js/script.js?1000.002"></script>
+    <script type="text/javascript" src="/default/assets/js/data.js?1000.032"></script>
+    <script type="text/javascript" src="/default/assets/js/bet.js?1000.001"></script>
+    
+    
+    
+    <style>
+
+    	
+		
+		
+    </style>
+
+    
+</head>
+
+
+<body>
+
+	<center>
+		<div class="header container pr10 desktop">
+			<div class="left mt10 mb10"><a href="/default"><img src="/image/aHR0cDovL2I5MGdhbWVzLnMzLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tL2Fzc2V0cy8yMDE3MDcvMTQ5OTI1NzE5My01MDY4LTc1NjgucG5nQGY5ZDY2MmNlNTA5YjRlNmE4OWI2MWJiNjhlODBhMmVm" height="80"></a></div>
+			<div class="right language-selector">
+				<div class="language-box">
+					<a href="javascript:;" data="fa">Persian</a><a href="javascript:;" data="en">English</a>				</div>
+			</div>
+			<div class="right">
+									<div class="name">mohaddese</div>
+					<a href="/user/topup" class="balance">تومان <span class="user-balance-place">۰</span></a>
+					<a href="/user/topup" class="account">افزایش موجودی</a>
+					<a href="/user/account" class="account">حساب کاربری</a>
+					<a href="/user/logout" class="account language">خروج از حساب کاربری</a>
+							</div>
+			<div class="clear"></div>
+		</div>
+		<div class="header container mobile mobile-bar">
+			<div class="icon"><a href="javascript:;" class="mobile-menu-action fa fa-bars"></a></div>
+			<div class="icon"></div>
+			<div class="logo"><a href="/default"><img src="/image/aHR0cDovL2I5MGdhbWVzLnMzLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tL2Fzc2V0cy8yMDE3MDcvMTQ5OTI1NzE5My01MDY4LTc1NjgucG5nQGY5ZDY2MmNlNTA5YjRlNmE4OWI2MWJiNjhlODBhMmVm" height="40"></a></div>
+			<div class="icon"></div>
+			<div class="icon"></div>
+						<div class="clear"></div>
+		</div>
+		<div class="mobile mobile-bar-holder"></div>
+
+	</center>
+
+	<div class="top-bar desktop">
+		<div class="container inline">
+						<a href="/sport/prematch" class="">پیش بینی ورزشی<div><img src="/default/assets/icons/top-bar/sport.png"></div></a>
+			<a href="/sport/live" class="">پیش بینی زنده<div><img src="/default/assets/icons/top-bar/live.png"></div></a>
+			<a href="/sport/scores" class="">نتایج زنده<div><img src="/default/assets/icons/top-bar/scores.png"></div></a>
+						<a href="/casino/poker" class="">پوکر آنلاین<div><img src="/default/assets/icons/top-bar/poker.png"></div></a>			<a href="/casino/pasoor" class="">پاسور<div><img src="/default/assets/icons/top-bar/pasoor.png"></div></a>			<a href="/casino/backgammon" class="">تخته نرد<div><img src="/default/assets/icons/top-bar/backgammon.png"></div></a>			<a href="/casino/crash" class="">بازی انفجار<div><img src="/default/assets/icons/top-bar/crash.png"></div></a>			<a href="/casino/index" class="active">کازینو آنلاین<div><img src="/default/assets/icons/top-bar/casino.png"></div></a>
+						<a href="/support/index" class="">پشتیبانی<div><img src="/default/assets/icons/top-bar/support.png"></div></a>
+			<a href="/content/help" class="">راهنما<div><img src="/default/assets/icons/top-bar/help.png"></div></a>
+		</div>
+	</div>
+
+	<div class="mobile-menu mobile">
+
+		
+		<div class="info">
+			<span class="name">mohaddese</span><br>
+			تومان <span class="user-balance-place">۰</span>		</div>
+
+		<div class="buttons">
+			<a href="/user/topup">افزایش موجودی</a>
+			<a href="/user/account">حساب کاربری</a>
+			<a href="/user/logout">خروج از حساب کاربری</a>
+		</div>
+
+		
+		<div class="items">
+						<a href="/sport/prematch">پیش بینی ورزشی</a>
+			<a href="/sport/live">پیش بینی زنده</a>
+			<a href="/sport/scores">نتایج زنده</a>
+						<a href="/casino/poker">پوکر آنلاین</a>			<a href="/casino/pasoor">پاسور</a>			<a href="/casino/backgammon">تخته نرد</a>			<a href="/casino/crash">بازی انفجار</a>			<a href="/casino/index">کازینو آنلاین</a>
+			<a href="/content/promotions">بونوس های ویژه</a>			<a href="/support/index">پشتیبانی</a>
+			<a href="/content/help">راهنما</a>
+		</div>
+
+	</div>
+
+
+
+
+	<div class="page-content center">
+		<div class="game-container inline">
+			<iframe src="/games/slot/index" class="game-place"></iframe>
+		</div>
+	</div>
+
+	<script>
+		$(document).ready(function() {
+						var mobile_device = "no";
+			if($(window).width()<1000 || mobile_device=="yes") location = '/games/slot/index';
+		});
+	</script>
+
+	
+	<div class="footer desktop">
+		<div class="inline container pr10">
+			<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-91083332-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+		</div>
+	</div>
+
+	<div class="footer-links desktop">
+		<div class="inline container pr10">
+			<div class="left">
+				<a href="/content/help" class="footer-link">راهنما</a>
+				<a href="/content/promotions" class="footer-link">بونوس های ویژه</a>							</div>
+			<div class="right">
+				<a href="https://telegram.me/joinchat/Bws4hjwtjt8SJeZoDB7Asg" target="_blank"><img src="/image/aHR0cDovL2I5MGdhbWVzLnMzLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tL2Jhbm5lcnMvMjAxNzA5LzE1MDU3NDg4MjctNTE2OS03NTQ0LnBuZ0BhMTdjNzY2ODAyOTExNTM4ZmJlNjA1YzkzYzA3MDk3Ng%3D%3D"></a>
+<a href="https://www.instagram.com/b90/"><img src="/image/aHR0cDovL2I5MGdhbWVzLnMzLmV1LWNlbnRyYWwtMS5hbWF6b25hd3MuY29tL2Jhbm5lcnMvMjAxNzA5LzE1MDU3NDg4MzktMzM4Mi03NTgwLnBuZ0BmNjQzODlmYTk4NzQxNDNlMWY0MDkzNjkwNWVmMGEzMA%3D%3D"></a>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	
+	
+	<div class="mobile mobile-bar-holder"></div>
+	<div class="mobile mobile-footer-bar">
+		<a href="/sport/prematch" class="sport ">پیش بینی ورزشی</a>
+		<a href="/sport/live" class="live ">پیش بینی زنده</a>
+		<a href="/sport/scores" class="scores ">نتایج زنده</a>
+		<a href="/casino/index" class="casino active">کازینو آنلاین</a>
+		<a href="/user/account" class="account ">حساب کاربری</a>
+	</div>
+
+	
+	<div class="splash-view">
+		<div class="splash-container">
+			<div class="splash-header">
+				<div class="left splash-title"><!--Title--></div>
+				<div class="right"><span class="fa fa-times pointer splash-close-button"></span></div>
+				<div class="clear"></div>
+			</div>
+			<div class="splash-content"><!--Content--></div>
+		</div>
+	</div>
+
+	
+</body>
+</html>

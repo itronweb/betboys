@@ -1,0 +1,102 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin1/plugins/game/game_code.php?hometeam=Kremin%27&awayteam=Cherkaskyi%20Dnipro&id=!!!!wdeLBzZlHeJPN8b$$kt$$tcc
+
+Date:
+  2018-04-24 13:00:39
+
+Error:
+  SQL error: Incorrect integer value: 'ddd' for column 'animation_code' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO matches (animation_code, id) values ('ddd', 9921789). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin1/plugins/slideshow/slideshow_add.php
+
+Date:
+  2018-04-25 12:53:51
+
+Error:
+  SQL error: Column 'portalid' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO slideshow (category, type, title, url, description, style, image, sort, portalid, status) values (0, '1', 'FDFDF', null, '&lt;p&gt;DFDFDF&lt;/p&gt;
+', null, '', 14, null, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin1/plugins/slideshow/slideshow_add.php
+
+Date:
+  2018-04-25 15:40:50
+
+Error:
+  File upload error: File size must be less than 1500 kB.
+
+Developer Details:
+  File upload error: File size must be less than 1500 kB. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

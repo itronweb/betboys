@@ -1,0 +1,99 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/epishkhan/register.php
+
+Date:
+  2013-08-01 06:04:58
+
+Error:
+  SQL error: Duplicate entry '999-999999-9' for key 2.
+
+Developer Details:
+  SQL error: INSERT INTO members (fname, lname, pass, mobile, codemeli, birthday, jensiat, email, moaref, secquestion, secresponse, regdate, active) values ('farisa', 'bakhoda', '123456', '09999999999', '999-999999-9', '9999/99/99', '1', 'farisa_bakhoda@yahoo.com', 9, '1', '9', '1392/05/10', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/epishkhan/register.php
+
+Date:
+  2013-08-01 08:44:25
+
+Error:
+  SQL error: Duplicate entry '111-111111-1' for key 2.
+
+Developer Details:
+  SQL error: INSERT INTO members (fname, lname, pass, mobile, codemeli, birthday, jensiat, email, moaref, secquestion, secresponse, regdate, active) values ('vahid', 'bakhoda', '1', '01111111111', '111-111111-1', '1111/11/11', '1', 'vahidbakhooda@gmail.com', 1, '1', '1', '1392/05/10', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/epishkhan/register.php
+
+Date:
+  2013-08-01 08:44:42
+
+Error:
+  SQL error: Duplicate entry '999-999999-9' for key 2.
+
+Developer Details:
+  SQL error: INSERT INTO members (fname, lname, pass, mobile, codemeli, birthday, jensiat, email, moaref, secquestion, secresponse, regdate, active) values ('vahid', 'bakhoda', '1', '01111111111', '999-999999-9', '1111/11/11', '1', 'vahidbakhooda@gmail.com', 1, '1', '1', '1392/05/10', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

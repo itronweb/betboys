@@ -1,0 +1,66 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/slideshowcat/slideshowcat_add.php
+
+Date:
+  2017-07-04 14:57:56
+
+Error:
+  SQL error: Field 'contenttype' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO slideshowcat (code, pagename, name, type, level, description, header, image, style, keywords, memtype, portalid, showinmenu, showinhome, sort, status) values ('4', null, 'صفحه دوره', '1', 0, null, '', '', null, null, '0', 0, 0, 0, 4, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/admin/plugins/slideshowcat/slideshowcat_add.php
+
+Date:
+  2017-07-04 15:00:45
+
+Error:
+  SQL error: Field 'contenttype' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO slideshowcat (code, pagename, name, type, level, description, header, image, style, keywords, memtype, portalid, showinmenu, showinhome, sort, status) values ('4', null, 'صفحه دوره ها', '1', 0, null, '', '', null, null, '0', 0, 0, 0, 4, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Splash Boom</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <link rel="manifest" href="/manifest.json">
+
+</head>
+
+<body class="body-tag" oncontextmenu1="return false">
+
+    <div class="gm_background background"></div>
+    <div id="main_container" class="main_container"></div>
+
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/sweetalert.min.js"></script>
+    <script type="text/javascript" src="js/soundjs.min.js"></script>
+
+    <script type="text/javascript" src="js/game.min.js?v=003"></script>
+
+    <script>
+        $(document).ready(function() {
+
+            new SplashGame({
+                auth: "auth.php",
+                language: "language.php",
+                font: "Arial",
+                assets: {
+                    path: "assets/",
+                    files: [{
+                            name: "back",
+                            file: "assets/back.png"
+                        },
+                        {
+                            name: "cancel",
+                            file: "assets/cancel.png"
+                        }
+                    ]
+                },
+                currency: {
+                    delimiters: ['.', ','],
+                    //symbol: "Tomen",
+                    //symbol: {left:"Tomen "},
+                    symbol: {
+                        default: {
+                            right: ""
+                        },
+                        short: {
+                            right: ""
+                        },
+                        full: {
+                            right: " Tomen"
+                        }
+                    }
+                },
+                exit: "/",
+                help: "/?howtoplay",
+                //chat_notify: "Please be carefull about hackers.",
+                rtl: false
+            }).start();
+
+        });
+    </script>
+
+</body>
+
+</html>

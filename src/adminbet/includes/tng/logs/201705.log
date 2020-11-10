@@ -1,0 +1,1622 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/newpanel/plugins/advertise/advertise_add.php
+
+Date:
+  2017-05-02 14:54:56
+
+Error:
+  SQL error: Field 'viewcount' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO advertise (title, category, file, url, alt, type, target, maxcount, date, expiredate, sort, width, height, portalid, style, status) values ('1', '0', '', '3', '2', '2', '_blank', 7, '1396/02/12', '1396/02/12', 8, '5', '6', 0, '4', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/newpanel/plugins/counter/counter_chart.php
+
+Date:
+  2017-05-04 12:45:39
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error creating temporary table:<br />You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1<br/>SQL:<br />CREATE TEMPORARY TABLE KT_fakeRS_20170504 ( TEXT) (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/newpanel/plugins/setting/setting.php
+
+Date:
+  2017-05-06 14:44:19
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'category' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT category,title,url,target,style,image,expiredate,sort,portalid,status,id, id as kt_pk_setting FROM setting WHERE id =null (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/newpanel/plugins/setting/setting.php
+
+Date:
+  2017-05-06 14:44:20
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'category' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT category,title,url,target,style,image,expiredate,sort,portalid,status,id, id as kt_pk_setting FROM setting WHERE id =null (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/newpanel/plugins/polling/pollingitem_edit.php?id=!!!!wYlzivDJXhV2ga7I$$0Bwgp
+
+Date:
+  2017-05-08 09:40:21
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'category' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT category,name,url,target,style,image,sort,portalid,status,id, id as kt_pk_pollingitem FROM pollingitem WHERE id =10 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/newpanel/plugins/polling/pollingitem_edit.php?id=!!!!wWMC16$$7UUx6Ph1CvhhyeB
+
+Date:
+  2017-05-09 15:00:41
+
+Error:
+  SQL error: Column 'correct' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE pollingitem SET title='ضعیف', correct=null, pollid=24, status='1' WHERE id = 12. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/newpanel/plugins/polling/pollingitem_edit.php?id=!!!!wWMC16$$7UUx6Ph1CvhhyeB
+
+Date:
+  2017-05-09 15:00:48
+
+Error:
+  SQL error: Column 'correct' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE pollingitem SET title='ضعیف', correct=null, pollid=24, status='1' WHERE id = 12. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/courses/courses_add.php
+
+Date:
+  2017-05-14 15:30:57
+
+Error:
+  SQL error: Unknown column 'portalid' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO courses (category, name, code, description, image, keywords, portalid, status) values (1, 'فتوشاپ', '11', 'توضیحات دوره فتوشاپ', '', 'دوره فتوشاپ', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/coursepart/coursepart_add.php?id=!!!!QAUkaNlQqnV$$EJ6KIR8PxX
+
+Date:
+  2017-05-14 16:45:10
+
+Error:
+  SQL error: Column 'questionpercent' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO coursepart (courseid, name, description, image, questionpercent, portalid, status) values (2, 'روتوش تصویر', 'توضیحات روتوش', '', null, 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/coursepart/coursepart_add.php?id=!!!!QAUkaNlQqnV$$EJ6KIR8PxX
+
+Date:
+  2017-05-14 16:53:13
+
+Error:
+  SQL error: Column 'questionpercent' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO coursepart (courseid, name, description, image, questionpercent, portalid, sort, status) values (2, 'طراحی بروشور', null, '', null, 0, 5, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/coursepart/coursepart_add.php?id=!!!!QAUkaNlQqnV$$EJ6KIR8PxX
+
+Date:
+  2017-05-14 16:53:38
+
+Error:
+  SQL error: Column 'questionpercent' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO coursepart (courseid, name, description, image, questionpercent, portalid, sort, status) values (2, 'طراحی بروشور', null, '', null, 0, 5, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/coursepart/coursepart_edit.php?id=!!!!Q$$M@@CmKnZar3DH4VWuTVKg
+
+Date:
+  2017-05-15 09:49:59
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'category' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT category,name,code,description,image,keywords,portalid,status,id, id as kt_pk_coursepart FROM coursepart WHERE id =3 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/questions/questions_add.php?id=!!!!wtwQ8Tokv0yklfUj5BIOOL
+
+Date:
+  2017-05-16 10:36:12
+
+Error:
+  SQL error: Incorrect integer value: '<p>گزینه 1</p>
+' for column 'ans1' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO questions (courseid, partid, levelid, title, ans1, ans2, ans3, ans4, score, correct, viewtype, status) values (2, 0, 3, '&lt;p&gt;سوال&lt;/p&gt;
+', '&lt;p&gt;گزینه 1&lt;/p&gt;
+', '&lt;p&gt;گزینه 2&lt;/p&gt;
+', '&lt;p&gt;گزینه 3&lt;/p&gt;
+', '&lt;p&gt;گزینه 4&lt;/p&gt;
+', 1, 4, 2, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/questions/questions_edit.php?id=!!!!wtwQ8Tokv0yklfUj5BIOOL
+
+Date:
+  2017-05-16 11:03:50
+
+Error:
+  SQL error: Column 'title' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE questions SET partid=2, levelid=4, title=null, ans1='بلی', ans2='خیر', ans3=null, ans4=null, score=1, correct=3, viewtype=1, status='1' WHERE id = 2. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/questions/questions_edit.php?id=!!!!wtwQ8Tokv0yklfUj5BIOOL
+
+Date:
+  2017-05-16 11:04:16
+
+Error:
+  SQL error: Column 'title' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE questions SET partid=2, levelid=4, title=null, ans1=null, ans2=null, ans3=null, ans4=null, score=1, correct=3, viewtype=1, status='1' WHERE id = 2. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/exampart/exampart_edit.php
+
+Date:
+  2017-05-16 13:21:16
+
+Error:
+  SQL error: Column 'partid' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE exampart SET examid=1, partid=null, percent=11, status='0' WHERE id = 1. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/examdepend/examdepend_add.php
+
+Date:
+  2017-05-16 14:20:58
+
+Error:
+  SQL error: Column 'courseid' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO examdepend (examid, courseid, status) values (1, null, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/examdepend/examdepend_add.php
+
+Date:
+  2017-05-16 14:21:36
+
+Error:
+  SQL error: Column 'courseid' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO examdepend (examid, courseid, status) values (1, null, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/grade/grade_add.php
+
+Date:
+  2017-05-16 16:34:29
+
+Error:
+  SQL error: Unknown column 'color' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO grade (name, color, portalid, sort, status) values ('تست', null, 0, 7, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/grade/grade_add.php
+
+Date:
+  2017-05-16 16:34:55
+
+Error:
+  SQL error: Unknown column 'portalid' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO grade (name, portalid, sort, status) values ('تست', 0, 7, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/exam/exam_add.php
+
+Date:
+  2017-05-17 13:23:10
+
+Error:
+  SQL error: Column 'certificate' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO exam (name, courseid, startdate, enddate, startreg, endreg, questioncount, examtype, examtime, certificate, price, acceptscore, scoretype, viewtype, image, description, negativetype, negativescore, answertype, answersheet, editanswer, reexam, reexamcount, result, portalid, status) values ('آزمون 1', 3, '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', 0, '1', '200', null, '0', 0, '1', '1', '', null, '1', 30, null, null, null, '1', 1, '0', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/exam/exam_add.php
+
+Date:
+  2017-05-17 13:24:27
+
+Error:
+  SQL error: Column 'certificate' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO exam (name, courseid, startdate, enddate, startreg, endreg, questioncount, examtype, examtime, certificate, price, acceptscore, scoretype, viewtype, image, description, negativetype, negativescore, answertype, answersheet, editanswer, reexam, reexamcount, result, portalid, status) values ('آزمون 1', 3, '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', 0, '1', '200', null, '0', 0, '1', '1', '', null, '1', 30, null, null, null, '1', 1, '0', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/exam/exam_add.php
+
+Date:
+  2017-05-17 13:24:38
+
+Error:
+  SQL error: Column 'certificate' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO exam (name, courseid, startdate, enddate, startreg, endreg, questioncount, examtype, examtime, certificate, price, acceptscore, scoretype, viewtype, image, description, negativetype, negativescore, answertype, answersheet, editanswer, reexam, reexamcount, result, portalid, status) values ('آزمون 1', 3, '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', 0, '1', '200', null, '0', 0, '1', '1', '', null, '1', 30, null, null, null, '1', 1, '0', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/exam/exam_add.php
+
+Date:
+  2017-05-17 13:25:18
+
+Error:
+  SQL error: Column 'certificate' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO exam (name, courseid, startdate, enddate, startreg, endreg, questioncount, examtype, examtime, certificate, price, acceptscore, scoretype, viewtype, image, description, negativetype, negativescore, answertype, answersheet, editanswer, reexam, reexamcount, result, portalid, status) values ('آزمون 1', 3, '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', 0, '1', '200', null, '0', 0, '1', '1', '', null, '1', 30, null, null, null, '1', 1, '0', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/exam/exam_add.php
+
+Date:
+  2017-05-17 13:25:37
+
+Error:
+  SQL error: Column 'certificate' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO exam (name, courseid, startdate, enddate, startreg, endreg, questioncount, examtype, examtime, certificate, price, acceptscore, scoretype, viewtype, image, description, negativetype, negativescore, answertype, answersheet, editanswer, reexam, reexamcount, result, portalid, status) values ('آزمون 1', 3, '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', 0, '1', '200', null, '0', 0, '1', '1', '', null, '1', 30, null, null, null, '1', 1, '0', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/exam/exam_add.php
+
+Date:
+  2017-05-17 13:25:59
+
+Error:
+  SQL error: Column 'description' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO exam (name, courseid, startdate, enddate, startreg, endreg, questioncount, examtype, examtime, price, acceptscore, scoretype, viewtype, image, description, negativetype, negativescore, answertype, answersheet, editanswer, reexam, reexamcount, result, portalid, status) values ('آزمون 1', 3, '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', 0, '1', '200', '0', 0, '1', '1', '', null, '1', 30, null, null, null, '1', 1, '0', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/exam/exam_add.php
+
+Date:
+  2017-05-17 13:26:22
+
+Error:
+  SQL error: Column 'answertype' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO exam (name, courseid, startdate, enddate, startreg, endreg, questioncount, examtype, examtime, price, acceptscore, scoretype, viewtype, image, description, negativetype, negativescore, answertype, answersheet, editanswer, reexam, reexamcount, result, portalid, status) values ('آزمون 1', 3, '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', 0, '1', '200', '0', 0, '1', '1', '', null, '1', 30, null, null, null, '1', 1, '0', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/exam/exam_add.php
+
+Date:
+  2017-05-17 13:27:59
+
+Error:
+  SQL error: Column 'answersheet' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO exam (name, courseid, startdate, enddate, startreg, endreg, questioncount, examtype, examtime, price, acceptscore, scoretype, viewtype, image, description, negativetype, negativescore, answersheet, editanswer, reexam, reexamcount, result, portalid, status) values ('آزمون 1', 3, '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', 0, '1', '200', '0', 0, '1', '1', '', null, '1', 30, null, null, '1', 1, '0', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/exam/exam_add.php
+
+Date:
+  2017-05-17 13:28:12
+
+Error:
+  SQL error: Column 'editanswer' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO exam (name, courseid, startdate, enddate, startreg, endreg, questioncount, examtype, examtime, price, acceptscore, scoretype, viewtype, image, description, negativetype, negativescore, editanswer, reexam, reexamcount, result, portalid, status) values ('آزمون 1', 3, '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', '1396/02/27 13:21:49', 0, '1', '200', '0', 0, '1', '1', '', null, '1', 30, null, '1', 1, '0', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/ostan/ostan_add.php
+
+Date:
+  2017-05-18 11:17:40
+
+Error:
+  SQL error: Unknown column 'ostancode' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO ostan (code, ostancode, name, sort, status) values ('121212', null, 'تست', 1, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/memberattach/memberattach_add.php
+
+Date:
+  2017-05-20 10:12:45
+
+Error:
+  SQL error: Table 'azmoon.memberattach' doesn't exist.
+
+Developer Details:
+  SQL error: INSERT INTO memberattach (name, memberid, setdate, Filedata, portalid, status) values ('تست', 11, '1396/02/30 10:12:45', '', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/memberattach/memberattach_add.php
+
+Date:
+  2017-05-20 10:13:14
+
+Error:
+  SQL error: Table 'azmoon.memberattach' doesn't exist.
+
+Developer Details:
+  SQL error: INSERT INTO memberattach (name, memberid, setdate, Filedata, portalid, status) values ('تست', 11, '1396/02/30 10:13:14', '', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/memberattach/memberattach_add.php
+
+Date:
+  2017-05-20 10:13:37
+
+Error:
+  SQL error: Unknown column 'Filedata' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO memberattach (name, memberid, setdate, Filedata, portalid, status) values ('تست', 11, '1396/02/30 10:13:37', '', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/memberattach/memberattach_add.php
+
+Date:
+  2017-05-20 10:13:58
+
+Error:
+  SQL error: Unknown column 'portalid' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO memberattach (name, memberid, setdate, file, portalid, status) values ('تست', 11, '1396/02/30 10:13:58', '', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/memberattach/memberattach_add.php
+
+Date:
+  2017-05-20 10:14:40
+
+Error:
+  File upload error. No input of file type provided.
+
+Developer Details:
+  File upload error. Field "name" does not have the "Submit as" property set to "file". (FILE_UPLOAD_WRONG_COLTYPE)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/memberattach/memberattach_add.php
+
+Date:
+  2017-05-20 10:15:03
+
+Error:
+  File upload error. No input of file type provided.
+
+Developer Details:
+  File upload error. Field "name" does not have the "Submit as" property set to "file". (FILE_UPLOAD_WRONG_COLTYPE)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/memberattach/memberattach_add.php
+
+Date:
+  2017-05-20 10:15:26
+
+Error:
+  File upload error. No input of file type provided.
+
+Developer Details:
+  File upload error. Field "name" does not have the "Submit as" property set to "file". (FILE_UPLOAD_WRONG_COLTYPE)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/members/members_add.php
+
+Date:
+  2017-05-20 14:28:15
+
+Error:
+  SQL error: Column 'birthloc' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO members (code, fname, lname, gender, job, gradeid, father, shsh, birthloc, birthday, codemeli, mobile, tel, email, image, countrycode, ostancode, shahrestancode, address, codeposti, pass, activationcode, activationdate, activationsendcount, activationsendtime, moaref, secquestionid, secresponse, regdate, portalid, status) values ('1', 'علی', 'احمدی', '1', '6', null, '2', '3', null, '4', null, null, '5', 'یبلیبل', '', null, null, null, null, 'admin', '!!!!QfQlMMWgJ77zlEGqMrnZT6', null, null, null, null, null, null, null, '1396/02/30 14:28:15', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/members/members_add.php
+
+Date:
+  2017-05-21 09:30:25
+
+Error:
+  SQL error: Column 'code' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO members (code, fname, lname, gender, job, gradeid, father, shsh, birthloc, birthday, codemeli, mobile, tel, email, image, countrycode, ostancode, shahrestancode, address, codeposti, pass, activationcode, activationdate, activationsendcount, activationsendtime, moaref, secquestionid, secresponse, regdate, portalid, status) values (null, '11', '111', null, null, null, null, null, null, null, '209 359 067 0', null, null, 'as@sdfsdf.ghj', '', null, null, null, null, 'admin', '!!!!QfQlMMWgJ77zlEGqMrnZT6', null, null, null, null, null, null, null, '1396/02/31 09:30:25', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/members/members_add.php
+
+Date:
+  2017-05-21 09:31:01
+
+Error:
+  SQL error: Column 'gender' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO members (code, fname, lname, gender, job, gradeid, father, shsh, birthloc, birthday, codemeli, mobile, tel, email, image, countrycode, ostancode, shahrestancode, address, codeposti, pass, activationcode, activationdate, activationsendcount, activationsendtime, moaref, secquestionid, secresponse, regdate, portalid, status) values (null, '11', '111', null, null, null, null, null, null, null, '209 359 067 0', null, null, 'as@sdfsdf.ghj', '', null, null, null, null, 'admin', '!!!!QfQlMMWgJ77zlEGqMrnZT6', null, null, null, null, null, null, null, '1396/02/31 09:31:01', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/members/members_add.php
+
+Date:
+  2017-05-21 09:31:30
+
+Error:
+  SQL error: Column 'father' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO members (code, fname, lname, gender, job, gradeid, father, shsh, birthloc, birthday, codemeli, mobile, tel, email, image, countrycode, ostancode, shahrestancode, address, codeposti, pass, activationcode, activationdate, activationsendcount, activationsendtime, moaref, secquestionid, secresponse, regdate, portalid, status) values (null, '11', '111', null, null, null, null, null, null, null, '209 359 067 0', null, null, 'as@sdfsdf.ghj', '', null, null, null, null, 'admin', '!!!!QfQlMMWgJ77zlEGqMrnZT6', null, null, null, null, null, null, null, '1396/02/31 09:31:30', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/members/members_add.php
+
+Date:
+  2017-05-21 09:32:48
+
+Error:
+  SQL error: Data too long for column 'codemeli' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO members (code, fname, lname, gender, job, gradeid, father, shsh, birthloc, birthday, codemeli, mobile, tel, email, image, countrycode, ostancode, shahrestancode, address, codeposti, pass, activationcode, activationdate, activationsendcount, activationsendtime, moaref, secquestionid, secresponse, regdate, portalid, status) values (null, '11', '111', null, null, null, null, null, null, null, '209 359 067 0', null, null, 'as@sdfsdf.ghj', '', null, null, null, null, 'admin', '!!!!QfQlMMWgJ77zlEGqMrnZT6', null, null, null, null, null, null, null, '1396/02/31 09:32:48', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/members/members_add.php
+
+Date:
+  2017-05-21 09:33:18
+
+Error:
+  SQL error: Data too long for column 'codemeli' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO members (code, fname, lname, gender, job, gradeid, father, shsh, birthloc, birthday, codemeli, mobile, tel, email, image, countrycode, ostancode, shahrestancode, address, codeposti, pass, activationcode, activationdate, activationsendcount, activationsendtime, moaref, secquestionid, secresponse, regdate, portalid, status) values (null, '11', '111', null, null, null, null, null, null, null, '209 359 067 0', null, null, 'as@sdfsdf.ghj', '', null, null, null, null, 'admin', '!!!!QfQlMMWgJ77zlEGqMrnZT6', null, null, null, null, null, null, null, '1396/02/31 09:33:18', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/plugins/exam/exam_add.php
+
+Date:
+  2017-05-22 10:49:57
+
+Error:
+  SQL error: Column 'negativescore' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO exam (name, courseid, startdate, enddate, startreg, endreg, questioncount, examtype, examtime, certificate, price, acceptscore, scoretype, viewtype, image, description, negativetype, negativescore, answertype, answersheet, editanswer, reexam, reexamcount, result, portalid, status) values ('آزمون آنلاین فتوشاپ', 1, '1396/03/03 10:45:00', '1396/03/03 11:00:00', '1396/03/01 10:48:03', '1396/03/02 10:48:03', 0, '1', '900', 0, '0', 0, '1', '1', '', null, '0', null, 0, 0, 0, '1', 1, '0', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/members_add.php
+
+Date:
+  2017-05-25 11:27:45
+
+Error:
+  SQL error: Column 'fname' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO members (code, fname, lname, gender, job, gradeid, father, shsh, birthloc, birthday, codemeli, mobile, tel, email, image, countrycode, ostancode, shahrestancode, address, codeposti, pass, activationcode, activationdate, activationsendcount, activationsendtime, moaref, secquestionid, secresponse, regdate, portalid, status) values (null, null, null, null, null, null, null, null, null, null, null, null, null, null, '', null, null, null, null, 'admin', '!!!!QfQlMMWgJ77zlEGqMrnZT6', null, null, null, null, null, null, null, '1396/03/04 11:27:45', null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/members_add.php
+
+Date:
+  2017-05-25 11:28:59
+
+Error:
+  SQL error: Column 'fname' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO members (code, fname, lname, gender, job, gradeid, father, shsh, birthloc, birthday, codemeli, mobile, tel, email, image, countrycode, ostancode, shahrestancode, address, codeposti, pass, activationcode, activationdate, activationsendcount, activationsendtime, moaref, secquestionid, secresponse, regdate, portalid, status) values (null, null, null, null, null, null, null, null, null, null, null, null, null, null, '', null, null, null, null, 'admin', '!!!!QfQlMMWgJ77zlEGqMrnZT6', null, null, null, null, null, null, null, '1396/03/04 11:28:59', null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/members_add.php
+
+Date:
+  2017-05-25 11:34:33
+
+Error:
+  SQL error: Column 'fname' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO members (code, fname, lname, gender, job, gradeid, father, shsh, birthloc, birthday, codemeli, mobile, tel, email, image, countrycode, ostancode, shahrestancode, address, codeposti, pass, activationcode, activationdate, activationsendcount, activationsendtime, moaref, secquestionid, secresponse, regdate, portalid, status) values (null, null, null, null, null, null, null, null, null, null, null, null, null, null, '', null, null, null, null, 'admin', '!!!!QfQlMMWgJ77zlEGqMrnZT6', null, null, null, null, null, null, null, '1396/03/04 11:34:33', null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/members_add.php
+
+Date:
+  2017-05-25 11:35:01
+
+Error:
+  SQL error: Column 'fname' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO members (code, fname, lname, gender, job, gradeid, father, shsh, birthloc, birthday, codemeli, mobile, tel, email, image, countrycode, ostancode, shahrestancode, address, codeposti, pass, activationcode, activationdate, activationsendcount, activationsendtime, moaref, secquestionid, secresponse, regdate, portalid, status) values (null, null, null, null, null, null, null, null, null, null, null, null, null, null, '', null, null, null, null, 'admin', '!!!!QfQlMMWgJ77zlEGqMrnZT6', null, null, null, null, null, null, null, '1396/03/04 11:35:01', null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/members_add.php
+
+Date:
+  2017-05-25 11:35:48
+
+Error:
+  SQL error: Column 'fname' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO members (code, fname, lname, gender, job, gradeid, father, shsh, birthloc, birthday, codemeli, mobile, tel, email, image, countrycode, ostancode, shahrestancode, address, codeposti, pass, activationcode, activationdate, activationsendcount, activationsendtime, moaref, secquestionid, secresponse, regdate, portalid, status) values (null, null, null, null, null, null, null, null, null, null, null, null, null, null, '', null, null, null, null, 'admin', '!!!!QfQlMMWgJ77zlEGqMrnZT6', null, null, null, null, null, null, null, '1396/03/04 11:35:48', null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/azmoon/members_add.php
+
+Date:
+  2017-05-25 11:38:48
+
+Error:
+  SQL error: Column 'fname' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO members (code, fname, lname, gender, job, gradeid, father, shsh, birthloc, birthday, codemeli, mobile, tel, email, image, countrycode, ostancode, shahrestancode, address, codeposti, pass, activationcode, activationdate, activationsendcount, activationsendtime, moaref, secquestionid, secresponse, regdate, portalid, status) values (null, null, null, null, null, null, null, null, null, null, null, null, null, null, '', null, null, null, null, 'admin', '!!!!QfQlMMWgJ77zlEGqMrnZT6', null, null, null, null, null, null, null, '1396/03/04 11:38:48', null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

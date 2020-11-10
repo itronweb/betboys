@@ -1,0 +1,343 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  78.182.132.25
+
+Host:
+  4ubets.com
+
+Requested URI:
+  http://4ubets.com/admin/plugins/users/users_increase.php?id=!!!!gtjGW@@l0UQofSbQVK6feGy
+
+Date:
+  2018-09-03 12:48:54
+
+Error:
+  SQL error: Column 'price' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `transactions` (price, user_id, invoice_type, description, trans_id, cash, created_at, updated_at, status) values (null, 3863, 10, 'افزایش شارژ حساب توسط مدیریت', 'ADMIN_INCREASE1535962734', 5067500, '2018-09-03 12:48:54', '2018-09-03 12:48:54', 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.182.132.25
+
+Host:
+  4ubets.com
+
+Requested URI:
+  http://4ubets.com/admin/plugins/users/users_increase.php?id=!!!!gtjGW@@l0UQofSbQVK6feGy
+
+Date:
+  2018-09-03 12:48:55
+
+Error:
+  SQL error: Column 'price' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `transactions` (price, user_id, invoice_type, description, trans_id, cash, created_at, updated_at, status) values (null, 3863, 10, 'افزایش شارژ حساب توسط مدیریت', 'ADMIN_INCREASE1535962735', 5067500, '2018-09-03 12:48:55', '2018-09-03 12:48:55', 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.182.132.25
+
+Host:
+  4ubets.com
+
+Requested URI:
+  http://4ubets.com/admin/plugins/users/users_increase.php?id=!!!!wHg3mZn4y5ShNNbTMblsr6
+
+Date:
+  2018-09-05 17:28:32
+
+Error:
+  SQL error: Column 'price' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `transactions` (price, user_id, invoice_type, description, trans_id, cash, created_at, updated_at, status) values (null, 4065, 10, 'افزایش شارژ حساب توسط مدیریت', 'ADMIN_INCREASE1536152312', 1000000, '2018-09-05 17:28:32', '2018-09-05 17:28:32', 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.182.132.25
+
+Host:
+  4ubets.com
+
+Requested URI:
+  http://4ubets.com/admin/plugins/bets/bets_cancel.php?work=3&id=!!!!QB9ZV3EXTj8cDVUS9XJcnl
+
+Date:
+  2018-09-06 13:00:25
+
+Error:
+  SQL error: Column 'user_id' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO transactions (invoice_type, user_id, created_at, trans_id, description, updated_at, price, cash, status) values (14, null, '2018-09-06 13:00:24', '0', ' تغییر وضعیت توسط مدیریت: شرط شناسه 0  مشخص نشده به  استرداد ', '2018-09-06 13:00:24', 0, 0, 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.182.132.25
+
+Host:
+  4ubets.com
+
+Requested URI:
+  http://4ubets.com/admin/plugins/bets/bets_cancel.php?work=3&id=!!!!QB9ZV3EXTj8cDVUS9XJcnl
+
+Date:
+  2018-09-06 13:00:34
+
+Error:
+  SQL error: Column 'user_id' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO transactions (invoice_type, user_id, created_at, trans_id, description, updated_at, price, cash, status) values (14, null, '2018-09-06 13:00:34', '0', ' تغییر وضعیت توسط مدیریت: شرط شناسه 0  مشخص نشده به  استرداد ', '2018-09-06 13:00:34', 0, 0, 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.182.132.25
+
+Host:
+  4ubets.com
+
+Requested URI:
+  http://4ubets.com/admin/plugins/users/users_add.php
+
+Date:
+  2018-09-06 13:11:38
+
+Error:
+  این ایمیل قبلا استفاده شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.179.210.97
+
+Host:
+  4ubets.com
+
+Requested URI:
+  http://4ubets.com/admin/plugins/users/users_add.php
+
+Date:
+  2018-09-06 16:16:30
+
+Error:
+  این نام کاربری قبلا استفاده شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique
+      BEFORE.Trigger_CheckUnique2*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.179.210.97
+
+Host:
+  4ubets.com
+
+Requested URI:
+  http://4ubets.com/admin/plugins/users/users_add.php
+
+Date:
+  2018-09-06 16:17:22
+
+Error:
+  این نام کاربری قبلا استفاده شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique
+      BEFORE.Trigger_CheckUnique2*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===

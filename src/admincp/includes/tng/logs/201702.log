@@ -1,0 +1,201 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/samen/admin/product_edit.php?id=5
+
+Date:
+  2017-02-20 15:50:19
+
+Error:
+  SQL error: Column 'viewcount' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE products SET code='AC2037', name='MCSE 2012', cat='18', keywords='شبکه - کامپیوتر', mojodi=2, mojoditype=null, piccat=null, linkcat=null, slidecat=null, newscat=null, adscat=null, pollcat=null, tozihat='&lt;p&gt;یکی از معتبرترین مدارک ، گواهینامه و دوره های آموزشی در زمینه  شبکه است&lt;/p&gt;', tozihatkamel=null, company=null, viewcount=null, tozihatfani=null, sort=62, image=image, barcode=null, linkcatalog=null, linkvideo=null, pricea='350', priceb=null, pricec=null, priced=null, priceold=null, mizansod=null, active='1' WHERE id = 5. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/samen/admin/product_edit.php?id=5
+
+Date:
+  2017-02-20 15:51:00
+
+Error:
+  SQL error: Column 'viewcount' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE products SET code='AC2037', name='MCSE 2012', cat='18', keywords='شبکه - کامپیوتر', mojodi=2, mojoditype=null, piccat=null, linkcat=null, slidecat=null, newscat=null, adscat=null, pollcat=null, tozihat='&lt;p&gt;یکی از معتبرترین مدارک ، گواهینامه و دوره های آموزشی در زمینه  شبکه است&lt;/p&gt;', tozihatkamel=null, company=null, viewcount=null, tozihatfani=null, sort=62, image=image, barcode=null, linkcatalog=null, linkvideo=null, pricea='350', priceb=null, pricec=null, priced=null, priceold=null, mizansod=null, active='1' WHERE id = 5. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/samen/admin/product_edit.php?id=8
+
+Date:
+  2017-02-21 11:01:10
+
+Error:
+  SQL error: Column 'viewcount' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE products SET code='NPC1641', name='سنگ آنتیک آج دار مشبک گرمادیده', cat='20', keywords=null, mojodi=2, mojoditype='1', piccat=7, linkcat=2, slidecat=0, newscat=6, adscat=0, pollcat=2, tozihat='&lt;p&gt;&nbsp;همواره خرید کفشی که برای ورزش مورد نظر طراحی شده باشد از دغدغه&zwnj;های اصلی  ورزشکاران است. دانش مناسب در ساخت محصول، آزادی حرکت و پشتیبانی درست از  پا اثر مستقیمی بر عملکرد ورزشکار می&zwnj;گذارد. به همین دلیل است که هر ورزشی  کفش خاص خودش را دارد. حتی اگر علاقمند به ورزش نباشد&lt;/p&gt;', tozihatkamel='&lt;p&gt;&lt;strong&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut lectus felis, facilisis nec erat at, pretium pellentesque lectus.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Nam dictum justo sit amet placerat consectetur. Maecenas laoreet, ligula vel scelerisque ultricies, lorem urna luctus odio, eget convallis. Quisque vestibulum tempus felis. Nulla interdum varius arcu nec. Duis id erat nunc.&lt;/p&gt;
+&lt;p&gt;&nbsp;&lt;/p&gt;
+&lt;p class=&quot;quote-left&quot;&gt;Nunc placerat egestas vehicula. Fusce eu risus sit amet metus sagittis volutpat vehicula porttitor elit. Sed fringilla purus sed mi scelerisque scelerisque. Donec vel enim ligula. Phasellus vulputate ac dui aliquet dapibus. Suspendisse ut vestibulum tellus, sed gravida arcu. Aliquam erat volutpat.&lt;/p&gt;
+&lt;p&gt;&nbsp;&lt;/p&gt;
+&lt;p&gt;Cras eleifend iaculis purus sed hendrerit. Nulla facilisi. Sed congue semper consequat. Nam viverra semper libero, a luctus eros. Nulla porttitor commodo velit nec rhoncus. Vivamus blandit tellus risus, et hendrerit nisi aliquet ut.&lt;/p&gt;
+&lt;p class=&quot;jm-block second&quot;&gt;&lt;span class=&quot;jm&quot;&gt;1&lt;/span&gt;Nulla vestibulum ultrices felis sit amet dapibus. Suspendisse et ligula hendrerit, auctor justo vel, sagittis metus. Mauris tincidunt quam eu pulvinar sagittis. Pellentesque imperdiet, purus vel feugiat pharetra, lectus velit scelerisque nisi, a aliquam nibh augue vel urna. In volutpat tellus et pulvinar varius. Aenean ultricies euismod rhoncus.&lt;/p&gt;
+&lt;p class=&quot;jm-block second&quot;&gt;&lt;span class=&quot;jm&quot;&gt;2&lt;/span&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla scelerisque magna et orci porttitor ullamcorper. Proin euismod pretium dolor non consectetur. Aliquam feugiat nunc ac justo hendrerit, non lobortis lacus condimentum. Duis id erat nunc. Nam eu aliquam velit. Donec pretium sed quam quis pulvinar.&lt;/p&gt;
+&lt;p&gt;Ut lectus felis, facilisis nec erat at, pretium pellentesque lectus. Donec sit amet nibh est. Morbi augue libero, pretium vitae nulla ac, malesuada ultricies neque. Donec eget neque erat. Nam dictum justo sit amet placerat consectetur. Maecenas laoreet, ligula vel scelerisque ultricies, lorem urna luctus odio, eget convallis urna erat quis justo. Morbi vel placerat nisl, ut tempor odio. Sed lacinia purus sit amet lorem dictum tincidunt.&lt;/p&gt;', company='NFC', viewcount=null, tozihatfani='&lt;p&gt;&nbsp;&lt;/p&gt;
+&lt;table class=&quot;category table table-striped table-bordered table-hover&quot;&gt;
+    &lt;thead&gt;
+        &lt;tr&gt;
+            &lt;th id=&quot;categorylist_header_title&quot;&gt;&lt;a data-original-title=&quot;&lt;strong&gt;Title&lt;/strong&gt;&lt;br /&gt;Select to sort by this column&quot; href=&quot;#&quot; onclick=&quot;Joomla.tableOrdering(''a.title'',''asc'','''');return false;&quot; class=&quot;hasTooltip&quot; title=&quot;&quot;&gt;Title&lt;/a&gt;&lt;/th&gt;
+            &lt;th id=&quot;categorylist_header_author&quot;&gt;&lt;a data-original-title=&quot;&lt;strong&gt;Author&lt;/strong&gt;&lt;br /&gt;Select to sort by this column&quot; href=&quot;#&quot; onclick=&quot;Joomla.tableOrdering(''author'',''asc'','''');return false;&quot; class=&quot;hasTooltip&quot; title=&quot;&quot;&gt;Author&lt;/a&gt;&lt;/th&gt;
+            &lt;th id=&quot;categorylist_header_hits&quot;&gt;&lt;a data-original-title=&quot;&lt;strong&gt;Hits&lt;/strong&gt;&lt;br /&gt;Select to sort by this column&quot; href=&quot;#&quot; onclick=&quot;Joomla.tableOrdering(''a.hits'',''asc'','''');return false;&quot; class=&quot;hasTooltip&quot; title=&quot;&quot;&gt;Hits&lt;/a&gt;&lt;/th&gt;
+        &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+        &lt;tr class=&quot;cat-list-row0&quot;&gt;
+            &lt;td headers=&quot;categorylist_header_title&quot; class=&quot;list-title&quot;&gt;&lt;a href=&quot;/joomla30/jm-university-wcag/coming-soon&quot;&gt; 								Coming Soon							&lt;/a&gt;&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_author&quot; class=&quot;list-author&quot;&gt;Written by Super User&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_hits&quot; class=&quot;list-hits&quot;&gt;&lt;span class=&quot;badge badge-info&quot;&gt; 								Hits: 48							&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;cat-list-row1&quot;&gt;
+            &lt;td headers=&quot;categorylist_header_title&quot; class=&quot;list-title&quot;&gt;&lt;a href=&quot;/joomla30/jm-university-wcag/price-table&quot;&gt; 								Price Table							&lt;/a&gt;&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_author&quot; class=&quot;list-author&quot;&gt;Written by Super User&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_hits&quot; class=&quot;list-hits&quot;&gt;&lt;span class=&quot;badge badge-info&quot;&gt; 								Hits: 275							&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;cat-list-row0&quot;&gt;
+            &lt;td headers=&quot;categorylist_header_title&quot; class=&quot;list-title&quot;&gt;&lt;a href=&quot;/joomla30/jm-university-wcag/features/module-suffixes&quot;&gt; 								Module Suffixes							&lt;/a&gt;&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_author&quot; class=&quot;list-author&quot;&gt;Written by Super User&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_hits&quot; class=&quot;list-hits&quot;&gt;&lt;span class=&quot;badge badge-info&quot;&gt; 								Hits: 1263							&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;cat-list-row1&quot;&gt;
+            &lt;td headers=&quot;categorylist_header_title&quot; class=&quot;list-title&quot;&gt;&lt;a href=&quot;/joomla30/jm-university-wcag/features/all-templates-positions&quot;&gt; 								All Template Positions							&lt;/a&gt;&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_author&quot; class=&quot;list-author&quot;&gt;Written by Super User&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_hits&quot; class=&quot;list-hits&quot;&gt;&lt;span class=&quot;badge badge-info&quot;&gt; 								Hits: 192							&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;cat-list-row0&quot;&gt;
+            &lt;td headers=&quot;categorylist_header_title&quot; class=&quot;list-title&quot;&gt;&lt;a href=&quot;/joomla30/jm-university-wcag/error-404&quot;&gt; 								Error 404							&lt;/a&gt;&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_author&quot; class=&quot;list-author&quot;&gt;Written by Super User&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_hits&quot; class=&quot;list-hits&quot;&gt;&lt;span class=&quot;badge badge-info&quot;&gt; 								Hits: 142							&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;cat-list-row1&quot;&gt;
+            &lt;td headers=&quot;categorylist_header_title&quot; class=&quot;list-title&quot;&gt;&lt;a href=&quot;/joomla30/jm-university-wcag/offline-page&quot;&gt; 								Offline Page							&lt;/a&gt;&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_author&quot; class=&quot;list-author&quot;&gt;Written by Super User&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_hits&quot; class=&quot;list-hits&quot;&gt;&lt;span class=&quot;badge badge-info&quot;&gt; 								Hits: 62							&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;cat-list-row0&quot;&gt;
+            &lt;td headers=&quot;categorylist_header_title&quot; class=&quot;list-title&quot;&gt;&lt;a href=&quot;/joomla30/jm-university-wcag/tabs&quot;&gt; 								Tabs							&lt;/a&gt;&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_author&quot; class=&quot;list-author&quot;&gt;Written by Super User&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_hits&quot; class=&quot;list-hits&quot;&gt;&lt;span class=&quot;badge badge-info&quot;&gt; 								Hits: 137							&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;cat-list-row1&quot;&gt;
+            &lt;td headers=&quot;categorylist_header_title&quot; class=&quot;list-title&quot;&gt;&lt;a href=&quot;/joomla30/jm-university-wcag/single-article&quot;&gt; 								Single Article							&lt;/a&gt;&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_author&quot; class=&quot;list-author&quot;&gt;Written by Super User&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_hits&quot; class=&quot;list-hits&quot;&gt;&lt;span class=&quot;badge badge-info&quot;&gt; 								Hits: 590							&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;cat-list-row0&quot;&gt;
+            &lt;td headers=&quot;categorylist_header_title&quot; class=&quot;list-title&quot;&gt;&lt;a href=&quot;/joomla30/jm-university-wcag/features/typography&quot;&gt; 								Typography							&lt;/a&gt;&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_author&quot; class=&quot;list-author&quot;&gt;Written by Super User&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_hits&quot; class=&quot;list-hits&quot;&gt;&lt;span class=&quot;badge badge-info&quot;&gt; 								Hits: 469							&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&quot;cat-list-row1&quot;&gt;
+            &lt;td headers=&quot;categorylist_header_title&quot; class=&quot;list-title&quot;&gt;&lt;a href=&quot;/joomla30/jm-university-wcag/&quot;&gt; 								Subpage							&lt;/a&gt;&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_author&quot; class=&quot;list-author&quot;&gt;Written by Super User&lt;/td&gt;
+            &lt;td headers=&quot;categorylist_header_hits&quot; class=&quot;list-hits&quot;&gt;&lt;span class=&quot;badge badge-info&quot;&gt; 								Hits: 11593							&lt;/span&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;', sort=62, image=image, barcode=null, linkcatalog=null, linkvideo=null, pricea='740', priceb=null, pricec=null, priced=null, priceold=null, mizansod=null, active='1' WHERE id = 8. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/samen/admin/product_edit.php?id=11
+
+Date:
+  2017-02-21 13:40:37
+
+Error:
+  SQL error: Column 'viewcount' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE products SET code='106', name='MATLAB', cat='15', keywords='matlab - computer - math', mojodi=3, mojoditype=null, piccat=null, linkcat=null, slidecat=null, newscat=null, adscat=null, pollcat=null, tozihat='&lt;p&gt;این نرم افزار یک زبان برنامه&lt;span dir=&quot;LTR&quot;&gt;&zwj; &lt;/span&gt;نویسی و محیطی مخصوص برای محاسبات عددی&lt;/p&gt;', tozihatkamel=null, company=null, viewcount=null, tozihatfani=null, sort=62, image=image, barcode=null, linkcatalog=null, linkvideo=null, pricea='470', priceb=null, pricec=null, priced=null, priceold=null, mizansod=null, active='1' WHERE id = 11. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===

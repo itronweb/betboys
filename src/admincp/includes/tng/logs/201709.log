@@ -1,0 +1,166 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/noorolhoda/admin/plugins/services/services_add.php
+
+Date:
+  2017-09-03 16:44:22
+
+Error:
+  SQL error: Duplicate entry '1' for key 'code'.
+
+Developer Details:
+  SQL error: INSERT INTO services (name, code, category, keywords, description, fulldescription, setdate, image, linkcatalog, linkvideo, gallerycat, slideshowcat, linkcat, contentscat, advertisecat, pollingcat, productcat, faqcat, sort, style, portalid, status) values ('کتابخانه مرکزی', '1', 1, null, '&lt;p&gt;مرکز اطلاع رسانی و کتابخانه مرکزی&lt;/p&gt;
+', null, '1396/06/12 16:44:22', '', null, null, null, null, null, null, null, null, null, null, 4, 'library-sicon', 0, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/noorolhoda/admin/plugins/admin/admin_add.php
+
+Date:
+  2017-09-07 15:37:59
+
+Error:
+  SQL error: Column 'name' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, image, portalid, mobile, user, pass, status) values (null, '', null, '09091253252', 'admin', '0937afa17f4dc08f3c0e5dc908158370ce64df86', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/noorolhoda/admin/plugins/admin/admin_add.php
+
+Date:
+  2017-09-07 15:38:10
+
+Error:
+  SQL error: Column 'name' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, image, portalid, mobile, user, pass, status) values (null, '', null, '09112', 'admin', '0937afa17f4dc08f3c0e5dc908158370ce64df86', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/noorolhoda/admin/plugins/admin/admin_add.php
+
+Date:
+  2017-09-07 15:38:22
+
+Error:
+  SQL error: Column 'name' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, image, portalid, mobile, user, pass, status) values (null, '', null, '0', 'admin', '0937afa17f4dc08f3c0e5dc908158370ce64df86', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/hotel/admin/plugins/advertise/advertise_edit.php?id=!!!!gHewiVX$$yewFszyHHPiVwH
+
+Date:
+  2017-09-19 17:23:20
+
+Error:
+  SQL error: Data too long for column 'title' at row 1.
+
+Developer Details:
+  SQL error: UPDATE advertise SET title='زرتشت روزی از گرما در زیرِ انجیربُنی خفته بود و دستها را بر چهره نهاده، که ماری دررسید و گردن‌اش را گزید، چنان‌که زرتشت از درد فریاد کرد. چون دست از چهره برگرفت، مار را دید. مار چشمانِ زرتشت را بشناخت و ناشیانه به خود پیچید و رو در گریز نهاد.', category='1', file=file, url='#', alt=null, type='2', target=null, maxcount=null, date=null, expiredate=null, sort=2, width=null, height=null, portalid=0, style=null, status='1' WHERE id = 10. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===

@@ -1,0 +1,13 @@
+# www.robotstxt.org/
+# www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+
+User-agent: *
+# Check and update the following list of disabled directories.
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /assets/
+Disallow: /themes/
+Disallow: /panel/
+
+# If you support sitemap.xml: Update the actual site address and enable the following line.
+# Sitemap: http://my-site.com/sitemap.xml

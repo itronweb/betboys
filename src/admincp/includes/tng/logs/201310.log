@@ -1,0 +1,67 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/totourism/news_view.php?id=28&title=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%D9%87%20%D9%85%D9%88%D8%B1%D8%AE%2092/1/18
+
+Date:
+  2013-10-07 12:08:57
+
+Error:
+  SQL error: Column 'date' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO newscomment (title, news_id, name, email, matn, date, ip, `read`, active) values ('تبریک', 28, 'احمد رضائیان', null, 'matn', null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.CheckCaptcha
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/totourism/admin/user_add.php
+
+Date:
+  2013-10-10 10:20:32
+
+Error:
+  SQL error: Duplicate entry 'ff' for key 'user'.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, user, pass) values ('ff', 'ff', 'ff'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

@@ -1,0 +1,41 @@
+<?php 
+require_once('checklogin_root.php');  
+
+if($checkaccc==1)
+{//start check access
+$colname_rs1 = "-1";
+if (isset($_GET['id']) and isset($_GET['table']) and isset($_GET['field'])) {
+  $colname_rs1 = trim(decrypt($_GET['id'],session_id()."sts"));
+  $field = trim(decrypt($_GET['field'],session_id()."sts"));
+  $table = trim(decrypt($_GET['table'],session_id()."sts"));
+}
+mysqli_select_db($cn,$database_cn);
+$query_rs1 = sprintf("SELECT id, `$field` FROM $table WHERE id = %s", GetSQLValueString($colname_rs1, "int"));
+$rs1 = mysqli_query($cn,$query_rs1) or die(mysqli_error($cn));
+$row_rs1 = mysqli_fetch_assoc($rs1);
+$totalRows_rs1 = mysqli_num_rows($rs1);
+
+if($row_rs1[$field]==1)
+$newstatus=0;
+elseif($row_rs1[$field]==0)
+$newstatus=1;
+
+$query_rs1 = sprintf("update $table  set `$field`='$newstatus' WHERE id = %s", GetSQLValueString($colname_rs1, "int"));
+$rs1 = mysqli_query($cn,$query_rs1) or die(mysqli_error($cn));
+echo "<script>window.location='".$_SERVER['HTTP_REFERER']."';</script>";
+
+
+}////check access
+ ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+
+<body>
+
+</body>
+</html>
+

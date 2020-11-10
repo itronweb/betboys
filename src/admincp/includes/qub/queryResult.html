@@ -1,0 +1,89 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="includes/styles/styles.css" type="text/css">
+<script src="../common/js/base.js"></script>
+<script src="../common/js/utility.js"></script>
+<script src="./includes/config.js"></script>
+<script src="./includes/mmdb.js"></script>
+<script src="./includes/tohtml.js"></script>
+</head>
+<body leftmargin="2" topmargin="2" marginwidth="2" marginheight="2">
+	<input type="button" id="btn" value="Show All" style="display:none;" onClick="window.location+='?nolimit'">
+<div class="sql_result">
+<script>
+	canvas = parent.frames['canvas'];
+	if (!canvas.sqlQueryToRun || canvas.sqlQueryToRun.length == 0) {
+		if (canvas.sqlQueryRT) {
+			sql = canvas.sqlQueryRT;
+		} else {
+			sql = '';
+		}
+		force_run = false;
+	} else {
+		sql = canvas.sqlQueryToRun;
+		force_run = true;
+	}
+	s = window.location.href;
+	nolimit = s.substr(s.length - 7);
+	maxRows = 100000;
+	
+	err = false;
+try {
+	if (top.ui.myQuery.tables.length == 0) {
+		err = true;
+		document.write('<div class="sql_query">' + locales["Please use at least one table"] +'</div>');
+	} else {
+		if (nolimit != "nolimit") {
+			maxRows = 10;
+		}
+		sql = sql.replace(/###/g, '#');
+		if(!force_run && parent.top.ui.sql_warnings.length>0) {
+			err = true;
+			document.write('<div class="sql_query"><h4>Notice(s):</h4><ul><li>' + parent.top.ui.sql_warnings.join('</li><li>') + '</li></ul></div>');
+		} else {
+			x = executeQuery(sql, maxRows, true);
+	
+			if (x.documentElement || x.rows) {
+				var out_rows = rs2html(x, "border=1 cellspacing=0");
+				if (out_rows<maxRows) {
+					//this will hide the Show all button
+					nolimit = "nolimit";
+				}
+			} else {
+				if (x) {
+					document.write(x);
+				} else {
+					document.write(sql.replace(/\n/g,"<br/>"));
+				}
+			}
+		}
+	}
+	if (!err && nolimit != "nolimit") {
+		document.getElementById("btn").style.display = "inline";
+	}
+}catch(e) {
+	//this fails on firefox when refreshing the page 
+	//it seems that Firefox is refreshing the iframes contained in page before refreshing the page itself; sad
+}
+	top.hidePleaseWait();
+</script>
+</div>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+
+<html>
+<head>
+<title>Query Builder (QuB) :: Settings</title>
+<script src="./includes/config.js"></script>
+<script>
+if (!opener) opener = window.dialogArguments;
+</script>
+<script src="./includes/mmdb.js"></script>
+<script>
+	if (!opener && window.dialogArguments) {
+		dlgOpener = window.dialogArguments;
+	} else if(opener) {
+		dlgOpener = opener;
+	} else {
+		dlgOpener = parent;
+	}
+top.ui = dlgOpener.top.ui;
+
+function loaded(){
+	var dateseparator, notequals, use_asname;
+	/*check qub3_settings_set table format */
+	/* ti[0]*/
+	var ti = getTableInfo("qub3_settings_set");	
+
+	if (typeof ti['dateseparator_set'] != "undefined") {
+		/* old settings table format */
+		/* retrieve values*/
+		var arr = executeQuery("select dateseparator_set, notequals_set from qub3_settings_set");
+		
+		if (arr === false || arr.length == 0) {
+			arr = [[escape(dlgOpener.top.canvas.dateseparator), escape(dlgOpener.top.canvas.notequals)]];
+		}
+		dateseparator = document.getElementById("dateseparator_obj");
+		dateseparator.value = unescape(arr[0][0]);
+		notequals = document.getElementById("notequals_obj");
+		notequals.value = unescape(arr[0][1]);
+		/* create new style settings table*/
+
+		executeQuery("DROP TABLE qub3_settings_set");
+		
+		executeQuery("CREATE TABLE qub3_settings_set (setting_name_set varchar(32) NOT NULL,setting_value_set varchar(32) NOT NULL)");
+		/* save existing values */
+		executeQuery("insert into qub3_settings_set (setting_name_set,setting_value_set) values ('dateseparator','"+arr[0][0]+"')");
+		executeQuery("insert into qub3_settings_set (setting_name_set,setting_value_set) values ('notequals','"+arr[0][1]+"')");
+		executeQuery("insert into qub3_settings_set (setting_name_set,setting_value_set) values ('use_asname','"+escape("true")+"')");
+	}
+
+	var arr = executeQuery("select * from qub3_settings_set");
+	if(arr.length) {
+		for(var i=0; i<arr.length; i++) {
+			set_obj = document.getElementById(arr[i][0]+"_obj");
+			if (set_obj){
+				if (arr[i][0] == 'use_asname') {
+					set_obj.checked = unescape(arr[i][1])=='true';
+				} else {
+					set_obj.value = unescape(arr[i][1]);
+				}
+			} else {
+				alert("No UI object defined in settings form for '"+arr[i][0]+"' setting.");
+			}
+			eval(arr[i][0]+"=\""+ unescape(arr[i][1])+"\"");
+		}
+	} else {
+		dateseparator = document.getElementById("dateseparator_obj");
+		dateseparator.value = dlgOpener.top.canvas.dateseparator;
+		notequals = document.getElementById("notequals_obj");
+		notequals.value = dlgOpener.top.canvas.notequals;
+		use_asname = document.getElementById("use_asname_obj");
+		use_asname.checked = dlgOpener.top.canvas.use_asname+""=="true";
+	}
+}
+
+function submit(){
+	var sw, arr;
+	var dateseparator, notequals;
+	sw = 0;
+	dateseparator = document.getElementById("dateseparator_obj");
+	notequals = document.getElementById("notequals_obj");
+	use_asname = document.getElementById("use_asname_obj");
+
+	executeQuery("delete from qub3_settings_set");
+	executeQuery("insert into qub3_settings_set (setting_name_set,setting_value_set) values ('dateseparator','"+escape(dateseparator.value)+"')");
+	executeQuery("insert into qub3_settings_set (setting_name_set,setting_value_set) values ('notequals','"+escape(notequals.value)+"')");
+	executeQuery("insert into qub3_settings_set (setting_name_set,setting_value_set) values ('use_asname','"+escape(use_asname.checked)+"')");
+
+	dlgOpener.top.canvas.dateseparator = dateseparator.value;
+	dlgOpener.top.canvas.notequals = notequals.value;
+	dlgOpener.top.canvas.use_asname = use_asname.checked + "";
+	
+	top.ui.invalidate(true, true, 'sqlcolumns,sqlquery');
+	window.close();
+}
+
+function keyPressed(e) {
+		if (!window.event) {
+			var event = e;
+		} else {
+			var event = window.event;
+		}
+		if(event.keyCode == 27) {
+			window.close();
+		}
+}
+
+</script>
+<link rel="stylesheet" href="includes/styles/dlg.css" type="text/css">
+</head>
+<body onload="loaded();" onKeyPress="keyPressed(event);">
+	<fieldset><legend>Edit Settings</legend>
+		<table border="0" cellpadding=3 cellspacing=0 width="100%">
+			<tr>
+				<th nowrap>Enclose date between:</th>
+				<td width="100%"><input type="text" id="dateseparator_obj" value="" style="width:100%"></td>
+			</tr>
+			<tr>
+				<th nowrap>Not equals:</th>
+				<td>
+				<select id="notequals_obj" style="width:100%">
+					<option value="!=">!=</option>
+					<option value="<>"><></option>
+				</select>
+			</tr>
+			<tr>
+				<th nowrap>Use AS in order by:</th>
+				<td><input type="checkbox" id="use_asname_obj"></td>
+			</tr>
+		</table>
+	</fieldset>
+	<div id="context_help">
+	</div>
+	<div id="bottom_buttons">
+		<input type="submit" name="Submit" value="OK" onClick="submit();">
+		<input type="submit" name="Submit2" value="Cancel" onClick="window.close();">
+		<input type="button" value="Help" onClick="dlgOpener.top.showQUBHelp('qub.dlg.settings')">
+	</div>
+</body>
+</html>

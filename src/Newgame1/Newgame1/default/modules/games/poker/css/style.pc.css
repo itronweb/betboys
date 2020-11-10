@@ -1,0 +1,136 @@
+body { font-family: Verdana; background: url(../images/background.jpg) #000; margin: 0px; background-repeat: no-repeat; background-attachment: fixed; background-position: center; background-size: cover; }
+input { font-family: Verdana; }
+table { font-family: Verdana; }
+
+.clear { clear: both; }
+.hidden { display: none; }
+.margin_top_10 { margin-top: 10px; }
+.margin_top_20 { margin-top: 20px; }
+
+.round_10 { border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px;Â }
+
+
+.splash_style { width: 100%; height: 100%; text-align: center; white-space: nowrap;Â }
+.splash_style span { display: inline-block; height: 100%; vertical-align: middle; }
+.splash_style img { vertical-align: middle; }
+
+.form_style { text-align: center; }
+.form_style .logo { width: 100px; }
+.form_style .button { width: 240px; height: 40px; font-size: 16px; outline: 0; border: 0px; text-align: center; color: #fff; }
+.form_style .dark_button { background: url(../images/button_dark.png); background-repeat: no-repeat; background-position: center; background-size: contain; }
+.form_style .light_button { background: url(../images/button_light.png); background-repeat: no-repeat; background-position: center; background-size: contain; }
+.form_style .input_text { width: 240px; height: 40px; background: rgba(0, 0, 0, 0.8); border: 0px; outline: 0; color: #fff; padding: 10px; }
+.form_style .input_text_select { width: 240px; height: 90px; border: 0px; outline: 0; color: #383838; padding: 10px; }
+.form_style .input_text_photo { width: 240px; height: auto; border: 0px; outline: 0; color: #fff; padding: 10px; }
+.form_style .right_text { width: 240px; text-align: right; }
+.form_style a { text-decoration: none; color: #fff; font-size: 16px; }
+.form_style .form_container { position: absolute; top: 60px; left: 0px; bottom: 20px; right: 0px; text-align: center; overflow: auto; }
+
+.form_bar { width: 100%; height: 50px; color: #fff; text-align: center; background: rgba(0, 0, 0, 0.8); }
+.form_bar .left_icon { float: left; width: 7%; margin-top: 15px; }
+.form_bar .left_icon img { width: 20px; border: 0px; outline: 0;}
+.form_bar .title { float: left; width: 86%; margin-top: 17px; }
+.form_bar .right_icon { float: right; width: 7%; margin-top: 15px; }
+.form_bar .right_icon img { width: 20px; border: 0px; outline: 0;}
+
+.top_bar { width: 100%; height: 9%; margin-top: 10px; color: #fff; text-align: center; }
+.top_bar .left_icon { float: left; margin-left: 10px; }
+.top_bar .right_icon { float: right; margin-right: 10px; }
+
+.table_list .head_div { width: 90%; height: 60px; background: rgba(0, 0, 0, 0.7); color: #fff; font-size: 20px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
+.table_list .title { float: left; width: 50%; padding-top: 20px; text-align: left; }
+.table_list .title span { padding-left: 15px; }
+.table_list .infos { float: left; width: 21%; padding-top: 20px; text-align: left; }
+.table_list .infos_user { float: left; width: 8%; padding-top: 20px; text-align: center; }
+.table_list .infos2 { float: left; width: 40%; padding-top: 20px; text-align: left; }
+.table_list .infos_user2 { float: left; width: 10%; padding-top: 20px; text-align: center; }
+.table_list .sub_list {Â width: 90%; height: 85%; margin-top: 10px; overflow: auto; color: #fff; font-size: 16px; }
+.table_list .sub_list table { color: #fff; font-size: 16px; }
+.table_list .list_item {Â width: 100%; height: 50px; margin-bottom: 7px; }
+.table_list .black_back { background: rgba(0, 0, 0, 0.7); border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
+.table_list .blue_back { background: rgba(22, 29, 105, 0.7); border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
+.table_list .sub_title { float: left; width: 50%; text-align: left; }
+.table_list .sub_title .d1 { float: left; margin-left: 15px; padding-top: 2px; }
+.table_list .sub_title .d2 { float: left; margin-left: 10px; padding-top: 17px; }
+.table_list .sub_info { float: left; width: 21%; padding-top: 17px; text-align: left; }
+.table_list .sub_user { float: left; width: 8%; padding-top: 17px; text-align: center; }
+.table_list .sub_info2 { float: left; width: 40%; padding-top: 17px; text-align: left; }
+.table_list .sub_user2 { float: left; width: 10%; padding-top: 17px; text-align: center; }
+
+.cashin_screen .title { color: #fff; font-size: 20px; }
+.cashin_screen .font12 { color: #fff; font-size: 12px; }
+.cashin_screen .info_div { width: 80%; margin-top: 10px; color: #fff; font-size: 16px; }
+.cashin_screen .info_left { float: left; margin-left: 60px; }
+.cashin_screen .info_right { float: right; margin-right: 60px; }
+.cashin_screen .info_blue { color: #3987f4; }
+.cashin_screen .scroll_container { width: 80%; height: 50px; margin-top: 10px; display: table; }
+.cashin_screen .scroll_margin { display: table-cell; width: 60px; height: 50px; }
+.cashin_screen .img_left { display: block; margin-right: 10px; }
+.cashin_screen .img_right { display: block; margin-left: 10px; }
+.cashin_screen .indicator_holder { display: table-cell; height: 50px; width: auto; vertical-align: middle; text-align: left; }
+.cashin_screen .indicator_back { width: 100%; height: 50px; }
+.cashin_screen .indicator_padding { padding: 10px; padding-top: 20px; }
+.cashin_screen .black_line { width: 100%; height: 10px; background: #000; }
+.cashin_screen .indicator_div { position: relative; top: -45px; height: 0px; }
+.cashin_screen .indicator { background: #0f3d7b; height: 40px; width: 100px; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; }
+
+.raise_panel { position: absolute; bottom: 100px; right: 30px; width: 40px; height: 60%; z-index: 9900; }
+.raise_panel .container { width: 100%; height: 100%; }
+.raise_panel .indicator { position: absolute; bottom: 0px; width: 100%; height: 100px; background: #0f3d7b; border-radius: 20px; -webkit-border-radius: 20px; -moz-border-radius: 20px; z-index: 9999; }
+.raise_panel .indicator_back { position: absolute; top: 0px; left: 0px; z-index: 9909; height: 100%; width: 100%; }
+.raise_panel .indicator_padding { height: 100%; padding-top: 5px; padding-bottom: 5px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+.raise_panel .indicator_white { background: #fff; height: 100%; width: 10px; opacity: 0.5; filter: alpha(opacity=50); }
+
+.chat_screen { position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; }
+.chat_screen .overlay { float: left; width: 69%; height: 100%; }
+.chat_screen .table_container { float: right; width: 30%; height: 100%; background: rgba(0,0,0,0.8); border-left: 1px solid #ddd; display: table; }
+.chat_screen table { margin: 0px; padding: 0px; width: 100%; height: 100%; }
+.chat_screen .td1 { padding: 10px; }
+.chat_screen .td1div { width: 100%; height: 100%; background1: rgba(0,0,0,0.7); overflow: auto; word-wrap: break-word; }
+.chat_screen .td1text { color: #fff; margin-top: 5px; margin-bottom: 5px; padding-bottom: 5px; border-bottom: 1px solid rgba(255,255,255,0.4); word-wrap: break-word; }
+.chat_screen .td1text span { font-weight: bold; }
+.chat_screen .td2 { padding-bottom: 10px; padding-left: 10px; padding-right: 10px; height: 50px; }
+.chat_screen .td2div { width: 100%; height: 100%; background: rgba(0,0,0,0.7); text-align: center; }
+.chat_screen .text_box { background: #fff; border: 0px; outline: 0; height: 30px; font-size: 16px; width: 70%; }
+.chat_screen .text_button { background: #fff; border: 0px; outline: 0; height: 30px; font-size: 14px; width: 23%; margin-left: 3px; }
+
+.support_table { font-size: 16px; width: 90%; height: auto; border: 1px solid #fff; border-collapse: collapse; color: #fff; padding: 0px; margin: 0px; }
+.support_table td { vertical-align: top !important; text-align: center; padding: 15px; border: 1px solid #fff; }
+.support_table .black_back { background: rgba(0,0,0,0.5); }
+.support_table .left_align_text { text-align: left; }
+.support_table .support_answer { color: yellow; }
+
+
+#table_chat_screen { display: none; width: 100%; height: 250px; background: rgba(0,0,0,0.4); color: #fff; }
+#table_chat_screen .pctd1text { text-align: left; color: #fff; height1: 20px; height: auto !important; white-space: initial; margin-top: 5px; margin-bottom: 5px; padding: 5px; border-bottom: 1px solid rgba(255,255,255,0.15); word-wrap: break-word; }
+#table_chat_screen .pctd1text span { font-weight: bold; height: auto !important; }
+
+#main_container { display:block; }
+@media only screen and (orientation:portrait){
+  .vertical_padding { padding-top: 30px; }
+}
+@media only screen and (orientation:landscape){
+  .vertical_padding { padding-top: 0px; }
+}
+
+@media screen and (max-width: 900px) {
+  .table_list .head_div { width: 90%; height: 32px; background: rgba(0, 0, 0, 0.7); color: #fff; font-weight: bold; font-size: 12px; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
+  .table_list .title { float: left; width: 50%; padding-top: 10px; text-align: left; }
+  .table_list .title span { padding-left: 5px; }
+  .table_list .infos { float: left; width: 21%; padding-top: 10px; text-align: left; }
+  .table_list .infos_user { float: left; width: 8%; padding-top: 10px; text-align: center; }
+  .table_list .infos2 { float: left; width: 40%; padding-top: 10px; text-align: left; }
+  .table_list .infos_user2 { float: left; width: 10%; padding-top: 10px; text-align: center; }
+  .table_list .sub_list {Â width: 90%; height: 85%; margin-top: 10px; overflow: auto; color: #fff; font-size: 12px; }
+  .table_list .sub_list table { color: #fff; font-size: 12px; }
+  .table_list .list_item {Â width: 90%; height: 30px; margin-bottom: 7px; }
+  .table_list .black_back { background: rgba(0, 0, 0, 0.7); border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
+  .table_list .blue_back { background: rgba(22, 29, 105, 0.7); border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; }
+  .table_list .sub_title { float: left; width: 50%; text-align: left; }
+  .table_list .sub_title .d1 { float: left; margin-left: 15px; padding-top: 2px; display: none; }
+  .table_list .sub_title .d2 { float: left; margin-left: 10px; padding-top: 7px; }
+  .table_list .sub_info { float: left; width: 21%; padding-top: 7px; text-align: left; }
+  .table_list .sub_user { float: left; width: 8%; padding-top: 7px; text-align: center; }
+  .table_list .sub_info2 { float: left; width: 40%; padding-top: 7px; text-align: left; }
+  .table_list .sub_user2 { float: left; width: 10%; padding-top: 7px; text-align: center; }
+}

@@ -1,0 +1,3075 @@
+
+* { font-family: Arial !important; }
+
+.casino a, .casino input, .casino textarea, .casino div {
+    box-sizing:content-box;
+}
+.casino p{
+    padding-top:0
+}
+.g-main-wrapper {
+    height: 100%;
+    min-height: 600px;
+    position: relative;
+    font-size:12px;
+}
+.inline{
+    display:inline-block
+}
+.g-playfield {
+    bottom: 51px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    direction:ltr
+}
+.g-playfield:before, .g-playfield:after {
+    content: "";
+    display: table;
+}
+.g-playfield:after {
+    clear: both;
+}
+.g-playfield:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.g-playfield .game-area {
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+    vertical-align: middle;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.g-playfield {
+    margin-bottom: 80px;
+}
+#g-roulette {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #004a70;
+    background-image: radial-gradient(ellipse farthest-corner at center center , rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.1) 70%, rgba(0, 0, 0, 0.3) 100%), url("../assets/bg.png");
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+}
+#g-roulette .green {
+    background-color: #1c752c;
+}
+#g-roulette .black {
+    background-color: #282525;
+}
+#g-roulette .red {
+    background-color: #cb1d1d;
+}
+.DOGE #g-roulette {
+    background-image: radial-gradient(ellipse farthest-corner at center center , rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.1) 70%, rgba(0, 0, 0, 0.3) 100%), url("/img/casino/roulette/bg_doge.png");
+}
+#spinner {
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 540px;
+}
+.results-wrapper {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5) !important;
+    float: left;
+    overflow: hidden;
+    width: 240px;
+}
+#bet-sizer .betinput {
+    width: 200px;
+}
+.results {
+    float: right;
+    height: 60px;
+    list-style: none outside none;
+    margin: 0 5px 0 0;
+    padding: 0;
+    position: relative;
+    width: 500px;
+}
+.results li {
+    background: none repeat scroll 0 0 transparent !important;
+    display: block;
+    float: right;
+    height: 100%;
+    position: relative;
+    width: 30px;
+}
+.results li span {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.results .green {
+    color: #1c752c;
+    line-height: 60px;
+}
+.results .black {
+    color: #feba00;
+}
+.results .black span {
+    bottom: 3px;
+}
+.results .red {
+    color: #cb1d1d;
+}
+.results .red span {
+    top: 3px;
+}
+.wheel-wrapper {
+    border-left: 0 none;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    width: 300px;
+}
+.wheel-wrapper .wheel {
+    height: 60px;
+    left: 0;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 1120px;
+}
+.wheel-wrapper .number {
+    border: 1px solid #ededed;
+    box-sizing: border-box;
+    color: #fff;
+    float: left;
+    font-weight: 700;
+    height: 60px;
+    text-align: center;
+    width: 30px;
+}
+.wheel-wrapper .number .num, .wheel-wrapper .number .bucket {
+    height: 29px;
+}
+.wheel-wrapper .number .num {
+    font-size: 18px;
+    line-height: 29px;
+}
+.wheel-wrapper .number .bucket {
+    border-top: 2px solid #ededed;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) inset;
+    box-sizing: border-box;
+}
+.wheel-wrapper .number .bucket .ball {
+    background: radial-gradient(circle farthest-side at 33% 33% , #fff, #b0b0b0 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 46px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    display: block;
+    height: 17.4px;
+    margin: 4.64px auto;
+    width: 17.4px;
+}
+.wheel-wrapper .number:first-child {
+    margin: 0;
+}
+#game-result-cnt {
+    display: inline-block;
+    text-align: center;
+}
+#game-result-cnt .balance-change {
+    font-size: 18px;
+}
+.game-result {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px 8px;
+    white-space: nowrap;
+    margin:0 3px;
+}
+.game-result.win {
+    color: #25950f;
+}
+.game-result.fail {
+    color: #ce1010;
+}
+#bet-meta {
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    width: 720px;
+}
+#bet-size {
+    color: #fff;
+    display: none;
+    font-size: 18px;
+    font-weight: 700;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.board {
+    height: 300px;
+    margin: 20px auto 10px;
+    position: relative;
+    width: 840px;
+}
+.board .number {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    text-align: center;
+    width: 60px;
+}
+.board .number.highlight:after {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.board .number.winner {
+    animation: 900ms ease-in-out 0s normal none 1 rouletteWinningNumber;
+    border: 1px solid #fed500;
+    box-shadow: 0 0 0 1px #fed500;
+    color: #fed500;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+@keyframes rouletteWinningNumber {
+0% {
+    transform: scale(1, 1);
+    transform-origin: 50% 50% 0;
+}
+50% {
+    transform: scale(1.5, 1.5);
+    transform-origin: 50% 50% 0;
+}
+100% {
+    transform: scale(1, 1);
+    transform-origin: 50% 50% 0;
+}
+}
+@keyframes rouletteWinningNumber {
+0% {
+    transform: scale(1, 1);
+    transform-origin: 50% 50% 0;
+}
+50% {
+    transform: scale(1.5, 1.5);
+    transform-origin: 50% 50% 0;
+}
+100% {
+    transform: scale(1, 1);
+    transform-origin: 50% 50% 0;
+}
+}
+.chips {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: linear-gradient(#ffec8a, #d9c56c) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #483704;
+    border-image: none;
+    border-radius: 60px;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    box-sizing: border-box;
+    color: #483704;
+    display: none;
+    font-size: 14px;
+    font-weight: 700;
+    height: 28px;
+    left: 50%;
+    line-height: 26px;
+    margin-left: -15px;
+    margin-top: -15px;
+    min-width: 18px;
+    padding: 0 5px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    z-index: 99;
+}
+.chips.lost {
+    opacity: 0.7;
+    transition: opacity 0.5s ease-out 0s;
+}
+.chips.won {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #25950f;
+    border-color: #0f3208;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    color: #fff;
+}
+.BC .chips {
+    background: linear-gradient(#222, #333) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 2px solid #dcb152;
+    color: #dcb152;
+}
+#num-3, #num-6, #num-9, #num-12, #num-15, #num-18, #num-21, #num-24, #num-27, #num-30, #num-33, #num-36, #col-3, #bet-num-3, #bet-num-6, #bet-num-9, #bet-num-12, #bet-num-15, #bet-num-18, #bet-num-21, #bet-num-24, #bet-num-27, #bet-num-30, #bet-num-33, #bet-num-36, #bet-col-3 {
+    top: 0;
+}
+#num-2, #num-5, #num-8, #num-11, #num-14, #num-17, #num-20, #num-23, #num-26, #num-29, #num-32, #num-35, #col-2, #bet-num-2, #bet-num-5, #bet-num-8, #bet-num-11, #bet-num-14, #bet-num-17, #bet-num-20, #bet-num-23, #bet-num-26, #bet-num-29, #bet-num-32, #bet-num-35, #bet-col-2 {
+    top: 60px;
+}
+#num-1, #num-4, #num-7, #num-10, #num-13, #num-16, #num-19, #num-22, #num-25, #num-28, #num-31, #num-34, #col-1, #bet-num-1, #bet-num-4, #bet-num-7, #bet-num-10, #bet-num-13, #bet-num-16, #bet-num-19, #bet-num-22, #bet-num-25, #bet-num-28, #bet-num-31, #bet-num-34, #bet-col-1 {
+    top: 120px;
+}
+#doz-1, #doz-2, #doz-3, #bet-doz-1, #bet-doz-2, #bet-doz-3 {
+    top: 180px;
+}
+#hilo-1, #hilo-2, #eo-1, #eo-2, #rb-1, #rb-2, #bet-hilo-1, #bet-eo-1, #bet-rb-1, #bet-hilo-2, #bet-eo-2, #bet-rb-2 {
+    top: 240px;
+}
+#num-3, #num-2, #num-1, #bet-num-1, #bet-num-2, #bet-num-3 {
+    left: 60px;
+}
+#num-6, #num-5, #num-4, #bet-num-4, #bet-num-5, #bet-num-6 {
+    left: 120px;
+}
+#num-9, #num-8, #num-7, #bet-num-7, #bet-num-8, #bet-num-9 {
+    left: 180px;
+}
+#num-12, #num-11, #num-10, #bet-num-10, #bet-num-11, #bet-num-12 {
+    left: 240px;
+}
+#num-15, #num-14, #num-13, #bet-num-13, #bet-num-14, #bet-num-15 {
+    left: 300px;
+}
+#num-18, #num-17, #num-16, #bet-num-16, #bet-num-17, #bet-num-18 {
+    left: 360px;
+}
+#num-21, #num-20, #num-19, #bet-num-19, #bet-num-20, #bet-num-21 {
+    left: 420px;
+}
+#num-24, #num-23, #num-22, #bet-num-22, #bet-num-23, #bet-num-24 {
+    left: 480px;
+}
+#num-27, #num-26, #num-25, #bet-num-25, #bet-num-26, #bet-num-27 {
+    left: 540px;
+}
+#num-30, #num-29, #num-28, #bet-num-28, #bet-num-29, #bet-num-30 {
+    left: 600px;
+}
+#num-33, #num-32, #num-31, #bet-num-31, #bet-num-32, #bet-num-33 {
+    left: 660px;
+}
+#num-36, #num-35, #num-34, #bet-num-34, #bet-num-35, #bet-num-36 {
+    left: 720px;
+}
+#col-1, #col-2, #col-3, #bet-col-1, #bet-col-2, #bet-col-3 {
+    left: 780px;
+}
+#num-0 {
+    border: 1px solid #fff;
+    border-radius: 100px 0 0 100px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    height: 180px;
+    left: 0;
+    line-height: 180px;
+    position: absolute;
+    text-align: center;
+    width: 60px;
+}
+#num-0.highlight:after {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#num-0.winner {
+    animation: 900ms ease-in-out 0s normal none 1 rouletteWinningNumber;
+    border: 1px solid #fed500;
+    box-shadow: 0 0 0 1px #fed500;
+    color: #fed500;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+#num-0.highlight:after {
+    border-radius: 100px 0 0 100px;
+}
+#col-1, #col-2, #col-3, #bet-col-1, #bet-col-2, #bet-col-3 {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    text-align: center;
+    width: 60px;
+}
+#col-1.highlight:after, #col-2.highlight:after, #col-3.highlight:after, #bet-col-1.highlight:after, #bet-col-2.highlight:after, #bet-col-3.highlight:after {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#col-1.winner, #col-2.winner, #col-3.winner, #bet-col-1.winner, #bet-col-2.winner, #bet-col-3.winner {
+    animation: 900ms ease-in-out 0s normal none 1 rouletteWinningNumber;
+    border: 1px solid #fed500;
+    box-shadow: 0 0 0 1px #fed500;
+    color: #fed500;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+#col-1, #col-1.highlight:after, #bet-col-1 {
+    border-radius: 0 0 10px;
+}
+#col-3, #col-3.highlight:after, #bet-col-3 {
+    border-radius: 0 10px 0 0;
+}
+#doz-1, #doz-2, #doz-3, #bet-doz-1, #bet-doz-2, #bet-doz-3 {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    text-align: center;
+    width: 240px;
+}
+#doz-1.highlight:after, #doz-2.highlight:after, #doz-3.highlight:after, #bet-doz-1.highlight:after, #bet-doz-2.highlight:after, #bet-doz-3.highlight:after {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#doz-1.winner, #doz-2.winner, #doz-3.winner, #bet-doz-1.winner, #bet-doz-2.winner, #bet-doz-3.winner {
+    animation: 900ms ease-in-out 0s normal none 1 rouletteWinningNumber;
+    border: 1px solid #fed500;
+    box-shadow: 0 0 0 1px #fed500;
+    color: #fed500;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+#doz-1, #bet-doz-1 {
+    left: 60px;
+}
+#doz-2, #bet-doz-2 {
+    left: 300px;
+}
+#doz-3, #bet-doz-3 {
+    left: 540px;
+}
+#hilo-1, #hilo-2, #bet-hilo-1, #bet-hilo-2 {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+}
+#hilo-1.highlight:after, #hilo-2.highlight:after, #bet-hilo-1.highlight:after, #bet-hilo-2.highlight:after {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#hilo-1.winner, #hilo-2.winner, #bet-hilo-1.winner, #bet-hilo-2.winner {
+    animation: 900ms ease-in-out 0s normal none 1 rouletteWinningNumber;
+    border: 1px solid #fed500;
+    box-shadow: 0 0 0 1px #fed500;
+    color: #fed500;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+#hilo-1, #bet-hilo-1 {
+    border-radius: 0 0 0 10px;
+    left: 60px;
+}
+#hilo-1.highlight:after, #bet-hilo-1.highlight:after {
+    border-radius: 0 0 0 10px;
+}
+#hilo-2, #bet-hilo-2 {
+    border-radius: 0 0 10px;
+    left: 660px;
+}
+#hilo-2.highlight:after, #bet-hilo-2.highlight:after {
+    border-radius: 0 0 10px;
+}
+#eo-1, #eo-2, #bet-eo-1, #bet-eo-2 {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+}
+#eo-1.highlight:after, #eo-2.highlight:after, #bet-eo-1.highlight:after, #bet-eo-2.highlight:after {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#eo-1.winner, #eo-2.winner, #bet-eo-1.winner, #bet-eo-2.winner {
+    animation: 900ms ease-in-out 0s normal none 1 rouletteWinningNumber;
+    border: 1px solid #fed500;
+    box-shadow: 0 0 0 1px #fed500;
+    color: #fed500;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+#eo-1, #bet-eo-1 {
+    left: 180px;
+}
+#eo-2, #bet-eo-2 {
+    left: 540px;
+}
+#rb-1, #rb-2, #bet-rb-1, #bet-rb-2 {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    height: 60px;
+    line-height: 60px;
+    position: absolute;
+    text-align: center;
+    width: 120px;
+}
+#rb-1.highlight:after, #rb-2.highlight:after, #bet-rb-1.highlight:after, #bet-rb-2.highlight:after {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#rb-1.winner, #rb-2.winner, #bet-rb-1.winner, #bet-rb-2.winner {
+    animation: 900ms ease-in-out 0s normal none 1 rouletteWinningNumber;
+    border: 1px solid #fed500;
+    box-shadow: 0 0 0 1px #fed500;
+    color: #fed500;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+#rb-1, #bet-rb-1 {
+    background-color: #cb1d1d;
+    left: 300px;
+}
+#rb-2, #bet-rb-2 {
+    background-color: #282525;
+    left: 420px;
+}
+#bet-num-1 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-2 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-3 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-4 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-5 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-6 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-7 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-8 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-9 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-10 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-11 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-12 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-13 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-14 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-15 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-16 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-17 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-18 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-19 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-20 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-21 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-22 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-23 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-24 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-25 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-26 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-27 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-28 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-29 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-30 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-31 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-32 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-33 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-34 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-35 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-36 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-num-0 {
+    border-radius: 100px 0 0 100px;
+    cursor: pointer;
+    height: 168px;
+    left: 0;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-v-0-1 {
+    cursor: pointer;
+    height: 48px;
+    left: 54px;
+    margin: 6px 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-0-2 {
+    cursor: pointer;
+    height: 48px;
+    left: 114px;
+    margin: 6px 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-0-3 {
+    cursor: pointer;
+    height: 48px;
+    left: 174px;
+    margin: 6px 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-0-4 {
+    cursor: pointer;
+    height: 48px;
+    left: 234px;
+    margin: 6px 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-0-5 {
+    cursor: pointer;
+    height: 48px;
+    left: 294px;
+    margin: 6px 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-0-6 {
+    cursor: pointer;
+    height: 48px;
+    left: 354px;
+    margin: 6px 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-0-7 {
+    cursor: pointer;
+    height: 48px;
+    left: 414px;
+    margin: 6px 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-0-8 {
+    cursor: pointer;
+    height: 48px;
+    left: 474px;
+    margin: 6px 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-0-9 {
+    cursor: pointer;
+    height: 48px;
+    left: 534px;
+    margin: 6px 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-0-10 {
+    cursor: pointer;
+    height: 48px;
+    left: 594px;
+    margin: 6px 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-0-11 {
+    cursor: pointer;
+    height: 48px;
+    left: 654px;
+    margin: 6px 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-0-12 {
+    cursor: pointer;
+    height: 48px;
+    left: 714px;
+    margin: 6px 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-1-1 {
+    cursor: pointer;
+    height: 48px;
+    left: 54px;
+    margin: 6px 0;
+    position: absolute;
+    top: 60px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-1-2 {
+    cursor: pointer;
+    height: 48px;
+    left: 114px;
+    margin: 6px 0;
+    position: absolute;
+    top: 60px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-1-3 {
+    cursor: pointer;
+    height: 48px;
+    left: 174px;
+    margin: 6px 0;
+    position: absolute;
+    top: 60px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-1-4 {
+    cursor: pointer;
+    height: 48px;
+    left: 234px;
+    margin: 6px 0;
+    position: absolute;
+    top: 60px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-1-5 {
+    cursor: pointer;
+    height: 48px;
+    left: 294px;
+    margin: 6px 0;
+    position: absolute;
+    top: 60px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-1-6 {
+    cursor: pointer;
+    height: 48px;
+    left: 354px;
+    margin: 6px 0;
+    position: absolute;
+    top: 60px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-1-7 {
+    cursor: pointer;
+    height: 48px;
+    left: 414px;
+    margin: 6px 0;
+    position: absolute;
+    top: 60px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-1-8 {
+    cursor: pointer;
+    height: 48px;
+    left: 474px;
+    margin: 6px 0;
+    position: absolute;
+    top: 60px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-1-9 {
+    cursor: pointer;
+    height: 48px;
+    left: 534px;
+    margin: 6px 0;
+    position: absolute;
+    top: 60px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-1-10 {
+    cursor: pointer;
+    height: 48px;
+    left: 594px;
+    margin: 6px 0;
+    position: absolute;
+    top: 60px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-1-11 {
+    cursor: pointer;
+    height: 48px;
+    left: 654px;
+    margin: 6px 0;
+    position: absolute;
+    top: 60px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-1-12 {
+    cursor: pointer;
+    height: 48px;
+    left: 714px;
+    margin: 6px 0;
+    position: absolute;
+    top: 60px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-2-1 {
+    cursor: pointer;
+    height: 48px;
+    left: 54px;
+    margin: 6px 0;
+    position: absolute;
+    top: 120px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-2-2 {
+    cursor: pointer;
+    height: 48px;
+    left: 114px;
+    margin: 6px 0;
+    position: absolute;
+    top: 120px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-2-3 {
+    cursor: pointer;
+    height: 48px;
+    left: 174px;
+    margin: 6px 0;
+    position: absolute;
+    top: 120px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-2-4 {
+    cursor: pointer;
+    height: 48px;
+    left: 234px;
+    margin: 6px 0;
+    position: absolute;
+    top: 120px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-2-5 {
+    cursor: pointer;
+    height: 48px;
+    left: 294px;
+    margin: 6px 0;
+    position: absolute;
+    top: 120px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-2-6 {
+    cursor: pointer;
+    height: 48px;
+    left: 354px;
+    margin: 6px 0;
+    position: absolute;
+    top: 120px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-2-7 {
+    cursor: pointer;
+    height: 48px;
+    left: 414px;
+    margin: 6px 0;
+    position: absolute;
+    top: 120px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-2-8 {
+    cursor: pointer;
+    height: 48px;
+    left: 474px;
+    margin: 6px 0;
+    position: absolute;
+    top: 120px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-2-9 {
+    cursor: pointer;
+    height: 48px;
+    left: 534px;
+    margin: 6px 0;
+    position: absolute;
+    top: 120px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-2-10 {
+    cursor: pointer;
+    height: 48px;
+    left: 594px;
+    margin: 6px 0;
+    position: absolute;
+    top: 120px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-2-11 {
+    cursor: pointer;
+    height: 48px;
+    left: 654px;
+    margin: 6px 0;
+    position: absolute;
+    top: 120px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-v-2-12 {
+    cursor: pointer;
+    height: 48px;
+    left: 714px;
+    margin: 6px 0;
+    position: absolute;
+    top: 120px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-spl-h-1-1 {
+    cursor: pointer;
+    height: 12px;
+    left: 60px;
+    margin: 0 6px;
+    position: absolute;
+    top: 54px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-2-1 {
+    cursor: pointer;
+    height: 12px;
+    left: 60px;
+    margin: 0 6px;
+    position: absolute;
+    top: 114px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-1-2 {
+    cursor: pointer;
+    height: 12px;
+    left: 120px;
+    margin: 0 6px;
+    position: absolute;
+    top: 54px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-2-2 {
+    cursor: pointer;
+    height: 12px;
+    left: 120px;
+    margin: 0 6px;
+    position: absolute;
+    top: 114px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-1-3 {
+    cursor: pointer;
+    height: 12px;
+    left: 180px;
+    margin: 0 6px;
+    position: absolute;
+    top: 54px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-2-3 {
+    cursor: pointer;
+    height: 12px;
+    left: 180px;
+    margin: 0 6px;
+    position: absolute;
+    top: 114px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-1-4 {
+    cursor: pointer;
+    height: 12px;
+    left: 240px;
+    margin: 0 6px;
+    position: absolute;
+    top: 54px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-2-4 {
+    cursor: pointer;
+    height: 12px;
+    left: 240px;
+    margin: 0 6px;
+    position: absolute;
+    top: 114px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-1-5 {
+    cursor: pointer;
+    height: 12px;
+    left: 300px;
+    margin: 0 6px;
+    position: absolute;
+    top: 54px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-2-5 {
+    cursor: pointer;
+    height: 12px;
+    left: 300px;
+    margin: 0 6px;
+    position: absolute;
+    top: 114px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-1-6 {
+    cursor: pointer;
+    height: 12px;
+    left: 360px;
+    margin: 0 6px;
+    position: absolute;
+    top: 54px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-2-6 {
+    cursor: pointer;
+    height: 12px;
+    left: 360px;
+    margin: 0 6px;
+    position: absolute;
+    top: 114px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-1-7 {
+    cursor: pointer;
+    height: 12px;
+    left: 420px;
+    margin: 0 6px;
+    position: absolute;
+    top: 54px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-2-7 {
+    cursor: pointer;
+    height: 12px;
+    left: 420px;
+    margin: 0 6px;
+    position: absolute;
+    top: 114px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-1-8 {
+    cursor: pointer;
+    height: 12px;
+    left: 480px;
+    margin: 0 6px;
+    position: absolute;
+    top: 54px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-2-8 {
+    cursor: pointer;
+    height: 12px;
+    left: 480px;
+    margin: 0 6px;
+    position: absolute;
+    top: 114px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-1-9 {
+    cursor: pointer;
+    height: 12px;
+    left: 540px;
+    margin: 0 6px;
+    position: absolute;
+    top: 54px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-2-9 {
+    cursor: pointer;
+    height: 12px;
+    left: 540px;
+    margin: 0 6px;
+    position: absolute;
+    top: 114px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-1-10 {
+    cursor: pointer;
+    height: 12px;
+    left: 600px;
+    margin: 0 6px;
+    position: absolute;
+    top: 54px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-2-10 {
+    cursor: pointer;
+    height: 12px;
+    left: 600px;
+    margin: 0 6px;
+    position: absolute;
+    top: 114px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-1-11 {
+    cursor: pointer;
+    height: 12px;
+    left: 660px;
+    margin: 0 6px;
+    position: absolute;
+    top: 54px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-2-11 {
+    cursor: pointer;
+    height: 12px;
+    left: 660px;
+    margin: 0 6px;
+    position: absolute;
+    top: 114px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-1-12 {
+    cursor: pointer;
+    height: 12px;
+    left: 720px;
+    margin: 0 6px;
+    position: absolute;
+    top: 54px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-spl-h-2-12 {
+    cursor: pointer;
+    height: 12px;
+    left: 720px;
+    margin: 0 6px;
+    position: absolute;
+    top: 114px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-cor-1-1 {
+    cursor: pointer;
+    height: 12px;
+    left: 54px;
+    position: absolute;
+    top: 54px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-2-1 {
+    cursor: pointer;
+    height: 12px;
+    left: 54px;
+    position: absolute;
+    top: 114px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-1-2 {
+    cursor: pointer;
+    height: 12px;
+    left: 114px;
+    position: absolute;
+    top: 54px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-2-2 {
+    cursor: pointer;
+    height: 12px;
+    left: 114px;
+    position: absolute;
+    top: 114px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-1-3 {
+    cursor: pointer;
+    height: 12px;
+    left: 174px;
+    position: absolute;
+    top: 54px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-2-3 {
+    cursor: pointer;
+    height: 12px;
+    left: 174px;
+    position: absolute;
+    top: 114px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-1-4 {
+    cursor: pointer;
+    height: 12px;
+    left: 234px;
+    position: absolute;
+    top: 54px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-2-4 {
+    cursor: pointer;
+    height: 12px;
+    left: 234px;
+    position: absolute;
+    top: 114px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-1-5 {
+    cursor: pointer;
+    height: 12px;
+    left: 294px;
+    position: absolute;
+    top: 54px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-2-5 {
+    cursor: pointer;
+    height: 12px;
+    left: 294px;
+    position: absolute;
+    top: 114px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-1-6 {
+    cursor: pointer;
+    height: 12px;
+    left: 354px;
+    position: absolute;
+    top: 54px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-2-6 {
+    cursor: pointer;
+    height: 12px;
+    left: 354px;
+    position: absolute;
+    top: 114px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-1-7 {
+    cursor: pointer;
+    height: 12px;
+    left: 414px;
+    position: absolute;
+    top: 54px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-2-7 {
+    cursor: pointer;
+    height: 12px;
+    left: 414px;
+    position: absolute;
+    top: 114px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-1-8 {
+    cursor: pointer;
+    height: 12px;
+    left: 474px;
+    position: absolute;
+    top: 54px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-2-8 {
+    cursor: pointer;
+    height: 12px;
+    left: 474px;
+    position: absolute;
+    top: 114px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-1-9 {
+    cursor: pointer;
+    height: 12px;
+    left: 534px;
+    position: absolute;
+    top: 54px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-2-9 {
+    cursor: pointer;
+    height: 12px;
+    left: 534px;
+    position: absolute;
+    top: 114px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-1-10 {
+    cursor: pointer;
+    height: 12px;
+    left: 594px;
+    position: absolute;
+    top: 54px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-2-10 {
+    cursor: pointer;
+    height: 12px;
+    left: 594px;
+    position: absolute;
+    top: 114px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-1-11 {
+    cursor: pointer;
+    height: 12px;
+    left: 654px;
+    position: absolute;
+    top: 54px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-2-11 {
+    cursor: pointer;
+    height: 12px;
+    left: 654px;
+    position: absolute;
+    top: 114px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-1-12 {
+    cursor: pointer;
+    height: 12px;
+    left: 714px;
+    position: absolute;
+    top: 54px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-cor-2-12 {
+    cursor: pointer;
+    height: 12px;
+    left: 714px;
+    position: absolute;
+    top: 114px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-line-1 {
+    cursor: pointer;
+    height: 12px;
+    left: 54px;
+    position: absolute;
+    top: -6px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-str-1 {
+    cursor: pointer;
+    height: 12px;
+    left: 60px;
+    margin: 0 6px;
+    position: absolute;
+    top: -6px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-line-2 {
+    cursor: pointer;
+    height: 12px;
+    left: 114px;
+    position: absolute;
+    top: -6px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-str-2 {
+    cursor: pointer;
+    height: 12px;
+    left: 120px;
+    margin: 0 6px;
+    position: absolute;
+    top: -6px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-line-3 {
+    cursor: pointer;
+    height: 12px;
+    left: 174px;
+    position: absolute;
+    top: -6px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-str-3 {
+    cursor: pointer;
+    height: 12px;
+    left: 180px;
+    margin: 0 6px;
+    position: absolute;
+    top: -6px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-line-4 {
+    cursor: pointer;
+    height: 12px;
+    left: 234px;
+    position: absolute;
+    top: -6px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-str-4 {
+    cursor: pointer;
+    height: 12px;
+    left: 240px;
+    margin: 0 6px;
+    position: absolute;
+    top: -6px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-line-5 {
+    cursor: pointer;
+    height: 12px;
+    left: 294px;
+    position: absolute;
+    top: -6px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-str-5 {
+    cursor: pointer;
+    height: 12px;
+    left: 300px;
+    margin: 0 6px;
+    position: absolute;
+    top: -6px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-line-6 {
+    cursor: pointer;
+    height: 12px;
+    left: 354px;
+    position: absolute;
+    top: -6px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-str-6 {
+    cursor: pointer;
+    height: 12px;
+    left: 360px;
+    margin: 0 6px;
+    position: absolute;
+    top: -6px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-line-7 {
+    cursor: pointer;
+    height: 12px;
+    left: 414px;
+    position: absolute;
+    top: -6px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-str-7 {
+    cursor: pointer;
+    height: 12px;
+    left: 420px;
+    margin: 0 6px;
+    position: absolute;
+    top: -6px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-line-8 {
+    cursor: pointer;
+    height: 12px;
+    left: 474px;
+    position: absolute;
+    top: -6px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-str-8 {
+    cursor: pointer;
+    height: 12px;
+    left: 480px;
+    margin: 0 6px;
+    position: absolute;
+    top: -6px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-line-9 {
+    cursor: pointer;
+    height: 12px;
+    left: 534px;
+    position: absolute;
+    top: -6px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-str-9 {
+    cursor: pointer;
+    height: 12px;
+    left: 540px;
+    margin: 0 6px;
+    position: absolute;
+    top: -6px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-line-10 {
+    cursor: pointer;
+    height: 12px;
+    left: 594px;
+    position: absolute;
+    top: -6px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-str-10 {
+    cursor: pointer;
+    height: 12px;
+    left: 600px;
+    margin: 0 6px;
+    position: absolute;
+    top: -6px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-line-11 {
+    cursor: pointer;
+    height: 12px;
+    left: 654px;
+    position: absolute;
+    top: -6px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-str-11 {
+    cursor: pointer;
+    height: 12px;
+    left: 660px;
+    margin: 0 6px;
+    position: absolute;
+    top: -6px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-line-12 {
+    cursor: pointer;
+    height: 12px;
+    left: 714px;
+    position: absolute;
+    top: -6px;
+    width: 12px;
+    z-index: 1;
+}
+#bet-str-12 {
+    cursor: pointer;
+    height: 12px;
+    left: 720px;
+    margin: 0 6px;
+    position: absolute;
+    top: -6px;
+    width: 48px;
+    z-index: 1;
+}
+#bet-col-1 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-doz-1 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 228px;
+    z-index: 1;
+}
+#bet-col-2 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-doz-2 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 228px;
+    z-index: 1;
+}
+#bet-col-3 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 48px;
+    z-index: 1;
+}
+#bet-doz-3 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 228px;
+    z-index: 1;
+}
+#bet-hilo-1 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 108px;
+    z-index: 1;
+}
+#bet-eo-1 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 108px;
+    z-index: 1;
+}
+#bet-rb-1 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 108px;
+    z-index: 1;
+}
+#bet-hilo-2 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 108px;
+    z-index: 1;
+}
+#bet-eo-2 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 108px;
+    z-index: 1;
+}
+#bet-rb-2 {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 48px;
+    margin: 6px;
+    position: absolute;
+    width: 108px;
+    z-index: 1;
+}
+
+.g-actions-wrapper {
+    bottom: 50px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 3;
+    direction:ltr;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.g-actions-wrapper .g-actions {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    z-index: 4;
+}
+.g-actions-wrapper .g-actions:before, .g-actions-wrapper .g-actions:after {
+    content: "";
+    display: table;
+}
+.g-actions-wrapper .g-actions:after {
+    clear: both;
+}
+.g-actions-wrapper .g-actions .g-actions-bet {
+    display: inline-block;
+    float:right
+}
+.g-actions-wrapper .g-actions .g-actions-bet:before, .g-actions-wrapper .g-actions .g-actions-bet:after {
+    content: "";
+    display: table;
+}
+.g-actions-wrapper .g-actions .g-actions-bet:after {
+    clear: both;
+}
+.g-actions-wrapper .g-actions .operators, .g-actions-wrapper .g-actions .betinput {
+    float: left;
+}
+.g-actions-wrapper .g-actions .disabled {
+    color: #999;
+    opacity: 0.33;
+}
+.g-actions-wrapper .betperclickinput {
+    background: linear-gradient(to bottom, #f5f5f5, #b5b5b5) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33);
+    box-sizing: border-box;
+    display: inline-block;
+    height: 60px;
+    margin: 5px;
+    overflow: hidden;
+    padding: 3px;
+    vertical-align: bottom;
+    width: 120px;
+    float:left
+}
+.g-actions-wrapper .betperclickinput .betsize {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    box-sizing: border-box;
+    height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    width: 100%;
+}
+.g-actions-wrapper .betperclickinput p {
+    color: #444;
+    font-size: 13px;
+    font-weight: bold;
+    height: 23px;
+    line-height: 23px;
+    margin: 0;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+}
+.g-actions-wrapper .action, .g-actions-wrapper .betinput {
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33);
+    display: inline-block;
+    height: 60px;
+    margin: 5px;
+    padding: 10px 30px;
+    vertical-align: bottom;
+}
+.g-actions-wrapper .action {
+    -moz-user-select: none;
+    background: linear-gradient(to bottom, #f5f5f5, #b5b5b5) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #222;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33), 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+    color: #444;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    outline: medium none;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+}
+.g-actions-wrapper .action:hover:not(:disabled) {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.66), 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+    color: #000;
+}
+.g-actions-wrapper .action:active:not(:disabled) {
+    background: none repeat scroll 0 0 #b5b5b5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4) inset, 0 1px 0 rgba(255, 255, 255, 0.1);
+    color: #000;
+}
+.g-actions-wrapper .action.disabled {
+    color: #999;
+    opacity: 0.33;
+}
+.g-actions-wrapper .operators {
+    margin: 5px;
+}
+.g-actions-wrapper .operator {
+    clear: both;
+    float: left;
+    font-size: 0.8em;
+    height: 27.5px;
+    line-height: 23.5px;
+    margin: 0;
+    padding: 0;
+    width: 4em;
+}
+.g-actions-wrapper .operator small {
+    font-size: 0.8em;
+}
+.g-actions-wrapper .operator:first-child {
+    margin: 0 0 5px;
+}
+.g-actions-wrapper .betinput {
+    background: none repeat scroll 0 0 #fff;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.g-actions-wrapper .betsize {
+    border: 0 none;
+    box-shadow: none;
+    font-size: 1.25em;
+    font-weight: bold;
+    height: 40px;
+    outline: medium none;
+    padding: 0 10px;
+    text-align: center;
+    width: 120px;
+}
+.g-actions-wrapper .betsize:focus {
+    box-shadow: none;
+}
+.g-actions-wrapper .check-bt {
+    box-sizing: border-box;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 6px;
+}
+.g-actions-wrapper .check-bt:hover:not(.disabled) {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33), 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+    color: inherit;
+}
+.g-actions-wrapper .check-bt:active:not(.disabled) {
+    background: inherit;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.33), 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+    color: inherit;
+}
+.g-actions-wrapper .check-bt label {
+    cursor: pointer;
+    display: block;
+}
+.g-actions-wrapper .check-bt input {
+    display: inline-block;
+}
+.g-actions-wrapper .check-bt.yellow {
+    background: linear-gradient(to bottom, #feba00, #e8aa01) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #483704;
+}
+.g-actions-wrapper .check-bt.yellow:active:not(.disabled) {
+    background: linear-gradient(to bottom, #feba00, #e8aa01) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+#bet-sizer, .bet-sizer {
+    float: left;
+    margin: 5px;
+}
+#bet-sizer .betinput, .bet-sizer .betinput {
+    background: linear-gradient(to bottom, #f5f5f5, #b5b5b5) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 0 0 5px 5px;
+    border-top: 0 none;
+    box-sizing: border-box;
+    height: 37px;
+    margin: 0;
+    padding: 3px;
+    width: 200px;
+}
+#bet-sizer .betsize, .bet-sizer .betsize {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    font-weight: bold;
+    height: 100%;
+    margin: 0;
+    outline: medium none;
+    overflow: hidden;
+    padding: 0 10px;
+    text-align: center;
+    width: 100%;
+}
+#bet-sizer .shortcuts, .bet-sizer .shortcuts {
+}
+#bet-sizer .shortcuts:before, .bet-sizer .shortcuts:before, #bet-sizer .shortcuts:after, .bet-sizer .shortcuts:after {
+    content: "";
+    display: table;
+}
+#bet-sizer .shortcuts:after, .bet-sizer .shortcuts:after {
+    clear: both;
+}
+#bet-sizer .shortcuts button, .bet-sizer .shortcuts button {
+    background: none repeat scroll 0 0 #f5f5f5;
+    border-bottom: 0 none;
+    border-radius: 5px 5px 0 0;
+    float: left;
+    font-size: 0.8em;
+    height: 23px;
+    line-height: 23.5px;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+}
+#bet-sizer .shortcuts button small, .bet-sizer .shortcuts button small {
+    font-size: 0.8em;
+}
+#bet-sizer .shortcuts button:first-child, .bet-sizer .shortcuts button:first-child {
+    margin: 0;
+}
+audio { 
+   
+}
+
+.g-meta {
+    background: none;
+    bottom: 0;
+    height: 50px;
+    position: absolute;
+    width: 100%;
+}
+.g-meta #provably-fair-wrapper {
+    padding: 10px;
+}
+.g-meta #provably-fair-wrapper .meta-bt {
+    margin: 0;
+}
+#sound-toggle-wrapper {
+    float: right;
+    padding: 10px;
+}
+#keyboard-shortcuts-toggle {
+    float: right;
+    padding: 10px 0 10px 10px;
+    vertical-align: bottom;
+}
+.meta-bt {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    height: 17px;
+}
+.provably-fair-toggle.active {
+    border-radius: 0 0 5px 5px;
+}
+.provably-fair-toggle .icon-fair {
+    vertical-align: -1px;
+}
+.g-meta #provably-fair-data {
+    background: none repeat scroll 0 0 #222;
+    border-radius: 5px 5px 5px 0;
+    bottom: 40px;
+    display: none;
+    font-size: 0.875em;
+    left: 10px;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    z-index: 4;
+}
+.g-meta #provably-fair-data h2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.g-meta #provably-fair-data #verify-link {
+    color: #25950f;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.g-meta #provably-fair-data #verify-link:hover {
+    text-decoration: underline;
+}
+.g-meta #provably-fair-data .seed-wrap {
+    margin-bottom: 5px;
+}
+.g-meta #provably-fair-data .seed {
+    display: block;
+    margin-top: 3px;
+    white-space: nowrap;
+}
+.g-meta #provably-fair-data label {
+    color: #cecec6;
+    display: inline-block;
+    font-size: 0.813rem;
+    margin-right: 0.375em;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+    width: 80px;
+}
+.g-meta #provably-fair-data input {
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 5px 10px;
+    width: 100px;
+}
+
+#copy-address, #show-qr-bt, #generate-address-bt, .nav-gselect, .nav-gselect .dropdown, #view-help, #view-rule, .meta-bt {
+    -moz-user-select: none;
+    border: 0 none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+}
+#copy-address:active, #show-qr-bt:active, #generate-address-bt:active, .nav-gselect:active, .nav-gselect .dropdown:active, #view-help:active, #view-rule:active, .meta-bt:active {
+    color: #feba00;
+}
+#copy-address.black, #show-qr-bt.black, #generate-address-bt.black, .nav-gselect.black, .nav-gselect .dropdown.black, #view-help.black, #view-rule.black, .meta-bt.black, #copy-address, #show-qr-bt, #generate-address-bt, .nav-gselect, .nav-gselect .dropdown, .meta-bt {
+    background: none repeat scroll 0 0 #222;
+    color: #ddd;
+}
+#copy-address.black:hover, #show-qr-bt.black:hover, #generate-address-bt.black:hover, .nav-gselect.black:hover, .nav-gselect .dropdown.black:hover, #view-help.black:hover, #view-rule.black:hover, .meta-bt.black:hover, #copy-address:hover, #show-qr-bt:hover, #generate-address-bt:hover, .nav-gselect:hover, .nav-gselect .dropdown:hover, .meta-bt:hover {
+    color: #fff;
+}
+#view-help, #view-rule {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    z-index: 9;
+}
+
+#help {
+    bottom: 100px;
+    display: none;
+    left: 0;
+    padding: 40px 15px 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 4;
+}
+#help.active {
+    display: block;
+}
+#help .modal-body {
+    font-size: 13px;
+}
+#help .modal-body p {
+    margin: 0 0 10px;
+}
+#help .modal-body .advanced {
+    background-color: #eee;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+#help .modal-body .house-edge {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0 0;
+    padding: 5px;
+}
+#rules {
+    width: 600px;
+}
+#view-help, #view-rule {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    z-index: 9;
+}
+#help table {
+    width: 100%;
+}
+#help table th {
+    font-weight: 700;
+    text-align: left;
+}
+#help table tr {
+    border-bottom: 1px solid #ddd;
+}
+#help table td {
+    height: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+.modal-header {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px 4px 0 0;
+    text-align: center;
+}
+.modal-header h3 {
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px 15px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.modal-header .close-bt {
+    border-left: 1px solid #ccc;
+    color: #777;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    height: 100%;
+    line-height: 20px;
+    padding: 10px 15px;
+    text-shadow: 0 1px 0 #fff;
+}
+.modal-header .close-bt:hover {
+    color: #d23737;
+}
+.modal-body {
+    background: url("https://d3aoshlmxseea9.cloudfront.net/img/shattered_white.png?_=1408528733469") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 15px;
+}
+.modal-footer {
+    background: none repeat scroll 0 0 #f0f0f0;
+    border-top: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+.modal-footer .btnn + .btnn {
+    margin-left: 5px;
+}
+
+.page-wrapper {
+    background: none repeat scroll 0 0 #007a5c;
+    border-bottom: 1px solid #2b2b2b;
+    border-top: 1px solid #2b2b2b;
+    overflow: visible;
+    padding: 20px;
+    position: relative;
+}
+.page {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 3px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    color: #777;
+    overflow: hidden;
+}
+.page .side {
+    box-sizing: border-box;
+    padding:0;
+    width: 100%;
+    margin-top:10px
+}
+.page h1, .page h2, .page h3 {
+    color: #555;
+    font-weight: bold;
+    margin: 0;
+}
+.page .page-title {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)) repeat scroll 0 0 #02553e;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.page .page-title span {
+    font-size: 18px;
+    margin-right: 5px;
+    vertical-align: -1px;
+}
+.page h3 {
+    font-size: 1em;
+    margin: 0 0 2px;
+}
+.page em {
+    background-color: #fffeca;
+    padding: 0 0.1em;
+}
+.page p {
+    line-height: 20px;
+    
+}
+.page p:last-child {
+    margin: 0;
+}
+.page a {
+    color: #0083b4;
+}
+.page a:hover {
+    color: #006990;
+}
+.hero-title {
+    color: #fff;
+    font-size: 36px;
+    margin: 0;
+    text-align: center;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.games {
+    box-sizing: border-box;
+    margin: 30px 0;
+    overflow: hidden;
+    text-align: center;
+}
+.games:before, .games:after {
+    content: "";
+    display: table;
+}
+.games:after {
+    clear: both;
+}
+.games h2 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.games .game {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) inset, 0 1px 0 rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    transition: background 0.15s linear 0s;
+    width: 220px;
+}
+.games .game:hover {
+    background: none repeat scroll 0 0 #013b2b;
+}
+.games .game.new .game-url:after {
+    background: url("/Images/Casino/banner-new.png") no-repeat;
+    content: "";
+    display: block;
+    height: 88px;
+    margin: -3px 0 0 -3px;
+    width: 101px;
+}
+.games .game a {
+    display: block;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.games .game a:hover .game-name {
+    color: #feba00;
+}
+.games .game .game-icon {
+    background: url("/Images/Casino/game_icons.png") no-repeat;
+    border-radius: 3px;
+    height: 200px;
+    width: 200px;
+}
+.games .game .game-icon.american-roulette {
+    background-position: 0 0;
+}
+.games .game .game-icon.roulette {
+    background-position: -200px 0;
+}
+.games .game .game-icon.lucky7 {
+    background-position: -400px 0;
+}
+.games .game .game-icon.casino-war {
+    background-position: -600px 0;
+}
+.games .game .game-icon.blackjack {
+    background-position: -800px 0;
+}
+.games .game .game-icon.video-poker {
+    background-position: -1000px 0;
+}
+.games .game .game-icon.baccarat {
+    background-position: -1200px 0;
+}
+.games .game .game-icon.dice {
+    background-position: -1400px 0;
+}
+.games .game .game-icon.bombs {
+    background-position: -1600px 0;
+}
+.games .game .game-name {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0 0 2px;
+    padding-top: 10px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+}
+.games .game .game-cat {
+    color: #90bf78;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.games .game .game-url {
+    border-radius: 5px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.games .game .game-url:hover {
+    transition: all 0.2s linear 0s;
+}
+.games .game .game-url:hover .mode-bt {
+    display: block;
+}
+.games .game .game-url .game-mode {
+    bottom: 45px;
+    position: absolute;
+    width: 100%;
+}
+
+.mode-bt {
+    border-radius: 5px;
+    display: none;
+    font-weight: 700;
+    margin: 10px;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.mode-bt:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15) inset;
+}
+.mode-bt.btc {
+    background: linear-gradient(to bottom, #f5cb08, #ebae08) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #574004;
+    color: #483704;
+    font-size: 16px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+.mode-bt.btc:hover {
+    background: linear-gradient(to bottom, #f5d959, #ebae08) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.padding-con {
+    padding: 20px;
+}
+.padding-con:before, .padding-con:after {
+    content: "";
+    display: table;
+}
+.padding-con:after {
+    clear: both;
+}
+.page #provably-fair-wrapper {
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.page #provably-fair-data {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #f3f2f1;
+    border-color: #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-radius: 5px 5px 0 0;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    color: #222;
+    display: block;
+    padding: 20px;
+}
+.page #provably-fair-data h2, .page #provably-fair-data label {
+    color: inherit;
+}
+.page #provably-fair-data h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.page #provably-fair-data .seed {
+    margin-bottom: 2px;
+    font-size:14px;
+}
+.page #provably-fair-data .seed label {
+    float:left;
+    width: 12%;
+    padding:5px 0;
+}
+.page #provably-fair-data .seed input {
+    border: 1px solid #ccc;
+    width: 88%;
+    float:left;
+    padding:5px;
+    margin-bottom:5px;
+}
+.page #provably-fair-data .clean-shuffle {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: block;
+    height: 40px;
+    margin: 10px 0 10px 30%;
+    overflow-y: scroll;
+    padding: 10px;
+    width: 70%;
+}
+.page #provably-fair-data #verify-bt {
+    display: block;
+    margin: 5px 0 0 12%;
+}
+.page #verification-result {
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 10px;
+    font-size:14px;
+}
+.page #verification-result .failed {
+    text-decoration: line-through;
+}
+.page #verification-result .verified {
+    color: #25950f;
+}
+.page #verification-result .not_verified {
+    color: #ce1010;
+}
+.btnn {
+    -moz-user-select: none;
+    background: none repeat scroll 0 0 #e5e5e5;
+    border: 0 none;
+    border-radius: 3px;
+    color: #444;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    outline: medium none;
+    padding: 10px 15px;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
+    text-transform: uppercase;
+}
+.btnn:hover {
+    background: none repeat scroll 0 0 #cecece;
+}
+.btnn:active {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3) inset;
+}
+.btnn.primary {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)) repeat scroll 0 0 #0083b4;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+.btnn.primary:hover {
+    background: none repeat scroll 0 0 #0083b4;
+}
+
+.casino-alert .alertbox{
+    margin:370px 0 0 -275px;
+    left:50%;
+    z-index:20; 
+}
+.modalback{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:10;
+    color:gray;
+}
+.soundmaker{
+    position:absolute;
+    margin-left:-2000px;
+}
+
+.luckynumber {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-image: none;
+    border-radius: 60px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    color: #483704;
+    font-size: 13px;
+    font-weight: 700;
+    height: 28px;
+    width:28px;
+    line-height: 26px;
+    min-width: 18px;
+    padding: 0 5px;
+    text-align: center;
+    margin:0 auto;
+    color:#ffffff
+}
+.luckynumber.green{
+    background: linear-gradient(#079700, #067400) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #079700;
+}
+.luckynumber.red{
+    background: linear-gradient(#dc0000, #b40101) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #dc0000;
+}
+.luckynumber.black{
+    background: linear-gradient(#3f3f3f, #000000) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #000000;
+}
+.casinohistory{
+    float:right
+}
+
+
+.g-meta #provably-fair-data {
+    border-radius: 5px 0 5px 5px;
+    bottom: 40px;
+    right: 10px;
+    left:auto;
+    text-align: right;
+}
+.g-meta #provably-fair-data input {
+    direction:ltr;
+    text-align:left
+}
+
+.g-meta #provably-fair-data label {
+    width:85px;
+}
+#view-rule {
+    right: 10px;
+    left:auto;
+}
+#view-help {
+    left: 10px;
+    right:auto;
+}
+#help {
+    padding: 40px 10px 10px;
+    direction:rtl
+}
+
+#help table th{
+    text-align: right
+}
+
+.modal-header .close-bt {
+    border-right: 1px solid #ccc;
+    float: left;
+}
+.modal-header h3 {
+    font-size: 16px;
+}
+#help .modal-body {
+    font-size: 12px;
+}
+
+#bet-meta {
+direction:rtl
+}
+#bet-size {
+    left: auto;
+    right: 0;
+}
+
+.page #provably-fair-data input{
+    direction:ltr
+}
+
+.page #provably-fair-data .seed label {
+    float:right;
+}
+.page #provably-fair-data .seed input {
+    float:right;
+}
+.page #provably-fair-data #verify-bt {
+    margin: 5px 12% 0 0;
+}
+.soundmaker{
+    margin-right:-2000px;
+}
+.casinohistory{
+    float:left
+}
+.games .game .game-url .game-mode{
+    bottom:75px;
+}
+.mode-bt.btc{
+    padding:5px
+}
+.g-actions-wrapper .betperclickinput p{
+
+}

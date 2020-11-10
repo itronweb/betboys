@@ -1,0 +1,74 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  209.250.241.52
+
+Host:
+  200bet.info
+
+Requested URI:
+  http://200bet.info/adminbet/plugins/users/users_increase.php?id=!!!!wPP5YuT402zmmbYYEQm@@y9
+
+Date:
+  2020-01-20 04:59:32
+
+Error:
+  SQL error: Out of range value for column 'price' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO `transactions` (price, user_id, invoice_type, description, trans_id, cash, created_at, updated_at, status) values (200000000000, 60, 10, 'افزایش شارژ حساب توسط مدیریت', 'ADMIN_INCREASE1579483772', 200000000000, '2020-01-20 04:59:32', '2020-01-20 04:59:32', 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  209.250.241.52
+
+Host:
+  200bet.info
+
+Requested URI:
+  http://200bet.info/adminbet/plugins/users/users_increase.php?id=!!!!wPP5YuT402zmmbYYEQm@@y9
+
+Date:
+  2020-01-20 04:59:47
+
+Error:
+  SQL error: Column 'price' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `transactions` (price, user_id, invoice_type, description, trans_id, cash, created_at, updated_at, status) values (null, 60, 10, 'افزایش شارژ حساب توسط مدیریت', 'ADMIN_INCREASE1579483787', 200002000000, '2020-01-20 04:59:47', '2020-01-20 04:59:47', 1). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===

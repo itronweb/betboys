@@ -1,0 +1,92 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+<html>
+<head>
+<title>Query Builder (QuB) :: Save query</title>
+<script>
+function repaint() {
+	retVal = 'cancel';
+	if (!opener) {
+		dlgOpener = window.dialogArguments;
+	} else {
+		dlgOpener = opener;
+	}
+	//dlgOpener.modal_open = true;
+}
+
+function returnModalResult() {
+	if (retVal == 'yes') {
+		var ret = dlgOpener.save();
+		dlgOpener.top.ui.invalidate(null, !ret);
+		if (ret) {
+			dlgOpener.top.ui.is_new_query = false;
+			dlgOpener.setTimeout("top.ui.resumer.exec()", 10);
+		}
+	} else if (retVal == 'no') {
+		if (dlgOpener.top.ui.is_new_query) {
+			dlgOpener.top.ui.all_queries.splice(dlgOpener.top.ui.selectedQueryIndex, 1);
+			dlgOpener.indexArray("all_queries");
+			dlgOpener.top.ui.selectedQueryIndex = dlgOpener.top.ui.all_queriesIndexFromName[dlgOpener.top.target_query_name];
+			dlgOpener.top.ui.is_new_query = false;
+			dlgOpener.uiQueriesRepaint();
+			dlgOpener.top.ui.resumer.args[0] = dlgOpener.top.target_query_name;
+		}
+		dlgOpener.top.ui.invalidate(null, false);
+		dlgOpener.setTimeout("top.ui.resumer.exec()", 10);
+	}
+
+	window.close();
+}
+function keyPressed(e) {
+	if (!window.event) {
+		var event = e;
+	} else {
+		var event = window.event;
+	}
+	if(event.keyCode == 116) {
+		window.onunload = null;
+		return;
+	}
+	if(event.keyCode == 27) {
+		window.close();
+	}
+	if(event.keyCode == 13) {
+		retVal='yes';
+		returnModalResult();
+	}
+
+}
+
+</script>
+<link rel="stylesheet" href="includes/styles/dlg.css" type="text/css">
+</head>
+<body onload="repaint();" onKeyDown="keyPressed(event)" style="overflow:hidden; margin:0px; padding:6px;">
+<table width="100%" border="0px" cellspacing="0" cellpadding="2">
+	<tr>
+		<td id="message">Do you want to save this query? Choose "Yes" to save. Choose "No" not to save and continue. Choose "Cancel" to do nothing.</td>
+	</tr>
+	<tr>
+		<td align="center"><br>
+		</td>
+	</tr>
+</table>
+	<div id="bottom_buttons">
+		<input type="button" value="Yes" onClick="retVal='yes'; returnModalResult();">
+		<input type="button" value="No" onClick="retVal='no';returnModalResult();">
+		<input type="button" value="Cancel" onClick="retVal='cancel';returnModalResult();">	
+	</div>
+</body>
+</html>

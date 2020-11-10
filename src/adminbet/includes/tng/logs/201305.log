@@ -1,0 +1,549 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:45:48
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,logoi,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:46:52
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,logoi,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:47:43
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,logoi,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:47:53
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,logoi,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:47:54
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,logoi,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:48:01
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,logoi,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:48:02
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,logoi,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:48:02
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,logoi,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:48:44
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,logoi,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:49:18
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'active,id, id as kt_pk_bank FROM bank WHERE id =1' at line 1<br /><strong>SQL statement:</strong><br />SELECT name,,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:49:19
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'active,id, id as kt_pk_bank FROM bank WHERE id =1' at line 1<br /><strong>SQL statement:</strong><br />SELECT name,,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:49:26
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'active,id, id as kt_pk_bank FROM bank WHERE id =1' at line 1<br /><strong>SQL statement:</strong><br />SELECT name,,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:49:30
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'active,id, id as kt_pk_bank FROM bank WHERE id =1' at line 1<br /><strong>SQL statement:</strong><br />SELECT name,,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:49:40
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,`logoi`,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:49:41
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,`logoi`,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:49:41
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,`logoi`,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:49:55
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error creating temporary table:<br />You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''logoi' TEXT, active TEXT, id TEXT, kt_pk_bank TEXT)' at line 1<br/>SQL:<br />CREATE TEMPORARY TABLE KT_fakeRS_20130514 (name TEXT, 'logoi' TEXT, active TEXT, id TEXT, kt_pk_bank TEXT) (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=2
+
+Date:
+  2013-05-14 11:50:25
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,logoi,active,id, id as kt_pk_bank FROM bank WHERE id =2 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:50:38
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'logoi' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,logoi,active,id, id as kt_pk_bank FROM bank WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:50:51
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error creating temporary table:<br />You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''logoi' TEXT, active TEXT, id TEXT, kt_pk_bank TEXT)' at line 1<br/>SQL:<br />CREATE TEMPORARY TABLE KT_fakeRS_20130514 (name TEXT, 'logoi' TEXT, active TEXT, id TEXT, kt_pk_bank TEXT) (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/kanonghaemshahr/admin/bank_edit.php?id=1
+
+Date:
+  2013-05-14 11:51:21
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_fields.getFakeRecordset:<br />SQL error: Error creating temporary table:<br />You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''logoi' TEXT, active TEXT, id TEXT, kt_pk_bank TEXT)' at line 1<br/>SQL:<br />CREATE TEMPORARY TABLE KT_fakeRS_20130514 (name TEXT, 'logoi' TEXT, active TEXT, id TEXT, kt_pk_bank TEXT) (FIELDS_FAKE_RS_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset*
+=== END MESSAGE ===

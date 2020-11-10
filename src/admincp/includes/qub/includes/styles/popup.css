@@ -1,0 +1,70 @@
+/*
+ * ADOBE SYSTEMS INCORPORATED
+ * Copyright 2007 Adobe Systems Incorporated
+ * All Rights Reserved
+ * 
+ * NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+ * terms of the Adobe license agreement accompanying it. If you have received this file from a 
+ * source other than Adobe, then your use, modification, or distribution of it requires the prior 
+ * written permission of Adobe.
+ */
+
+#relation_editor td,th,legend,fieldset {
+	background-color: buttonface;
+	font: normal 11px Tahoma,sans-serif;
+}
+DIV#relation_editor {
+	background-color: buttonface;
+	font: normal 11px Tahoma,sans-serif;
+	border:0px solid white;
+}
+#relation_editor input {
+	font: normal 11px Courier; 
+}
+#relation_editor .btn {
+	width:80px;
+	font-family: Tahoma,sans-serif;
+	margin-top: 4px;
+}
+
+#relation_editor select, option {
+	font-family: Courier;
+}
+#relation_editor th {
+	text-align: right;
+	vertical-align: top;
+	font-weight: bold;
+}
+#relation_editor td {
+	vertical-align: top;
+}
+
+#table_editor td,th,legend,fieldset {
+	background-color: buttonface;
+	font: normal 11px Tahoma,sans-serif;
+}
+DIV#table_editor {
+	background-color: buttonface;
+	font: normal 11px Tahoma,sans-serif;
+	border:0px solid white;
+}
+#table_editor input {
+	font: normal 11px Courier; 
+}
+#table_editor .btn {
+	width:80px;
+	font-family: Tahoma,sans-serif;
+	margin-top: 4px;
+}
+
+#table_editor select, option {
+	font-family: Courier;
+}
+#table_editor th {
+	text-align: right;
+	zvertical-align: top;
+	font-weight: bold;
+}
+#table_editor td {
+	vertical-align: top;
+}

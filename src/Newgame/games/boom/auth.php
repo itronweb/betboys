@@ -1,0 +1,1 @@
+{"socket":["ws:\/\/s.yakuyuku.net\/f02beb1fecf178bc90da0989cfdb9c1107689ed44c2f9214b84ebe2337647e001568388484537\/connect\/"],"token":"+yYPJrUSXbWsqAc\/rtJDUQI6PxuJ83nQJYyXNQL45NGrh4xr3GWwem\/xfKFLZaxck2fao4kCU3k+iBe4MYnFDKEdhqk\/+Ft52uZnENGwkbVkAs3baveaB+hgAiKbrmT3Gept1EWT9jjqtqPB8Km36cY00nnZM8Ze7JU33Pt1vMM="}

@@ -1,0 +1,94 @@
+<?php
+	require("./functions.inc.html");
+?>
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+<html>
+<head>
+<title>Query Builder (QuB) :: Remove Cache</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script src="./includes/config.js"></script>
+<script>
+	opener = window.dialogArguments;
+</script>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" >
+<?php
+	if(isset($button)){
+		for ($i=0;$i<sizeof($relation);$i++) {
+			$relation[$i] = str_replace("\\'", "'", $relation[$i]);
+			$conn->Execute("delete from qub_relations_rel where ".$relation[$i]);
+			//echo ("delete from qub_relations_rel where ".$relation[$i]);
+			//echo "<br>";
+		}
+		echo "<br><dir><p><b><font size='2' face='Arial, Helvetica, sans-serif'>The selected relations have been removed.</font></b></p>";
+		echo "<p><b><font size='2' face='Arial, Helvetica, sans-serif'>Query Builder must be restarted to activate changes.</font></b></p>";
+		echo "<input type=button value='Close' onClick='window.close();'></dir>";
+		exit;
+	}
+?>
+	<table border=0 cellspacing=3>
+		<form action=removess.html method=post>
+			<tr>
+    			<td valign=top>
+    				<b><font size="2" face="Arial, Helvetica, sans-serif">Relations:</font></b> 
+    			</td>
+    		</tr>
+    		<tr>
+				<td>
+					<select id=relation name=relation[] multiple size=10 style="width:530px;font-family:Arial">
+<?php
+	$rs = $conn->Execute("select * from qub_relations_rel order by table1_rel, t1id_rel, table2_rel, t2id_rel");
+	while(!$rs->EOF){
+		echo "						<option value=\"table1_rel='".$rs->Fields("table1_rel")."' AND t1id_rel='".$rs->Fields("t1id_rel")."' AND table2_rel='".$rs->Fields("table2_rel")."' AND t2id_rel='".$rs->Fields("t2id_rel")."'\">";
+		echo $rs->Fields("table1_rel").".".$rs->Fields("t1id_rel")." = ".$rs->Fields("table2_rel").".".$rs->Fields("t2id_rel");
+		echo "</option>\n";
+		$rs->MoveNext();
+	}
+?>
+					</select>
+				</td>
+    		</tr>
+    		<tr>
+			    <td valign=top> 
+					<input type=submit value="Delete" name="button" onClick="return verifyIt();">
+					&nbsp;
+					&nbsp;
+					<input type=button value="Cancel" onClick="window.close();" name="button2">
+			    </td>
+			</tr>
+		</form>
+	</table>
+</body>
+</html>
+<script>
+	function verifyIt(){
+		sw = false;
+		theRelation = document.forms[0].relation;
+		for(i=0;i<theRelation.options.length;i++){
+			if (theRelation.options[i].selected) {
+				sw = true;
+				break;
+			}
+		}
+		if(sw){
+			return (confirm("Are you sure you want to delete the selected relations?"));
+		} else {
+			alert("No relation was selected.");
+			return false;
+		}
+	}
+</script>

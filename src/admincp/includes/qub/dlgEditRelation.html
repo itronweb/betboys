@@ -1,0 +1,167 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+<html>
+<head>
+
+<title>Query Builder (QuB) :: Edit Relation</title>
+<script src="../common/js/base.js"></script>
+<script src="../common/js/utility.js"></script>
+<script>
+var sel_rel = null;
+function repaint() {
+	if (!opener) {
+		dlgOpener = window.dialogArguments;
+	} else {
+		dlgOpener = opener;
+	}
+	if (dlgOpener.top.mo.selectedRelation) {	
+		sel_rel = dlgOpener.top.canvas.myQuery.relations.item(dlgOpener.top.mo.selectedRelation);
+	}
+
+	if (sel_rel) {
+		t1 = document.getElementById('table1');
+		t2 = document.getElementById('table2');
+		f1 = document.getElementById('field1');
+		f2 = document.getElementById('field2');
+
+		t1.value = sel_rel.table1;
+		f1.value = sel_rel.field1;
+
+		t2.value = sel_rel.table2;
+		f2.value = sel_rel.field2;
+		
+		var label_2 = document.getElementById('for_rel_type_2');
+		var label_3 = document.getElementById('for_rel_type_3');
+
+		label_2.innerHTML = utility.string.sprintf(label_2.innerHTML.toString(), sel_rel.table1, sel_rel.table2);
+		label_3.innerHTML = utility.string.sprintf(label_3.innerHTML.toString(), sel_rel.table2, sel_rel.table1);
+
+		if (sel_rel.restrict == 'yes') {
+			document.getElementById('rel_type_1').checked = true;
+		} else {
+			if (sel_rel.card1 == '1' && sel_rel.card2 == 'n') {
+				document.getElementById('rel_type_2').checked = true;
+			} else if (sel_rel.card1 == 'n' && sel_rel.card2 == '1') {
+				document.getElementById('rel_type_3').checked = true;
+			}
+		}
+	} else {
+		close();
+	}
+}
+function returnModalResult(how) {
+	if (dlgOpener.top.mo.selectedRelation) {
+		sel_rel = dlgOpener.top.ui.myQuery.relations.item(dlgOpener.top.mo.selectedRelation);
+	}
+	if (sel_rel) {
+		switch (how) {
+			case 'save':
+				var val = 'inner';
+				var rel_type_arr = document.getElementsByName('rel_type');
+				Array_each(rel_type_arr, function(el, i) { 
+					if (el.checked == true) {
+						val = el.value;
+						return;
+					}
+				});
+				if (val == 'inner') {
+					sel_rel.restrict = 'yes';
+					sel_rel.card1 = '1';
+					sel_rel.card2 = '1';
+				} else {
+					arr = val.split('|');
+					sel_rel.card1 = arr[0];
+					sel_rel.card2 = arr[1];
+					sel_rel.restrict = 'no';
+				}
+				dlgOpener.top.canvas.undo.addUndo("Edit relation");
+				sel_rel.repaint();
+				dlgOpener.top.ui.invalidate(true, true, 'sqlcolumns,sqlquery');
+				break;
+		}
+		sel_rel.deselect();
+	}
+	close();
+}
+function keyPressed(e) {
+	if (!window.event) {
+		var event = e;
+	} else {
+		var event = window.event;
+	}
+	if (event.keyCode == 116) {
+		window.onunload = null;
+		return;
+	}
+	if (event.keyCode == 27) {
+		returnModalResult('cancel')
+	}
+	if(event.keyCode == 13) {
+		returnModalResult('save')
+	}
+}
+
+</script>
+<link rel="stylesheet" href="includes/styles/dlg.css" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<body onload="repaint();" onKeyDown="keyPressed(event)">
+	<fieldset>
+		<legend>Edit Relation</legend>
+		<table id="edit_relation" cellpadding="3" cellspacing="0" width="100%">
+			<tr> 
+				<td>Left Table Name:</td>
+				<td><input type="text" name="table1" id="table1" readonly class="readonly" style="width: 120px"></td>
+				<td>Right Table Name:</td>
+				<td><input type="text" name="table2" id="table2" readonly class="readonly" style="width:120px"></td>
+			</tr>
+			<tr>
+				<td>Left Field Name:</td>
+				<td><input type="text" name="field1" id="field1" readonly class="readonly" style="width:120px"></select></td>
+				<td>Right Field Name:</td>
+				<td><input type="text" name="field2" id="field2" readonly class="readonly" style="width:120px"></select></td>
+			</tr>
+		</table>
+	</fieldset>
+	<fieldset>
+		<legend>Relation Type</legend>
+			<tr>
+				<td colspan="4">
+					<input type="radio" name="rel_type" id="rel_type_1" value="inner"/>
+					<label for="rel_type_1" id="for_rel_type_1">Only include rows where joined fields are equal</label>
+					<br />
+					<input type="radio" name="rel_type" id="rel_type_2" value="1|n"/>
+					<label for="rel_type_2" id="for_rel_type_2">Include all records from the <strong>%s</strong> table and only those from <strong>%s</strong> table where joined fields are equal</label>
+					<br />
+					<input type="radio" name="rel_type" id="rel_type_3" value="n|1"/>
+					<label for="rel_type_3" id="for_rel_type_3">Include all records from the <strong>%s</strong> table and only those from <strong>%s</strong> table where joined fields are equal</label>
+					<br />
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4" align="center"></td>
+			</tr>
+	</table>
+	</fieldset>
+	<div id="context_help">
+	</div>
+	<div id="bottom_buttons">
+		<input type="button" value="Set" onClick="returnModalResult('save');">&nbsp;
+		<input type="button" value="Cancel" onClick="returnModalResult('cancel');">
+		<input type="button" value="Help" onClick="dlgOpener.top.showQUBHelp('qub.dlg.editrelation')">
+	</div>
+</body>
+</html>
+

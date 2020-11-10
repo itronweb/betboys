@@ -1,0 +1,5 @@
+
+>rethinkdb --bind-cluster 213.175.201.167 --bind-driver 213.175.201.167 --bind-http 213.175.201.167
+
+
+rethinkdb.exe -d c:\users\administrator\desktop\node_s\data\

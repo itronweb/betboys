@@ -1,0 +1,1611 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/tickets/tickets_add.php
+
+Date:
+  2018-03-01 10:40:15
+
+Error:
+  SQL error: Column 'user_id' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO tickets (subject, created_at, updated_at, user_id, status) values ('ddd', '2018-03-01 10:40:15', '2018-03-01 10:40:15', null, '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/tickets/tickets_add.php
+
+Date:
+  2018-03-01 10:49:21
+
+Error:
+  SQL error: Unknown column 'invoice_type' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO `ticket_replies` (ticket_id, invoice_type, content, created_at, updated_at) values (1, 10, '&lt;p&gt;سیسیسیسییسیسی&lt;/p&gt;
+', '2018-03-01 10:49:21', '2018-03-01 10:49:21'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/tickets/tickets_add.php
+
+Date:
+  2018-03-01 10:49:31
+
+Error:
+  SQL error: Field 'user_id' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO `ticket_replies` (ticket_id, content, created_at, updated_at) values (1, '&lt;p&gt;سیسیسیسییسیسی&lt;/p&gt;
+', '2018-03-01 10:49:31', '2018-03-01 10:49:31'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/tickets/tickets_add.php
+
+Date:
+  2018-03-01 10:51:45
+
+Error:
+  SQL error: Column 'ticket_id' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `ticket_replies` (ticket_id, content, user_id, created_at, updated_at) values (null, '&lt;p&gt;hghghghgfgf&lt;/p&gt;
+', '2', '2018-03-01 10:51:45', '2018-03-01 10:51:45'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/tickets/tickets_view.php?id=!!!!gvpFXxtuu2obiZvZiONH@@v
+
+Date:
+  2018-03-01 11:52:44
+
+Error:
+  SQL error: Column 'content' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `ticket_replies` (ticket_id, content, user_id, created_at, updated_at) values (553, null, '2', '2018-03-01 11:52:44', '2018-03-01 11:52:44'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/tickets/tickets_add.php
+
+Date:
+  2018-03-03 12:53:48
+
+Error:
+  SQL error: Column 'ticket_id' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO `ticket_replies` (ticket_id, content, user_id, created_at, updated_at) values (null, '&lt;p&gt;غاتغتغعتغ&lt;/p&gt;
+', '2', '2018-03-03 12:53:48', '2018-03-03 12:53:48'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/team/team_edit.php?id=!!!!wGG9Vr$$yyasfKQmOIh5eHZ
+
+Date:
+  2018-03-08 13:17:45
+
+Error:
+  SQL error: Column 'teams_name_en' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE teams SET teams_name_fa='تیورتون تون', teams_name_en=null WHERE id = 209. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!AjTYiw2@@UfKwLMUl$$L9zWh
+
+Date:
+  2018-03-10 17:02:33
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!AjTYiw2@@UfKwLMUl$$L9zWh
+
+Date:
+  2018-03-10 17:02:49
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!AjTYiw2@@UfKwLMUl$$L9zWh
+
+Date:
+  2018-03-10 17:03:30
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!AjTYiw2@@UfKwLMUl$$L9zWh
+
+Date:
+  2018-03-10 17:04:03
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!QRuoZ0xIJvOYF2JRPvgcP5
+
+Date:
+  2018-03-10 17:04:40
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =2 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!g366SWFThoDM8MdfjBeHLz
+
+Date:
+  2018-03-10 17:04:44
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =3 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:04:59
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:05:25
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:05:32
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:05:38
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:05:45
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:05:55
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:06:04
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:06:13
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:06:22
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:06:32
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:06:40
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:06:56
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:07:10
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:07:29
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:08:44
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:09:03
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:09:18
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:09:19
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_edit.php?id=!!!!gDpLqd1JqXyu6U@@F8GB4TF
+
+Date:
+  2018-03-10 17:09:27
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'main_page' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,slug,short_description,description,updated_at,compiler,main_page,status,id, id as kt_pk_content_pages FROM content_pages WHERE id =6 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_add.php
+
+Date:
+  2018-03-11 16:04:16
+
+Error:
+  SQL error: Incorrect datetime value: '0000-00-00 00:00:00' for column 'created_at' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO content_pages (name, slug, short_description, description, updated_at, compiler, tpl, status) values ('عنوتن', 'link', '&lt;p&gt;hi&lt;/p&gt;
+', '&lt;p&gt;hello&lt;/p&gt;
+', '2018-03-11 16:04:16', 'none', 'ddddd', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_add.php
+
+Date:
+  2018-03-11 16:05:00
+
+Error:
+  SQL error: Incorrect datetime value: '0000-00-00 00:00:00' for column 'updated_at' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO content_pages (name, slug, short_description, description, created_at, compiler, tpl, status) values ('عنوتن', 'link', '&lt;p&gt;hi&lt;/p&gt;
+', '&lt;p&gt;hello&lt;/p&gt;
+', '2018-03-11 16:05:00', 'none', 'ddddd', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_add.php
+
+Date:
+  2018-03-11 16:12:33
+
+Error:
+  SQL error: Incorrect datetime value: '0000-00-00 00:00' for column 'updated_at' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO content_pages (name, slug, short_description, description, updated_at, created_at, compiler, tpl, status) values ('عنوتن', 'link', '&lt;p&gt;hi&lt;/p&gt;
+', '&lt;p&gt;hello&lt;/p&gt;
+', '0000-00-00 00:00', '2018-03-11 16:12:33', 'none', 'ddddd', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_add.php
+
+Date:
+  2018-03-11 16:13:12
+
+Error:
+  SQL error: Incorrect datetime value: '0000-00-00 00:00:00' for column 'updated_at' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO content_pages (name, slug, short_description, description, updated_at, created_at, compiler, tpl, status) values ('عنوتن', 'link', '&lt;p&gt;hi&lt;/p&gt;
+', '&lt;p&gt;hello&lt;/p&gt;
+', '0000-00-00 00:00:00', '2018-03-11 16:13:12', 'none', 'ddddd', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_add.php
+
+Date:
+  2018-03-11 16:14:15
+
+Error:
+  SQL error: Incorrect datetime value: '0000-00-00 00:00:00' for column 'updated_at' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO content_pages (name, slug, short_description, description, updated_at, created_at, compiler, tpl, status) values ('hjhjhj', 'hjhj', '&lt;p&gt;hjhjhjhjhjhjjhjh&lt;/p&gt;
+', '&lt;p&gt;jhjhj&lt;/p&gt;
+', '0000-00-00 00:00:00', '2018-03-11 16:14:15', 'none', 'hjhj', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/pages/pages_add.php
+
+Date:
+  2018-03-11 17:02:51
+
+Error:
+  SQL error: Incorrect datetime value: '0000-00-00 00:00:00' for column 'updated_at' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO content_pages (name, slug, short_description, description, updated_at, created_at, compiler, tpl, status) values ('hjhjhj', 'hjhj', '&lt;p&gt;hjhjhjhjhjhjjhjh&lt;/p&gt;
+', '&lt;p&gt;jhjhj&lt;/p&gt;
+', '0000-00-00 00:00:00', '2018-03-11 17:02:51', 'none', 'hjhj', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/menu_groups/menu_groups_add.php
+
+Date:
+  2018-03-12 15:41:35
+
+Error:
+  SQL error: Column 'is_admin' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO menu_groups (name, code, created_at, is_admin) values ('ییی', '66', '2018-03-12 15:41:35', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/menu_groups/menu_groups_add.php
+
+Date:
+  2018-03-12 15:42:23
+
+Error:
+  SQL error: Column 'is_admin' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO menu_groups (name, code, created_at, is_admin) values ('ییی', '66', '2018-03-12 15:42:23', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/menu_groups/menu_groups_edit.php?id=!!!!g6M$$If9R9xN21ICUPO3wpy
+
+Date:
+  2018-03-12 15:55:25
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'code' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,code,created_at,is_admin,id, id as kt_pk_content_pages FROM content_pages WHERE id =0 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/menu_groups/menu_groups_edit.php?id=!!!!g6M$$If9R9xN21ICUPO3wpy
+
+Date:
+  2018-03-12 15:55:28
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'code' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,code,created_at,is_admin,id, id as kt_pk_content_pages FROM content_pages WHERE id =0 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/menu_groups/menu_groups_edit.php?id=!!!!QYZRFfCfcByEjw0GKc5D1u
+
+Date:
+  2018-03-12 15:55:33
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'code' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,code,created_at,is_admin,id, id as kt_pk_content_pages FROM content_pages WHERE id =0 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/menus/menus_edit.php?id=!!!!whbqPt$$$$He1ihpG7aMvJzp
+
+Date:
+  2018-03-13 16:42:28
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'wight' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT title,target,group_id,parent_id,updated_at,icon,wight,id, id as kt_pk_menus FROM menus WHERE id =312 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/menus/menus_edit.php?id=!!!!whbqPt$$$$He1ihpG7aMvJzp
+
+Date:
+  2018-03-13 16:46:48
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'wight' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT title,target,group_id,parent_id,updated_at,icon,wight,id, id as kt_pk_menus FROM menus WHERE id =312 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/menus/menus_add.php
+
+Date:
+  2018-03-14 09:51:38
+
+Error:
+  SQL error: Incorrect datetime value: '0000-00-00 00:00:00' for column 'updated_at' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO menus (title, target, group_id, parent_id, created_at, icon, weight) values ('منو2', 'ییی', '2', '316', '2018-03-14 09:51:38', 'chd', '22'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/menus/menus_add.php
+
+Date:
+  2018-03-14 09:52:47
+
+Error:
+  SQL error: Field 'status' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO menus (title, target, group_id, parent_id, created_at, icon, weight) values ('منو2', 'ییی', '2', '316', '2018-03-14 09:52:47', 'chd', '22'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/settings/settings.php
+
+Date:
+  2018-03-14 11:59:07
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'site_name'.
+
+Developer Details:
+  SQL error: UPDATE settings SET value=null WHERE code = 0. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/settings/settings.php
+
+Date:
+  2018-03-14 12:00:09
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'site_name'.
+
+Developer Details:
+  SQL error: UPDATE settings SET value=null WHERE code = 0. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/settings/settings.php
+
+Date:
+  2018-03-14 12:00:15
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'site_name'.
+
+Developer Details:
+  SQL error: UPDATE settings SET value=null WHERE code = 0. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/settings/settings.php
+
+Date:
+  2018-03-14 12:00:41
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'site_name'.
+
+Developer Details:
+  SQL error: UPDATE settings SET value='sddd' WHERE code = 0. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/settings/settings.php
+
+Date:
+  2018-03-14 12:01:51
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'site_name'.
+
+Developer Details:
+  SQL error: UPDATE settings SET value='4' WHERE code = 0. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/settings/settings.php
+
+Date:
+  2018-03-14 12:01:56
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'site_name'.
+
+Developer Details:
+  SQL error: UPDATE settings SET value='dfvdd' WHERE code = 0. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/settings/settings.php
+
+Date:
+  2018-03-14 12:02:35
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'site_name'.
+
+Developer Details:
+  SQL error: UPDATE settings SET value='dfvdd' WHERE code = 0. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/bet2/admin/plugins/settings/settings.php
+
+Date:
+  2018-03-14 12:03:18
+
+Error:
+  SQL error: Truncated incorrect DOUBLE value: 'site_name'.
+
+Developer Details:
+  SQL error: UPDATE settings SET value='hhh' WHERE code = 0. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===

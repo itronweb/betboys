@@ -1,0 +1,603 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="includes/styles/styles.css" type="text/css">
+<script src="../common/js/base.js"></script>
+<script src="../common/js/utility.js"></script>
+<script src="./includes/chromeless.js"></script>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="2" topmargin="2" marginwidth="2" marginheight="2" onLoad="loadRows(); top.hidePleaseWait();">
+<h4 id="all_columns">All columns<span id="all_columns_from_tables"></span></h4>
+<table id="t1" border="0" cellspacing="0" cellpadding="2">
+	<tr>
+		<th>Column Name</th>
+		<th>Alias</th>
+		<th>Sort</th>
+		<th>Output</th>
+		<th>Grouping</th>
+		<th>Condition</th>
+		<th>&nbsp;</th>
+		<th>&nbsp;</th>
+	</tr>
+</table>
+<label for="select_distinct" id="select_distinct_label"><input type="checkbox" id="select_distinct" onClick="return selectDistinctApply(this.checked)">Select DISTINCT</label>
+
+</body>
+</html>
+<script>
+
+function selectDistinctApply(flag) {
+	try { 
+		if (top.canvas.myQuery.tables.length == 0) {
+			document.getElementById('select_distinct').checked = false;
+			return true;
+		}
+		top.canvas.myQuery.distinct = flag;
+		top.canvas.undo.addUndo("Select distinct apply");
+		top.ui.invalidate(true, true, 'sqlquery');
+		return true;
+	} catch(e) {return false} 
+}
+function selectDistinctInspect() {
+	try {
+		document.getElementById('select_distinct').checked = top.canvas.myQuery.distinct;
+	} catch(e) { }
+}
+
+availableAggFuncs = ['sum', 'min', 'max', 'avg', 'count'];
+orderValues = ['ASC', 'DESC'];
+
+propNameToCellIndex = {
+	alias:1,
+	order:2,
+	output:3,
+	aggFunc:4,
+	sqlCondition:5
+}
+
+var rowN = 1;
+function insertTR(colName, o, isNew) {
+	if (zTable.style.display != 'block') {
+		zAllColumns.style.display = "none";
+		zTable.style.display = "block";
+	}
+
+	if (typeof isNew == 'undefined') {
+		isNew = false;
+	}
+
+	var tr = zTable.insertRow(-1);
+	tr.o = o;
+	//colname,alias,order,output,aggfunc,condition
+
+	var cell = tr.insertCell(-1);
+	cell.innerHTML = o.table+"."+colName;
+
+	alias = o.alias;
+	order = o.order;
+	output = o.output;
+	aggFunc = o.aggFunc;
+	sqlCondition = o.sqlCondition;
+
+	disabled_str = colName == "*" ? ' disabled="disabled" ':'';
+
+	//alias
+	cell = tr.insertCell(-1);
+	temp = "<input type=text size=18 maxlength=30 " + disabled_str + " onBlur='this.value=this.value.replace(/[^\\w]/g, \"\");changed(this.parentNode.parentNode, \"alias\");'";
+	if (alias){
+		temp+=' value=\"'+alias+'\"';
+	}
+	temp +=">"
+	cell.innerHTML = temp;
+
+	//order
+	cell = tr.insertCell(-1);
+	temp = "<select onChange='changed(this.parentNode.parentNode, \"order\");' " + disabled_str + "><option></option>";
+	temp += addOptionsFromArray(orderValues, order);
+	temp +="</select>";
+	cell.innerHTML = temp;
+
+	//output
+	var output_disabled_str = '';
+	if (order!='' && aggFunc!='') {
+		output = true;
+		if (disabled_str=='') {
+			output_disabled_str = ' disabled="disabled" ';
+		}
+	}
+	cell = tr.insertCell(-1);
+	cell.align = "center";
+	temp = "<input type=checkbox onClick='changed(this.parentNode.parentNode, \"output\");' " + output_disabled_str + disabled_str + " class=\"output_checkbox\"";
+	temp +=">"
+	cell.innerHTML = temp;
+	cell.firstChild.checked = output || isNew;
+
+	//aggFunc
+	var cell = tr.insertCell(-1);
+	temp = "<select onChange='changed(this.parentNode.parentNode, \"aggFunc\");' " + disabled_str + "><option></option>";
+	temp += addOptionsFromArray(availableAggFuncs, aggFunc);
+	temp +="</select>";
+	cell.innerHTML = temp;
+
+	//sqlCondition
+	cell = tr.insertCell(-1);
+	temp = "<input type=text size=26 " + disabled_str + " onChange='changed(this.parentNode.parentNode, \"sqlCondition\");'";
+	temp +=">"
+	temp += '<input class="edit_condition_button" ' + disabled_str + ' type="button" value="..." onclick="openCondition(this)">';
+	cell.innerHTML = temp;
+	if (sqlCondition){
+		cell.firstChild.value = sqlCondition;
+	}
+
+
+	//moveup/down
+	cell = tr.insertCell(-1);
+	cell.align = "center";
+	temp = "<a href='#' class='edit_condition_link' onclick='sqlRows_moveRow(1,this);return false;' title='Move row down'>v</a>";
+	temp += "&nbsp;<a href='#' class='edit_condition_link' onclick='sqlRows_moveRow(-1,this);return false;' title='Move row up'>^</a>";
+	cell.innerHTML = temp;
+
+	//delete row
+	cell = tr.insertCell(-1);
+	cell.align = "center";
+	temp = "<a href='#' class='edit_condition_link' onclick='delRow(this.parentNode.parentNode); return false;'>Del</a>";
+	cell.innerHTML = temp;
+
+	rowN++;
+	return tr.rowIndex-1;
+}
+
+var currentTR = current = null;
+function openCondition(o) {
+	currentTR = utility.dom.getParentByTagName(o, 'tr');
+	current = currentTR.o;
+	var srcColumn = parent.canvas.myQuery.tables.item(current.table).columns.item(current.alias==''?current.column:current.alias);
+	var canOpen = srcColumn.parseSQLCondition(current.sqlCondition);
+	if (canOpen) {
+		if (typeof srcColumn.condition == 'undefined') {
+			srcColumn.condition = new top.canvas.SQLCondition(top.uidgen.generate("condition"));
+			srcColumn.condition.column = srcColumn;
+		}
+		openIT('dlgEditCondition.html?' + Math.random(), 370, 260, 120, 120, '_addRow', 'Add Column');
+	} else {
+		alert('Cannot parse Expression !');
+	}
+}
+
+function addOptionsFromArray(arr, selectedValue) {
+	var temp = "";
+	for(var i=0; i<arr.length; i++) {
+		oFunc = arr[i];
+		temp += "<option value=" + oFunc;
+		if (selectedValue==oFunc){
+			temp+=' SELECTED';
+		}
+		temp += ">" + oFunc + "</option>";
+	}
+	return temp;
+}
+function changed(obj, prop_name) {
+	var old_o = obj.o;
+	var new_o = {
+		alias: obj.cells[propNameToCellIndex['alias']].childNodes[0].value,
+		order: obj.cells[propNameToCellIndex['order']].childNodes[0].value,
+		output: obj.cells[propNameToCellIndex['output']].childNodes[0].checked,
+		aggFunc: obj.cells[propNameToCellIndex['aggFunc']].childNodes[0].value,
+		sqlCondition: obj.cells[propNameToCellIndex['sqlCondition']].childNodes[0].value
+	}
+	var disable_output_flag = 0;
+	var zTable = parent.canvas.myQuery.tables.item(old_o.table);
+
+	disable_output_flag += new_o.aggFunc=='';
+	disable_output_flag += new_o.order=='';
+
+	if (new_o.aggFunc!='' && new_o.order!='') {
+		new_o.output = true;
+		obj.cells[propNameToCellIndex['output']].childNodes[0].checked = true;
+		obj.cells[propNameToCellIndex['output']].childNodes[0].disabled = true;
+	} else {
+		obj.cells[propNameToCellIndex['output']].childNodes[0].disabled = false;
+	}
+	//colname,alias,order,output,aggfunc,sqlCondition
+	switch (prop_name) {
+		case 'aggFunc':
+			//changed agg function, change the alias,add or update the associated column
+			var aggFunc =  new_o.aggFunc;
+
+			var alias = parent.canvas.getNextColumnAliasName(aggFunc, old_o.column);
+			if (old_o.alias != '') {
+				//column already has alias, so replace existing column
+				var mode = 'replace';
+				var srcColumn = zTable.columns.item(old_o.alias);
+			} else {
+				//columns does not have alias, so we must add a column with wanted alias
+				var mode = 'add';
+				var srcColumn = zTable.columns.item(old_o.column);
+			}
+			//update the alias
+			obj.o.alias = alias;
+			obj.cells[propNameToCellIndex['alias']].childNodes[0].value = alias;
+
+			if (mode=='replace') {
+				var nClmn = new top.canvas.SQLColumn(alias, old_o.column);
+				nClmn.data_type = srcColumn.data_type;
+				nClmn.sep = srcColumn.sep;
+				nClmn.column_length = "";
+			} else {
+				var nClmn = zTable.new_column(alias, old_o.column);
+			}
+
+			if (aggFunc != "") {
+				if ("sum, count, avg".indexOf(aggFunc)>=0) {
+					nClmn.data_type = "int";
+					nClmn.sep = "";
+					nClmn.column_length = "";
+				} else {
+					nClmn.data_type = zTable.columns.item(obj.o.column).data_type;
+				}
+				nClmn.is_pk = false;
+				nClmn.is_fk = false;
+			} else {
+				nClmn.data_type = zTable.columns.item(obj.o.column).data_type;
+			}
+
+			nClmn.aggFunc = aggFunc;
+			obj.o.aggFunc = aggFunc;
+
+			//inherit all other properties
+			nClmn.order = old_o.order;
+			nClmn.output = old_o.output;
+			nClmn.sqlCondition = old_o.sqlCondition;
+
+			if (mode=='replace') {
+				if (typeof srcColumn.condition != "undefined") {
+					nClmn.condition = srcColumn.condition;
+					nClmn.condition.column = nClmn;
+				}
+				srcColumn.replace(nClmn);
+				nClmn.set_checked(true);
+				nClmn.output = old_o.output;
+			} else {
+				delete nClmn.condition;
+				delete srcColumn.condition;
+				srcColumn.sqlCondition = "";
+				nClmn.sqlCondition = "";
+				nClmn.print("some", "diagram");
+				nClmn.cindex = 1000000;
+				top.canvas.myQuery.reindex_columns();
+				nClmn.set_checked(true);
+				//uncheck the column only if this is the first time we change the alias(the alias column does not exists yet)
+				srcColumn.set_checked(false);
+			}
+			parent.canvas.undo.addUndo("Changed column aggFunc");
+			//redim related relations here
+			break;
+		case 'alias':
+			if (new_o.alias != obj.o.alias) {
+				if (new_o.alias == '') {
+					var err = '';
+					if (obj.o.aggFunc) {
+						err = top.locales["Empty alias not allowed for an aggregated column."];
+					} else {
+						if(parent.canvas.myQuery.tables.item(obj.o.table).columns.item(obj.o.column).checked) {
+							err = top.locales["Empty alias not allowed."];
+						} else {
+							zTable.columns.item(old_o.column).copy(zTable.columns.item(old_o.alias));
+							zTable.columns.item(old_o.alias).remove(true);
+							zTable.columns.item(old_o.column).checked = false;
+							parent.canvas.column_checkbox_clicked(null, true, obj.o.table, obj.o.column, obj.o.column);
+							return;
+						}
+					}
+					alert(err);
+					obj.cells[propNameToCellIndex['alias']].childNodes[0].focus();
+					obj.cells[propNameToCellIndex['alias']].childNodes[0].value = obj.o.alias;
+					return false;
+				}
+
+				//check if there is already a column with this alias
+				for(var i=0; i<parent.canvas.myQuery.tables.length; i++) {
+					if (typeof(parent.canvas.myQuery.tables.item(i).columns.item(new_o.alias)) != "undefined" 
+						&&
+							parent.canvas.myQuery.tables.item(i).columns.item(new_o.alias).output
+						) {
+						alert("Alias name already used, choose other alias!");
+						//restore previous value? or just focus back in
+						obj.cells[propNameToCellIndex['alias']].childNodes[0].value = obj.o.alias;
+						obj.cells[propNameToCellIndex['alias']].childNodes[0].focus();
+						return false;
+					}
+				}
+			} else {
+				top.status = "not changed";
+				return;
+			}
+			var old_cindex = zTable.columns.item(old_o.column).cindex;
+			zTable.columns.item(old_o.column).set_checked(false);
+
+			if (old_o.alias!='' && new_o.alias != obj.o.alias) {
+				var mode = 'replace';
+				var srcColumn = zTable.columns.item(old_o.alias);
+			} else {
+				var mode = 'add';
+				var srcColumn = zTable.columns.item(old_o.column);
+			}
+			var old_alias = old_o.alias;
+			//update the alias
+			obj.o.alias = new_o.alias;
+
+			if (mode == 'replace') {
+				var nClmn = new top.canvas.SQLColumn(new_o.alias, old_o.column);
+			} else {
+				var nClmn = zTable.new_column(new_o.alias, old_o.column);
+			}
+
+			nClmn.copy(srcColumn);
+			nClmn.checked = true;
+			if (mode == 'replace') {
+				srcColumn.replace(nClmn);
+				nClmn.cindex = old_cindex;
+				top.canvas.myQuery.reindex_columns();
+			} else {
+				delete nClmn.condition;
+				delete srcColumn.condition;
+				srcColumn.sqlCondition = "";
+				nClmn.sqlCondition = "";
+				srcColumn.output = false;
+				nClmn.print("some", "diagram");
+				nClmn.cindex = 1000000;
+				top.canvas.myQuery.reindex_columns();
+				nClmn.set_checked(true);
+				nClmn.output = old_o.output;
+				srcColumn.set_checked(false);
+			}
+			parent.canvas.undo.addUndo("Changed column alias");
+			//redim related relations here
+			break;
+		case "condition":
+			if (old_o.alias != '') {
+				var oClmn = zTable.columns.item(old_o.alias);
+			} else {
+				var oClmn = zTable.columns.item(old_o.column);
+			}
+			if (oClmn.condition.cond_type == '' 
+				&& oClmn.condition.var_type == '' 
+				&& oClmn.condition.param_name == '' 
+				&& oClmn.condition.string == '' 
+				&& oClmn.condition.test_value == '') {
+				delete oClmn.condition;
+				obj.o.sqlCondition = oClmn.sqlCondition = obj.cells[propNameToCellIndex['sqlCondition']].childNodes[0].value = '';
+			} else {
+				var expr = oClmn.condition.print("to", "expression");
+				obj.o.sqlCondition = oClmn.sqlCondition = obj.cells[propNameToCellIndex['sqlCondition']].childNodes[0].value = expr;
+			}
+			parent.canvas.undo.addUndo("Changed column condition");
+			break;
+		case "sqlCondition":
+			if (old_o.alias != '') {
+				var oClmn = zTable.columns.item(old_o.alias);
+			} else {
+				var oClmn = zTable.columns.item(old_o.column);
+			}
+
+			var canOpen = oClmn.parseSQLCondition(new_o.sqlCondition);
+			if (canOpen) {
+
+			} else if (typeof oClmn.condition != 'undefined') {
+				oClmn.condition.cond_type = '';
+				oClmn.condition.var_type = '';
+				oClmn.condition.param_name = '';
+				oClmn.condition.test_value = '';
+			} else {
+				oClmn.condition = new top.canvas.SQLCondition(top.uidgen.generate("condition"))
+				oClmn.condition.column = oClmn;
+				oClmn.condition.cond_type = '';
+				oClmn.condition.var_type = '';
+				oClmn.condition.param_name = '';
+				oClmn.condition.test_value = '';
+				oClmn.condition.string = new_o.sqlCondition;
+			}
+			
+			obj.o.sqlCondition = new_o.sqlCondition;
+			oClmn.sqlCondition = new_o.sqlCondition;
+			parent.canvas.undo.addUndo("Changed column sqlCondition");
+			break;
+		default:
+			if (old_o.alias != '') {
+				var oClmn = zTable.columns.item(old_o.alias);
+			} else {
+				var oClmn = zTable.columns.item(old_o.column);
+			}
+	
+			obj.o.order   = oClmn.order = new_o.order;
+			obj.o.output  = oClmn.output = new_o.output;
+			parent.canvas.undo.addUndo("Changed column");
+	}
+
+	top.ui.invalidate(true, true, 'sqlquery');
+}
+
+//obj may be object (the TR) or the alias name of the wanted column
+function delRow(obj, table_name){
+	if (typeof(obj) == "string") {
+		var row_alias = '';
+		//find the row having the alias or column name equal to obj
+		for(var i=1; i<zTable.rows.length; i++) {
+			row_alias = zTable.rows[i].o.alias;//zTable.rows[i].cells[propNameToCellIndex['alias']].childNodes[0].value;
+			row_column = zTable.rows[i].o.column;
+			if ((zTable.rows[i].o.table==table_name) && ((row_alias=='' && obj==row_column) || (row_alias!='' && obj == row_alias))) {
+				row_column.sqlCondition = '';
+				obj = zTable.rows[i];
+				break;
+			}
+		}
+		if (typeof(obj) == "string") {
+			//not found, perhaps already deleted
+			return;
+		}
+	} else {
+		var col_name = (obj.o.alias==''?obj.o.column:obj.o.alias);
+		if (parent.canvas.myQuery.tables.item(obj.o.table) && parent.canvas.myQuery.tables.item(obj.o.table).columns.item(col_name)) {
+			if (col_name == "*") {// && parent.canvas.myQuery.tables.item(obj.o.table).columns.item("*").checked
+				var check_the_asterix = true;
+				for(var i=0; i<parent.canvas.myQuery.tables.item(obj.o.table).columns.length; i++) {
+					if (
+						parent.canvas.myQuery.tables.item(obj.o.table).columns.item(i).name != "*"
+							&&
+						parent.canvas.myQuery.tables.item(obj.o.table).columns.item(i).checked
+					) {
+						check_the_asterix = false;
+						break;
+					}
+				}
+				if (check_the_asterix) {
+					return;
+				}
+			}
+
+			if (!parent.canvas.myQuery.tables.item(obj.o.table).columns.item(col_name).remove()) {
+				top.ui.invalidate(true, true, 'sqlquery');
+				return;
+			}
+		}
+	}
+	if (obj.rowIndex>=0) {
+		obj.parentNode.parentNode.deleteRow(obj.rowIndex);
+	}
+	if (zTable.rows.length == 1) {
+		zAllColumns.style.display = "block";
+		zTable.style.display = "none";
+	}
+
+	if (obj.o.column!="*" && obj.o.column != obj.o.alias && !parent.canvas.myQuery.tables.item(obj.o.table).columns.item("*").checked) {
+		var check_the_asterix = true;
+		for(var i=0; i<parent.canvas.myQuery.tables.item(obj.o.table).columns.length; i++) {
+			if (
+				parent.canvas.myQuery.tables.item(obj.o.table).columns.item(i).name != "*"
+					&&
+				parent.canvas.myQuery.tables.item(obj.o.table).columns.item(i).checked
+					&&
+				!parent.canvas.myQuery.tables.item(obj.o.table).columns.item(i).doomed
+			) {
+				check_the_asterix = false;
+				break;
+			}
+		}
+		if (check_the_asterix) {
+			top.canvas.undo.lock();
+			parent.canvas.select_all_checkbox_clicked(null, true, obj.o.table)
+			top.canvas.undo.unlock();
+		}
+	}
+	top.canvas.undo.addUndo("Removed column");
+	top.ui.invalidate(true, true, 'sqlquery');
+}
+	
+function addColumn(){
+	openIT("addSqlColumn.html", 400, 200, 120, 120, "_addRow", "Add Column");
+}
+	
+function insertColum(tName, cName, theTd) {
+	o = new Object();
+	o.table    = tName;
+	o.column   = cName;
+	o.aggFunc  = "";
+	o.alias    = "";
+	o.order    = "";
+	o.output   = true;
+	o.tdType   = theTd.type;
+	o.tdSep    = theTd.sep;
+	o.hasWhere = 0;
+
+	var tr = insertTR(cName, o);
+	top.ui.invalidate(true, true);
+	return tr;
+}
+
+function sqlRows_moveRow(direction, r1){
+	while( r1.tagName != "TR" ){
+		r1 = r1.parentNode;
+	}
+
+	var	index1 = r1.rowIndex;
+
+	var	index2 = index1 + direction;
+	var tbodiul = r1.parentNode;
+	if ( direction == 1 && index1 == ( tbodiul.rows.length-1 ) ){
+		return false;
+	}
+	if ( direction == -1 && ( index1 == 1 || 2 == tbodiul.rows.length )){
+		return false;
+	}
+	r2 = tbodiul.rows[index2];
+
+	if ( direction == -1 ) {
+		tbodiul.insertBefore(tbodiul.removeChild(r1),r2);
+	}
+
+	if ( direction == 1 ) {
+		tbodiul.insertBefore(tbodiul.removeChild(r2),r1);
+	}
+
+	var col_name1 = (r1.o.alias==''?r1.o.column:r1.o.alias);
+	var col_name2 = (r2.o.alias==''?r2.o.column:r2.o.alias);
+
+	var zColumn1 = parent.canvas.myQuery.tables.item(r1.o.table).columns.item(col_name1);
+	var zColumn2 = parent.canvas.myQuery.tables.item(r2.o.table).columns.item(col_name2);
+
+	r1.cells[propNameToCellIndex['output']].childNodes[0].checked = zColumn1.output;
+	r2.cells[propNameToCellIndex['output']].childNodes[0].checked = zColumn2.output;
+
+	var tmp = zColumn1.cindex;
+	zColumn1.cindex = zColumn2.cindex;
+	zColumn2.cindex = tmp;
+
+	parent.canvas.myQuery.reindex_columns();
+
+	top.canvas.undo.addUndo("Changed column order");
+	top.ui.invalidate(true, true, 'sqlquery');
+}
+
+function loadRows(){
+	if (!parent.ui.loaded) {
+		return;
+	}
+
+	zAllColumns = document.getElementById("all_columns");
+	zAllColumns.style.display = "none";
+//	zAllColumnsFromTables = document.getElementById("all_columns_from_tables");
+
+	zTable = document.getElementById("t1");
+	selectDistinctInspect();
+	if (typeof parent.canvas.myQuery != 'undefined') {
+		parent.canvas.myQuery.print("some", "columns");
+	}
+
+/*
+	var s="", es = "";
+	for(var i=0; i<top.canvas.myQuery.tables.length; i++) {
+		if (top.canvas.myQuery.tables.item(i).select_all) {
+			s += (s==""?"&nbsp;from ":", ") + top.canvas.myQuery.tables.item(i).name;
+			es = " table(s)";
+		}
+	}
+	zAllColumnsFromTables.innerHTML = s + es + ".";
+*/
+}
+</script>

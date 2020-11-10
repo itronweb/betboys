@@ -1,0 +1,33 @@
+<!--
+  ADOBE SYSTEMS INCORPORATED
+  Copyright 2007 Adobe Systems Incorporated
+  All Rights Reserved
+ 
+  NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+  terms of the Adobe license agreement accompanying it. If you have received this file from a 
+  source other than Adobe, then your use, modification, or distribution of it requires the prior 
+  written permission of Adobe.
+-->
+
+<!--
+	Copyright (c) S.C. InterAKT Online SRL
+	http://www.interakt.ro/
+-->
+<html>
+<head>
+<script>
+s = window.location.href;
+i = s.indexOf("?");
+if (i != -1) {
+	d = s.substring(i+1);
+	alert(d)
+	parent.canvas.delTables(true);
+	parent.canvas.newTable(d);
+	parent.canvas.checkRelations();
+}
+window.location = "queryResult.html";
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,31 @@
+2020-11-05T20:10:03.406469936 0.031466s notice: Recursively removing directory /home/vip90/public_html/node_server2/rethinkdb_data/tmp
+2020-11-05T20:10:03.430251245 0.055249s notice: Initializing directory /home/vip90/public_html/node_server2/rethinkdb_data
+2020-11-05T20:10:03.430345963 0.055341s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/vip90/public_html/node_server2/rethinkdb_data' did not already exist or is empty.)
+2020-11-05T20:10:03.430362304 0.055358s notice: Running rethinkdb 2.4.1 (GCC 4.8.5)...
+2020-11-05T20:10:03.434672470 0.059670s notice: Running on Linux 3.10.0-1127.19.1.el7.x86_64 x86_64
+2020-11-05T20:10:03.434728355 0.059724s notice: Loading data from directory /home/vip90/public_html/node_server2/rethinkdb_data
+2020-11-05T20:10:03.525082098 0.150080s info: Automatically using cache size of 3785 MB
+2020-11-05T20:10:03.526190946 0.151186s error: TCP socket creation failed for port 29015: Address already in use.
+2020-11-07T00:31:15.261023767 0.010359s notice: Running rethinkdb 2.4.1 (GCC 4.8.5)...
+2020-11-07T00:31:15.264859339 0.014196s notice: Running on Linux 3.10.0-1127.19.1.el7.x86_64 x86_64
+2020-11-07T00:31:15.264910595 0.014244s notice: Loading data from directory /home/vip90/public_html/node_server2/rethinkdb_data
+2020-11-07T00:31:15.294245311 0.043581s info: Automatically using cache size of 3742 MB
+2020-11-07T00:31:15.296958278 0.046292s notice: Listening for intracluster connections on port 29015
+2020-11-07T00:31:15.298280489 0.047614s notice: Listening for client driver connections on port 28015
+2020-11-07T00:31:15.298379205 0.047713s notice: Listening for administrative HTTP connections on port 9090
+2020-11-07T00:31:15.298395305 0.047729s notice: Listening on cluster addresses: 127.0.0.1, 136.243.255.205, ::1, fe80::216:3eff:fe27:f3e3%2
+2020-11-07T00:31:15.298399312 0.047733s notice: Listening on driver addresses: 127.0.0.1, 136.243.255.205, ::1, fe80::216:3eff:fe27:f3e3%2
+2020-11-07T00:31:15.298403190 0.047737s notice: Listening on http addresses: 127.0.0.1, 136.243.255.205, ::1, fe80::216:3eff:fe27:f3e3%2
+2020-11-07T00:31:15.298406826 0.047741s notice: Server ready, "ns1_deltasaz_com_wky" 53b2d8f9-5df5-41d4-84c3-db3ecf473f11
+2020-11-07T01:43:04.357336566 4309.106671s notice: Someone asked for the nonwhitelisted file "/api/v1/targets".  If this should be accessible, add it to the static web assets.
+2020-11-07T01:43:04.565624363 4309.314958s notice: Someone asked for the nonwhitelisted file "/api/v1/targets".  If this should be accessible, add it to the static web assets.
+2020-11-07T01:43:04.777018815 4309.526353s notice: Someone asked for the nonwhitelisted file "/api/v1/label/version/values".  If this should be accessible, add it to the static web assets.
+2020-11-07T01:43:04.992931051 4309.742265s notice: Someone asked for the nonwhitelisted file "/api/v1/label/version/values".  If this should be accessible, add it to the static web assets.
+2020-11-07T01:43:05.195486998 4309.944822s notice: Someone asked for the nonwhitelisted file "/api/v1/label/goversion/values".  If this should be accessible, add it to the static web assets.
+2020-11-07T01:43:05.403605013 4310.152939s notice: Someone asked for the nonwhitelisted file "/api/v1/label/goversion/values".  If this should be accessible, add it to the static web assets.
+2020-11-07T01:43:05.610986624 4310.360321s notice: Someone asked for the nonwhitelisted file "/api/v1/query".  If this should be accessible, add it to the static web assets.
+2020-11-07T01:43:05.819694099 4310.569028s notice: Someone asked for the nonwhitelisted file "/api/v1/query".  If this should be accessible, add it to the static web assets.
+2020-11-07T01:43:06.030276275 4310.779610s notice: Someone asked for the nonwhitelisted file "/api/v1/labels".  If this should be accessible, add it to the static web assets.
+2020-11-07T01:43:06.256809433 4311.006143s notice: Someone asked for the nonwhitelisted file "/api/v1/labels".  If this should be accessible, add it to the static web assets.
+2020-11-07T01:43:06.467746518 4311.217080s notice: Someone asked for the nonwhitelisted file "/api/v1/label/__name__/values".  If this should be accessible, add it to the static web assets.
+2020-11-07T01:43:06.674426369 4311.423760s notice: Someone asked for the nonwhitelisted file "/api/v1/label/__name__/values".  If this should be accessible, add it to the static web assets.
